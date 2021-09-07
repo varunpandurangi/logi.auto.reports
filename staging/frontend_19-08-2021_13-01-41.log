@@ -1,1 +1,0 @@
-{'level': 'SEVERE', 'message': 'pipeline://core/thumbnails/streamcam.png - Failed to load resource: net::ERR_UNKNOWN_URL_SCHEME', 'source': 'network', 'timestamp': 1629358273847}
