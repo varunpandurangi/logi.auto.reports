@@ -1,0 +1,341 @@
+<!DOCTYPE html><html xmlns="http://www.w3.org/1999/xhtml" data-theme="GHUB"><head><meta charset="UTF-8" /><title>Logitech G HUB</title><style type="text/css">.__react_component_tooltip {
+  border-radius: 3px;
+  display: inline-block;
+  font-size: 13px;
+  left: -999em;
+  opacity: 0;
+  padding: 8px 21px;
+  position: fixed;
+  pointer-events: none;
+  transition: opacity 0.3s ease-out;
+  top: -999em;
+  visibility: hidden;
+  z-index: 999;
+}
+.__react_component_tooltip.allow_hover, .__react_component_tooltip.allow_click {
+  pointer-events: auto;
+}
+.__react_component_tooltip:before, .__react_component_tooltip:after {
+  content: "";
+  width: 0;
+  height: 0;
+  position: absolute;
+}
+.__react_component_tooltip.show {
+  opacity: 0.9;
+  margin-top: 0px;
+  margin-left: 0px;
+  visibility: visible;
+}
+.__react_component_tooltip.type-dark {
+  color: #fff;
+  background-color: #222;
+}
+.__react_component_tooltip.type-dark.place-top:after {
+  border-top-color: #222;
+  border-top-style: solid;
+  border-top-width: 6px;
+}
+.__react_component_tooltip.type-dark.place-bottom:after {
+  border-bottom-color: #222;
+  border-bottom-style: solid;
+  border-bottom-width: 6px;
+}
+.__react_component_tooltip.type-dark.place-left:after {
+  border-left-color: #222;
+  border-left-style: solid;
+  border-left-width: 6px;
+}
+.__react_component_tooltip.type-dark.place-right:after {
+  border-right-color: #222;
+  border-right-style: solid;
+  border-right-width: 6px;
+}
+.__react_component_tooltip.type-dark.border {
+  border: 1px solid #fff;
+}
+.__react_component_tooltip.type-dark.border.place-top:before {
+  border-top: 8px solid #fff;
+}
+.__react_component_tooltip.type-dark.border.place-bottom:before {
+  border-bottom: 8px solid #fff;
+}
+.__react_component_tooltip.type-dark.border.place-left:before {
+  border-left: 8px solid #fff;
+}
+.__react_component_tooltip.type-dark.border.place-right:before {
+  border-right: 8px solid #fff;
+}
+.__react_component_tooltip.type-success {
+  color: #fff;
+  background-color: #8DC572;
+}
+.__react_component_tooltip.type-success.place-top:after {
+  border-top-color: #8DC572;
+  border-top-style: solid;
+  border-top-width: 6px;
+}
+.__react_component_tooltip.type-success.place-bottom:after {
+  border-bottom-color: #8DC572;
+  border-bottom-style: solid;
+  border-bottom-width: 6px;
+}
+.__react_component_tooltip.type-success.place-left:after {
+  border-left-color: #8DC572;
+  border-left-style: solid;
+  border-left-width: 6px;
+}
+.__react_component_tooltip.type-success.place-right:after {
+  border-right-color: #8DC572;
+  border-right-style: solid;
+  border-right-width: 6px;
+}
+.__react_component_tooltip.type-success.border {
+  border: 1px solid #fff;
+}
+.__react_component_tooltip.type-success.border.place-top:before {
+  border-top: 8px solid #fff;
+}
+.__react_component_tooltip.type-success.border.place-bottom:before {
+  border-bottom: 8px solid #fff;
+}
+.__react_component_tooltip.type-success.border.place-left:before {
+  border-left: 8px solid #fff;
+}
+.__react_component_tooltip.type-success.border.place-right:before {
+  border-right: 8px solid #fff;
+}
+.__react_component_tooltip.type-warning {
+  color: #fff;
+  background-color: #F0AD4E;
+}
+.__react_component_tooltip.type-warning.place-top:after {
+  border-top-color: #F0AD4E;
+  border-top-style: solid;
+  border-top-width: 6px;
+}
+.__react_component_tooltip.type-warning.place-bottom:after {
+  border-bottom-color: #F0AD4E;
+  border-bottom-style: solid;
+  border-bottom-width: 6px;
+}
+.__react_component_tooltip.type-warning.place-left:after {
+  border-left-color: #F0AD4E;
+  border-left-style: solid;
+  border-left-width: 6px;
+}
+.__react_component_tooltip.type-warning.place-right:after {
+  border-right-color: #F0AD4E;
+  border-right-style: solid;
+  border-right-width: 6px;
+}
+.__react_component_tooltip.type-warning.border {
+  border: 1px solid #fff;
+}
+.__react_component_tooltip.type-warning.border.place-top:before {
+  border-top: 8px solid #fff;
+}
+.__react_component_tooltip.type-warning.border.place-bottom:before {
+  border-bottom: 8px solid #fff;
+}
+.__react_component_tooltip.type-warning.border.place-left:before {
+  border-left: 8px solid #fff;
+}
+.__react_component_tooltip.type-warning.border.place-right:before {
+  border-right: 8px solid #fff;
+}
+.__react_component_tooltip.type-error {
+  color: #fff;
+  background-color: #BE6464;
+}
+.__react_component_tooltip.type-error.place-top:after {
+  border-top-color: #BE6464;
+  border-top-style: solid;
+  border-top-width: 6px;
+}
+.__react_component_tooltip.type-error.place-bottom:after {
+  border-bottom-color: #BE6464;
+  border-bottom-style: solid;
+  border-bottom-width: 6px;
+}
+.__react_component_tooltip.type-error.place-left:after {
+  border-left-color: #BE6464;
+  border-left-style: solid;
+  border-left-width: 6px;
+}
+.__react_component_tooltip.type-error.place-right:after {
+  border-right-color: #BE6464;
+  border-right-style: solid;
+  border-right-width: 6px;
+}
+.__react_component_tooltip.type-error.border {
+  border: 1px solid #fff;
+}
+.__react_component_tooltip.type-error.border.place-top:before {
+  border-top: 8px solid #fff;
+}
+.__react_component_tooltip.type-error.border.place-bottom:before {
+  border-bottom: 8px solid #fff;
+}
+.__react_component_tooltip.type-error.border.place-left:before {
+  border-left: 8px solid #fff;
+}
+.__react_component_tooltip.type-error.border.place-right:before {
+  border-right: 8px solid #fff;
+}
+.__react_component_tooltip.type-info {
+  color: #fff;
+  background-color: #337AB7;
+}
+.__react_component_tooltip.type-info.place-top:after {
+  border-top-color: #337AB7;
+  border-top-style: solid;
+  border-top-width: 6px;
+}
+.__react_component_tooltip.type-info.place-bottom:after {
+  border-bottom-color: #337AB7;
+  border-bottom-style: solid;
+  border-bottom-width: 6px;
+}
+.__react_component_tooltip.type-info.place-left:after {
+  border-left-color: #337AB7;
+  border-left-style: solid;
+  border-left-width: 6px;
+}
+.__react_component_tooltip.type-info.place-right:after {
+  border-right-color: #337AB7;
+  border-right-style: solid;
+  border-right-width: 6px;
+}
+.__react_component_tooltip.type-info.border {
+  border: 1px solid #fff;
+}
+.__react_component_tooltip.type-info.border.place-top:before {
+  border-top: 8px solid #fff;
+}
+.__react_component_tooltip.type-info.border.place-bottom:before {
+  border-bottom: 8px solid #fff;
+}
+.__react_component_tooltip.type-info.border.place-left:before {
+  border-left: 8px solid #fff;
+}
+.__react_component_tooltip.type-info.border.place-right:before {
+  border-right: 8px solid #fff;
+}
+.__react_component_tooltip.type-light {
+  color: #222;
+  background-color: #fff;
+}
+.__react_component_tooltip.type-light.place-top:after {
+  border-top-color: #fff;
+  border-top-style: solid;
+  border-top-width: 6px;
+}
+.__react_component_tooltip.type-light.place-bottom:after {
+  border-bottom-color: #fff;
+  border-bottom-style: solid;
+  border-bottom-width: 6px;
+}
+.__react_component_tooltip.type-light.place-left:after {
+  border-left-color: #fff;
+  border-left-style: solid;
+  border-left-width: 6px;
+}
+.__react_component_tooltip.type-light.place-right:after {
+  border-right-color: #fff;
+  border-right-style: solid;
+  border-right-width: 6px;
+}
+.__react_component_tooltip.type-light.border {
+  border: 1px solid #222;
+}
+.__react_component_tooltip.type-light.border.place-top:before {
+  border-top: 8px solid #222;
+}
+.__react_component_tooltip.type-light.border.place-bottom:before {
+  border-bottom: 8px solid #222;
+}
+.__react_component_tooltip.type-light.border.place-left:before {
+  border-left: 8px solid #222;
+}
+.__react_component_tooltip.type-light.border.place-right:before {
+  border-right: 8px solid #222;
+}
+.__react_component_tooltip.place-top {
+  margin-top: -10px;
+}
+.__react_component_tooltip.place-top:before {
+  border-left: 10px solid transparent;
+  border-right: 10px solid transparent;
+  bottom: -8px;
+  left: 50%;
+  margin-left: -10px;
+}
+.__react_component_tooltip.place-top:after {
+  border-left: 8px solid transparent;
+  border-right: 8px solid transparent;
+  bottom: -6px;
+  left: 50%;
+  margin-left: -8px;
+}
+.__react_component_tooltip.place-bottom {
+  margin-top: 10px;
+}
+.__react_component_tooltip.place-bottom:before {
+  border-left: 10px solid transparent;
+  border-right: 10px solid transparent;
+  top: -8px;
+  left: 50%;
+  margin-left: -10px;
+}
+.__react_component_tooltip.place-bottom:after {
+  border-left: 8px solid transparent;
+  border-right: 8px solid transparent;
+  top: -6px;
+  left: 50%;
+  margin-left: -8px;
+}
+.__react_component_tooltip.place-left {
+  margin-left: -10px;
+}
+.__react_component_tooltip.place-left:before {
+  border-top: 6px solid transparent;
+  border-bottom: 6px solid transparent;
+  right: -8px;
+  top: 50%;
+  margin-top: -5px;
+}
+.__react_component_tooltip.place-left:after {
+  border-top: 5px solid transparent;
+  border-bottom: 5px solid transparent;
+  right: -6px;
+  top: 50%;
+  margin-top: -4px;
+}
+.__react_component_tooltip.place-right {
+  margin-left: 10px;
+}
+.__react_component_tooltip.place-right:before {
+  border-top: 6px solid transparent;
+  border-bottom: 6px solid transparent;
+  left: -8px;
+  top: 50%;
+  margin-top: -5px;
+}
+.__react_component_tooltip.place-right:after {
+  border-top: 5px solid transparent;
+  border-bottom: 5px solid transparent;
+  left: -6px;
+  top: 50%;
+  margin-top: -4px;
+}
+.__react_component_tooltip .multi-line {
+  display: block;
+  padding: 2px 0px;
+  text-align: center;
+}</style></head><body><div id="root"><div id="app"><div><div id="home-layout" class="home-route-trans-enter-done"><div class="overlay-scrim  hidden" style="background-color: rgba(0, 0, 0, 0.5);"></div><nav id="header"><img class="logo" src="file:///Applications/lghub.app/Contents/Resources/app.asar/assets/5bf0b07f54d3abed6b918dbda55de592.svg" /><div class="appbar-container"><div class="appbar-static">ACTIVE PROFILE</div><div class="appbar-application"><div class="appbar-application-name">Desktop</div></div><div class="appbar-profile-container"><div class="appbar-profile"><div class="appbar-profile-name">Default</div></div><div class="appbar-profile-click-indicator"></div></div></div><div id="setting-sprocket-container"><p>G HUB SETTINGS</p><img id="setting-sprocket" src="file:///Applications/lghub.app/Contents/Resources/app.asar/assets/788630b5303d602dca2b695ceda0fd8e.svg" /></div><div id="account-avatar"><img src="https://2lumen.s3.us-west-1.amazonaws.com/b8e438e7-e05b-4745-9cac-7b52c65cac31/data/1e841ee032d18e10ac535c9a0ec78d6e20cfee7166d564b9c8113e17a8667867.png" /></div></nav><div id="home-view"><div class="no-devices">CONNECT YOUR LOGITECH G GEAR</div><div class="__react_component_tooltip place-bottom type-dark" id="info-tooltip" data-id="tooltip"></div></div><div class="community-view-container"><div class="community-search-bar"><button class="back-button"><img src="file:///Applications/lghub.app/Contents/Resources/app.asar/assets/46351ade96b40cc843102c7e234d2957.svg" /></button><div class="search-bar"><form><input type="search" class="search-field" id="command-search" autocomplete="off" /></form><img alt="Search" class="icon-search" src="file:///Applications/lghub.app/Contents/Resources/app.asar/assets/daf7fece296efa85f2d2d78b6689f79a.svg" /></div><div id="account-avatar"><img src="https://2lumen.s3.us-west-1.amazonaws.com/b8e438e7-e05b-4745-9cac-7b52c65cac31/data/1e841ee032d18e10ac535c9a0ec78d6e20cfee7166d564b9c8113e17a8667867.png" /></div></div><div class="community-entity-container"><div class="community-entity-list-header tag-cloud-header"></div><div class="community-tag-cloud"><div class="tag">blue</div><div class="tag">red</div><div class="tag">rainbow</div><div class="tag">wave</div><div class="tag">rgb</div><div class="tag">g910</div><div class="tag">purple</div><div class="tag">pink</div><div class="tag">green</div><div class="tag">g512</div><div class="tag">animation</div><div class="tag">g102</div><div class="tag">g203</div><div class="tag">white</div><div class="tag">g513</div><div class="tag">gaming</div><div class="tag">orange</div><div class="tag">g915</div><div class="tag">cool</div><div class="tag">wasd</div></div><div class="community-result-sorting-container centered"><div class="dropdown"><button class="dropdown-toggle no-padding" data-toggle="dropdown" id="dropdown" type="button"><span class="glyphicon glyphicon-chevron-down"></span><span class="dropdown-current"> MOST RECENT </span></button><ul aria-labelledby="dropdown" class="dropdown-menu" role="menu" style="max-height: 560px;"><li class=""><a class="dropdown-item" data-value="action" role="menuItem">MOST POPULAR</a></li><li class=""><a class="dropdown-item" data-value="action" role="menuItem">MOST DOWNLOADED</a></li><li class=""><a class="dropdown-item" data-value="action" role="menuItem">ALPHABETIC</a></li><li class="active"><a class="dropdown-item" data-value="action" role="menuItem">MOST RECENT</a></li><li class=""><a class="dropdown-item" data-value="action" role="menuItem">TRENDING</a></li></ul></div></div><div class="community-entity-list-container centered"><div class="community-entity-preview effect"><div class="poster-image-container effect"><img class="poster-image" src="https://2lumen.s3.us-west-1.amazonaws.com/f969cbbe-c780-45c2-ae70-906c2eaa3a75/data/331c59511a295df74284ceca5b321455ab9d2a741a683075349203c4df0ddae6.png" /></div><div class="community-entity-preview-data"><div class="author-container clickable"><div class="account-avatar"><div class="image-container"><img src="https://2lumen.s3.us-west-1.amazonaws.com/f969cbbe-c780-45c2-ae70-906c2eaa3a75/data/09152311b096ad83869f02c7362316046ed4e5ee774e40f06b1cfd920e8ed3c4.jpg" /></div></div><div class="publisher-name-container"><p class="publisher-name">lTheBlackFox</p></div></div><div class="profile-device-list"></div><p class="profile-label">Ayaka</p><p class="community-entity-description"></p><div class="community-item-status-view"><div class="upvote-image"></div><p>5</p><div class="download-image"></div><p>116</p></div></div></div><div class="community-entity-preview effect"><div class="poster-image-container effect"><img class="poster-image" src="https://2lumen.s3.us-west-1.amazonaws.com/7ed406f7-dac0-4a04-a875-9cd7626d57fd/data/5c99f9c8e9dabb0e23eaa063bfdb9e558df074a2b76ebd61933915096f4765a1.png" /></div><div class="community-entity-preview-data"><div class="author-container clickable"><div class="account-avatar"><div class="image-container"><img src="https://2lumen.s3.us-west-1.amazonaws.com/7ed406f7-dac0-4a04-a875-9cd7626d57fd/data/6aac2ee73cb3bda60d99d5bc462dba517d1abcde839d5ec4f8e86352f2628015.gif" /></div></div><div class="publisher-name-container"><p class="publisher-name">Droopyrock</p></div></div><div class="profile-device-list"></div><p class="profile-label">INTRUSION STIMULATED</p><p class="community-entity-description"></p><div class="community-item-status-view"><div class="upvote-image"></div><p>0</p><div class="download-image"></div><p>77</p></div></div></div><div class="community-entity-preview effect"><div class="poster-image-container effect"><img class="poster-image" src="https://2lumen.s3.us-west-1.amazonaws.com/7ed406f7-dac0-4a04-a875-9cd7626d57fd/data/771c0b97e8b2de4993c2d27c9cd742d170f01b981f63c0c7fc6df62d2a6cc594.png" /></div><div class="community-entity-preview-data"><div class="author-container clickable"><div class="account-avatar"><div class="image-container"><img src="https://2lumen.s3.us-west-1.amazonaws.com/7ed406f7-dac0-4a04-a875-9cd7626d57fd/data/6aac2ee73cb3bda60d99d5bc462dba517d1abcde839d5ec4f8e86352f2628015.gif" /></div></div><div class="publisher-name-container"><p class="publisher-name">Droopyrock</p></div></div><div class="profile-device-list"></div><p class="profile-label">INTRUSION FADED STIMULATED</p><p class="community-entity-description"></p><div class="community-item-status-view"><div class="upvote-image"></div><p>1</p><div class="download-image"></div><p>24</p></div></div></div><div class="community-entity-preview effect"><div class="poster-image-container effect"><img class="poster-image" src="https://2lumen.s3.us-west-1.amazonaws.com/bf230a8c-fbd1-4dd8-9011-d03a5d0d7aa5/data/37f6c2019d6c656274d85054733c3d2da28782363cd32093c2ae4c8fee29b456.png" /></div><div class="community-entity-preview-data"><div class="author-container clickable"><div class="account-avatar"><div class="image-container"><img src="" /></div></div><div class="publisher-name-container"><p class="publisher-name">Cactusman28</p></div></div><div class="profile-device-list"></div><p class="profile-label">Tetris game</p><p class="community-entity-description">idk y i made this</p><div class="community-item-status-view"><div class="upvote-image"></div><p>0</p><div class="download-image"></div><p>29</p></div></div></div><div class="community-entity-preview effect"><div class="poster-image-container effect"><img class="poster-image" src="https://2lumen.s3.us-west-1.amazonaws.com/6da9bf5c-fe64-4448-ab0a-68ef695434aa/data/b97ca1d6e24cc41dc5f9dd1b44ce5c53b0082d60b2082e549c271d16fbc701fb.png" /></div><div class="community-entity-preview-data"><div class="author-container clickable"><div class="account-avatar"><div class="image-container"><img src="https://2lumen.s3.us-west-1.amazonaws.com/6da9bf5c-fe64-4448-ab0a-68ef695434aa/data/379dd4a421d489d696f395c6af87acaf5ce3d45a52e514439d7517936b8e95be.jpg" /></div></div><div class="publisher-name-container"><p class="publisher-name">Mini_Leg3nd7</p></div></div><div class="profile-device-list"></div><p class="profile-label">Galaxy</p><p class="community-entity-description">Hi</p><div class="community-item-status-view"><div class="upvote-image"></div><p>0</p><div class="download-image"></div><p>88</p></div></div></div><div class="community-entity-preview effect"><div class="poster-image-container effect"><img class="poster-image" src="https://2lumen.s3.us-west-1.amazonaws.com/fc632307-eda1-4fa3-a924-0722a63e9ef2/data/276335dbab8aa0f2a8ffc75677a365f5d1dbd0004e2e5788f73a19336cd6185e.png" /></div><div class="community-entity-preview-data"><div class="author-container clickable"><div class="account-avatar"><div class="image-container"><img src="" /></div></div><div class="publisher-name-container"><p class="publisher-name">BSholmes</p></div></div><div class="profile-device-list"></div><p class="profile-label">Black wave 200%</p><p class="community-entity-description"></p><div class="community-item-status-view"><div class="upvote-image"></div><p>1</p><div class="download-image"></div><p>52</p></div></div></div><div class="community-entity-preview effect"><div class="poster-image-container effect"><img class="poster-image" src="https://2lumen.s3.us-west-1.amazonaws.com/83d6df39-11b3-4add-bfa1-394742d96ee6/data/57f9db551d42f76c7dd6b15416ed494162272d0c2813f22ad97313f09d13faa4.png" /></div><div class="community-entity-preview-data"><div class="author-container clickable"><div class="account-avatar"><div class="image-container"><img src="https://2lumen.s3.us-west-1.amazonaws.com/83d6df39-11b3-4add-bfa1-394742d96ee6/data/77578568aefd8c16bd2eba71f9baaa6e69d0b4e2385708e5a109b9f240545478.jpg" /></div></div><div class="publisher-name-container"><p class="publisher-name">onestroke</p></div></div><div class="profile-device-list"></div><p class="profile-label">Matrixd For G pro x cyan</p><p class="community-entity-description">save</p><div class="community-item-status-view"><div class="upvote-image"></div><p>2</p><div class="download-image"></div><p>52</p></div></div></div><div class="community-entity-preview effect"><div class="poster-image-container effect"><img class="poster-image" src="https://2lumen.s3.us-west-1.amazonaws.com/b6ceaba0-7a07-4d44-b2e0-339e3a676a8b/data/d61942bc8aa23305609c3c58148eb95ceb16b0080bf6e2306f083b12d2270fdb.png" /></div><div class="community-entity-preview-data"><div class="author-container clickable"><div class="account-avatar"><div class="image-container"><img src="" /></div></div><div class="publisher-name-container"><p class="publisher-name">Azimoto9</p></div></div><div class="profile-device-list"></div><p class="profile-label">Wake up Neo</p><p class="community-entity-description"></p><div class="community-item-status-view"><div class="upvote-image"></div><p>1</p><div class="download-image"></div><p>25</p></div></div></div><div class="community-entity-preview effect"><div class="poster-image-container effect"><img class="poster-image" src="https://2lumen.s3.us-west-1.amazonaws.com/1168a4d2-7cb9-4cc6-88bd-48b8bb059009/data/39f589b27bf3e06de4e035507b2b24858f023f78a5e273369f745c22e21b22e1.png" /></div><div class="community-entity-preview-data"><div class="author-container clickable"><div class="account-avatar"><div class="image-container"><img src="https://2lumen.s3.us-west-1.amazonaws.com/1168a4d2-7cb9-4cc6-88bd-48b8bb059009/data/1547486fad19da6302024fc9c044be902af762dd562e9564c1685e1977a3576c.jpg" /></div></div><div class="publisher-name-container"><p class="publisher-name">Alex_The_Beardly</p></div></div><div class="profile-device-list"></div><p class="profile-label">Time Crisis</p><p class="community-entity-description">RELOAD
+
+RELOAD
+
+RELOAD</p><div class="community-item-status-view"><div class="upvote-image"></div><p>0</p><div class="download-image"></div><p>25</p></div></div></div><div class="community-entity-preview effect"><div class="poster-image-container effect"><img class="poster-image" src="https://2lumen.s3.us-west-1.amazonaws.com/7ce9c500-f138-4fef-985b-628ef232cdd1/data/2db0ca32e0b68b0e510788bdbc925f1628f2673bffb22a8d1b3c89239ba5cdb2.png" /></div><div class="community-entity-preview-data"><div class="author-container clickable"><div class="account-avatar"><div class="image-container"><img src="" /></div></div><div class="publisher-name-container"><p class="publisher-name">Deakia</p></div></div><div class="profile-device-list"></div><p class="profile-label">Trans Flag</p><p class="community-entity-description"></p><div class="community-item-status-view"><div class="upvote-image"></div><p>0</p><div class="download-image"></div><p>6</p></div></div></div><div class="community-entity-preview effect"><div class="poster-image-container effect"><img class="poster-image" src="https://2lumen.s3.us-west-1.amazonaws.com/314eaa11-1d09-4290-81b8-bbbbcc8cac9a/data/2de22223e438356a0ecf71cec23f56c8314a3ba16a72f1c1c97988ebb1c8cb2d.png" /></div><div class="community-entity-preview-data"><div class="author-container clickable"><div class="account-avatar"><div class="image-container"><img src="" /></div></div><div class="publisher-name-container"><p class="publisher-name">ppisitbass</p></div></div><div class="profile-device-list"></div><p class="profile-label">DOABLE V2</p><p class="community-entity-description"></p><div class="community-item-status-view"><div class="upvote-image"></div><p>0</p><div class="download-image"></div><p>18</p></div></div></div><div class="community-entity-preview effect"><div class="poster-image-container effect"><img class="poster-image" src="https://2lumen.s3.us-west-1.amazonaws.com/848013df-56c5-4ebd-be13-a3f9c0f6e7a6/data/b9de5073bcbfb1ec5e3473bd6b03cc90cb750cfa023044ea41ecb92c571555dd.png" /></div><div class="community-entity-preview-data"><div class="author-container clickable"><div class="account-avatar"><div class="image-container"><img src="https://2lumen.s3.us-west-1.amazonaws.com/848013df-56c5-4ebd-be13-a3f9c0f6e7a6/data/d44620c4894ccb8a495b93c138f8face69240b8d74afaf8dba01cd19d4434fc0.png" /></div></div><div class="publisher-name-container"><p class="publisher-name">zero_acceptance</p></div></div><div class="profile-device-list"></div><p class="profile-label">NEON WING</p><p class="community-entity-description">Simple and calm color slide from right to left</p><div class="community-item-status-view"><div class="upvote-image"></div><p>0</p><div class="download-image"></div><p>15</p></div></div></div><div class="community-entity-preview effect"><div class="poster-image-container effect"><img class="poster-image" src="https://2lumen.s3.us-west-1.amazonaws.com/1142d8dd-f36f-4922-88ee-66287973f815/data/4b1fa0c97f3f498a7da7f416d2ab5275a50d2e4d9ef621bf3a111f7999845522.png" /></div><div class="community-entity-preview-data"><div class="author-container clickable"><div class="account-avatar"><div class="image-container"><img src="" /></div></div><div class="publisher-name-container"><p class="publisher-name">Anas Abubakr</p></div></div><div class="profile-device-list"></div><p class="profile-label">BleepBloop 2.0</p><p class="community-entity-description">changed up a bit of things like the flashing Logitech logo</p><div class="community-item-status-view"><div class="upvote-image"></div><p>1</p><div class="download-image"></div><p>111</p></div></div></div><div class="community-entity-preview effect"><div class="poster-image-container effect"><img class="poster-image" src="https://2lumen.s3.us-west-1.amazonaws.com/861ae6b2-f14a-4da0-bb1d-0b1ec81bdb0f/data/dc8a571c24fc39e3f32156c33497beaaa6166ec525fe03f088354b66c162da49.png" /></div><div class="community-entity-preview-data"><div class="author-container clickable"><div class="account-avatar"><div class="image-container"><img src="" /></div></div><div class="publisher-name-container"><p class="publisher-name">neokill</p></div></div><div class="profile-device-list"></div><p class="profile-label">best_1</p><p class="community-entity-description"></p><div class="community-item-status-view"><div class="upvote-image"></div><p>0</p><div class="download-image"></div><p>15</p></div></div></div><div class="community-entity-preview effect"><div class="poster-image-container effect"><img class="poster-image" src="https://2lumen.s3.us-west-1.amazonaws.com/eb7db409-a602-41e8-a6fb-eac9c6d2a64c/data/f57963332bc0e0a1fac7cff5ef165ca46198b68115a5c1f1520d521f45779889.png" /></div><div class="community-entity-preview-data"><div class="author-container clickable"><div class="account-avatar"><div class="image-container"><img src="https://2lumen.s3.us-west-1.amazonaws.com/eb7db409-a602-41e8-a6fb-eac9c6d2a64c/data/eabcb79af6ea7b80db54b2ff4d428f5145f112f5526b4065fc41915704e84bf3.jpg" /></div></div><div class="publisher-name-container"><p class="publisher-name">Abhijith😎Thampi</p></div></div><div class="profile-device-list"></div><p class="profile-label">blue concave mirror</p><p class="community-entity-description"></p><div class="community-item-status-view"><div class="upvote-image"></div><p>0</p><div class="download-image"></div><p>68</p></div></div></div><div class="community-entity-preview effect"><div class="poster-image-container effect"><img class="poster-image" src="https://2lumen.s3.us-west-1.amazonaws.com/93bb60b1-8d7a-4383-a65b-bb5e894a1197/data/2d98b77a301843f742ab2fdd65ce2e0d00ef1880fa5e9ea631c24898bf4fc31a.png" /></div><div class="community-entity-preview-data"><div class="author-container clickable"><div class="account-avatar"><div class="image-container"><img src="" /></div></div><div class="publisher-name-container"><p class="publisher-name">bobal3x</p></div></div><div class="profile-device-list"></div><p class="profile-label">Colour Burst 2.0 (with smooth movement)</p><p class="community-entity-description">This is not my original preset, the credits and thanks for Colour Burst 2.0 go to user KingTzy, I have simply removed the slight jerk in movement towards the end.</p><div class="community-item-status-view"><div class="upvote-image"></div><p>0</p><div class="download-image"></div><p>45</p></div></div></div><div class="community-entity-preview effect"><div class="poster-image-container effect"><img class="poster-image" src="https://2lumen.s3.us-west-1.amazonaws.com/d060eb72-0fd2-4b16-8cc8-c19b475f8951/data/a5dcd47a500b6edbfc2b4806a08dcbbd98a54034e82b76e06618e4d1e92c1ce0.png" /></div><div class="community-entity-preview-data"><div class="author-container clickable"><div class="account-avatar"><div class="image-container"><img src="" /></div></div><div class="publisher-name-container"><p class="publisher-name">Zapson</p></div></div><div class="profile-device-list"></div><p class="profile-label">Peach Lavender</p><p class="community-entity-description"></p><div class="community-item-status-view"><div class="upvote-image"></div><p>4</p><div class="download-image"></div><p>162</p></div></div></div><div class="community-entity-preview effect"><div class="poster-image-container effect"><img class="poster-image" src="https://2lumen.s3.us-west-1.amazonaws.com/209c6ed3-36c8-48af-9ad2-fe23e4248b24/data/7573a38ff7b83b446be22769cbffc319135c6c5e8811c7d6d03140f57048c744.png" /></div><div class="community-entity-preview-data"><div class="author-container clickable"><div class="account-avatar"><div class="image-container"><img src="https://2lumen.s3.us-west-1.amazonaws.com/209c6ed3-36c8-48af-9ad2-fe23e4248b24/data/906923710d2e61347607b126338dd3f3c5a3d1584d939512eb30d79a9f167bf6.png" /></div></div><div class="publisher-name-container"><p class="publisher-name">gdrew012398</p></div></div><div class="profile-device-list"></div><p class="profile-label">Eva-01 theme Ripple</p><p class="community-entity-description">Good with any colors</p><div class="community-item-status-view"><div class="upvote-image"></div><p>0</p><div class="download-image"></div><p>44</p></div></div></div><div class="community-entity-preview effect"><div class="poster-image-container effect"><img class="poster-image" src="https://2lumen.s3.us-west-1.amazonaws.com/da1aa438-753c-43c7-b35e-15e49a624927/data/f34f88fd3c443978ba3774ed05319172d31c0c41e69977cf7f5509cf591cead6.png" /></div><div class="community-entity-preview-data"><div class="author-container clickable"><div class="account-avatar"><div class="image-container"><img src="" /></div></div><div class="publisher-name-container"><p class="publisher-name">QuangMing</p></div></div><div class="profile-device-list"></div><p class="profile-label">KDA Ahri</p><p class="community-entity-description"></p><div class="community-item-status-view"><div class="upvote-image"></div><p>0</p><div class="download-image"></div><p>61</p></div></div></div><div class="community-entity-preview effect"><div class="poster-image-container effect"><img class="poster-image" src="https://2lumen.s3.us-west-1.amazonaws.com/b2162d1d-23dd-4076-aa96-1f7117fda2f2/data/70627fdf5882cb89ae35694387f6b94735b44b160b436186438946c36275f399.png" /></div><div class="community-entity-preview-data"><div class="author-container clickable"><div class="account-avatar"><div class="image-container"><img src="https://2lumen.s3.us-west-1.amazonaws.com/b2162d1d-23dd-4076-aa96-1f7117fda2f2/data/5a445b82ea43a4c011b579b6c5a3e219fe71c70d256fb4d056cfec9a82cf7f16.jpg" /></div></div><div class="publisher-name-container"><p class="publisher-name">MyMary.99</p></div></div><div class="profile-device-list"></div><p class="profile-label">🌈RAINBOW HEART</p><p class="community-entity-description"></p><div class="community-item-status-view"><div class="upvote-image"></div><p>3</p><div class="download-image"></div><p>76</p></div></div></div><div class="community-entity-preview effect"><div class="poster-image-container effect"><img class="poster-image" src="https://2lumen.s3.us-west-1.amazonaws.com/bde62b0f-544d-443b-b0fe-b8d8f6801737/data/56d729c4ea20d4e38ec4db69719855c6ef536327f282eac1791eb601e23ced46.png" /></div><div class="community-entity-preview-data"><div class="author-container clickable"><div class="account-avatar"><div class="image-container"><img src="" /></div></div><div class="publisher-name-container"><p class="publisher-name">BULGAGI</p></div></div><div class="profile-device-list"></div><p class="profile-label">Blue</p><p class="community-entity-description">blue</p><div class="community-item-status-view"><div class="upvote-image"></div><p>0</p><div class="download-image"></div><p>82</p></div></div></div><div class="community-entity-preview effect"><div class="poster-image-container effect"><img class="poster-image" src="https://2lumen.s3.us-west-1.amazonaws.com/fc9f7caf-41e1-4009-bbdb-37279c3a1d8a/data/456f609ce28d80e9ea0c7ffbeb9d7993093817a6b74ecb7f3aa7d9cd26b34c36.png" /></div><div class="community-entity-preview-data"><div class="author-container clickable"><div class="account-avatar"><div class="image-container"><img src="https://2lumen.s3.us-west-1.amazonaws.com/fc9f7caf-41e1-4009-bbdb-37279c3a1d8a/data/5f1fc87c230aa8cec425c0fc76c1328b41ca83e7bc742ba9f27196c2fa288eea.jpg" /></div></div><div class="publisher-name-container"><p class="publisher-name">流浪的蔡一</p></div></div><div class="profile-device-list"></div><p class="profile-label">CY'S LIGHT 蔡一的灯</p><p class="community-entity-description">red?yellow or green?try it thanks !尝试暖色渐变灯吧，不会让你失望的</p><div class="community-item-status-view"><div class="upvote-image"></div><p>23</p><div class="download-image"></div><p>180</p></div></div></div><div class="community-entity-preview effect"><div class="poster-image-container effect"><img class="poster-image" src="https://2lumen.s3.us-west-1.amazonaws.com/437bfc75-fe58-4093-93e2-518044e48100/data/4d50ff0f044e6ea66262a2f65e86da28be1bf39736d9e8d219bac205693d7ddd.png" /></div><div class="community-entity-preview-data"><div class="author-container clickable"><div class="account-avatar"><div class="image-container"><img src="https://2lumen.s3.us-west-1.amazonaws.com/437bfc75-fe58-4093-93e2-518044e48100/data/c5a78376e15c449759b7e907c1db69fffa639c4da9f97d1672204c09f665e2d7.png" /></div></div><div class="publisher-name-container"><p class="publisher-name">Zanuh</p></div></div><div class="profile-device-list"></div><p class="profile-label">Matrix data stream</p><p class="community-entity-description">Morpheus want to know...
+Red or Blue?</p><div class="community-item-status-view"><div class="upvote-image"></div><p>2</p><div class="download-image"></div><p>39</p></div></div></div><div class="community-entity-preview effect"><div class="poster-image-container effect"><img class="poster-image" src="https://2lumen.s3.us-west-1.amazonaws.com/a6fd2c0d-b41f-49eb-a15d-a462d9554641/data/c09fecd7725e0968975629b92e2c9a3252b3c82fe19d8616fe284add14cb4115.png" /></div><div class="community-entity-preview-data"><div class="author-container clickable"><div class="account-avatar"><div class="image-container"><img src="https://2lumen.s3.us-west-1.amazonaws.com/a6fd2c0d-b41f-49eb-a15d-a462d9554641/data/b566c789f6fb7c185049461623a9b4b70e4f04eec329ece534369e6ba99b1357.jpg" /></div></div><div class="publisher-name-container"><p class="publisher-name">Celestial Knight</p></div></div><div class="profile-device-list"></div><p class="profile-label">Digital Snow</p><p class="community-entity-description"></p><div class="community-item-status-view"><div class="upvote-image"></div><p>0</p><div class="download-image"></div><p>58</p></div></div></div><div class="community-entity-preview effect"><div class="poster-image-container effect"><img class="poster-image" src="https://2lumen.s3.us-west-1.amazonaws.com/a6fd2c0d-b41f-49eb-a15d-a462d9554641/data/db072bd78366394e0c55eb208f59f1d8d079ffdeca01885b764dca9907c59372.png" /></div><div class="community-entity-preview-data"><div class="author-container clickable"><div class="account-avatar"><div class="image-container"><img src="https://2lumen.s3.us-west-1.amazonaws.com/a6fd2c0d-b41f-49eb-a15d-a462d9554641/data/b566c789f6fb7c185049461623a9b4b70e4f04eec329ece534369e6ba99b1357.jpg" /></div></div><div class="publisher-name-container"><p class="publisher-name">Celestial Knight</p></div></div><div class="profile-device-list"></div><p class="profile-label">Retro</p><p class="community-entity-description"></p><div class="community-item-status-view"><div class="upvote-image"></div><p>0</p><div class="download-image"></div><p>30</p></div></div></div><div class="community-entity-preview effect"><div class="poster-image-container effect"><img class="poster-image" src="https://2lumen.s3.us-west-1.amazonaws.com/a6fd2c0d-b41f-49eb-a15d-a462d9554641/data/84c8e4e0beca866cf2ef93657bc04cf5c564b6aa8554b4594abe1248bfcd7f0b.png" /></div><div class="community-entity-preview-data"><div class="author-container clickable"><div class="account-avatar"><div class="image-container"><img src="https://2lumen.s3.us-west-1.amazonaws.com/a6fd2c0d-b41f-49eb-a15d-a462d9554641/data/b566c789f6fb7c185049461623a9b4b70e4f04eec329ece534369e6ba99b1357.jpg" /></div></div><div class="publisher-name-container"><p class="publisher-name">Celestial Knight</p></div></div><div class="profile-device-list"></div><p class="profile-label">Waves of Warmth</p><p class="community-entity-description"></p><div class="community-item-status-view"><div class="upvote-image"></div><p>0</p><div class="download-image"></div><p>29</p></div></div></div><div class="community-entity-preview effect"><div class="poster-image-container effect"><img class="poster-image" src="https://2lumen.s3.us-west-1.amazonaws.com/ef2f4461-b945-42aa-a20e-337f3db4fddb/data/7b6ae20c076ef2872f1f176dcd62987baf9b440bbc2fc762c1935ae1947c4387.png" /></div><div class="community-entity-preview-data"><div class="author-container clickable"><div class="account-avatar"><div class="image-container"><img src="" /></div></div><div class="publisher-name-container"><p class="publisher-name">BioT-Bman</p></div></div><div class="profile-device-list"></div><p class="profile-label">red snake</p><p class="community-entity-description"></p><div class="community-item-status-view"><div class="upvote-image"></div><p>1</p><div class="download-image"></div><p>7</p></div></div></div><div class="community-entity-preview effect"><div class="poster-image-container effect"><img class="poster-image" src="https://2lumen.s3.us-west-1.amazonaws.com/eded8230-c92a-449a-8814-f1bbb97e02d2/data/acbf7beb5a5b2f8b5486ccb31fa3a43c860936e8b4a75fcdb1e197bc44e2c9c1.png" /></div><div class="community-entity-preview-data"><div class="author-container clickable"><div class="account-avatar"><div class="image-container"><img src="https://2lumen.s3.us-west-1.amazonaws.com/eded8230-c92a-449a-8814-f1bbb97e02d2/data/44fbc80b277a5e9c4527b2567b51ed1f4711e30fc2d67953eb9cf605f342e0f6.png" /></div></div><div class="publisher-name-container"><p class="publisher-name">sukhoi-27</p></div></div><div class="profile-device-list"></div><p class="profile-label">Police Lighting</p><p class="community-entity-description"></p><div class="community-item-status-view"><div class="upvote-image"></div><p>0</p><div class="download-image"></div><p>33</p></div></div></div><div class="community-entity-preview effect"><div class="poster-image-container effect"><img class="poster-image" src="https://2lumen.s3.us-west-1.amazonaws.com/8ec96942-25bc-4675-a470-3ac17d3d5027/data/91fd8d4b8a2a4037c0bd5a23454e2c3ec8267d8764bb194bcfdb3c56a49ef40e.png" /></div><div class="community-entity-preview-data"><div class="author-container clickable"><div class="account-avatar"><div class="image-container"><img src="https://2lumen.s3.us-west-1.amazonaws.com/8ec96942-25bc-4675-a470-3ac17d3d5027/data/d9796d74e5d9bcc1d9e8199a283a82371ae84719eb581f8da1c035a449a8fa9d.gif" /></div></div><div class="publisher-name-container"><p class="publisher-name">mizuasianhip</p></div></div><div class="profile-device-list"></div><p class="profile-label">Colour Burst 3.0</p><p class="community-entity-description">Mizu</p><div class="community-item-status-view"><div class="upvote-image"></div><p>4</p><div class="download-image"></div><p>145</p></div></div></div><div class="community-entity-preview effect"><div class="poster-image-container effect"><img class="poster-image" src="https://2lumen.s3.us-west-1.amazonaws.com/e13ecf67-e61f-4a0e-8444-cc1c45e9d8d0/data/b61393ff44080eac11cdbc042963b7ca458b93c9b86a082a7e9cd06c3e994b90.png" /></div><div class="community-entity-preview-data"><div class="author-container clickable"><div class="account-avatar"><div class="image-container"><img src="https://2lumen.s3.us-west-1.amazonaws.com/e13ecf67-e61f-4a0e-8444-cc1c45e9d8d0/data/d718211cb28b2c0e98eb7d19d1e1ab030041f8d2350c928e7c39f89c040874b9.jpg" /></div></div><div class="publisher-name-container"><p class="publisher-name">Mikel_Holy</p></div></div><div class="profile-device-list"></div><p class="profile-label">Blue red WASD fade</p><p class="community-entity-description"></p><div class="community-item-status-view"><div class="upvote-image"></div><p>0</p><div class="download-image"></div><p>16</p></div></div></div><div class="community-entity-preview effect"><div class="poster-image-container effect"><img class="poster-image" src="https://2lumen.s3.us-west-1.amazonaws.com/fc9f7caf-41e1-4009-bbdb-37279c3a1d8a/data/3ee8f48c93bdb945c8da9027655ad56952cb014df3e0c4051daacc6470eb012a.png" /></div><div class="community-entity-preview-data"><div class="author-container clickable"><div class="account-avatar"><div class="image-container"><img src="https://2lumen.s3.us-west-1.amazonaws.com/fc9f7caf-41e1-4009-bbdb-37279c3a1d8a/data/5f1fc87c230aa8cec425c0fc76c1328b41ca83e7bc742ba9f27196c2fa288eea.jpg" /></div></div><div class="publisher-name-container"><p class="publisher-name">流浪的蔡一</p></div></div><div class="profile-device-list"></div><p class="profile-label">Sync In.</p><p class="community-entity-description"></p><div class="community-item-status-view"><div class="upvote-image"></div><p>14</p><div class="download-image"></div><p>12</p></div></div></div><div class="community-entity-preview effect"><div class="poster-image-container effect"><img class="poster-image" src="https://2lumen.s3.us-west-1.amazonaws.com/299f3442-05db-48e0-a348-9fb3e6c8a70c/data/e72b593452ff2c1db5e378d5a92aebe888e52644186a8ae06ff158c31e8681f7.png" /></div><div class="community-entity-preview-data"><div class="author-container clickable"><div class="account-avatar"><div class="image-container"><img src="" /></div></div><div class="publisher-name-container"><p class="publisher-name">ㅗㅑ</p></div></div><div class="profile-device-list"></div><p class="profile-label">gta5 G pro X</p><p class="community-entity-description"></p><div class="community-item-status-view"><div class="upvote-image"></div><p>0</p><div class="download-image"></div><p>27</p></div></div></div><div class="community-entity-preview effect"><div class="poster-image-container effect"><img class="poster-image" src="https://2lumen.s3.us-west-1.amazonaws.com/c24cd8a1-b4ca-4cc1-a9f6-6ab6edbde139/data/b08ce75fef5eb0d62c4003a36ad5477ad8232bd1e315fc4e8e45a8eaf2969d35.png" /></div><div class="community-entity-preview-data"><div class="author-container clickable"><div class="account-avatar"><div class="image-container"><img src="https://2lumen.s3.us-west-1.amazonaws.com/c24cd8a1-b4ca-4cc1-a9f6-6ab6edbde139/data/a0e89be71c1311bcbdfcf6618db9369748932e6c9b54e3cb5313983da89777d1.jpg" /></div></div><div class="publisher-name-container"><p class="publisher-name">YerickAlex</p></div></div><div class="profile-device-list"></div><p class="profile-label">&lt;3</p><p class="community-entity-description">:D</p><div class="community-item-status-view"><div class="upvote-image"></div><p>3</p><div class="download-image"></div><p>26</p></div></div></div><div class="community-entity-preview effect"><div class="poster-image-container effect"><img class="poster-image" src="https://2lumen.s3.us-west-1.amazonaws.com/0758a8dd-81d1-44bb-bec7-be3b0c8f8ded/data/61cc79a727d447b0ec8e3ba6c087f7133830bd5ebe1011bb26a62de32ad5fad7.png" /></div><div class="community-entity-preview-data"><div class="author-container clickable"><div class="account-avatar"><div class="image-container"><img src="https://2lumen.s3.us-west-1.amazonaws.com/0758a8dd-81d1-44bb-bec7-be3b0c8f8ded/data/906923710d2e61347607b126338dd3f3c5a3d1584d939512eb30d79a9f167bf6.png" /></div></div><div class="publisher-name-container"><p class="publisher-name">LostFluffy90</p></div></div><div class="profile-device-list"></div><p class="profile-label">3 aesthetics (neon wipe optimized/edit2)</p><p class="community-entity-description"></p><div class="community-item-status-view"><div class="upvote-image"></div><p>7</p><div class="download-image"></div><p>209</p></div></div></div><div class="community-entity-preview effect"><div class="poster-image-container effect"><img class="poster-image" src="https://2lumen.s3.us-west-1.amazonaws.com/11029f1a-847d-404c-8897-6b863d8d4bc5/data/e4d112612fa89562e2f06b856c326db19101277242ecaf16a7bf01cebd0293c4.png" /></div><div class="community-entity-preview-data"><div class="author-container clickable"><div class="account-avatar"><div class="image-container"><img src="https://2lumen.s3.us-west-1.amazonaws.com/11029f1a-847d-404c-8897-6b863d8d4bc5/data/80b995f67efaa356d2fcaa9f4bde8222421dd9fdd3a12e12d4527064534ba6b1.jpg" /></div></div><div class="publisher-name-container"><p class="publisher-name">ISinonI</p></div></div><div class="profile-device-list"></div><p class="profile-label">Golden night</p><p class="community-entity-description"></p><div class="community-item-status-view"><div class="upvote-image"></div><p>2</p><div class="download-image"></div><p>198</p></div></div></div><div class="community-entity-preview effect"><div class="poster-image-container effect"><img class="poster-image" src="https://2lumen.s3.us-west-1.amazonaws.com/9031689c-cd62-47b6-b095-8007f40eefaf/data/48cf96e26403aa347895d68f1db6660087a93de35c32e501ab00d4a1e9353644.png" /></div><div class="community-entity-preview-data"><div class="author-container clickable"><div class="account-avatar"><div class="image-container"><img src="https://2lumen.s3.us-west-1.amazonaws.com/9031689c-cd62-47b6-b095-8007f40eefaf/data/ebdc975a66d5aeced1fd87a065c8d6e3e4213ed93d21e2d8dd3fe298ea3d5cc3.png" /></div></div><div class="publisher-name-container"><p class="publisher-name">TsarYves</p></div></div><div class="profile-device-list"></div><p class="profile-label">Colour Burst</p><p class="community-entity-description"></p><div class="community-item-status-view"><div class="upvote-image"></div><p>0</p><div class="download-image"></div><p>108</p></div></div></div><div class="community-entity-preview effect"><div class="poster-image-container effect"><img class="poster-image" src="https://2lumen.s3.us-west-1.amazonaws.com/4b861a11-2e64-4cad-a1c2-44e9ab9c49f2/data/35d60975aba8ce556a0b4b3f2314541f04c3ef889bc99127029380e54ce6d46b" /></div><div class="community-entity-preview-data"><div class="author-container clickable"><div class="account-avatar"><div class="image-container"><img src="" /></div></div><div class="publisher-name-container"><p class="publisher-name">HOLDULV</p></div></div><div class="profile-device-list"></div><p class="profile-label">1 animation</p><p class="community-entity-description"></p><div class="community-item-status-view"><div class="upvote-image"></div><p>0</p><div class="download-image"></div><p>39</p></div></div></div><div class="community-entity-preview effect"><div class="poster-image-container effect"><img class="poster-image" src="https://2lumen.s3.us-west-1.amazonaws.com/97b41236-b2f5-46e6-b26c-087846455449/data/ae98d0b10ce81a8cfe396e21f7dc08eb76ff030dae5a278ed0b83bc7ece769e3.png" /></div><div class="community-entity-preview-data"><div class="author-container clickable"><div class="account-avatar"><div class="image-container"><img src="https://2lumen.s3.us-west-1.amazonaws.com/97b41236-b2f5-46e6-b26c-087846455449/data/f291d731f59a546441b9875d1ad5c9e708bc0633b8e103d04c6b52e8d1f33f4c.png" /></div></div><div class="publisher-name-container"><p class="publisher-name">NedDani</p></div></div><div class="profile-device-list"></div><p class="profile-label">Botoom</p><p class="community-entity-description">This is an animation dedicated to my discord server called Botoom :)</p><div class="community-item-status-view"><div class="upvote-image"></div><p>4</p><div class="download-image"></div><p>92</p></div></div></div><div class="community-entity-preview effect"><div class="poster-image-container effect"><img class="poster-image" src="https://2lumen.s3.us-west-1.amazonaws.com/7a405ba1-f216-4520-850a-3057048e6c69/data/f8a7ad1345fdeb1d9b9ca6ae9219d566c4640682373f375236d256d968a210df.png" /></div><div class="community-entity-preview-data"><div class="author-container clickable"><div class="account-avatar"><div class="image-container"><img src="" /></div></div><div class="publisher-name-container"><p class="publisher-name">WigBeiner</p></div></div><div class="profile-device-list"></div><p class="profile-label">Super Saiyan God</p><p class="community-entity-description">Beerus Sama was waiting for this</p><div class="community-item-status-view"><div class="upvote-image"></div><p>0</p><div class="download-image"></div><p>59</p></div></div></div><div class="community-entity-preview effect"><div class="poster-image-container effect"><img class="poster-image" src="https://2lumen.s3.us-west-1.amazonaws.com/7a405ba1-f216-4520-850a-3057048e6c69/data/6251d5e092fdadfe93c04a373284a9b103e7591476d5744c4544950872a2104c.png" /></div><div class="community-entity-preview-data"><div class="author-container clickable"><div class="account-avatar"><div class="image-container"><img src="" /></div></div><div class="publisher-name-container"><p class="publisher-name">WigBeiner</p></div></div><div class="profile-device-list"></div><p class="profile-label">Super Saiyan Blue</p><p class="community-entity-description">Vegtables look good with this</p><div class="community-item-status-view"><div class="upvote-image"></div><p>0</p><div class="download-image"></div><p>76</p></div></div></div></div><button>LOAD MORE</button><div class="community-footer centered"><div class="language-selector"></div><div class="community-links"><a>Code of Conduct</a><a>Terms of Service</a><a>Visit Logitech G</a></div></div></div></div><div id="fadeout"></div><div class="animation-component-wrapper"></div><div id="footer"><div class="sharing-buttons-container"><div class="sharing-button lighting"><div class="text-container"><span>SEE THE NEWEST <strong>LIGHTING EFFECTS</strong></span></div></div><div class="sharing-button profiles"><div class="text-container"><span>EXPLORE THE MOST POPULAR <strong>GAMING PROFILES</strong></span></div></div><div class="sharing-button logitechg"><div class="text-container"><span>VISIT THE NEW <strong>LOGITECH G WEBSITE</strong></span></div></div></div></div><div class="screen-blocker coach-marks hidden"><svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" class="coach-mark-svg hidden"><defs><marker id="coachmark-arrowhead" viewBox="0 0 10 10" refX="5" refY="5" markerWidth="6" markerHeight="10" orient="auto" stroke="white" fill="none" stroke-width="2"><path d="M 0 1 L 5 5 L 0 9"/></marker></defs><g fill="none" stroke="white" stroke-width="2" marker-end="url(#coachmark-arrowhead)"><path id="coachmark-arrow"/></g></svg><div class="coach-mark hidden"><p></p><button>GOT IT</button></div></div></div></div><div class="modal-container global hidden"><div class="modal-contents-holder"><div class="modal-contents"><button class="modal-close-button"></button><div class="modal-title"></div><div class="modal-button-container"><button class="modal-button">CANCEL</button><button class="modal-button action" disabled="">PUBLISH</button></div></div></div></div><div class="screen-blocker hidden"><div class="notification hidden"><div class="text"><div class="message"><div></div></div></div><div class="actions"></div></div></div><div id="menu"><div class="mover"></div></div></div></div><div id="modal"></div><script defer="defer" src="app.min.js"></script><link href="app.min.css" rel="stylesheet" /></body></html>
