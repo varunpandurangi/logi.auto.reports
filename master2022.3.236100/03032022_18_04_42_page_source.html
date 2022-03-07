@@ -1,0 +1,336 @@
+<!DOCTYPE html><html xmlns="http://www.w3.org/1999/xhtml" data-theme="GHUB"><head><meta charset="UTF-8" /><title>Logitech G HUB</title><style type="text/css">.__react_component_tooltip {
+  border-radius: 3px;
+  display: inline-block;
+  font-size: 13px;
+  left: -999em;
+  opacity: 0;
+  padding: 8px 21px;
+  position: fixed;
+  pointer-events: none;
+  transition: opacity 0.3s ease-out;
+  top: -999em;
+  visibility: hidden;
+  z-index: 999;
+}
+.__react_component_tooltip.allow_hover, .__react_component_tooltip.allow_click {
+  pointer-events: auto;
+}
+.__react_component_tooltip:before, .__react_component_tooltip:after {
+  content: "";
+  width: 0;
+  height: 0;
+  position: absolute;
+}
+.__react_component_tooltip.show {
+  opacity: 0.9;
+  margin-top: 0px;
+  margin-left: 0px;
+  visibility: visible;
+}
+.__react_component_tooltip.type-dark {
+  color: #fff;
+  background-color: #222;
+}
+.__react_component_tooltip.type-dark.place-top:after {
+  border-top-color: #222;
+  border-top-style: solid;
+  border-top-width: 6px;
+}
+.__react_component_tooltip.type-dark.place-bottom:after {
+  border-bottom-color: #222;
+  border-bottom-style: solid;
+  border-bottom-width: 6px;
+}
+.__react_component_tooltip.type-dark.place-left:after {
+  border-left-color: #222;
+  border-left-style: solid;
+  border-left-width: 6px;
+}
+.__react_component_tooltip.type-dark.place-right:after {
+  border-right-color: #222;
+  border-right-style: solid;
+  border-right-width: 6px;
+}
+.__react_component_tooltip.type-dark.border {
+  border: 1px solid #fff;
+}
+.__react_component_tooltip.type-dark.border.place-top:before {
+  border-top: 8px solid #fff;
+}
+.__react_component_tooltip.type-dark.border.place-bottom:before {
+  border-bottom: 8px solid #fff;
+}
+.__react_component_tooltip.type-dark.border.place-left:before {
+  border-left: 8px solid #fff;
+}
+.__react_component_tooltip.type-dark.border.place-right:before {
+  border-right: 8px solid #fff;
+}
+.__react_component_tooltip.type-success {
+  color: #fff;
+  background-color: #8DC572;
+}
+.__react_component_tooltip.type-success.place-top:after {
+  border-top-color: #8DC572;
+  border-top-style: solid;
+  border-top-width: 6px;
+}
+.__react_component_tooltip.type-success.place-bottom:after {
+  border-bottom-color: #8DC572;
+  border-bottom-style: solid;
+  border-bottom-width: 6px;
+}
+.__react_component_tooltip.type-success.place-left:after {
+  border-left-color: #8DC572;
+  border-left-style: solid;
+  border-left-width: 6px;
+}
+.__react_component_tooltip.type-success.place-right:after {
+  border-right-color: #8DC572;
+  border-right-style: solid;
+  border-right-width: 6px;
+}
+.__react_component_tooltip.type-success.border {
+  border: 1px solid #fff;
+}
+.__react_component_tooltip.type-success.border.place-top:before {
+  border-top: 8px solid #fff;
+}
+.__react_component_tooltip.type-success.border.place-bottom:before {
+  border-bottom: 8px solid #fff;
+}
+.__react_component_tooltip.type-success.border.place-left:before {
+  border-left: 8px solid #fff;
+}
+.__react_component_tooltip.type-success.border.place-right:before {
+  border-right: 8px solid #fff;
+}
+.__react_component_tooltip.type-warning {
+  color: #fff;
+  background-color: #F0AD4E;
+}
+.__react_component_tooltip.type-warning.place-top:after {
+  border-top-color: #F0AD4E;
+  border-top-style: solid;
+  border-top-width: 6px;
+}
+.__react_component_tooltip.type-warning.place-bottom:after {
+  border-bottom-color: #F0AD4E;
+  border-bottom-style: solid;
+  border-bottom-width: 6px;
+}
+.__react_component_tooltip.type-warning.place-left:after {
+  border-left-color: #F0AD4E;
+  border-left-style: solid;
+  border-left-width: 6px;
+}
+.__react_component_tooltip.type-warning.place-right:after {
+  border-right-color: #F0AD4E;
+  border-right-style: solid;
+  border-right-width: 6px;
+}
+.__react_component_tooltip.type-warning.border {
+  border: 1px solid #fff;
+}
+.__react_component_tooltip.type-warning.border.place-top:before {
+  border-top: 8px solid #fff;
+}
+.__react_component_tooltip.type-warning.border.place-bottom:before {
+  border-bottom: 8px solid #fff;
+}
+.__react_component_tooltip.type-warning.border.place-left:before {
+  border-left: 8px solid #fff;
+}
+.__react_component_tooltip.type-warning.border.place-right:before {
+  border-right: 8px solid #fff;
+}
+.__react_component_tooltip.type-error {
+  color: #fff;
+  background-color: #BE6464;
+}
+.__react_component_tooltip.type-error.place-top:after {
+  border-top-color: #BE6464;
+  border-top-style: solid;
+  border-top-width: 6px;
+}
+.__react_component_tooltip.type-error.place-bottom:after {
+  border-bottom-color: #BE6464;
+  border-bottom-style: solid;
+  border-bottom-width: 6px;
+}
+.__react_component_tooltip.type-error.place-left:after {
+  border-left-color: #BE6464;
+  border-left-style: solid;
+  border-left-width: 6px;
+}
+.__react_component_tooltip.type-error.place-right:after {
+  border-right-color: #BE6464;
+  border-right-style: solid;
+  border-right-width: 6px;
+}
+.__react_component_tooltip.type-error.border {
+  border: 1px solid #fff;
+}
+.__react_component_tooltip.type-error.border.place-top:before {
+  border-top: 8px solid #fff;
+}
+.__react_component_tooltip.type-error.border.place-bottom:before {
+  border-bottom: 8px solid #fff;
+}
+.__react_component_tooltip.type-error.border.place-left:before {
+  border-left: 8px solid #fff;
+}
+.__react_component_tooltip.type-error.border.place-right:before {
+  border-right: 8px solid #fff;
+}
+.__react_component_tooltip.type-info {
+  color: #fff;
+  background-color: #337AB7;
+}
+.__react_component_tooltip.type-info.place-top:after {
+  border-top-color: #337AB7;
+  border-top-style: solid;
+  border-top-width: 6px;
+}
+.__react_component_tooltip.type-info.place-bottom:after {
+  border-bottom-color: #337AB7;
+  border-bottom-style: solid;
+  border-bottom-width: 6px;
+}
+.__react_component_tooltip.type-info.place-left:after {
+  border-left-color: #337AB7;
+  border-left-style: solid;
+  border-left-width: 6px;
+}
+.__react_component_tooltip.type-info.place-right:after {
+  border-right-color: #337AB7;
+  border-right-style: solid;
+  border-right-width: 6px;
+}
+.__react_component_tooltip.type-info.border {
+  border: 1px solid #fff;
+}
+.__react_component_tooltip.type-info.border.place-top:before {
+  border-top: 8px solid #fff;
+}
+.__react_component_tooltip.type-info.border.place-bottom:before {
+  border-bottom: 8px solid #fff;
+}
+.__react_component_tooltip.type-info.border.place-left:before {
+  border-left: 8px solid #fff;
+}
+.__react_component_tooltip.type-info.border.place-right:before {
+  border-right: 8px solid #fff;
+}
+.__react_component_tooltip.type-light {
+  color: #222;
+  background-color: #fff;
+}
+.__react_component_tooltip.type-light.place-top:after {
+  border-top-color: #fff;
+  border-top-style: solid;
+  border-top-width: 6px;
+}
+.__react_component_tooltip.type-light.place-bottom:after {
+  border-bottom-color: #fff;
+  border-bottom-style: solid;
+  border-bottom-width: 6px;
+}
+.__react_component_tooltip.type-light.place-left:after {
+  border-left-color: #fff;
+  border-left-style: solid;
+  border-left-width: 6px;
+}
+.__react_component_tooltip.type-light.place-right:after {
+  border-right-color: #fff;
+  border-right-style: solid;
+  border-right-width: 6px;
+}
+.__react_component_tooltip.type-light.border {
+  border: 1px solid #222;
+}
+.__react_component_tooltip.type-light.border.place-top:before {
+  border-top: 8px solid #222;
+}
+.__react_component_tooltip.type-light.border.place-bottom:before {
+  border-bottom: 8px solid #222;
+}
+.__react_component_tooltip.type-light.border.place-left:before {
+  border-left: 8px solid #222;
+}
+.__react_component_tooltip.type-light.border.place-right:before {
+  border-right: 8px solid #222;
+}
+.__react_component_tooltip.place-top {
+  margin-top: -10px;
+}
+.__react_component_tooltip.place-top:before {
+  border-left: 10px solid transparent;
+  border-right: 10px solid transparent;
+  bottom: -8px;
+  left: 50%;
+  margin-left: -10px;
+}
+.__react_component_tooltip.place-top:after {
+  border-left: 8px solid transparent;
+  border-right: 8px solid transparent;
+  bottom: -6px;
+  left: 50%;
+  margin-left: -8px;
+}
+.__react_component_tooltip.place-bottom {
+  margin-top: 10px;
+}
+.__react_component_tooltip.place-bottom:before {
+  border-left: 10px solid transparent;
+  border-right: 10px solid transparent;
+  top: -8px;
+  left: 50%;
+  margin-left: -10px;
+}
+.__react_component_tooltip.place-bottom:after {
+  border-left: 8px solid transparent;
+  border-right: 8px solid transparent;
+  top: -6px;
+  left: 50%;
+  margin-left: -8px;
+}
+.__react_component_tooltip.place-left {
+  margin-left: -10px;
+}
+.__react_component_tooltip.place-left:before {
+  border-top: 6px solid transparent;
+  border-bottom: 6px solid transparent;
+  right: -8px;
+  top: 50%;
+  margin-top: -5px;
+}
+.__react_component_tooltip.place-left:after {
+  border-top: 5px solid transparent;
+  border-bottom: 5px solid transparent;
+  right: -6px;
+  top: 50%;
+  margin-top: -4px;
+}
+.__react_component_tooltip.place-right {
+  margin-left: 10px;
+}
+.__react_component_tooltip.place-right:before {
+  border-top: 6px solid transparent;
+  border-bottom: 6px solid transparent;
+  left: -8px;
+  top: 50%;
+  margin-top: -5px;
+}
+.__react_component_tooltip.place-right:after {
+  border-top: 5px solid transparent;
+  border-bottom: 5px solid transparent;
+  left: -6px;
+  top: 50%;
+  margin-top: -4px;
+}
+.__react_component_tooltip .multi-line {
+  display: block;
+  padding: 2px 0px;
+  text-align: center;
+}</style></head><body><div id="root"><div id="app"><div><div id="home-layout" class="home-route-trans-enter-done"><div class="overlay-scrim  hidden" style="background-color: rgba(0, 0, 0, 0.5);"></div><nav id="header"><div class="options"><button class="back-button"><img src="file:///C:/Program%20Files/LGHUB/resources/app.asar/assets/f0c6786b652ae869ac9b88a687013eae.svg" /></button><div class="application-selector"><div class="active-profile-indicator">PER-PROFILE CONFIGURATION</div><button class="dropdown-toggle" data-toggle="dropdown" id="dropdown" type="button"><span class="back-application-selector"><span class="back-application-name">Desktop:</span><span class="back-profile-name">Default </span></span><span class="glyphicon glyphicon-chevron-down"></span></button><ul class="dropdown-menu scrollable" role="menu" style="max-height: 760px;"><li class="section-header"><div role="menuItem" data-value="action" class="dropdown-item column"><div class="section-header-name">DESKTOP</div><ul class="application-profile-list column"><li class="section-item"><a role="menuItem" data-value="action" class="dropdown-item">Default</a></li></ul></div></li><li class="section-header"><div role="menuItem" data-value="action" class="dropdown-item column"><div class="section-header-name">COUNTER-STRIKE: GLOBAL OFFENSIVE</div><ul class="application-profile-list column"><li class="section-item"><a role="menuItem" data-value="action" class="dropdown-item">Default</a></li></ul></div></li></ul></div></div><div id="setting-sprocket-container"><p>G915 TKL SETTINGS</p><img id="setting-sprocket" src="file:///C:/Program%20Files/LGHUB/resources/app.asar/assets/50439d57a8ad9e8b2556544834bbf787.svg" /></div><div id="account-avatar"><img src="https://2lumen.s3.us-west-1.amazonaws.com/bb4a20f8-9000-4450-97bb-a423d6c96372/data/4f1c873b2476ae50b32b2b567595b814ac23d0877f4ccb0322fcd0955ee62786.png" /></div></nav><div id="device-view"><div id="device-panel"><div class="panel-wrapper assignments"><div class="panel assignments"><div class="panel-content"><h4 class="panel-section panel-title">Assignments</h4><div class="panel-persistent-lock"><div class="popover-tooltip-origin"><div class="toggle-icon "><input id="fd407665-9033-4c87-bf42-7436373433e3" type="checkbox" value="false" /><label for="fd407665-9033-4c87-bf42-7436373433e3" data-tip="Per-profile Assignments enabled. Click to make Assignments persistent across all profiles." data-for="lock-tooltip" currentitem="false"></label></div><div class="__react_component_tooltip place-right type-dark" id="lock-tooltip" data-id="tooltip"></div></div></div><div class="panel-section panel-options"><div class="tab-menu"><button class="menu-item">COMMANDS</button><button class="menu-item">KEYS</button><button class="menu-item">ACTIONS</button><button class="menu-item">MACROS</button><button class="menu-item active">SYSTEM</button></div></div><div class="panel-section"><div class="panel-text">Drag a system control onto a target to assign it to this device.</div></div><div class="panel-section"><div class="search-bar"><img alt="Search" class="icon-search" src="file:///C:/Program%20Files/LGHUB/resources/app.asar/assets/b609349be843069b8a2437d0be4de3c4.png" /><input type="search" class="search-field" id="command-search" placeholder="Search for a system control" value="" /></div></div><div class="panel-section scrollable-y assignments"><div class="assignments-container"><div class="accordion"><button class="accordion-toggle" type="button" data-toggle="collapse" data-target="#CollapseItemLAUNCH_APPLICATION">Launch Application</button><div id="CollapseItemLAUNCH_APPLICATION" class="accordion-body collapse in"><div class="show-table" tabindex="0"><div class="systems commands-row" id="systems-70b53d9e-078b-4de9-aec1-61d8f8945858" draggable="true"><div class="command-name" colspan="2"><div class="command-text"> calc</div></div><div class="command-mapping"><div></div></div><div class="__react_component_tooltip place-right type-dark" data-id="tooltip"></div><div class="selection-line"></div></div><div class="systems commands-row" id="systems-ffd11776-50b2-457a-92a7-7a0de0229660" draggable="true"><div class="command-name" colspan="2"><div class="command-text"> notepad</div></div><div class="command-mapping"><div>G4</div></div><div class="__react_component_tooltip place-right type-dark" data-id="tooltip"></div><div class="selection-line"></div></div><div class="assignment-add"><span>+</span>ADD APPLICATION</div></div></div></div><div class="accordion"><button class="accordion-toggle" type="button" data-toggle="collapse" data-target="#CollapseItemMouse">Mouse</button><div id="CollapseItemMouse" class="accordion-body collapse in"><div class="show-table" tabindex="0"><div class="systems commands-row" id="systems-0f82f693-5b78-4cf5-867e-040900000000" draggable="true"><div class="command-name" colspan="2"><div class="command-text"> Scroll Up</div></div><div class="command-mapping"><div></div></div><div class="__react_component_tooltip place-right type-dark" data-id="tooltip"></div><div class="selection-line"></div></div><div class="systems commands-row" id="systems-0f82f693-5b78-4cf5-867e-020100000000" draggable="true"><div class="command-name" colspan="2"><div class="command-text"> Primary Click</div></div><div class="command-mapping"><div></div></div><div class="__react_component_tooltip place-right type-dark" data-id="tooltip"></div><div class="selection-line"></div></div><div class="systems commands-row" id="systems-0f82f693-5b78-4cf5-867e-020200000000" draggable="true"><div class="command-name" colspan="2"><div class="command-text"> Secondary Click</div></div><div class="command-mapping"><div></div></div><div class="__react_component_tooltip place-right type-dark" data-id="tooltip"></div><div class="selection-line"></div></div><div class="systems commands-row" id="systems-0f82f693-5b78-4cf5-867e-020300000000" draggable="true"><div class="command-name" colspan="2"><div class="command-text"> Middle Click</div></div><div class="command-mapping"><div></div></div><div class="__react_component_tooltip place-right type-dark" data-id="tooltip"></div><div class="selection-line"></div></div><div class="systems commands-row" id="systems-0f82f693-5b78-4cf5-867e-020400000000" draggable="true"><div class="command-name" colspan="2"><div class="command-text"> Back</div></div><div class="command-mapping"><div></div></div><div class="__react_component_tooltip place-right type-dark" data-id="tooltip"></div><div class="selection-line"></div></div><div class="systems commands-row" id="systems-0f82f693-5b78-4cf5-867e-020500000000" draggable="true"><div class="command-name" colspan="2"><div class="command-text"> Forward</div></div><div class="command-mapping"><div></div></div><div class="__react_component_tooltip place-right type-dark" data-id="tooltip"></div><div class="selection-line"></div></div><div class="systems commands-row" id="systems-0f82f693-5b78-4cf5-867e-040100000000" draggable="true"><div class="command-name" colspan="2"><div class="command-text"> DPI Up</div></div><div class="command-mapping"><div></div></div><div class="__react_component_tooltip place-right type-dark" data-id="tooltip"></div><div class="selection-line"></div></div><div class="systems commands-row" id="systems-0f82f693-5b78-4cf5-867e-040200000000" draggable="true"><div class="command-name" colspan="2"><div class="command-text"> DPI Down</div></div><div class="command-mapping"><div></div></div><div class="__react_component_tooltip place-right type-dark" data-id="tooltip"></div><div class="selection-line"></div></div><div class="systems commands-row" id="systems-0f82f693-5b78-4cf5-867e-040300000000" draggable="true"><div class="command-name" colspan="2"><div class="command-text"> DPI Shift</div></div><div class="command-mapping"><div></div></div><div class="__react_component_tooltip place-right type-dark" data-id="tooltip"></div><div class="selection-line"></div></div><div class="systems commands-row" id="systems-0f82f693-5b78-4cf5-867e-040400000000" draggable="true"><div class="command-name" colspan="2"><div class="command-text"> DPI Cycle</div></div><div class="command-mapping"><div></div></div><div class="__react_component_tooltip place-right type-dark" data-id="tooltip"></div><div class="selection-line"></div></div><div class="systems commands-row" id="systems-0f82f693-5b78-4cf5-867e-040800000000" draggable="true"><div class="command-name" colspan="2"><div class="command-text"> Double Click</div></div><div class="command-mapping"><div></div></div><div class="__react_component_tooltip place-right type-dark" data-id="tooltip"></div><div class="selection-line"></div></div><div class="systems commands-row" id="systems-0f82f693-5b78-4cf5-867e-040a00000000" draggable="true"><div class="command-name" colspan="2"><div class="command-text"> Scroll Down</div></div><div class="command-mapping"><div></div></div><div class="__react_component_tooltip place-right type-dark" data-id="tooltip"></div><div class="selection-line"></div></div><div class="systems commands-row" id="systems-0f82f693-5b78-4cf5-867e-040b00000000" draggable="true"><div class="command-name" colspan="2"><div class="command-text"> Scroll Left</div></div><div class="command-mapping"><div></div></div><div class="__react_component_tooltip place-right type-dark" data-id="tooltip"></div><div class="selection-line"></div></div><div class="systems commands-row" id="systems-0f82f693-5b78-4cf5-867e-040c00000000" draggable="true"><div class="command-name" colspan="2"><div class="command-text"> Scroll Right</div></div><div class="command-mapping"><div></div></div><div class="__react_component_tooltip place-right type-dark" data-id="tooltip"></div><div class="selection-line"></div></div><div class="systems commands-row" id="systems-0f82f693-5b78-4cf5-867e-040e00000000" draggable="true"><div class="command-name" colspan="2"><div class="command-text"> Go to DPI Shift</div></div><div class="command-mapping"><div></div></div><div class="__react_component_tooltip place-right type-dark" data-id="tooltip"></div><div class="selection-line"></div></div></div></div></div><div class="accordion"><button class="accordion-toggle" type="button" data-toggle="collapse" data-target="#CollapseItemDevice">Device</button><div id="CollapseItemDevice" class="accordion-body collapse in"><div class="show-table" tabindex="0"><div class="systems commands-row" id="systems-0f82f693-5b78-4cf5-867e-090500000000" draggable="true"><div class="command-name" colspan="2"><div class="command-text"> G-Shift</div></div><div class="command-mapping"><div><span class="red">G4</span></div></div><div class="__react_component_tooltip place-right type-dark" data-id="tooltip"></div><div class="selection-line"></div></div><div class="systems commands-row" id="systems-0f82f693-5b78-4cf5-867e-090100000000" draggable="true"><div class="command-name" colspan="2"><div class="command-text"> Onboard Profile Cycle</div></div><div class="command-mapping"><div></div></div><div class="__react_component_tooltip place-right type-dark" data-id="tooltip"></div><div class="selection-line"></div></div><div class="systems commands-row" id="systems-0f82f693-5b78-4cf5-867e-090600000000" draggable="true"><div class="command-name" colspan="2"><div class="command-text"> Battery Level</div></div><div class="command-mapping"><div></div></div><div class="__react_component_tooltip place-right type-dark" data-id="tooltip"></div><div class="selection-line"></div></div></div></div></div><div class="accordion"><button class="accordion-toggle" type="button" data-toggle="collapse" data-target="#CollapseItemEditing">Editing</button><div id="CollapseItemEditing" class="accordion-body collapse in"><div class="show-table" tabindex="0"><div class="systems commands-row" id="systems-0f82f693-5b78-4cf5-867e-010601000000" draggable="true"><div class="command-name" colspan="2"><div class="command-text"> Copy</div></div><div class="command-mapping"><div></div></div><div class="__react_component_tooltip place-right type-dark" data-id="tooltip"></div><div class="selection-line"></div></div><div class="systems commands-row" id="systems-0f82f693-5b78-4cf5-867e-011901000000" draggable="true"><div class="command-name" colspan="2"><div class="command-text"> Paste</div></div><div class="command-mapping"><div></div></div><div class="__react_component_tooltip place-right type-dark" data-id="tooltip"></div><div class="selection-line"></div></div><div class="systems commands-row" id="systems-0f82f693-5b78-4cf5-867e-011b01000000" draggable="true"><div class="command-name" colspan="2"><div class="command-text"> Cut</div></div><div class="command-mapping"><div></div></div><div class="__react_component_tooltip place-right type-dark" data-id="tooltip"></div><div class="selection-line"></div></div><div class="systems commands-row" id="systems-0f82f693-5b78-4cf5-867e-011c01000000" draggable="true"><div class="command-name" colspan="2"><div class="command-text"> Redo</div></div><div class="command-mapping"><div></div></div><div class="__react_component_tooltip place-right type-dark" data-id="tooltip"></div><div class="selection-line"></div></div><div class="systems commands-row" id="systems-0f82f693-5b78-4cf5-867e-011d01000000" draggable="true"><div class="command-name" colspan="2"><div class="command-text"> Undo</div></div><div class="command-mapping"><div></div></div><div class="__react_component_tooltip place-right type-dark" data-id="tooltip"></div><div class="selection-line"></div></div></div></div></div><div class="accordion"><button class="accordion-toggle" type="button" data-toggle="collapse" data-target="#CollapseItemOS">OS</button><div id="CollapseItemOS" class="accordion-body collapse in"><div class="show-table" tabindex="0"><div class="systems commands-row" id="systems-0f82f693-5b78-4cf5-867e-010f08000000" draggable="true"><div class="command-name" colspan="2"><div class="command-text"> Lock screen</div></div><div class="command-mapping"><div></div></div><div class="__react_component_tooltip place-right type-dark" data-id="tooltip"></div><div class="selection-line"></div></div></div></div></div><div class="accordion"><button class="accordion-toggle" type="button" data-toggle="collapse" data-target="#CollapseItemMedia">Media</button><div id="CollapseItemMedia" class="accordion-body collapse in"><div class="show-table" tabindex="0"><div class="systems commands-row" id="systems-0f82f693-5b78-4cf5-867e-030100000000" draggable="true"><div class="command-name" colspan="2"><div class="command-text"> Play/Pause</div></div><div class="command-mapping"><div></div></div><div class="__react_component_tooltip place-right type-dark" data-id="tooltip"></div><div class="selection-line"></div></div><div class="systems commands-row" id="systems-0f82f693-5b78-4cf5-867e-030200000000" draggable="true"><div class="command-name" colspan="2"><div class="command-text"> Stop</div></div><div class="command-mapping"><div></div></div><div class="__react_component_tooltip place-right type-dark" data-id="tooltip"></div><div class="selection-line"></div></div><div class="systems commands-row" id="systems-0f82f693-5b78-4cf5-867e-030300000000" draggable="true"><div class="command-name" colspan="2"><div class="command-text"> Volume Up</div></div><div class="command-mapping"><div></div></div><div class="__react_component_tooltip place-right type-dark" data-id="tooltip"></div><div class="selection-line"></div></div><div class="systems commands-row" id="systems-0f82f693-5b78-4cf5-867e-030400000000" draggable="true"><div class="command-name" colspan="2"><div class="command-text"> Volume Down</div></div><div class="command-mapping"><div></div></div><div class="__react_component_tooltip place-right type-dark" data-id="tooltip"></div><div class="selection-line"></div></div><div class="systems commands-row" id="systems-0f82f693-5b78-4cf5-867e-030500000000" draggable="true"><div class="command-name" colspan="2"><div class="command-text"> Next Track</div></div><div class="command-mapping"><div></div></div><div class="__react_component_tooltip place-right type-dark" data-id="tooltip"></div><div class="selection-line"></div></div><div class="systems commands-row" id="systems-0f82f693-5b78-4cf5-867e-030600000000" draggable="true"><div class="command-name" colspan="2"><div class="command-text"> Previous Track</div></div><div class="command-mapping"><div></div></div><div class="__react_component_tooltip place-right type-dark" data-id="tooltip"></div><div class="selection-line"></div></div><div class="systems commands-row" id="systems-0f82f693-5b78-4cf5-867e-030700000000" draggable="true"><div class="command-name" colspan="2"><div class="command-text"> Volume Mute</div></div><div class="command-mapping"><div></div></div><div class="__react_component_tooltip place-right type-dark" data-id="tooltip"></div><div class="selection-line"></div></div></div></div></div><div class="accordion"><button class="accordion-toggle" type="button" data-toggle="collapse" data-target="#CollapseItemAudio">Audio</button><div id="CollapseItemAudio" class="accordion-body collapse in"><div class="show-table" tabindex="0"><div class="systems commands-row" id="systems-0f82f693-5b78-4cf5-867e-060e00000000" draggable="true"><div class="command-name" colspan="2"><div class="command-text"> Audio Output Cycle</div></div><div class="command-mapping"><div></div></div><div class="__react_component_tooltip place-right type-dark" data-id="tooltip"></div><div class="selection-line"></div></div><div class="systems commands-row" id="systems-0f82f693-5b78-4cf5-867e-060f00000000" draggable="true"><div class="command-name" colspan="2"><div class="command-text"> Audio Input Cycle</div></div><div class="command-mapping"><div></div></div><div class="__react_component_tooltip place-right type-dark" data-id="tooltip"></div><div class="selection-line"></div></div></div></div></div><div class="accordion"><button class="accordion-toggle" type="button" data-toggle="collapse" data-target="#CollapseItemGHUB">G HUB</button><div id="CollapseItemGHUB" class="accordion-body collapse in"><div class="show-table" tabindex="0"><div class="systems commands-row" id="systems-0f82f693-5b78-4cf5-867e-080100000000" draggable="true"><div class="command-name" colspan="2"><div class="command-text"> Profile Cycle</div></div><div class="command-mapping"><div></div></div><div class="__react_component_tooltip place-right type-dark" data-id="tooltip"></div><div class="selection-line"></div></div></div></div></div></div></div></div></div></div><div class="panel-menu-wrapper"><div class="panel-menu-content"><div data-tooltip="LIGHTSYNC" data-tooltip-position="right"><div class="icon-wrapper lighting"></div></div><div data-tooltip="Assignments" data-tooltip-position="right"><div class="icon-wrapper assign active"></div></div><div data-tooltip="Game Mode" data-tooltip-position="right"><div class="icon-wrapper disabled-keys"></div></div></div></div></div><div id="device-canvas" class="show-component"><div class="device-canvas-header"></div><div class="device-canvas-body"><div class="device-board assignments "><div class="device-image-wrapper"><img alt="G915 TKL" class="device-canvas-image" src="http://127.0.0.1:9180/g915_tkl_us/front.png" /><div class="device-canvas-underlay show"><svg xmlns="http://www.w3.org/2000/svg" class="lighting-view-box" viewBox="0,0,2226.25,901.5"/></div></div><div class="device-canvas-overlay"><div class="device-canvas-assignments"><div class="device-slot assigned active keystroke top-aligned"><div class="relative-component slot-component" draggable="true" style="left: 13.1162%; top: 24.1819%;"><div class="slot"><div class="slot-content"></div></div></div><div class="relative-component label-component" draggable="true" style="left: 2.24593%; top: -55.4631%; transform: scale(2) translate(-50%, -100%);"><div class="slot-label"><span class="slot-text">F1</span></div></div><svg xmlns="http://www.w3.org/2000/svg" class="assignment-line"><circle cx="13.116226838854574%" cy="24.18191902384914%"/><line x1="13.116226838854574%" y1="24.18191902384914%" x2="2.2459292532285233%" y2="0%"><animate attributeType="CSS" attributeName="visibility" begin="0s" dur="0s" from="unset" to="unset" repeatCount="indefinite"/><animate attributeName="x2" dur="0.5s" from="13.116226838854574%" to="2.2459292532285233%"/><animate attributeName="y2" dur="0.5s" from="24.18191902384914%" to="0%"/></line><line x1="2.2459292532285233%" y1="0%" x2="2.2459292532285233%" y2="-55.46311702717692%"><animate attributeType="CSS" attributeName="visibility" begin="0.5s" dur="0s" from="unset" to="unset" repeatCount="indefinite"/><animate attributeName="x2" begin="0.5s" dur="0.5s" from="2.2459292532285233%" to="2.2459292532285233%"/><animate attributeName="y2" begin="0.5s" dur="0.5s" from="0%" to="-55.46311702717692%"/></line><circle cx="2.2459292532285233%" cy="-55.46311702717692%"><animate attributeType="CSS" attributeName="visibility" begin="1s" dur="0s" from="unset" to="unset" repeatCount="indefinite"/><animate attributeName="r" begin="1s" dur="0.5s" from="0px" to="2px"/></circle></svg></div><div class="device-slot assigned active keystroke top-aligned"><div class="relative-component slot-component" draggable="true" style="left: 18.3268%; top: 24.1819%;"><div class="slot"><div class="slot-content"></div></div></div><div class="relative-component label-component" draggable="true" style="left: 8.98372%; top: -38.8242%; transform: scale(2) translate(-50%, -100%);"><div class="slot-label"><span class="slot-text">F2</span></div></div><svg xmlns="http://www.w3.org/2000/svg" class="assignment-line"><circle cx="18.326782706344748%" cy="24.18191902384914%"/><line x1="18.326782706344748%" y1="24.18191902384914%" x2="8.983717012914093%" y2="0%"><animate attributeType="CSS" attributeName="visibility" begin="0s" dur="0s" from="unset" to="unset" repeatCount="indefinite"/><animate attributeName="x2" dur="0.5s" from="18.326782706344748%" to="8.983717012914093%"/><animate attributeName="y2" dur="0.5s" from="24.18191902384914%" to="0%"/></line><line x1="8.983717012914093%" y1="0%" x2="8.983717012914093%" y2="-38.82418191902385%"><animate attributeType="CSS" attributeName="visibility" begin="0.5s" dur="0s" from="unset" to="unset" repeatCount="indefinite"/><animate attributeName="x2" begin="0.5s" dur="0.5s" from="8.983717012914093%" to="8.983717012914093%"/><animate attributeName="y2" begin="0.5s" dur="0.5s" from="0%" to="-38.82418191902385%"/></line><circle cx="8.983717012914093%" cy="-38.82418191902385%"><animate attributeType="CSS" attributeName="visibility" begin="1s" dur="0s" from="unset" to="unset" repeatCount="indefinite"/><animate attributeName="r" begin="1s" dur="0.5s" from="0px" to="2px"/></circle></svg></div><div class="device-slot assigned active keystroke top-aligned"><div class="relative-component slot-component" draggable="true" style="left: 23.5373%; top: 24.1819%;"><div class="slot"><div class="slot-content"></div></div></div><div class="relative-component label-component" draggable="true" style="left: 15.7215%; top: -22.1852%; transform: scale(2) translate(-50%, -100%);"><div class="slot-label"><span class="slot-text">F3</span></div></div><svg xmlns="http://www.w3.org/2000/svg" class="assignment-line"><circle cx="23.537338573834923%" cy="24.18191902384914%"/><line x1="23.537338573834923%" y1="24.18191902384914%" x2="15.721504772599662%" y2="0%"><animate attributeType="CSS" attributeName="visibility" begin="0s" dur="0s" from="unset" to="unset" repeatCount="indefinite"/><animate attributeName="x2" dur="0.5s" from="23.537338573834923%" to="15.721504772599662%"/><animate attributeName="y2" dur="0.5s" from="24.18191902384914%" to="0%"/></line><line x1="15.721504772599662%" y1="0%" x2="15.721504772599662%" y2="-22.18524681087077%"><animate attributeType="CSS" attributeName="visibility" begin="0.5s" dur="0s" from="unset" to="unset" repeatCount="indefinite"/><animate attributeName="x2" begin="0.5s" dur="0.5s" from="15.721504772599662%" to="15.721504772599662%"/><animate attributeName="y2" begin="0.5s" dur="0.5s" from="0%" to="-22.18524681087077%"/></line><circle cx="15.721504772599662%" cy="-22.18524681087077%"><animate attributeType="CSS" attributeName="visibility" begin="1s" dur="0s" from="unset" to="unset" repeatCount="indefinite"/><animate attributeName="r" begin="1s" dur="0.5s" from="0px" to="2px"/></circle></svg></div><div class="device-slot assigned active top-aligned"><div class="relative-component slot-component" draggable="true" style="left: 28.7479%; top: 24.1819%;"><div class="slot"><div class="slot-content"></div></div></div><div class="relative-component label-component" draggable="true" style="left: 22.4593%; top: -5.54631%; transform: scale(2) translate(-50%, -100%);"><div class="slot-label"><span class="slot-text">notepad</span></div></div><svg xmlns="http://www.w3.org/2000/svg" class="assignment-line"><circle cx="28.7478944413251%" cy="24.18191902384914%"/><line x1="28.7478944413251%" y1="24.18191902384914%" x2="22.459292532285232%" y2="0%"><animate attributeType="CSS" attributeName="visibility" begin="0s" dur="0s" from="unset" to="unset" repeatCount="indefinite"/><animate attributeName="x2" dur="0.5s" from="28.7478944413251%" to="22.459292532285232%"/><animate attributeName="y2" dur="0.5s" from="24.18191902384914%" to="0%"/></line><line x1="22.459292532285232%" y1="0%" x2="22.459292532285232%" y2="-5.546311702717692%"><animate attributeType="CSS" attributeName="visibility" begin="0.5s" dur="0s" from="unset" to="unset" repeatCount="indefinite"/><animate attributeName="x2" begin="0.5s" dur="0.5s" from="22.459292532285232%" to="22.459292532285232%"/><animate attributeName="y2" begin="0.5s" dur="0.5s" from="0%" to="-5.546311702717692%"/></line><circle cx="22.459292532285232%" cy="-5.546311702717692%"><animate attributeType="CSS" attributeName="visibility" begin="1s" dur="0s" from="unset" to="unset" repeatCount="indefinite"/><animate attributeName="r" begin="1s" dur="0.5s" from="0px" to="2px"/></circle></svg></div><div class="device-slot assigned active keystroke top-aligned"><div class="relative-component slot-component" draggable="true" style="left: 37.5519%; top: 24.1819%;"><div class="slot"><div class="slot-content"></div></div></div><div class="relative-component label-component" draggable="true" style="left: 35.9349%; top: -55.4631%; transform: scale(2) translate(-50%, -100%);"><div class="slot-label"><span class="slot-text">F5</span></div></div><svg xmlns="http://www.w3.org/2000/svg" class="assignment-line"><circle cx="37.55193711398091%" cy="24.18191902384914%"/><line x1="37.55193711398091%" y1="24.18191902384914%" x2="35.93486805165637%" y2="0%"><animate attributeType="CSS" attributeName="visibility" begin="0s" dur="0s" from="unset" to="unset" repeatCount="indefinite"/><animate attributeName="x2" dur="0.5s" from="37.55193711398091%" to="35.93486805165637%"/><animate attributeName="y2" dur="0.5s" from="24.18191902384914%" to="0%"/></line><line x1="35.93486805165637%" y1="0%" x2="35.93486805165637%" y2="-55.46311702717692%"><animate attributeType="CSS" attributeName="visibility" begin="0.5s" dur="0s" from="unset" to="unset" repeatCount="indefinite"/><animate attributeName="x2" begin="0.5s" dur="0.5s" from="35.93486805165637%" to="35.93486805165637%"/><animate attributeName="y2" begin="0.5s" dur="0.5s" from="0%" to="-55.46311702717692%"/></line><circle cx="35.93486805165637%" cy="-55.46311702717692%"><animate attributeType="CSS" attributeName="visibility" begin="1s" dur="0s" from="unset" to="unset" repeatCount="indefinite"/><animate attributeName="r" begin="1s" dur="0.5s" from="0px" to="2px"/></circle></svg></div><div class="device-slot assigned active keystroke top-aligned"><div class="relative-component slot-component" draggable="true" style="left: 42.7625%; top: 24.1819%;"><div class="slot"><div class="slot-content"></div></div></div><div class="relative-component label-component" draggable="true" style="left: 42.6727%; top: -38.8242%; transform: scale(2) translate(-50%, -100%);"><div class="slot-label"><span class="slot-text">F6</span></div></div><svg xmlns="http://www.w3.org/2000/svg" class="assignment-line"><circle cx="42.762492981471084%" cy="24.18191902384914%"/><line x1="42.762492981471084%" y1="24.18191902384914%" x2="42.67265581134194%" y2="0%"><animate attributeType="CSS" attributeName="visibility" begin="0s" dur="0s" from="unset" to="unset" repeatCount="indefinite"/><animate attributeName="x2" dur="0.5s" from="42.762492981471084%" to="42.67265581134194%"/><animate attributeName="y2" dur="0.5s" from="24.18191902384914%" to="0%"/></line><line x1="42.67265581134194%" y1="0%" x2="42.67265581134194%" y2="-38.82418191902385%"><animate attributeType="CSS" attributeName="visibility" begin="0.5s" dur="0s" from="unset" to="unset" repeatCount="indefinite"/><animate attributeName="x2" begin="0.5s" dur="0.5s" from="42.67265581134194%" to="42.67265581134194%"/><animate attributeName="y2" begin="0.5s" dur="0.5s" from="0%" to="-38.82418191902385%"/></line><circle cx="42.67265581134194%" cy="-38.82418191902385%"><animate attributeType="CSS" attributeName="visibility" begin="1s" dur="0s" from="unset" to="unset" repeatCount="indefinite"/><animate attributeName="r" begin="1s" dur="0.5s" from="0px" to="2px"/></circle></svg></div><div class="device-slot assigned active keystroke top-aligned"><div class="relative-component slot-component" draggable="true" style="left: 48.0629%; top: 24.1819%;"><div class="slot"><div class="slot-content"></div></div></div><div class="relative-component label-component" draggable="true" style="left: 49.4104%; top: -22.1852%; transform: scale(2) translate(-50%, -100%);"><div class="slot-label"><span class="slot-text">F7</span></div></div><svg xmlns="http://www.w3.org/2000/svg" class="assignment-line"><circle cx="48.0628860190904%" cy="24.18191902384914%"/><line x1="48.0628860190904%" y1="24.18191902384914%" x2="49.410443571027514%" y2="0%"><animate attributeType="CSS" attributeName="visibility" begin="0s" dur="0s" from="unset" to="unset" repeatCount="indefinite"/><animate attributeName="x2" dur="0.5s" from="48.0628860190904%" to="49.410443571027514%"/><animate attributeName="y2" dur="0.5s" from="24.18191902384914%" to="0%"/></line><line x1="49.410443571027514%" y1="0%" x2="49.410443571027514%" y2="-22.18524681087077%"><animate attributeType="CSS" attributeName="visibility" begin="0.5s" dur="0s" from="unset" to="unset" repeatCount="indefinite"/><animate attributeName="x2" begin="0.5s" dur="0.5s" from="49.410443571027514%" to="49.410443571027514%"/><animate attributeName="y2" begin="0.5s" dur="0.5s" from="0%" to="-22.18524681087077%"/></line><circle cx="49.410443571027514%" cy="-22.18524681087077%"><animate attributeType="CSS" attributeName="visibility" begin="1s" dur="0s" from="unset" to="unset" repeatCount="indefinite"/><animate attributeName="r" begin="1s" dur="0.5s" from="0px" to="2px"/></circle></svg></div><div class="device-slot assigned active keystroke top-aligned"><div class="relative-component slot-component" draggable="true" style="left: 53.3633%; top: 24.1819%;"><div class="slot"><div class="slot-content"></div></div></div><div class="relative-component label-component" draggable="true" style="left: 56.1482%; top: -5.54631%; transform: scale(2) translate(-50%, -100%);"><div class="slot-label"><span class="slot-text">F8</span></div></div><svg xmlns="http://www.w3.org/2000/svg" class="assignment-line"><circle cx="53.363279056709715%" cy="24.18191902384914%"/><line x1="53.363279056709715%" y1="24.18191902384914%" x2="56.14823133071308%" y2="0%"><animate attributeType="CSS" attributeName="visibility" begin="0s" dur="0s" from="unset" to="unset" repeatCount="indefinite"/><animate attributeName="x2" dur="0.5s" from="53.363279056709715%" to="56.14823133071308%"/><animate attributeName="y2" dur="0.5s" from="24.18191902384914%" to="0%"/></line><line x1="56.14823133071308%" y1="0%" x2="56.14823133071308%" y2="-5.546311702717692%"><animate attributeType="CSS" attributeName="visibility" begin="0.5s" dur="0s" from="unset" to="unset" repeatCount="indefinite"/><animate attributeName="x2" begin="0.5s" dur="0.5s" from="56.14823133071308%" to="56.14823133071308%"/><animate attributeName="y2" begin="0.5s" dur="0.5s" from="0%" to="-5.546311702717692%"/></line><circle cx="56.14823133071308%" cy="-5.546311702717692%"><animate attributeType="CSS" attributeName="visibility" begin="1s" dur="0s" from="unset" to="unset" repeatCount="indefinite"/><animate attributeName="r" begin="1s" dur="0.5s" from="0px" to="2px"/></circle></svg></div><div class="device-slot assigned active keystroke top-aligned"><div class="relative-component slot-component" draggable="true" style="left: 62.1673%; top: 24.1819%;"><div class="slot"><div class="slot-content"></div></div></div><div class="relative-component label-component" draggable="true" style="left: 69.6238%; top: -55.4631%; transform: scale(2) translate(-50%, -100%);"><div class="slot-label"><span class="slot-text">F9</span></div></div><svg xmlns="http://www.w3.org/2000/svg" class="assignment-line"><circle cx="62.16732172936552%" cy="24.18191902384914%"/><line x1="62.16732172936552%" y1="24.18191902384914%" x2="69.62380685008422%" y2="0%"><animate attributeType="CSS" attributeName="visibility" begin="0s" dur="0s" from="unset" to="unset" repeatCount="indefinite"/><animate attributeName="x2" dur="0.5s" from="62.16732172936552%" to="69.62380685008422%"/><animate attributeName="y2" dur="0.5s" from="24.18191902384914%" to="0%"/></line><line x1="69.62380685008422%" y1="0%" x2="69.62380685008422%" y2="-55.46311702717692%"><animate attributeType="CSS" attributeName="visibility" begin="0.5s" dur="0s" from="unset" to="unset" repeatCount="indefinite"/><animate attributeName="x2" begin="0.5s" dur="0.5s" from="69.62380685008422%" to="69.62380685008422%"/><animate attributeName="y2" begin="0.5s" dur="0.5s" from="0%" to="-55.46311702717692%"/></line><circle cx="69.62380685008422%" cy="-55.46311702717692%"><animate attributeType="CSS" attributeName="visibility" begin="1s" dur="0s" from="unset" to="unset" repeatCount="indefinite"/><animate attributeName="r" begin="1s" dur="0.5s" from="0px" to="2px"/></circle></svg></div><div class="device-slot assigned active keystroke top-aligned"><div class="relative-component slot-component" draggable="true" style="left: 67.3779%; top: 24.1819%;"><div class="slot"><div class="slot-content"></div></div></div><div class="relative-component label-component" draggable="true" style="left: 76.3616%; top: -38.8242%; transform: scale(2) translate(-50%, -100%);"><div class="slot-label"><span class="slot-text">F10</span></div></div><svg xmlns="http://www.w3.org/2000/svg" class="assignment-line"><circle cx="67.3778775968557%" cy="24.18191902384914%"/><line x1="67.3778775968557%" y1="24.18191902384914%" x2="76.3615946097698%" y2="0%"><animate attributeType="CSS" attributeName="visibility" begin="0s" dur="0s" from="unset" to="unset" repeatCount="indefinite"/><animate attributeName="x2" dur="0.5s" from="67.3778775968557%" to="76.3615946097698%"/><animate attributeName="y2" dur="0.5s" from="24.18191902384914%" to="0%"/></line><line x1="76.3615946097698%" y1="0%" x2="76.3615946097698%" y2="-38.82418191902385%"><animate attributeType="CSS" attributeName="visibility" begin="0.5s" dur="0s" from="unset" to="unset" repeatCount="indefinite"/><animate attributeName="x2" begin="0.5s" dur="0.5s" from="76.3615946097698%" to="76.3615946097698%"/><animate attributeName="y2" begin="0.5s" dur="0.5s" from="0%" to="-38.82418191902385%"/></line><circle cx="76.3615946097698%" cy="-38.82418191902385%"><animate attributeType="CSS" attributeName="visibility" begin="1s" dur="0s" from="unset" to="unset" repeatCount="indefinite"/><animate attributeName="r" begin="1s" dur="0.5s" from="0px" to="2px"/></circle></svg></div><div class="device-slot assigned active keystroke top-aligned"><div class="relative-component slot-component" draggable="true" style="left: 72.6334%; top: 24.1819%;"><div class="slot"><div class="slot-content"></div></div></div><div class="relative-component label-component" draggable="true" style="left: 83.0994%; top: -22.1852%; transform: scale(2) translate(-50%, -100%);"><div class="slot-label"><span class="slot-text">F11</span></div></div><svg xmlns="http://www.w3.org/2000/svg" class="assignment-line"><circle cx="72.63335204941045%" cy="24.18191902384914%"/><line x1="72.63335204941045%" y1="24.18191902384914%" x2="83.09938236945537%" y2="0%"><animate attributeType="CSS" attributeName="visibility" begin="0s" dur="0s" from="unset" to="unset" repeatCount="indefinite"/><animate attributeName="x2" dur="0.5s" from="72.63335204941045%" to="83.09938236945537%"/><animate attributeName="y2" dur="0.5s" from="24.18191902384914%" to="0%"/></line><line x1="83.09938236945537%" y1="0%" x2="83.09938236945537%" y2="-22.18524681087077%"><animate attributeType="CSS" attributeName="visibility" begin="0.5s" dur="0s" from="unset" to="unset" repeatCount="indefinite"/><animate attributeName="x2" begin="0.5s" dur="0.5s" from="83.09938236945537%" to="83.09938236945537%"/><animate attributeName="y2" begin="0.5s" dur="0.5s" from="0%" to="-22.18524681087077%"/></line><circle cx="83.09938236945537%" cy="-22.18524681087077%"><animate attributeType="CSS" attributeName="visibility" begin="1s" dur="0s" from="unset" to="unset" repeatCount="indefinite"/><animate attributeName="r" begin="1s" dur="0.5s" from="0px" to="2px"/></circle></svg></div><div class="device-slot assigned active keystroke top-aligned"><div class="relative-component slot-component" draggable="true" style="left: 77.8888%; top: 24.1819%;"><div class="slot"><div class="slot-content"></div></div></div><div class="relative-component label-component" draggable="true" style="left: 89.8372%; top: -5.54631%; transform: scale(2) translate(-50%, -100%);"><div class="slot-label"><span class="slot-text">F12</span></div></div><svg xmlns="http://www.w3.org/2000/svg" class="assignment-line"><circle cx="77.8888265019652%" cy="24.18191902384914%"/><line x1="77.8888265019652%" y1="24.18191902384914%" x2="89.83717012914093%" y2="0%"><animate attributeType="CSS" attributeName="visibility" begin="0s" dur="0s" from="unset" to="unset" repeatCount="indefinite"/><animate attributeName="x2" dur="0.5s" from="77.8888265019652%" to="89.83717012914093%"/><animate attributeName="y2" dur="0.5s" from="24.18191902384914%" to="0%"/></line><line x1="89.83717012914093%" y1="0%" x2="89.83717012914093%" y2="-5.546311702717692%"><animate attributeType="CSS" attributeName="visibility" begin="0.5s" dur="0s" from="unset" to="unset" repeatCount="indefinite"/><animate attributeName="x2" begin="0.5s" dur="0.5s" from="89.83717012914093%" to="89.83717012914093%"/><animate attributeName="y2" begin="0.5s" dur="0.5s" from="0%" to="-5.546311702717692%"/></line><circle cx="89.83717012914093%" cy="-5.546311702717692%"><animate attributeType="CSS" attributeName="visibility" begin="1s" dur="0s" from="unset" to="unset" repeatCount="indefinite"/><animate attributeName="r" begin="1s" dur="0.5s" from="0px" to="2px"/></circle></svg></div></div></div></div></div><div class="device-canvas-footer"><div class="toggle"><label class="active">DEFAULT</label><label class="switch"><input type="checkbox" /><span class="slider"></span></label><label class="">G-SHIFT</label></div><div class="modes-container"><button class="oval-button clickable active" data-tooltip-position="bottom">M1</button><button class="oval-button clickable" data-tooltip-position="bottom">M2</button><button class="oval-button clickable" data-tooltip-position="bottom">M3</button></div></div></div></div><div id="fadeout"></div><div class="animation-component-wrapper"><div class="animation-wrapper animation-dev00000000" style="opacity: 0;"></div></div><div id="footer"></div><div class="screen-blocker coach-marks hidden"><svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" class="coach-mark-svg hidden"><defs><marker id="coachmark-arrowhead" viewBox="0 0 10 10" refX="5" refY="5" markerWidth="6" markerHeight="10" orient="auto" stroke="white" fill="none" stroke-width="2"><path d="M 0 1 L 5 5 L 0 9"/></marker></defs><g fill="none" stroke="white" stroke-width="2" marker-end="url(#coachmark-arrowhead)"><path id="coachmark-arrow"/></g></svg><div class="coach-mark hidden"><p></p><button>GOT IT</button></div></div></div></div><div class="modal-container global hidden"><div class="modal-contents-holder"><div class="modal-contents"><button class="modal-close-button"></button><div class="modal-title"></div><div class="modal-button-container"><button class="modal-button">CANCEL</button><button class="modal-button action" disabled="">PUBLISH</button></div></div></div></div><div class="screen-blocker hidden"><div class="notification hidden"><div class="text"><div class="message"><div></div></div></div><div class="actions"></div></div></div><div id="menu"><div class="icons"><img alt="Minimize" class="icon" src="file:///C:/Program%20Files/LGHUB/resources/app.asar/assets/0bb0a51de683787ef63c0fb69ec02d01.svg" /><img alt="Maximize" class="icon" src="file:///C:/Program%20Files/LGHUB/resources/app.asar/assets/a41f997856388abfc37fa8969b1ba3a6.svg" /><img alt="Close" class="icon menu-close" src="file:///C:/Program%20Files/LGHUB/resources/app.asar/assets/39a0b120e63fb9a51c6594f7272c9b73.svg" /></div><div class="mover windows"></div></div></div></div><div id="modal"></div><script defer="defer" src="app.min.js"></script><link href="app.min.css" rel="stylesheet" /></body></html>

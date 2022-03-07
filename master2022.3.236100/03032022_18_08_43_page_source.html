@@ -1,0 +1,336 @@
+<!DOCTYPE html><html xmlns="http://www.w3.org/1999/xhtml" data-theme="GHUB"><head><meta charset="UTF-8" /><title>Logitech G HUB</title><style type="text/css">.__react_component_tooltip {
+  border-radius: 3px;
+  display: inline-block;
+  font-size: 13px;
+  left: -999em;
+  opacity: 0;
+  padding: 8px 21px;
+  position: fixed;
+  pointer-events: none;
+  transition: opacity 0.3s ease-out;
+  top: -999em;
+  visibility: hidden;
+  z-index: 999;
+}
+.__react_component_tooltip.allow_hover, .__react_component_tooltip.allow_click {
+  pointer-events: auto;
+}
+.__react_component_tooltip:before, .__react_component_tooltip:after {
+  content: "";
+  width: 0;
+  height: 0;
+  position: absolute;
+}
+.__react_component_tooltip.show {
+  opacity: 0.9;
+  margin-top: 0px;
+  margin-left: 0px;
+  visibility: visible;
+}
+.__react_component_tooltip.type-dark {
+  color: #fff;
+  background-color: #222;
+}
+.__react_component_tooltip.type-dark.place-top:after {
+  border-top-color: #222;
+  border-top-style: solid;
+  border-top-width: 6px;
+}
+.__react_component_tooltip.type-dark.place-bottom:after {
+  border-bottom-color: #222;
+  border-bottom-style: solid;
+  border-bottom-width: 6px;
+}
+.__react_component_tooltip.type-dark.place-left:after {
+  border-left-color: #222;
+  border-left-style: solid;
+  border-left-width: 6px;
+}
+.__react_component_tooltip.type-dark.place-right:after {
+  border-right-color: #222;
+  border-right-style: solid;
+  border-right-width: 6px;
+}
+.__react_component_tooltip.type-dark.border {
+  border: 1px solid #fff;
+}
+.__react_component_tooltip.type-dark.border.place-top:before {
+  border-top: 8px solid #fff;
+}
+.__react_component_tooltip.type-dark.border.place-bottom:before {
+  border-bottom: 8px solid #fff;
+}
+.__react_component_tooltip.type-dark.border.place-left:before {
+  border-left: 8px solid #fff;
+}
+.__react_component_tooltip.type-dark.border.place-right:before {
+  border-right: 8px solid #fff;
+}
+.__react_component_tooltip.type-success {
+  color: #fff;
+  background-color: #8DC572;
+}
+.__react_component_tooltip.type-success.place-top:after {
+  border-top-color: #8DC572;
+  border-top-style: solid;
+  border-top-width: 6px;
+}
+.__react_component_tooltip.type-success.place-bottom:after {
+  border-bottom-color: #8DC572;
+  border-bottom-style: solid;
+  border-bottom-width: 6px;
+}
+.__react_component_tooltip.type-success.place-left:after {
+  border-left-color: #8DC572;
+  border-left-style: solid;
+  border-left-width: 6px;
+}
+.__react_component_tooltip.type-success.place-right:after {
+  border-right-color: #8DC572;
+  border-right-style: solid;
+  border-right-width: 6px;
+}
+.__react_component_tooltip.type-success.border {
+  border: 1px solid #fff;
+}
+.__react_component_tooltip.type-success.border.place-top:before {
+  border-top: 8px solid #fff;
+}
+.__react_component_tooltip.type-success.border.place-bottom:before {
+  border-bottom: 8px solid #fff;
+}
+.__react_component_tooltip.type-success.border.place-left:before {
+  border-left: 8px solid #fff;
+}
+.__react_component_tooltip.type-success.border.place-right:before {
+  border-right: 8px solid #fff;
+}
+.__react_component_tooltip.type-warning {
+  color: #fff;
+  background-color: #F0AD4E;
+}
+.__react_component_tooltip.type-warning.place-top:after {
+  border-top-color: #F0AD4E;
+  border-top-style: solid;
+  border-top-width: 6px;
+}
+.__react_component_tooltip.type-warning.place-bottom:after {
+  border-bottom-color: #F0AD4E;
+  border-bottom-style: solid;
+  border-bottom-width: 6px;
+}
+.__react_component_tooltip.type-warning.place-left:after {
+  border-left-color: #F0AD4E;
+  border-left-style: solid;
+  border-left-width: 6px;
+}
+.__react_component_tooltip.type-warning.place-right:after {
+  border-right-color: #F0AD4E;
+  border-right-style: solid;
+  border-right-width: 6px;
+}
+.__react_component_tooltip.type-warning.border {
+  border: 1px solid #fff;
+}
+.__react_component_tooltip.type-warning.border.place-top:before {
+  border-top: 8px solid #fff;
+}
+.__react_component_tooltip.type-warning.border.place-bottom:before {
+  border-bottom: 8px solid #fff;
+}
+.__react_component_tooltip.type-warning.border.place-left:before {
+  border-left: 8px solid #fff;
+}
+.__react_component_tooltip.type-warning.border.place-right:before {
+  border-right: 8px solid #fff;
+}
+.__react_component_tooltip.type-error {
+  color: #fff;
+  background-color: #BE6464;
+}
+.__react_component_tooltip.type-error.place-top:after {
+  border-top-color: #BE6464;
+  border-top-style: solid;
+  border-top-width: 6px;
+}
+.__react_component_tooltip.type-error.place-bottom:after {
+  border-bottom-color: #BE6464;
+  border-bottom-style: solid;
+  border-bottom-width: 6px;
+}
+.__react_component_tooltip.type-error.place-left:after {
+  border-left-color: #BE6464;
+  border-left-style: solid;
+  border-left-width: 6px;
+}
+.__react_component_tooltip.type-error.place-right:after {
+  border-right-color: #BE6464;
+  border-right-style: solid;
+  border-right-width: 6px;
+}
+.__react_component_tooltip.type-error.border {
+  border: 1px solid #fff;
+}
+.__react_component_tooltip.type-error.border.place-top:before {
+  border-top: 8px solid #fff;
+}
+.__react_component_tooltip.type-error.border.place-bottom:before {
+  border-bottom: 8px solid #fff;
+}
+.__react_component_tooltip.type-error.border.place-left:before {
+  border-left: 8px solid #fff;
+}
+.__react_component_tooltip.type-error.border.place-right:before {
+  border-right: 8px solid #fff;
+}
+.__react_component_tooltip.type-info {
+  color: #fff;
+  background-color: #337AB7;
+}
+.__react_component_tooltip.type-info.place-top:after {
+  border-top-color: #337AB7;
+  border-top-style: solid;
+  border-top-width: 6px;
+}
+.__react_component_tooltip.type-info.place-bottom:after {
+  border-bottom-color: #337AB7;
+  border-bottom-style: solid;
+  border-bottom-width: 6px;
+}
+.__react_component_tooltip.type-info.place-left:after {
+  border-left-color: #337AB7;
+  border-left-style: solid;
+  border-left-width: 6px;
+}
+.__react_component_tooltip.type-info.place-right:after {
+  border-right-color: #337AB7;
+  border-right-style: solid;
+  border-right-width: 6px;
+}
+.__react_component_tooltip.type-info.border {
+  border: 1px solid #fff;
+}
+.__react_component_tooltip.type-info.border.place-top:before {
+  border-top: 8px solid #fff;
+}
+.__react_component_tooltip.type-info.border.place-bottom:before {
+  border-bottom: 8px solid #fff;
+}
+.__react_component_tooltip.type-info.border.place-left:before {
+  border-left: 8px solid #fff;
+}
+.__react_component_tooltip.type-info.border.place-right:before {
+  border-right: 8px solid #fff;
+}
+.__react_component_tooltip.type-light {
+  color: #222;
+  background-color: #fff;
+}
+.__react_component_tooltip.type-light.place-top:after {
+  border-top-color: #fff;
+  border-top-style: solid;
+  border-top-width: 6px;
+}
+.__react_component_tooltip.type-light.place-bottom:after {
+  border-bottom-color: #fff;
+  border-bottom-style: solid;
+  border-bottom-width: 6px;
+}
+.__react_component_tooltip.type-light.place-left:after {
+  border-left-color: #fff;
+  border-left-style: solid;
+  border-left-width: 6px;
+}
+.__react_component_tooltip.type-light.place-right:after {
+  border-right-color: #fff;
+  border-right-style: solid;
+  border-right-width: 6px;
+}
+.__react_component_tooltip.type-light.border {
+  border: 1px solid #222;
+}
+.__react_component_tooltip.type-light.border.place-top:before {
+  border-top: 8px solid #222;
+}
+.__react_component_tooltip.type-light.border.place-bottom:before {
+  border-bottom: 8px solid #222;
+}
+.__react_component_tooltip.type-light.border.place-left:before {
+  border-left: 8px solid #222;
+}
+.__react_component_tooltip.type-light.border.place-right:before {
+  border-right: 8px solid #222;
+}
+.__react_component_tooltip.place-top {
+  margin-top: -10px;
+}
+.__react_component_tooltip.place-top:before {
+  border-left: 10px solid transparent;
+  border-right: 10px solid transparent;
+  bottom: -8px;
+  left: 50%;
+  margin-left: -10px;
+}
+.__react_component_tooltip.place-top:after {
+  border-left: 8px solid transparent;
+  border-right: 8px solid transparent;
+  bottom: -6px;
+  left: 50%;
+  margin-left: -8px;
+}
+.__react_component_tooltip.place-bottom {
+  margin-top: 10px;
+}
+.__react_component_tooltip.place-bottom:before {
+  border-left: 10px solid transparent;
+  border-right: 10px solid transparent;
+  top: -8px;
+  left: 50%;
+  margin-left: -10px;
+}
+.__react_component_tooltip.place-bottom:after {
+  border-left: 8px solid transparent;
+  border-right: 8px solid transparent;
+  top: -6px;
+  left: 50%;
+  margin-left: -8px;
+}
+.__react_component_tooltip.place-left {
+  margin-left: -10px;
+}
+.__react_component_tooltip.place-left:before {
+  border-top: 6px solid transparent;
+  border-bottom: 6px solid transparent;
+  right: -8px;
+  top: 50%;
+  margin-top: -5px;
+}
+.__react_component_tooltip.place-left:after {
+  border-top: 5px solid transparent;
+  border-bottom: 5px solid transparent;
+  right: -6px;
+  top: 50%;
+  margin-top: -4px;
+}
+.__react_component_tooltip.place-right {
+  margin-left: 10px;
+}
+.__react_component_tooltip.place-right:before {
+  border-top: 6px solid transparent;
+  border-bottom: 6px solid transparent;
+  left: -8px;
+  top: 50%;
+  margin-top: -5px;
+}
+.__react_component_tooltip.place-right:after {
+  border-top: 5px solid transparent;
+  border-bottom: 5px solid transparent;
+  left: -6px;
+  top: 50%;
+  margin-top: -4px;
+}
+.__react_component_tooltip .multi-line {
+  display: block;
+  padding: 2px 0px;
+  text-align: center;
+}</style></head><body><div id="root"><div id="app"><div><div id="home-layout" class="home-route-trans-enter-done"><div class="overlay-scrim  hidden" style="background-color: rgba(0, 0, 0, 0.5);"></div><nav id="header"><img class="logo" src="file:///C:/Program%20Files/LGHUB/resources/app.asar/assets/8460aa05fc127bd379fc1c44b2ad3107.svg" /><div class="appbar-container"><div class="appbar-static">ACTIVE PROFILE</div><div class="appbar-application"><div class="appbar-application-name">Desktop</div></div><div class="appbar-profile-container"><div class="appbar-profile"><div class="appbar-profile-name">Default</div></div><div class="appbar-profile-click-indicator"></div></div></div><div id="setting-sprocket-container"><p>G HUB SETTINGS</p><img id="setting-sprocket" src="file:///C:/Program%20Files/LGHUB/resources/app.asar/assets/50439d57a8ad9e8b2556544834bbf787.svg" /></div><div id="account-avatar"><img src="https://2lumen.s3.us-west-1.amazonaws.com/48429fbd-68ce-44a1-b6d2-55fe37279329/data/7b1c4ed52f2dd0110e34789808013b7d98efc3a38a4f32afa7f880e320fa32c5.png" /></div></nav><div id="home-view"><div id="home-devices" class="carousel-container"><div class="carousel-item-container" id="home-devices-carousel-item-container" style="transform: translateX(520px);"><div class="carousel-item"><div class="device-container active"><h2 class="device-container-model">G603</h2><div class="device-image-wrapper"><img alt="G603" class="device-container-image" src="http://127.0.0.1:9180/g603/front.png" /></div><div class="mode-and-battery center-content both-row"><div class="device-mode-status">Performance Mode</div><div class="device-battery-status" data-tooltip-position="bottom"><p></p><svg xmlns="http://www.w3.org/2000/svg" width="22" height="12" viewBox="0 0 22 12"><g fill="none" fill-rule="evenodd"><rect width="20" height="11" x=".5" y=".5" stroke="#FFF" rx="1"/><g><path fill="#FFF" d="M3 3h15v6H3z"/>,<path stroke="#000" fill="#000" d="M6 2v8M10 2v8M14 2v8M18 2v8" stroke-width="2"/></g><rect width="2" height="4" x="20" y="4" fill="#FFF" rx="1"/></g></svg></div></div><div class="device-container-status-text"></div></div></div></div><div class="left-arrow-container hidden"><div class="arrow-bg-gradient"></div><button class="left-arrow" disabled=""></button></div><div class="right-arrow-container hidden"><div class="arrow-bg-gradient"></div><button disabled="" class="right-arrow"></button></div></div><div class="__react_component_tooltip place-bottom type-dark" id="info-tooltip" data-id="tooltip"></div></div><div id="fadeout"></div><div class="animation-component-wrapper"><div class="animation-wrapper animation-dev00000000" style="opacity: 0;"></div></div><div id="footer"><div class="sharing-buttons-container"><div class="sharing-button lighting"><div class="text-container"><span>SEE THE NEWEST <strong>LIGHTING EFFECTS</strong></span></div></div><div class="sharing-button profiles"><div class="text-container"><span>EXPLORE THE MOST POPULAR <strong>GAMING PROFILES</strong></span></div></div><div class="sharing-button logitechg"><div class="text-container"><span>VISIT THE NEW <strong>LOGITECH G WEBSITE</strong></span></div></div></div></div><div class="screen-blocker coach-marks hidden"><svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" class="coach-mark-svg hidden"><defs><marker id="coachmark-arrowhead" viewBox="0 0 10 10" refX="5" refY="5" markerWidth="6" markerHeight="10" orient="auto" stroke="white" fill="none" stroke-width="2"><path d="M 0 1 L 5 5 L 0 9"/></marker></defs><g fill="none" stroke="white" stroke-width="2" marker-end="url(#coachmark-arrowhead)"><path id="coachmark-arrow"/></g></svg><div class="coach-mark hidden"><p></p><button>GOT IT</button></div></div></div></div><div class="modal-container global hidden"><div class="modal-contents-holder"><div class="modal-contents"><button class="modal-close-button"></button><div class="modal-title"></div><div class="modal-button-container"><button class="modal-button">CANCEL</button><button class="modal-button action" disabled="">PUBLISH</button></div></div></div></div><div class="screen-blocker hidden"><div class="notification info hidden"><div class="text"><div class="message"><div></div></div></div><div class="actions"></div></div></div><div id="menu"><div class="icons"><img alt="Minimize" class="icon" src="file:///C:/Program%20Files/LGHUB/resources/app.asar/assets/0bb0a51de683787ef63c0fb69ec02d01.svg" /><img alt="Maximize" class="icon" src="file:///C:/Program%20Files/LGHUB/resources/app.asar/assets/a41f997856388abfc37fa8969b1ba3a6.svg" /><img alt="Close" class="icon menu-close" src="file:///C:/Program%20Files/LGHUB/resources/app.asar/assets/39a0b120e63fb9a51c6594f7272c9b73.svg" /></div><div class="mover windows"></div></div></div></div><div id="modal"></div><script defer="defer" src="app.min.js"></script><link href="app.min.css" rel="stylesheet" /></body></html>
