@@ -1,0 +1,359 @@
+<!DOCTYPE html><html xmlns="http://www.w3.org/1999/xhtml" data-theme="GHUB"><head><meta charset="UTF-8" /><title>Logitech G HUB</title><style type="text/css">.__react_component_tooltip {
+  border-radius: 3px;
+  display: inline-block;
+  font-size: 13px;
+  left: -999em;
+  opacity: 0;
+  padding: 8px 21px;
+  position: fixed;
+  pointer-events: none;
+  transition: opacity 0.3s ease-out;
+  top: -999em;
+  visibility: hidden;
+  z-index: 999;
+}
+.__react_component_tooltip.allow_hover, .__react_component_tooltip.allow_click {
+  pointer-events: auto;
+}
+.__react_component_tooltip:before, .__react_component_tooltip:after {
+  content: "";
+  width: 0;
+  height: 0;
+  position: absolute;
+}
+.__react_component_tooltip.show {
+  opacity: 0.9;
+  margin-top: 0px;
+  margin-left: 0px;
+  visibility: visible;
+}
+.__react_component_tooltip.type-dark {
+  color: #fff;
+  background-color: #222;
+}
+.__react_component_tooltip.type-dark.place-top:after {
+  border-top-color: #222;
+  border-top-style: solid;
+  border-top-width: 6px;
+}
+.__react_component_tooltip.type-dark.place-bottom:after {
+  border-bottom-color: #222;
+  border-bottom-style: solid;
+  border-bottom-width: 6px;
+}
+.__react_component_tooltip.type-dark.place-left:after {
+  border-left-color: #222;
+  border-left-style: solid;
+  border-left-width: 6px;
+}
+.__react_component_tooltip.type-dark.place-right:after {
+  border-right-color: #222;
+  border-right-style: solid;
+  border-right-width: 6px;
+}
+.__react_component_tooltip.type-dark.border {
+  border: 1px solid #fff;
+}
+.__react_component_tooltip.type-dark.border.place-top:before {
+  border-top: 8px solid #fff;
+}
+.__react_component_tooltip.type-dark.border.place-bottom:before {
+  border-bottom: 8px solid #fff;
+}
+.__react_component_tooltip.type-dark.border.place-left:before {
+  border-left: 8px solid #fff;
+}
+.__react_component_tooltip.type-dark.border.place-right:before {
+  border-right: 8px solid #fff;
+}
+.__react_component_tooltip.type-success {
+  color: #fff;
+  background-color: #8DC572;
+}
+.__react_component_tooltip.type-success.place-top:after {
+  border-top-color: #8DC572;
+  border-top-style: solid;
+  border-top-width: 6px;
+}
+.__react_component_tooltip.type-success.place-bottom:after {
+  border-bottom-color: #8DC572;
+  border-bottom-style: solid;
+  border-bottom-width: 6px;
+}
+.__react_component_tooltip.type-success.place-left:after {
+  border-left-color: #8DC572;
+  border-left-style: solid;
+  border-left-width: 6px;
+}
+.__react_component_tooltip.type-success.place-right:after {
+  border-right-color: #8DC572;
+  border-right-style: solid;
+  border-right-width: 6px;
+}
+.__react_component_tooltip.type-success.border {
+  border: 1px solid #fff;
+}
+.__react_component_tooltip.type-success.border.place-top:before {
+  border-top: 8px solid #fff;
+}
+.__react_component_tooltip.type-success.border.place-bottom:before {
+  border-bottom: 8px solid #fff;
+}
+.__react_component_tooltip.type-success.border.place-left:before {
+  border-left: 8px solid #fff;
+}
+.__react_component_tooltip.type-success.border.place-right:before {
+  border-right: 8px solid #fff;
+}
+.__react_component_tooltip.type-warning {
+  color: #fff;
+  background-color: #F0AD4E;
+}
+.__react_component_tooltip.type-warning.place-top:after {
+  border-top-color: #F0AD4E;
+  border-top-style: solid;
+  border-top-width: 6px;
+}
+.__react_component_tooltip.type-warning.place-bottom:after {
+  border-bottom-color: #F0AD4E;
+  border-bottom-style: solid;
+  border-bottom-width: 6px;
+}
+.__react_component_tooltip.type-warning.place-left:after {
+  border-left-color: #F0AD4E;
+  border-left-style: solid;
+  border-left-width: 6px;
+}
+.__react_component_tooltip.type-warning.place-right:after {
+  border-right-color: #F0AD4E;
+  border-right-style: solid;
+  border-right-width: 6px;
+}
+.__react_component_tooltip.type-warning.border {
+  border: 1px solid #fff;
+}
+.__react_component_tooltip.type-warning.border.place-top:before {
+  border-top: 8px solid #fff;
+}
+.__react_component_tooltip.type-warning.border.place-bottom:before {
+  border-bottom: 8px solid #fff;
+}
+.__react_component_tooltip.type-warning.border.place-left:before {
+  border-left: 8px solid #fff;
+}
+.__react_component_tooltip.type-warning.border.place-right:before {
+  border-right: 8px solid #fff;
+}
+.__react_component_tooltip.type-error {
+  color: #fff;
+  background-color: #BE6464;
+}
+.__react_component_tooltip.type-error.place-top:after {
+  border-top-color: #BE6464;
+  border-top-style: solid;
+  border-top-width: 6px;
+}
+.__react_component_tooltip.type-error.place-bottom:after {
+  border-bottom-color: #BE6464;
+  border-bottom-style: solid;
+  border-bottom-width: 6px;
+}
+.__react_component_tooltip.type-error.place-left:after {
+  border-left-color: #BE6464;
+  border-left-style: solid;
+  border-left-width: 6px;
+}
+.__react_component_tooltip.type-error.place-right:after {
+  border-right-color: #BE6464;
+  border-right-style: solid;
+  border-right-width: 6px;
+}
+.__react_component_tooltip.type-error.border {
+  border: 1px solid #fff;
+}
+.__react_component_tooltip.type-error.border.place-top:before {
+  border-top: 8px solid #fff;
+}
+.__react_component_tooltip.type-error.border.place-bottom:before {
+  border-bottom: 8px solid #fff;
+}
+.__react_component_tooltip.type-error.border.place-left:before {
+  border-left: 8px solid #fff;
+}
+.__react_component_tooltip.type-error.border.place-right:before {
+  border-right: 8px solid #fff;
+}
+.__react_component_tooltip.type-info {
+  color: #fff;
+  background-color: #337AB7;
+}
+.__react_component_tooltip.type-info.place-top:after {
+  border-top-color: #337AB7;
+  border-top-style: solid;
+  border-top-width: 6px;
+}
+.__react_component_tooltip.type-info.place-bottom:after {
+  border-bottom-color: #337AB7;
+  border-bottom-style: solid;
+  border-bottom-width: 6px;
+}
+.__react_component_tooltip.type-info.place-left:after {
+  border-left-color: #337AB7;
+  border-left-style: solid;
+  border-left-width: 6px;
+}
+.__react_component_tooltip.type-info.place-right:after {
+  border-right-color: #337AB7;
+  border-right-style: solid;
+  border-right-width: 6px;
+}
+.__react_component_tooltip.type-info.border {
+  border: 1px solid #fff;
+}
+.__react_component_tooltip.type-info.border.place-top:before {
+  border-top: 8px solid #fff;
+}
+.__react_component_tooltip.type-info.border.place-bottom:before {
+  border-bottom: 8px solid #fff;
+}
+.__react_component_tooltip.type-info.border.place-left:before {
+  border-left: 8px solid #fff;
+}
+.__react_component_tooltip.type-info.border.place-right:before {
+  border-right: 8px solid #fff;
+}
+.__react_component_tooltip.type-light {
+  color: #222;
+  background-color: #fff;
+}
+.__react_component_tooltip.type-light.place-top:after {
+  border-top-color: #fff;
+  border-top-style: solid;
+  border-top-width: 6px;
+}
+.__react_component_tooltip.type-light.place-bottom:after {
+  border-bottom-color: #fff;
+  border-bottom-style: solid;
+  border-bottom-width: 6px;
+}
+.__react_component_tooltip.type-light.place-left:after {
+  border-left-color: #fff;
+  border-left-style: solid;
+  border-left-width: 6px;
+}
+.__react_component_tooltip.type-light.place-right:after {
+  border-right-color: #fff;
+  border-right-style: solid;
+  border-right-width: 6px;
+}
+.__react_component_tooltip.type-light.border {
+  border: 1px solid #222;
+}
+.__react_component_tooltip.type-light.border.place-top:before {
+  border-top: 8px solid #222;
+}
+.__react_component_tooltip.type-light.border.place-bottom:before {
+  border-bottom: 8px solid #222;
+}
+.__react_component_tooltip.type-light.border.place-left:before {
+  border-left: 8px solid #222;
+}
+.__react_component_tooltip.type-light.border.place-right:before {
+  border-right: 8px solid #222;
+}
+.__react_component_tooltip.place-top {
+  margin-top: -10px;
+}
+.__react_component_tooltip.place-top:before {
+  border-left: 10px solid transparent;
+  border-right: 10px solid transparent;
+  bottom: -8px;
+  left: 50%;
+  margin-left: -10px;
+}
+.__react_component_tooltip.place-top:after {
+  border-left: 8px solid transparent;
+  border-right: 8px solid transparent;
+  bottom: -6px;
+  left: 50%;
+  margin-left: -8px;
+}
+.__react_component_tooltip.place-bottom {
+  margin-top: 10px;
+}
+.__react_component_tooltip.place-bottom:before {
+  border-left: 10px solid transparent;
+  border-right: 10px solid transparent;
+  top: -8px;
+  left: 50%;
+  margin-left: -10px;
+}
+.__react_component_tooltip.place-bottom:after {
+  border-left: 8px solid transparent;
+  border-right: 8px solid transparent;
+  top: -6px;
+  left: 50%;
+  margin-left: -8px;
+}
+.__react_component_tooltip.place-left {
+  margin-left: -10px;
+}
+.__react_component_tooltip.place-left:before {
+  border-top: 6px solid transparent;
+  border-bottom: 6px solid transparent;
+  right: -8px;
+  top: 50%;
+  margin-top: -5px;
+}
+.__react_component_tooltip.place-left:after {
+  border-top: 5px solid transparent;
+  border-bottom: 5px solid transparent;
+  right: -6px;
+  top: 50%;
+  margin-top: -4px;
+}
+.__react_component_tooltip.place-right {
+  margin-left: 10px;
+}
+.__react_component_tooltip.place-right:before {
+  border-top: 6px solid transparent;
+  border-bottom: 6px solid transparent;
+  left: -8px;
+  top: 50%;
+  margin-top: -5px;
+}
+.__react_component_tooltip.place-right:after {
+  border-top: 5px solid transparent;
+  border-bottom: 5px solid transparent;
+  left: -6px;
+  top: 50%;
+  margin-top: -4px;
+}
+.__react_component_tooltip .multi-line {
+  display: block;
+  padding: 2px 0px;
+  text-align: center;
+}</style></head><body><div id="root"><div id="app"><div><div id="home-layout" class="home-route-trans-enter-done"><div class="overlay-scrim  hidden" style="background-color: rgba(0, 0, 0, 0.5);"></div><nav id="header"><div class="options"><button class="back-button"><img src="file:///C:/Program%20Files/LGHUB/resources/app.asar/assets/f0c6786b652ae869ac9b88a687013eae.svg" /></button><div class="application-selector"><div class="active-profile-indicator">PER-PROFILE CONFIGURATION</div><button class="dropdown-toggle" data-toggle="dropdown" id="dropdown" type="button"><span class="back-application-selector"><span class="back-application-name">Desktop:</span><span class="back-profile-name">Default </span></span><span class="glyphicon glyphicon-chevron-down"></span></button><ul class="dropdown-menu scrollable" role="menu" style="max-height: 760px;"><li class="section-header"><div role="menuItem" data-value="action" class="dropdown-item column"><div class="section-header-name">DESKTOP</div><ul class="application-profile-list column"><li class="section-item"><a role="menuItem" data-value="action" class="dropdown-item">Default</a></li></ul></div></li><li class="section-header"><div role="menuItem" data-value="action" class="dropdown-item column"><div class="section-header-name">COUNTER-STRIKE: GLOBAL OFFENSIVE</div><ul class="application-profile-list column"><li class="section-item"><a role="menuItem" data-value="action" class="dropdown-item">Default</a></li></ul></div></li></ul></div></div><div id="setting-sprocket-container"><p>G915 TKL SETTINGS</p><img id="setting-sprocket" src="file:///C:/Program%20Files/LGHUB/resources/app.asar/assets/50439d57a8ad9e8b2556544834bbf787.svg" /></div><div id="account-avatar"><img src="data:image/png;base64,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" /></div></nav><div id="device-view"><div id="device-panel"><div class="panel-wrapper lighting"><div class="panel lighting"><div class="panel-content lighting"><div class="horizontal"><h4 class="panel-section panel-title">LIGHTSYNC</h4></div><div class="panel-persistent-lock"><div class="popover-tooltip-origin"><div class="toggle-icon "><input id="a327ce27-b1b0-44e1-0108-04f69aa6c98e" type="checkbox" value="false" /><label for="a327ce27-b1b0-44e1-0108-04f69aa6c98e" data-tip="Per-profile lighting enabled. Click to make lighting persistent across all profiles." data-for="lock-tooltip" currentitem="false"></label></div><div class="__react_component_tooltip place-right type-dark" id="lock-tooltip" data-id="tooltip"></div></div></div><div class="panel-section panel-options"><div class="tab-menu"><button class="menu-item active">PRESETS</button><button class="menu-item">FREESTYLE</button><button class="menu-item">ANIMATIONS</button></div></div><div class="panel-section"><div class="horizontal"><h5>EFFECT</h5><div><span class="info-tooltip margin-left h5-inline" data-tip="Select between Logitech G lighting effects or custom effects that have been stored on the device. Use the device settings menu to store lighting effects on the device." data-for="onboard-lighting-tooltip" currentitem="false"></span><div class="__react_component_tooltip place-right type-dark" id="onboard-lighting-tooltip" data-id="tooltip"></div></div></div><div class="dropdown"><button class="dropdown-toggle no-padding" data-toggle="dropdown" id="dropdown" type="button" aria-expanded="false"><span class="glyphicon glyphicon-chevron-down"></span><span class="dropdown-current"> FIXED </span></button><ul aria-labelledby="dropdown" class="dropdown-menu" role="menu" style="max-height: 560px;"><li><a class="dropdown-title">EFFECTS</a></li><li class=""><div class="dropdown-item dropdown-button g-blank-icon"></div><a class="dropdown-item" data-value="action" role="menuItem">OFF</a></li><li class="active"><div class="dropdown-item dropdown-button g-blank-icon"></div><a class="dropdown-item" data-value="action" role="menuItem">FIXED</a></li><li class=""><div class="dropdown-item dropdown-button g-blank-icon"></div><a class="dropdown-item" data-value="action" role="menuItem">CYCLE</a></li><li class=""><div class="dropdown-item dropdown-button g-blank-icon"></div><a class="dropdown-item" data-value="action" role="menuItem">COLOR WAVE</a></li><li class=""><div class="dropdown-item dropdown-button g-blank-icon"></div><a class="dropdown-item" data-value="action" role="menuItem">BREATHING</a></li><li class=""><div class="dropdown-item dropdown-button g-blank-icon"></div><a class="dropdown-item" data-value="action" role="menuItem">RIPPLE</a></li><li class=""><div class="dropdown-item dropdown-button g-blank-icon"></div><a class="dropdown-item" data-value="action" role="menuItem">STARLIGHT</a></li><li class=""><div class="dropdown-item dropdown-button g-blank-icon"></div><a class="dropdown-item" data-value="action" role="menuItem">ECHO PRESS</a></li><li class=""><div class="dropdown-item dropdown-button g-blank-icon"></div><a class="dropdown-item" data-value="action" role="menuItem">SCREEN SAMPLER</a></li><li class=""><div class="dropdown-item dropdown-button g-blank-icon"></div><a class="dropdown-item" data-value="action" role="menuItem">AUDIO VISUALIZER</a></li><li><a class="dropdown-title">EFFECTS ON DEVICE</a></li><li class=""><div class="dropdown-item dropdown-button g-blank-icon"></div><a class="dropdown-item" data-value="action" role="menuItem">OCEAN WAVE</a></li></ul></div></div><div class="panel-section color-picker-section"><div class="color-picker" id="color-picker"><div class="color-picker-title-container"><div class="color-picker-title">COLOR</div><div class="similar-color-warning hidden" data-for="color-similar-tooltip"></div><div class="preset-circle preview bordered selected" style="background-color: rgb(148, 0, 211);"></div></div><div class="picker collapsing-picker" id="picker" style="position: relative; margin-top: 0px;"><div class="picker-container"><div class="saturation-container"><div style="position: absolute; inset: 0px; background: rgb(179, 0, 255);"><style>
+          .saturation-white {
+            background: -webkit-linear-gradient(to right, #fff, rgba(255,255,255,0));
+            background: linear-gradient(to right, #fff, rgba(255,255,255,0));
+          }
+          .saturation-black {
+            background: -webkit-linear-gradient(to top, #000, rgba(0,0,0,0));
+            background: linear-gradient(to top, #000, rgba(0,0,0,0));
+          }
+        </style><div class="saturation-white" style="position: absolute; inset: 0px;"><div class="saturation-black" style="position: absolute; inset: 0px;"></div><div style="position: absolute; top: 17.2549%; left: 100%; cursor: default;"><div style="width: 14px; height: 14px; border-radius: 50%; border: 2px solid white; box-shadow: rgba(0, 0, 0, 0.5) 0px 0px 6px 1px; transform: translate(-50%, -50%);"></div></div></div></div></div><div class="hue-container"><div style="position: absolute; inset: 0px;"><div class="hue-vertical" style="padding: 0px 2px; position: relative; height: 100%;"><style>
+            .hue-horizontal {
+              background: linear-gradient(to right, #f00 0%, #ff0 17%, #0f0
+                33%, #0ff 50%, #00f 67%, #f0f 83%, #f00 100%);
+              background: -webkit-linear-gradient(to right, #f00 0%, #ff0
+                17%, #0f0 33%, #0ff 50%, #00f 67%, #f0f 83%, #f00 100%);
+            }
+
+            .hue-vertical {
+              background: linear-gradient(to top, #f00 0%, #ff0 17%, #0f0 33%,
+                #0ff 50%, #00f 67%, #f0f 83%, #f00 100%);
+              background: -webkit-linear-gradient(to top, #f00 0%, #ff0 17%,
+                #0f0 33%, #0ff 50%, #00f 67%, #f0f 83%, #f00 100%);
+            }
+          </style><div style="position: absolute; left: 0px; top: 21.643%;"><div style="width: 14px; height: 14px; border-radius: 50%; border: 2px solid white; box-shadow: rgba(0, 0, 0, 0.5) 0px 0px 6px 1px; transform: translate(3px, -50%); background-color: rgb(179, 0, 255);"></div></div></div></div></div></div><div class="input-container"><div class="color-value-container value-hex"><div class="color-value-header">#</div><div style="position: relative;"><input id="rc-editable-input-1" spellcheck="false" value="9400D3" style="width: 64px;" /></div></div><div class="color-value-container rgb"><div class="color-value-container value-r"><div class="color-value-header">R</div><div style="position: relative;"><input id="rc-editable-input-2" spellcheck="false" value="148" style="width: 32px;" /></div></div><div class="color-value-container value-g"><div class="color-value-header">G</div><div style="position: relative;"><input id="rc-editable-input-3" spellcheck="false" value="0" style="width: 32px;" /></div></div><div class="color-value-container value-b"><div class="color-value-header">B</div><div style="position: relative;"><input id="rc-editable-input-4" spellcheck="false" value="211" style="width: 32px;" /></div></div></div></div><div class="lighting-presets"><div class="preset-circle preview bordered" draggable="true" style="background-color: rgb(0, 169, 224);"></div><div class="preset-circle preview bordered" draggable="true" style="background-color: rgb(255, 0, 62);"></div><div class="preset-circle preview bordered" draggable="true" style="background-color: rgb(141, 64, 255);"></div><div class="preset-circle preview bordered" draggable="true" style="background-color: rgb(253, 118, 0);"></div><img class="preset-circle" src="file:///C:/Program%20Files/LGHUB/resources/app.asar/assets/1ff76154c4ca9e374e516cdac03448ee.png" /></div></div></div></div><canvas id="lighting-preview-canvas" style="position: fixed; bottom: 100%;"></canvas></div></div></div><div class="panel-menu-wrapper"><div class="panel-menu-content"><div data-tooltip="LIGHTSYNC" data-tooltip-position="right"><div class="icon-wrapper lighting active"></div></div><div data-tooltip="Assignments" data-tooltip-position="right"><div class="icon-wrapper assign"></div></div><div data-tooltip="Game Mode" data-tooltip-position="right"><div class="icon-wrapper disabled-keys"></div></div></div></div></div><div id="device-canvas" class="show-component"><div class="device-canvas-header"></div><div class="battery-indicator"><div><p class="category-label with-tooltip info">BATTERY LEVEL<span class="info-tooltip" data-tooltip="Battery life may change depending on selected lighting effects" data-tooltip-position="left"></span></p><div class="category-content-large battery">100%<div class="device-battery-status charging" data-tooltip-position="bottom"><svg xmlns="http://www.w3.org/2000/svg" width="22" height="12" viewBox="0 0 22 12"><g fill="none" fill-rule="evenodd"><rect width="20" height="11" x=".5" y=".5" stroke="#FFF" rx="1"/><path fill="#00A9E0" d="M11.235 5.431L18 3.225 10.414 9l-.76-2.548L3 8.694 10.533 3z"/><rect width="2" height="4" x="20" y="4" fill="#FFF" rx="1"/></g></svg></div></div><p class="category-content highlighted battery">CHARGING</p></div></div><div class="device-canvas-body"><div class="device-board lighting "><div class="device-image-wrapper"><img alt="G915 TKL" class="device-canvas-image" src="http://127.0.0.1:9180/g915_tkl_us/front.png" /><div class="device-canvas-underlay show"><svg xmlns="http://www.w3.org/2000/svg" class="lighting-view-box" viewBox="0,0,2226.25,901.5"><g id="PERKEY_KEYBOARD" style="fill: rgb(148, 0, 211);"><g id="PERKEY_KEYBOARD_29" style="fill: rgb(148, 0, 211);"><rect x="46" y="166" width="110" height="110"/></g><g id="PERKEY_KEYBOARD_3a" style="fill: rgb(148, 0, 211);"><rect x="238" y="166" width="110" height="110"/></g><g id="PERKEY_KEYBOARD_3b" style="fill: rgb(148, 0, 211);"><rect x="354.5" y="166" width="110" height="110"/></g><g id="PERKEY_KEYBOARD_3c" style="fill: rgb(148, 0, 211);"><rect x="471" y="166" width="110" height="110"/></g><g id="PERKEY_KEYBOARD_3d" style="fill: rgb(148, 0, 211);"><rect x="587.5" y="166" width="110" height="110"/></g><g id="PERKEY_KEYBOARD_3e" style="fill: rgb(148, 0, 211);"><rect x="783" y="166" width="110" height="110"/></g><g id="PERKEY_KEYBOARD_3f" style="fill: rgb(148, 0, 211);"><rect x="899.5" y="166" width="110" height="110"/></g><g id="PERKEY_KEYBOARD_40" style="fill: rgb(148, 0, 211);"><rect x="1016" y="166" width="110" height="110"/></g><g id="PERKEY_KEYBOARD_41" style="fill: rgb(148, 0, 211);"><rect x="1132.5" y="166" width="110" height="110"/></g><g id="PERKEY_KEYBOARD_42" style="fill: rgb(148, 0, 211);"><rect x="1326.45" y="166" width="110" height="110"/></g><g id="PERKEY_KEYBOARD_43" style="fill: rgb(148, 0, 211);"><rect x="1442.95" y="166" width="110" height="110"/></g><g id="PERKEY_KEYBOARD_44" style="fill: rgb(148, 0, 211);"><rect x="1559.45" y="166" width="110" height="110"/></g><g id="PERKEY_KEYBOARD_45" style="fill: rgb(148, 0, 211);"><rect x="1675.95" y="166" width="110" height="110"/></g><g id="PERKEY_KEYBOARD_46" style="fill: rgb(148, 0, 211);"><rect x="1835" y="166" width="110" height="110"/></g><g id="PERKEY_KEYBOARD_47" style="fill: rgb(148, 0, 211);"><rect x="1951.5" y="166" width="110" height="110"/></g><g id="PERKEY_KEYBOARD_48" style="fill: rgb(148, 0, 211);"><rect x="2068" y="166" width="110" height="110"/></g><g id="PERKEY_KEYBOARD_1f" style="fill: rgb(148, 0, 211);"><rect x="281" y="311" width="110" height="110"/></g><g id="PERKEY_KEYBOARD_21" style="fill: rgb(148, 0, 211);"><rect x="514" y="311" width="110" height="110"/></g><g id="PERKEY_KEYBOARD_22" style="fill: rgb(148, 0, 211);"><rect x="630.5" y="311" width="110" height="110"/></g><g id="PERKEY_KEYBOARD_23" style="fill: rgb(148, 0, 211);"><rect x="747" y="311" width="110" height="110"/></g><g id="PERKEY_KEYBOARD_24" style="fill: rgb(148, 0, 211);"><rect x="863.5" y="311" width="110" height="110"/></g><g id="PERKEY_KEYBOARD_25" style="fill: rgb(148, 0, 211);"><rect x="980" y="311" width="110" height="110"/></g><g id="PERKEY_KEYBOARD_26" style="fill: rgb(148, 0, 211);"><rect x="1096.5" y="311" width="110" height="110"/></g><g id="PERKEY_KEYBOARD_27" style="fill: rgb(148, 0, 211);"><rect x="1213" y="311" width="110" height="110"/></g><g id="PERKEY_KEYBOARD_2d" style="fill: rgb(148, 0, 211);"><rect x="1329.5" y="311" width="110" height="110"/></g><g id="PERKEY_KEYBOARD_2e" style="fill: rgb(148, 0, 211);"><rect x="1446" y="311" width="110" height="110"/></g><g id="PERKEY_KEYBOARD_2a" style="fill: rgb(148, 0, 211);"><rect x="1562.938110749186" y="312" width="223" height="110"/></g><g id="PERKEY_KEYBOARD_49" style="fill: rgb(148, 0, 211);"><rect x="1835" y="312" width="110" height="110"/></g><g id="PERKEY_KEYBOARD_4a" style="fill: rgb(148, 0, 211);"><rect x="1951.5" y="312" width="110" height="110"/></g><g id="PERKEY_KEYBOARD_4b" style="fill: rgb(148, 0, 211);"><rect x="2068" y="312" width="110" height="110"/></g><g id="PERKEY_KEYBOARD_1e" style="fill: rgb(148, 0, 211);"><rect x="164.5" y="313" width="110" height="110"/></g><g id="PERKEY_KEYBOARD_20" style="fill: rgb(148, 0, 211);"><rect x="397.5" y="313" width="110" height="110"/></g><g id="PERKEY_KEYBOARD_35" style="fill: rgb(148, 0, 211);"><rect x="48" y="313.41" width="110" height="110"/></g><g id="PERKEY_KEYBOARD_4c" style="fill: rgb(148, 0, 211);"><rect x="1835" y="428.5" width="110" height="110"/></g><g id="PERKEY_KEYBOARD_4d" style="fill: rgb(148, 0, 211);"><rect x="1951.5" y="428.5" width="110" height="110"/></g><g id="PERKEY_KEYBOARD_4e" style="fill: rgb(148, 0, 211);"><rect x="2068" y="428.5" width="110" height="110"/></g><g id="PERKEY_KEYBOARD_31" style="fill: rgb(148, 0, 211);"><rect x="1620.260586319218" y="429" width="166" height="110"/></g><g id="PERKEY_KEYBOARD_14" style="fill: rgb(148, 0, 211);"><rect x="219" y="430" width="110" height="110"/></g><g id="PERKEY_KEYBOARD_1a" style="fill: rgb(148, 0, 211);"><rect x="335.5" y="430" width="110" height="110"/></g><g id="PERKEY_KEYBOARD_08" style="fill: rgb(148, 0, 211);"><rect x="452" y="430" width="110" height="110"/></g><g id="PERKEY_KEYBOARD_15" style="fill: rgb(148, 0, 211);"><rect x="568.5" y="430" width="110" height="110"/></g><g id="PERKEY_KEYBOARD_17" style="fill: rgb(148, 0, 211);"><rect x="685" y="430" width="110" height="110"/></g><g id="PERKEY_KEYBOARD_1c" style="fill: rgb(148, 0, 211);"><rect x="801.5" y="430" width="110" height="110"/></g><g id="PERKEY_KEYBOARD_18" style="fill: rgb(148, 0, 211);"><rect x="918" y="430" width="110" height="110"/></g><g id="PERKEY_KEYBOARD_0c" style="fill: rgb(148, 0, 211);"><rect x="1034.5" y="430" width="110" height="110"/></g><g id="PERKEY_KEYBOARD_12" style="fill: rgb(148, 0, 211);"><rect x="1151" y="430" width="110" height="110"/></g><g id="PERKEY_KEYBOARD_2f" style="fill: rgb(148, 0, 211);"><rect x="1384" y="430" width="110" height="110"/></g><g id="PERKEY_KEYBOARD_2b" style="fill: rgb(148, 0, 211);"><rect x="48" y="431" width="166" height="110"/></g><g id="PERKEY_KEYBOARD_13" style="fill: rgb(148, 0, 211);"><rect x="1267.5" y="431" width="110" height="110"/></g><g id="PERKEY_KEYBOARD_30" style="fill: rgb(148, 0, 211);"><rect x="1500.5" y="431" width="110" height="110"/></g><g id="PERKEY_KEYBOARD_28" style="fill: rgb(148, 0, 211);"><rect x="1533.254071661238" y="545" width="253" height="110"/></g><g id="PERKEY_KEYBOARD_39" style="fill: rgb(148, 0, 211);"><rect x="48" y="546" width="195" height="110"/></g><g id="PERKEY_KEYBOARD_04" style="fill: rgb(148, 0, 211);"><rect x="250" y="547" width="110" height="110"/></g><g id="PERKEY_KEYBOARD_16" style="fill: rgb(148, 0, 211);"><rect x="366.5" y="547" width="110" height="110"/></g><g id="PERKEY_KEYBOARD_09" style="fill: rgb(148, 0, 211);"><rect x="599.5" y="547" width="110" height="110"/></g><g id="PERKEY_KEYBOARD_0a" style="fill: rgb(148, 0, 211);"><rect x="716" y="547" width="110" height="110"/></g><g id="PERKEY_KEYBOARD_0b" style="fill: rgb(148, 0, 211);"><rect x="832.5" y="547" width="110" height="110"/></g><g id="PERKEY_KEYBOARD_0d" style="fill: rgb(148, 0, 211);"><rect x="949" y="547" width="110" height="110"/></g><g id="PERKEY_KEYBOARD_0e" style="fill: rgb(148, 0, 211);"><rect x="1065.5" y="547" width="110" height="110"/></g><g id="PERKEY_KEYBOARD_0f" style="fill: rgb(148, 0, 211);"><rect x="1182" y="547" width="110" height="110"/></g><g id="PERKEY_KEYBOARD_33" style="fill: rgb(148, 0, 211);"><rect x="1298.5" y="547" width="110" height="110"/></g><g id="PERKEY_KEYBOARD_34" style="fill: rgb(148, 0, 211);"><rect x="1415" y="547" width="110" height="110"/></g><g id="PERKEY_KEYBOARD_07" style="fill: rgb(148, 0, 211);"><rect x="483" y="547.41" width="110" height="110"/></g><g id="PERKEY_KEYBOARD_e5" style="fill: rgb(148, 0, 211);"><rect x="1472.908794788274" y="661" width="313" height="110"/></g><g id="PERKEY_KEYBOARD_1d" style="fill: rgb(148, 0, 211);"><rect x="307" y="661.81" width="110" height="110"/></g><g id="PERKEY_KEYBOARD_1b" style="fill: rgb(148, 0, 211);"><rect x="423.5" y="661.81" width="110" height="110"/></g><g id="PERKEY_KEYBOARD_e1" style="fill: rgb(148, 0, 211);"><rect x="48" y="662" width="253" height="110"/></g><g id="PERKEY_KEYBOARD_06" style="fill: rgb(148, 0, 211);"><rect x="540" y="662" width="110" height="110"/></g><g id="PERKEY_KEYBOARD_19" style="fill: rgb(148, 0, 211);"><rect x="656.5" y="662" width="110" height="110"/></g><g id="PERKEY_KEYBOARD_05" style="fill: rgb(148, 0, 211);"><rect x="773" y="662" width="110" height="110"/></g><g id="PERKEY_KEYBOARD_11" style="fill: rgb(148, 0, 211);"><rect x="889.5" y="662" width="110" height="110"/></g><g id="PERKEY_KEYBOARD_10" style="fill: rgb(148, 0, 211);"><rect x="1006" y="662" width="110" height="110"/></g><g id="PERKEY_KEYBOARD_36" style="fill: rgb(148, 0, 211);"><rect x="1122.5" y="662" width="110" height="110"/></g><g id="PERKEY_KEYBOARD_52" style="fill: rgb(148, 0, 211);"><rect x="1950.31" y="662" width="110" height="110"/></g><g id="PERKEY_KEYBOARD_37" style="fill: rgb(148, 0, 211);"><rect x="1239" y="663" width="110" height="110"/></g><g id="PERKEY_KEYBOARD_38" style="fill: rgb(148, 0, 211);"><rect x="1355.5" y="663" width="110" height="110"/></g><g id="PERKEY_KEYBOARD_e7" style="fill: rgb(148, 0, 211);"><rect x="1330" y="777" width="139" height="110"/></g><g id="PERKEY_KEYBOARD_65" style="fill: rgb(148, 0, 211);"><rect x="1477" y="777" width="137" height="110"/></g><g id="PERKEY_KEYBOARD_e4" style="fill: rgb(148, 0, 211);"><rect x="1622" y="777" width="166" height="110"/></g><g id="PERKEY_KEYBOARD_4f" style="fill: rgb(148, 0, 211);"><rect x="2068" y="777.31" width="110" height="110"/></g><g id="PERKEY_KEYBOARD_e3" style="fill: rgb(148, 0, 211);"><rect x="220" y="778" width="137" height="110"/></g><g id="PERKEY_KEYBOARD_e2" style="fill: rgb(148, 0, 211);"><rect x="365" y="778" width="137" height="110"/></g><g id="PERKEY_KEYBOARD_2c" style="fill: rgb(148, 0, 211);"><rect x="510" y="778" width="667" height="110"/></g><g id="PERKEY_KEYBOARD_e6" style="fill: rgb(148, 0, 211);"><rect x="1185" y="778" width="137" height="110"/></g><g id="PERKEY_KEYBOARD_e0" style="fill: rgb(148, 0, 211);"><rect x="48" y="778.03" width="166" height="110"/></g><g id="PERKEY_KEYBOARD_51" style="fill: rgb(148, 0, 211);"><rect x="1951.5" y="778.5" width="110" height="110"/></g><g id="PERKEY_KEYBOARD_50" style="fill: rgb(148, 0, 211);"><rect x="1835" y="779" width="110" height="110"/></g></g><g id="PERKEY_INDICATOR" style="fill: rgb(148, 0, 211);"><g id="PERKEY_INDICATOR_01" style="fill: rgb(148, 0, 211);"><rect x="594" y="38" width="84" height="84"/></g></g><g id="PERKEY_CONSUMER" style="fill: rgb(148, 0, 211);"><g id="PERKEY_CONSUMER_b5" style="fill: rgb(148, 0, 211);"><rect x="1566.89" y="38" width="84" height="84"/></g><g id="PERKEY_CONSUMER_b6" style="fill: rgb(148, 0, 211);"><rect x="1348" y="38" width="84" height="84"/></g><g id="PERKEY_CONSUMER_cd" style="fill: rgb(148, 0, 211);"><rect x="1457.45" y="38" width="84" height="84"/></g><g id="PERKEY_CONSUMER_e2" style="fill: rgb(148, 0, 211);"><rect x="1674.38" y="38" width="84" height="84"/></g></g><g id="PERKEY_BRANDING" style="fill: rgb(148, 0, 211);"><g id="PERKEY_BRANDING_01" style="fill: rgb(148, 0, 211);"><rect x="52" y="33" width="110" height="110"/></g></g></svg></div></div></div></div><div class="device-canvas-footer"><div class="sync-lighting-button-container center-content vertical both"><button class="sync-lighting-button">SYNC LIGHTING OPTIONS</button><div class="sync-status"></div></div></div></div></div><div id="fadeout"></div><div class="animation-component-wrapper"><div class="animation-wrapper animation-dev00000000" style="opacity: 0;"></div></div><div id="footer"></div><div class="screen-blocker coach-marks hidden"><svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" class="coach-mark-svg hidden"><defs><marker id="coachmark-arrowhead" viewBox="0 0 10 10" refX="5" refY="5" markerWidth="6" markerHeight="10" orient="auto" stroke="white" fill="none" stroke-width="2"><path d="M 0 1 L 5 5 L 0 9"/></marker></defs><g fill="none" stroke="white" stroke-width="2" marker-end="url(#coachmark-arrowhead)"><path id="coachmark-arrow"/></g></svg><div class="coach-mark hidden"><p></p><button>GOT IT</button></div></div></div></div><div class="modal-container global hidden"><div class="modal-contents-holder"><div class="modal-contents"><button class="modal-close-button"></button><div class="modal-title"></div><div class="modal-button-container"><button class="modal-button">CANCEL</button><button class="modal-button action" disabled="">PUBLISH</button></div></div></div></div><div class="screen-blocker hidden"><div class="notification hidden"><div class="text"><div class="message"><div></div></div></div><div class="actions"></div></div></div><div id="menu"><div class="icons"><img alt="Minimize" class="icon" src="file:///C:/Program%20Files/LGHUB/resources/app.asar/assets/0bb0a51de683787ef63c0fb69ec02d01.svg" /><img alt="Maximize" class="icon" src="file:///C:/Program%20Files/LGHUB/resources/app.asar/assets/a41f997856388abfc37fa8969b1ba3a6.svg" /><img alt="Close" class="icon menu-close" src="file:///C:/Program%20Files/LGHUB/resources/app.asar/assets/39a0b120e63fb9a51c6594f7272c9b73.svg" /></div><div class="mover windows"></div></div></div></div><div id="modal"></div><script defer="defer" src="app.min.js"></script><link href="app.min.css" rel="stylesheet" /></body></html>
