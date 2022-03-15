@@ -1,0 +1,289 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Kragle Regression" tests="136" errors="0" failures="14" skipped="0" time="22363.144">
+<testcase classname="Kragle Regression" name="Test Application Specific Test Cases" time="2.158">
+</testcase>
+<testcase classname="Kragle Regression" name="Test Device Specific Test Cases" time="3.265">
+</testcase>
+<testcase classname="Kragle Regression" name="Test: Global Settings - Send Error Logs Process (Windows-10-10.0.19044-SP0)" time="20.066">
+</testcase>
+<testcase classname="Kragle Regression" name="Test: Global Settings - Desktop Notifications (Windows-10-10.0.19044-SP0)" time="21.072">
+</testcase>
+<testcase classname="Kragle Regression" name="Test: Global Settings - GHUB Manual Link Should Open In Default Browser (Windows-10-10.0.19044-SP0)" time="41.971">
+</testcase>
+<testcase classname="Kragle Regression" name="Test: Global Settings - Send Feedback Link Should Open In Default Browser (Windows-10-10.0.19044-SP0)" time="42.060">
+</testcase>
+<testcase classname="Kragle Regression" name="Test: Global Settings - Send Error Report (Windows-10-10.0.19044-SP0)" time="55.300">
+</testcase>
+<testcase classname="Kragle Regression" name="Test: Global Settings - Persistent Profile For Application (Windows-10-10.0.19044-SP0)" time="36.737">
+</testcase>
+<testcase classname="Kragle Regression" name="Test: Global Settings - Analytics Json Files Dynamically Get Created When Share My Usage Data Option Is Checked (Windows-10-10.0.19044-SP0)" time="51.256">
+</testcase>
+<testcase classname="Kragle Regression" name="Test: Global Settings - User Can Change Language (Windows-10-10.0.19044-SP0)" time="101.321">
+</testcase>
+<testcase classname="Kragle Regression" name="Test: Global Settings - Global Persistent Profile Behavior (Windows-10-10.0.19044-SP0)" time="184.883">
+</testcase>
+<testcase classname="Kragle Regression" name="Test: Global Settings - Turn On/Off Lighting After User Inactivity (Windows-10-10.0.19044-SP0)" time="19.526">
+</testcase>
+<testcase classname="Kragle Regression" name="Reset G HUB: 1" time="109.652">
+</testcase>
+<testcase classname="Kragle Regression" name="Test: Add Games And Applications (Windows-10-10.0.19044-SP0)" time="17.399">
+</testcase>
+<testcase classname="Kragle Regression" name="Test: Games : Verify Pre Installed Games Are Auto Detected (Windows-10-10.0.19044-SP0)" time="118.495">
+</testcase>
+<testcase classname="Kragle Regression" name="Test: Games : Verify Active Profile Is Switched Against The Game Launched (Windows-10-10.0.19044-SP0)" time="54.307">
+<failure message="*HTML*Several failures occurred:&#10;&#10;1) Profile Switch Failed: Desktop != Counter-Strike: Global Offensive&#10;&#10;2) Evaluating expression '&quot;Brawlhalla&quot;==Brawlhalla' failed: NameError: name 'Brawlhalla' is not defined nor importable as module &#10;&#10; &lt;a href=dmp_logs_2022_03_11_13_17_53.zip&gt;DEBUG_LOGS&lt;/a&gt; &#10;&#10; &lt;a href=end_test-screenshot-20220311-131753.png&gt;SCREENSHOT&lt;/a&gt; &#10;&#10; &lt;a href=C:\Jenkins\workspace\structuring_refactoring_features/report11032022_13_18_05_page_source.html&gt;PAGE_SOURCE&lt;/a&gt;" type="AssertionError"/>
+</testcase>
+<testcase classname="Kragle Regression" name="Test: Games : Verify Profile Shouldn't Switch When Game Is Disabled (Windows-10-10.0.19044-SP0)" time="70.248">
+</testcase>
+<testcase classname="Kragle Regression" name="Test: Games : Verify Profile Switches Accordingly For Unsupported Games Too (Windows-10-10.0.19044-SP0)" time="28.090">
+</testcase>
+<testcase classname="Kragle Regression" name="Test: Games : Verify Profile Shouldn't Switch For Forgotten Games/Apps (Windows-10-10.0.19044-SP0)" time="28.588">
+</testcase>
+<testcase classname="Kragle Regression" name="Test: Community View Links Open In Browser (Windows-10-10.0.19044-SP0)" time="69.030">
+</testcase>
+<testcase classname="Kragle Regression" name="Test: Community lighting effects and Game Profile (Windows-10-10.0.19044-SP0)" time="208.282">
+</testcase>
+<testcase classname="Kragle Regression" name="Test: Community : Verify Community Banners (Windows-10-10.0.19044-SP0)" time="0.028">
+</testcase>
+<testcase classname="Kragle Regression" name="Test: Community : Gaming Profiles Are Listed Appropriately (Windows-10-10.0.19044-SP0)" time="16.736">
+</testcase>
+<testcase classname="Kragle Regression" name="Reset G HUB: 2" time="109.802">
+</testcase>
+<testcase classname="Kragle Regression" name="Test: Community : Search Gaming Profiles (Windows-10-10.0.19044-SP0)" time="12.399">
+</testcase>
+<testcase classname="Kragle Regression" name="Test: Community : Verify Gaming Profiles Can Be Downloaded And Gets Applied (Windows-10-10.0.19044-SP0)" time="52.997">
+</testcase>
+<testcase classname="Kragle Regression" name="Test: Community : Verify Lighting Effects (Windows-10-10.0.19044-SP0)" time="31.640">
+</testcase>
+<testcase classname="Kragle Regression" name="Test: Community : Verify Lighting Effects Can Be Downloaded And Applied (Windows-10-10.0.19044-SP0)" time="90.653">
+</testcase>
+<testcase classname="Kragle Regression" name="Connect Device: G703 LIGHTSPEED:wired" time="1.010">
+</testcase>
+<testcase classname="Kragle Regression" name="Test: Local And Cloud Profile For Mouse: G703 LIGHTSPEED (Windows, Wired)" time="359.598">
+</testcase>
+<testcase classname="Kragle Regression" name="Test: Lightsync Effect For Mouse - GUI Verification: G703 LIGHTSPEED (Windows, Wired)" time="415.491">
+</testcase>
+<testcase classname="Kragle Regression" name="Test: Lightsync Effect With Restart G HUB For Mouse - GUI Verification: G703 LIGHTSPEED (Windows, Wired)" time="142.701">
+</testcase>
+<testcase classname="Kragle Regression" name="Test: Lightsync Effect With Sleep System For Mouse - GUI Verification: G703 LIGHTSPEED (Windows, Wired)" time="562.543">
+</testcase>
+<testcase classname="Kragle Regression" name="Test: OOB Software Support For Mouse: G703 LIGHTSPEED (Windows, Wired)" time="221.659">
+</testcase>
+<testcase classname="Kragle Regression" name="Test: Global Settings - My Gear For Mouse: G703 LIGHTSPEED (Windows, Wired)" time="15.363">
+</testcase>
+<testcase classname="Kragle Regression" name="Reset G HUB: 3" time="109.789">
+</testcase>
+<testcase classname="Kragle Regression" name="Test: Global Settings - Verify Show Tutorial Enables Coach Marks For Mouse: G703 LIGHTSPEED (Windows, Wired)" time="31.683">
+</testcase>
+<testcase classname="Kragle Regression" name="Test: Device Settings For Mouse - UI Verification: G703 LIGHTSPEED (Windows, Wired)" time="232.601">
+</testcase>
+<testcase classname="Kragle Regression" name="Test: Mouse Should Be In Onboard Memory Mode After Restarts GHUB And System Wakeup: G703 LIGHTSPEED (Windows, Wired)" time="225.774">
+</testcase>
+<testcase classname="Kragle Regression" name="Test: Mouse Should Be In Host Mode After Delete Setting File: G703 LIGHTSPEED (Windows, Wired)" time="223.025">
+</testcase>
+<testcase classname="Kragle Regression" name="Test: DPI With Onboard Profile For Mouse: G703 LIGHTSPEED (Windows, Wired)" time="247.416">
+</testcase>
+<testcase classname="Kragle Regression" name="Test: DPI Sensitivity For Mouse: G703 LIGHTSPEED (Windows, Wired)" time="247.154">
+</testcase>
+<testcase classname="Kragle Regression" name="Test: DPI Sensitivity With Sleep System For Mouse: G703 LIGHTSPEED (Windows, Wired)" time="154.045">
+</testcase>
+<testcase classname="Kragle Regression" name="Test: DPI Sensitivity With Restart G HUB For Mouse: G703 LIGHTSPEED (Windows, Wired)" time="136.366">
+<failure message="*HTML*Several failures occurred:&#10;&#10;1) The expected dpi value (1800) and actual value from backend (800) is different: 1800 != 800&#10;&#10;2) The expected repo rate (125) and the actual value from backend repo rate (1000) does not match: 125 != 1000 &#10;&#10; &lt;a href=dmp_logs_2022_03_11_14_26_02.zip&gt;DEBUG_LOGS&lt;/a&gt; &#10;&#10; &lt;a href=end_test-screenshot-20220311-142602.png&gt;SCREENSHOT&lt;/a&gt; &#10;&#10; &lt;a href=C:\Jenkins\workspace\structuring_refactoring_features/report11032022_14_26_14_page_source.html&gt;PAGE_SOURCE&lt;/a&gt;" type="AssertionError"/>
+</testcase>
+<testcase classname="Kragle Regression" name="Test: Device Settings For Mouse - SYS Verification: G703 LIGHTSPEED (Windows, Wired)" time="223.965">
+<failure message="*HTML*Failure: Selector &quot;.restore-defaults-button&quot; is Not Clickable &#10;&#10; &lt;a href=dmp_logs_2022_03_11_14_30_30.zip&gt;DEBUG_LOGS&lt;/a&gt; &#10;&#10; &lt;a href=end_test-screenshot-20220311-143030.png&gt;SCREENSHOT&lt;/a&gt; &#10;&#10; &lt;a href=C:\Jenkins\workspace\structuring_refactoring_features/report11032022_14_30_42_page_source.html&gt;PAGE_SOURCE&lt;/a&gt;" type="AssertionError"/>
+</testcase>
+<testcase classname="Kragle Regression" name="Disconnect: G703 LIGHTSPEED:wired &amp; Connect: PRO HERO:wired" time="2.176">
+</testcase>
+<testcase classname="Kragle Regression" name="Test: Lightsync Effect For Mouse - GUI Verification: PRO HERO (Windows, Wired)" time="161.103">
+</testcase>
+<testcase classname="Kragle Regression" name="Reset G HUB: 4" time="113.481">
+</testcase>
+<testcase classname="Kragle Regression" name="Test: Lightsync Effect With Restart G HUB For Mouse - GUI Verification: PRO HERO (Windows, Wired)" time="200.705">
+</testcase>
+<testcase classname="Kragle Regression" name="Test: Lightsync Effect With Sleep System For Mouse - GUI Verification: PRO HERO (Windows, Wired)" time="325.694">
+</testcase>
+<testcase classname="Kragle Regression" name="Test: OOB Software Support For Mouse: PRO HERO (Windows, Wired)" time="208.675">
+</testcase>
+<testcase classname="Kragle Regression" name="Test: Global Settings - My Gear For Mouse: PRO HERO (Windows, Wired)" time="15.301">
+</testcase>
+<testcase classname="Kragle Regression" name="Test: Global Settings - Verify Show Tutorial Enables Coach Marks For Mouse: PRO HERO (Windows, Wired)" time="31.826">
+</testcase>
+<testcase classname="Kragle Regression" name="Test: Device Settings For Mouse - UI Verification: PRO HERO (Windows, Wired)" time="222.655">
+</testcase>
+<testcase classname="Kragle Regression" name="Test: DPI With Onboard Profile For Mouse: PRO HERO (Windows, Wired)" time="218.732">
+</testcase>
+<testcase classname="Kragle Regression" name="Test: DPI Sensitivity For Mouse: PRO HERO (Windows, Wired)" time="244.888">
+</testcase>
+<testcase classname="Kragle Regression" name="Test: DPI Sensitivity With Sleep System For Mouse: PRO HERO (Windows, Wired)" time="154.079">
+</testcase>
+<testcase classname="Kragle Regression" name="Test: DPI Sensitivity With Restart G HUB For Mouse: PRO HERO (Windows, Wired)" time="135.874">
+<failure message="*HTML*Several failures occurred:&#10;&#10;1) The expected dpi value (1800) and actual value from backend (800) is different: 1800 != 800&#10;&#10;2) The expected repo rate (125) and the actual value from backend repo rate (1000) does not match: 125 != 1000 &#10;&#10; &lt;a href=dmp_logs_2022_03_11_15_05_09.zip&gt;DEBUG_LOGS&lt;/a&gt; &#10;&#10; &lt;a href=end_test-screenshot-20220311-150509.png&gt;SCREENSHOT&lt;/a&gt; &#10;&#10; &lt;a href=C:\Jenkins\workspace\structuring_refactoring_features/report11032022_15_05_21_page_source.html&gt;PAGE_SOURCE&lt;/a&gt;" type="AssertionError"/>
+</testcase>
+<testcase classname="Kragle Regression" name="Reset G HUB: 5" time="109.804">
+</testcase>
+<testcase classname="Kragle Regression" name="Test: Device Settings For Mouse - SYS Verification: PRO HERO (Windows, Wired)" time="220.059">
+</testcase>
+<testcase classname="Kragle Regression" name="Disconnect: PRO HERO:wired &amp; Connect: PRO X SUPERLIGHT:wired" time="4.200">
+</testcase>
+<testcase classname="Kragle Regression" name="Test: OOB Software Support For Mouse: PRO X SUPERLIGHT (Windows, Wired)" time="206.310">
+</testcase>
+<testcase classname="Kragle Regression" name="Test: Global Settings - My Gear For Mouse: PRO X SUPERLIGHT (Windows, Wired)" time="15.281">
+</testcase>
+<testcase classname="Kragle Regression" name="Test: Global Settings - Verify Show Tutorial Enables Coach Marks For Mouse: PRO X SUPERLIGHT (Windows, Wired)" time="31.486">
+</testcase>
+<testcase classname="Kragle Regression" name="Test: Device Settings For Mouse - UI Verification: PRO X SUPERLIGHT (Windows, Wired)" time="203.934">
+</testcase>
+<testcase classname="Kragle Regression" name="Test: Assignments View For Mouse - UI Verification: PRO X SUPERLIGHT (Windows, Wired)" time="505.469">
+</testcase>
+<testcase classname="Kragle Regression" name="Test: User Able To Delete The Actions For Mouse: PRO X SUPERLIGHT (Windows, Wired)" time="139.813">
+</testcase>
+<testcase classname="Kragle Regression" name="Test: DPI With Onboard Profile For Mouse: PRO X SUPERLIGHT (Windows, Wired)" time="245.956">
+</testcase>
+<testcase classname="Kragle Regression" name="Test: DPI Sensitivity For Mouse: PRO X SUPERLIGHT (Windows, Wired)" time="242.627">
+</testcase>
+<testcase classname="Kragle Regression" name="Test: DPI Sensitivity With Sleep System For Mouse: PRO X SUPERLIGHT (Windows, Wired)" time="152.854">
+</testcase>
+<testcase classname="Kragle Regression" name="Reset G HUB: 6" time="144.963">
+</testcase>
+<testcase classname="Kragle Regression" name="Test: DPI Sensitivity With Restart G HUB For Mouse: PRO X SUPERLIGHT (Windows, Wired)" time="124.497">
+<failure message="*HTML*Several failures occurred:&#10;&#10;1) The expected dpi value (1800) and actual value from backend (800) is different: 1800 != 800&#10;&#10;2) The expected repo rate (125) and the actual value from backend repo rate (1000) does not match: 125 != 1000 &#10;&#10; &lt;a href=dmp_logs_2022_03_11_15_45_01.zip&gt;DEBUG_LOGS&lt;/a&gt; &#10;&#10; &lt;a href=end_test-screenshot-20220311-154501.png&gt;SCREENSHOT&lt;/a&gt; &#10;&#10; &lt;a href=C:\Jenkins\workspace\structuring_refactoring_features/report11032022_15_45_12_page_source.html&gt;PAGE_SOURCE&lt;/a&gt;" type="AssertionError"/>
+</testcase>
+<testcase classname="Kragle Regression" name="Test: Device Settings For Mouse - SYS Verification: PRO X SUPERLIGHT (Windows, Wired)" time="193.837">
+<failure message="*HTML*Failure: Selector &quot;.restore-defaults-button&quot; is Not Clickable &#10;&#10; &lt;a href=dmp_logs_2022_03_11_15_48_59.zip&gt;DEBUG_LOGS&lt;/a&gt; &#10;&#10; &lt;a href=end_test-screenshot-20220311-154858.png&gt;SCREENSHOT&lt;/a&gt; &#10;&#10; &lt;a href=C:\Jenkins\workspace\structuring_refactoring_features/report11032022_15_49_10_page_source.html&gt;PAGE_SOURCE&lt;/a&gt;" type="AssertionError"/>
+</testcase>
+<testcase classname="Kragle Regression" name="Disconnect: PRO X SUPERLIGHT:wired &amp; Connect: G403 HERO:wired" time="2.301">
+</testcase>
+<testcase classname="Kragle Regression" name="Test: Lightsync Effect For Mouse - GUI Verification: G403 HERO (Windows, Wired)" time="416.968">
+</testcase>
+<testcase classname="Kragle Regression" name="Test: Lightsync Effect With Restart G HUB For Mouse - GUI Verification: G403 HERO (Windows, Wired)" time="142.786">
+</testcase>
+<testcase classname="Kragle Regression" name="Test: Lightsync Effect With Sleep System For Mouse - GUI Verification: G403 HERO (Windows, Wired)" time="565.956">
+</testcase>
+<testcase classname="Kragle Regression" name="Test: Light Sync Options: G403 HERO (Windows, Wired)" time="267.087">
+</testcase>
+<testcase classname="Kragle Regression" name="Test: OOB Software Support For Mouse: G403 HERO (Windows, Wired)" time="206.258">
+</testcase>
+<testcase classname="Kragle Regression" name="Test: Global Settings - My Gear For Mouse: G403 HERO (Windows, Wired)" time="15.295">
+</testcase>
+<testcase classname="Kragle Regression" name="Test: Global Settings - Verify Show Tutorial Enables Coach Marks For Mouse: G403 HERO (Windows, Wired)" time="31.855">
+</testcase>
+<testcase classname="Kragle Regression" name="Test: Device Settings For Mouse - UI Verification: G403 HERO (Windows, Wired)" time="248.481">
+</testcase>
+<testcase classname="Kragle Regression" name="Reset G HUB: 7" time="109.587">
+</testcase>
+<testcase classname="Kragle Regression" name="Test: DPI With Onboard Profile For Mouse: G403 HERO (Windows, Wired)" time="258.871">
+</testcase>
+<testcase classname="Kragle Regression" name="Test: DPI Sensitivity For Mouse: G403 HERO (Windows, Wired)" time="247.915">
+</testcase>
+<testcase classname="Kragle Regression" name="Test: DPI Sensitivity With Sleep System For Mouse: G403 HERO (Windows, Wired)" time="153.758">
+</testcase>
+<testcase classname="Kragle Regression" name="Test: DPI Sensitivity With Restart G HUB For Mouse: G403 HERO (Windows, Wired)" time="136.374">
+<failure message="*HTML*Several failures occurred:&#10;&#10;1) The expected dpi value (1800) and actual value from backend (800) is different: 1800 != 800&#10;&#10;2) The expected repo rate (125) and the actual value from backend repo rate (1000) does not match: 125 != 1000 &#10;&#10; &lt;a href=dmp_logs_2022_03_11_16_36_26.zip&gt;DEBUG_LOGS&lt;/a&gt; &#10;&#10; &lt;a href=end_test-screenshot-20220311-163626.png&gt;SCREENSHOT&lt;/a&gt; &#10;&#10; &lt;a href=C:\Jenkins\workspace\structuring_refactoring_features/report11032022_16_36_37_page_source.html&gt;PAGE_SOURCE&lt;/a&gt;" type="AssertionError"/>
+</testcase>
+<testcase classname="Kragle Regression" name="Test: Device Settings For Mouse - SYS Verification: G403 HERO (Windows, Wired)" time="183.669">
+<failure message="*HTML*Failure: Selector &quot;.restore-defaults-button&quot; is Not Clickable &#10;&#10; &lt;a href=dmp_logs_2022_03_11_16_40_14.zip&gt;DEBUG_LOGS&lt;/a&gt; &#10;&#10; &lt;a href=end_test-screenshot-20220311-164014.png&gt;SCREENSHOT&lt;/a&gt; &#10;&#10; &lt;a href=C:\Jenkins\workspace\structuring_refactoring_features/report11032022_16_40_25_page_source.html&gt;PAGE_SOURCE&lt;/a&gt;" type="AssertionError"/>
+</testcase>
+<testcase classname="Kragle Regression" name="Disconnect: G403 HERO:wired &amp; Connect: G203 LIGHTSYNC:wired" time="2.113">
+</testcase>
+<testcase classname="Kragle Regression" name="Test: Local And Cloud Profile For Mouse: G203 LIGHTSYNC (Windows, Wired)" time="342.438">
+</testcase>
+<testcase classname="Kragle Regression" name="Test: Lightsync Effect For Mouse - GUI Verification: G203 LIGHTSYNC (Windows, Wired)" time="132.559">
+</testcase>
+<testcase classname="Kragle Regression" name="Test: Lightsync Effect With Restart G HUB For Mouse - GUI Verification: G203 LIGHTSYNC (Windows, Wired)" time="152.600">
+<failure message="*HTML*Failure: Selector &quot;.panel-wrapper.lighting .color-picker .color-value-container.value-r input&quot; with attribute(s) &quot;{'value': '59'}&quot; is Not Loaded &#10;&#10; &lt;a href=dmp_logs_2022_03_11_16_51_28.zip&gt;DEBUG_LOGS&lt;/a&gt; &#10;&#10; &lt;a href=end_test-screenshot-20220311-165128.png&gt;SCREENSHOT&lt;/a&gt; &#10;&#10; &lt;a href=C:\Jenkins\workspace\structuring_refactoring_features/report11032022_16_51_39_page_source.html&gt;PAGE_SOURCE&lt;/a&gt;" type="AssertionError"/>
+</testcase>
+<testcase classname="Kragle Regression" name="Test: Lightsync Effect With Sleep System For Mouse - GUI Verification: G203 LIGHTSYNC (Windows, Wired)" time="158.834">
+</testcase>
+<testcase classname="Kragle Regression" name="Test: OOB Software Support For Mouse: G203 LIGHTSYNC (Windows, Wired)" time="218.327">
+</testcase>
+<testcase classname="Kragle Regression" name="Reset G HUB: 8" time="109.713">
+</testcase>
+<testcase classname="Kragle Regression" name="Test: Global Settings - My Gear For Mouse: G203 LIGHTSYNC (Windows, Wired)" time="15.367">
+</testcase>
+<testcase classname="Kragle Regression" name="Test: Global Settings - Verify Show Tutorial Enables Coach Marks For Mouse: G203 LIGHTSYNC (Windows, Wired)" time="31.861">
+</testcase>
+<testcase classname="Kragle Regression" name="Test: Device Settings For Mouse - UI Verification: G203 LIGHTSYNC (Windows, Wired)" time="241.894">
+</testcase>
+<testcase classname="Kragle Regression" name="Test: DPI With Onboard Profile For Mouse: G203 LIGHTSYNC (Windows, Wired)" time="249.174">
+</testcase>
+<testcase classname="Kragle Regression" name="Test: DPI Sensitivity For Mouse: G203 LIGHTSYNC (Windows, Wired)" time="247.368">
+</testcase>
+<testcase classname="Kragle Regression" name="Test: DPI Sensitivity With Sleep System For Mouse: G203 LIGHTSYNC (Windows, Wired)" time="153.446">
+</testcase>
+<testcase classname="Kragle Regression" name="Test: DPI Sensitivity With Restart G HUB For Mouse: G203 LIGHTSYNC (Windows, Wired)" time="136.199">
+<failure message="*HTML*Several failures occurred:&#10;&#10;1) The expected dpi value (1800) and actual value from backend (800) is different: 1800 != 800&#10;&#10;2) The expected repo rate (125) and the actual value from backend repo rate (1000) does not match: 125 != 1000 &#10;&#10; &lt;a href=dmp_logs_2022_03_11_17_18_14.zip&gt;DEBUG_LOGS&lt;/a&gt; &#10;&#10; &lt;a href=end_test-screenshot-20220311-171814.png&gt;SCREENSHOT&lt;/a&gt; &#10;&#10; &lt;a href=C:\Jenkins\workspace\structuring_refactoring_features/report11032022_17_18_25_page_source.html&gt;PAGE_SOURCE&lt;/a&gt;" type="AssertionError"/>
+</testcase>
+<testcase classname="Kragle Regression" name="Test: Device Settings For Mouse - SYS Verification: G203 LIGHTSYNC (Windows, Wired)" time="183.840">
+<failure message="*HTML*Failure: Selector &quot;.restore-defaults-button&quot; is Not Clickable &#10;&#10; &lt;a href=dmp_logs_2022_03_11_17_22_02.zip&gt;DEBUG_LOGS&lt;/a&gt; &#10;&#10; &lt;a href=end_test-screenshot-20220311-172202.png&gt;SCREENSHOT&lt;/a&gt; &#10;&#10; &lt;a href=C:\Jenkins\workspace\structuring_refactoring_features/report11032022_17_22_13_page_source.html&gt;PAGE_SOURCE&lt;/a&gt;" type="AssertionError"/>
+</testcase>
+<testcase classname="Kragle Regression" name="Disconnect: G203 LIGHTSYNC:wired &amp; Connect: G600:wired" time="2.172">
+</testcase>
+<testcase classname="Kragle Regression" name="Test: OOB Software Support For Mouse: G600 (Windows, Wired)" time="289.055">
+</testcase>
+<testcase classname="Kragle Regression" name="Disconnect: G600:wired &amp; Connect: G903 LIGHTSPEED:wired" time="4.174">
+</testcase>
+<testcase classname="Kragle Regression" name="Test: Lightsync Effect For Mouse - GUI Verification: G903 LIGHTSPEED (Windows, Wired)" time="415.448">
+</testcase>
+<testcase classname="Kragle Regression" name="Reset G HUB: 9" time="144.987">
+</testcase>
+<testcase classname="Kragle Regression" name="Test: Lightsync Effect With Restart G HUB For Mouse - GUI Verification: G903 LIGHTSPEED (Windows, Wired)" time="144.183">
+</testcase>
+<testcase classname="Kragle Regression" name="Test: Lightsync Effect With Sleep System For Mouse - GUI Verification: G903 LIGHTSPEED (Windows, Wired)" time="563.523">
+</testcase>
+<testcase classname="Kragle Regression" name="Test: OOB Software Support For Mouse: G903 LIGHTSPEED (Windows, Wired)" time="203.580">
+</testcase>
+<testcase classname="Kragle Regression" name="Test: Global Settings - My Gear For Mouse: G903 LIGHTSPEED (Windows, Wired)" time="15.229">
+</testcase>
+<testcase classname="Kragle Regression" name="Test: Global Settings - Verify Show Tutorial Enables Coach Marks For Mouse: G903 LIGHTSPEED (Windows, Wired)" time="31.872">
+</testcase>
+<testcase classname="Kragle Regression" name="Test: Device Settings For Mouse - UI Verification: G903 LIGHTSPEED (Windows, Wired)" time="294.122">
+</testcase>
+<testcase classname="Kragle Regression" name="Test: DPI With Onboard Profile For Mouse: G903 LIGHTSPEED (Windows, Wired)" time="223.904">
+</testcase>
+<testcase classname="Kragle Regression" name="Test: DPI Sensitivity For Mouse: G903 LIGHTSPEED (Windows, Wired)" time="252.493">
+</testcase>
+<testcase classname="Kragle Regression" name="Test: DPI Sensitivity With Sleep System For Mouse: G903 LIGHTSPEED (Windows, Wired)" time="154.903">
+</testcase>
+<testcase classname="Kragle Regression" name="Test: DPI Sensitivity With Restart G HUB For Mouse: G903 LIGHTSPEED (Windows, Wired)" time="137.921">
+<failure message="*HTML*Several failures occurred:&#10;&#10;1) The expected dpi value (1800) and actual value from backend (800) is different: 1800 != 800&#10;&#10;2) The expected repo rate (125) and the actual value from backend repo rate (1000) does not match: 125 != 1000 &#10;&#10; &lt;a href=dmp_logs_2022_03_11_18_10_43.zip&gt;DEBUG_LOGS&lt;/a&gt; &#10;&#10; &lt;a href=end_test-screenshot-20220311-181043.png&gt;SCREENSHOT&lt;/a&gt; &#10;&#10; &lt;a href=C:\Jenkins\workspace\structuring_refactoring_features/report11032022_18_10_55_page_source.html&gt;PAGE_SOURCE&lt;/a&gt;" type="AssertionError"/>
+</testcase>
+<testcase classname="Kragle Regression" name="Reset G HUB: 10" time="109.831">
+</testcase>
+<testcase classname="Kragle Regression" name="Test: Device Settings For Mouse - SYS Verification: G903 LIGHTSPEED (Windows, Wired)" time="276.573">
+</testcase>
+<testcase classname="Kragle Regression" name="Disconnect: G903 LIGHTSPEED:wired &amp; Connect: G502 LIGHTSPEED:wired" time="2.367">
+</testcase>
+<testcase classname="Kragle Regression" name="Test: Lightsync Effect For Mouse - GUI Verification: G502 LIGHTSPEED (Windows, Wired)" time="414.537">
+</testcase>
+<testcase classname="Kragle Regression" name="Test: Lightsync Effect With Restart G HUB For Mouse - GUI Verification: G502 LIGHTSPEED (Windows, Wired)" time="142.795">
+</testcase>
+<testcase classname="Kragle Regression" name="Test: Lightsync Effect With Sleep System For Mouse - GUI Verification: G502 LIGHTSPEED (Windows, Wired)" time="561.322">
+</testcase>
+<testcase classname="Kragle Regression" name="Test: OOB Software Support For Mouse: G502 LIGHTSPEED (Windows, Wired)" time="208.122">
+</testcase>
+<testcase classname="Kragle Regression" name="Test: Global Settings - My Gear For Mouse: G502 LIGHTSPEED (Windows, Wired)" time="15.367">
+</testcase>
+<testcase classname="Kragle Regression" name="Test: Global Settings - Verify Show Tutorial Enables Coach Marks For Mouse: G502 LIGHTSPEED (Windows, Wired)" time="31.935">
+</testcase>
+<testcase classname="Kragle Regression" name="Test: Device Settings For Mouse - UI Verification: G502 LIGHTSPEED (Windows, Wired)" time="222.425">
+</testcase>
+<testcase classname="Kragle Regression" name="Test: Mouse Should Be In Onboard Memory Mode After Restarts GHUB And System Wakeup: G502 LIGHTSPEED (Windows, Wired)" time="225.691">
+</testcase>
+<testcase classname="Kragle Regression" name="Test: Mouse Should Be In Host Mode After Delete Setting File: G502 LIGHTSPEED (Windows, Wired)" time="223.552">
+</testcase>
+<testcase classname="Kragle Regression" name="Reset G HUB: 11" time="109.611">
+</testcase>
+<testcase classname="Kragle Regression" name="Test: DPI With Onboard Profile For Mouse: G502 LIGHTSPEED (Windows, Wired)" time="237.293">
+</testcase>
+<testcase classname="Kragle Regression" name="Test: DPI Sensitivity For Mouse: G502 LIGHTSPEED (Windows, Wired)" time="249.545">
+</testcase>
+<testcase classname="Kragle Regression" name="Test: DPI Sensitivity With Sleep System For Mouse: G502 LIGHTSPEED (Windows, Wired)" time="154.650">
+</testcase>
+<testcase classname="Kragle Regression" name="Test: DPI Sensitivity With Restart G HUB For Mouse: G502 LIGHTSPEED (Windows, Wired)" time="137.251">
+<failure message="*HTML*Several failures occurred:&#10;&#10;1) The expected dpi value (1800) and actual value from backend (800) is different: 1800 != 800&#10;&#10;2) The expected repo rate (125) and the actual value from backend repo rate (1000) does not match: 125 != 1000 &#10;&#10; &lt;a href=dmp_logs_2022_03_11_19_06_50.zip&gt;DEBUG_LOGS&lt;/a&gt; &#10;&#10; &lt;a href=end_test-screenshot-20220311-190650.png&gt;SCREENSHOT&lt;/a&gt; &#10;&#10; &lt;a href=C:\Jenkins\workspace\structuring_refactoring_features/report11032022_19_07_02_page_source.html&gt;PAGE_SOURCE&lt;/a&gt;" type="AssertionError"/>
+</testcase>
+<testcase classname="Kragle Regression" name="Test: Device Settings For Mouse - SYS Verification: G502 LIGHTSPEED (Windows, Wired)" time="205.258">
+<failure message="*HTML*Failure: Selector &quot;.restore-defaults-button&quot; is Not Clickable &#10;&#10; &lt;a href=dmp_logs_2022_03_11_19_11_00.zip&gt;DEBUG_LOGS&lt;/a&gt; &#10;&#10; &lt;a href=end_test-screenshot-20220311-191100.png&gt;SCREENSHOT&lt;/a&gt; &#10;&#10; &lt;a href=C:\Jenkins\workspace\structuring_refactoring_features/report11032022_19_11_11_page_source.html&gt;PAGE_SOURCE&lt;/a&gt;" type="AssertionError"/>
+</testcase>
+</testsuite>

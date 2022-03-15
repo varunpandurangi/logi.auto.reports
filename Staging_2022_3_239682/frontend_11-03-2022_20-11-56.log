@@ -1,0 +1,1 @@
+{'level': 'SEVERE', 'message': 'file:///Applications/lghub.app/Contents/Resources/app.asar/app.min.js 1:1198829 Uncaught Error: Reducers may not dispatch actions.', 'source': 'javascript', 'timestamp': 1647009241959}
