@@ -1,0 +1,43 @@
+<PwrTestLog date="03/11/2022" time="22:36:03" filename="C:/Jenkins/workspace/structuring_refactoring_features/report\pwrtestlog.xml">
+  <SystemInformation>
+    <ComputerName>671216725DT002</ComputerName>
+    <OSBuildNumber>19044</OSBuildNumber>
+    <SystemManufacturer>LENOVO</SystemManufacturer>
+    <SystemProductName>90L300BGHA</SystemProductName>
+    <BIOSVersion>O4BKT07A</BIOSVersion>
+    <BIOSReleaseDate>06/16/2019</BIOSReleaseDate>
+    <ProcessorCount>6</ProcessorCount>
+    <ProcessorPackageCount>1</ProcessorPackageCount>
+  </SystemInformation>
+  <SYSTEM_POWER_CAPABILITIES>
+    <SystemS1StateSupported>0</SystemS1StateSupported>
+    <SystemS2StateSupported>0</SystemS2StateSupported>
+    <SystemS3StateSupported>1</SystemS3StateSupported>
+    <SystemS4StateSupported>1</SystemS4StateSupported>
+    <SystemS5StateSupported>1</SystemS5StateSupported>
+    <WakeAlarmPresent>1</WakeAlarmPresent>
+    <AcOnLineWakeSupported>0</AcOnLineWakeSupported>
+    <RtcWakeSupported>4</RtcWakeSupported>
+    <FastSystemS4>1</FastSystemS4>
+    <VideoDimPresent>0</VideoDimPresent>
+    <HiberFilePresent>1</HiberFilePresent>
+    <AoAc>0</AoAc>
+  </SYSTEM_POWER_CAPABILITIES>
+  <SleepScenario>
+    <SleepTransitions hybrid="1" delay="20" sleeptime="80" IgnoreUsbHub="0" EndTransitionEventTimeout="120">
+      <SleepTransition number="0" status="6619240">
+        <StartT>03/11/2022 22:36:04</StartT>
+        <EndT>03/11/2022 22:37:26</EndT>
+        <Duration>00:01:22</Duration>
+        <TargetState>3</TargetState>
+        <EffectiveState>4</EffectiveState>
+        <Suspend>1138</Suspend>
+        <BIOSInit>892</BIOSInit>
+        <DriverInit>1783</DriverInit>
+        <HiberPagesWritten>320398</HiberPagesWritten>
+        <HiberRead>0</HiberRead>
+        <HiberWrite>2696</HiberWrite>
+      </SleepTransition>
+    </SleepTransitions>
+  </SleepScenario>
+</PwrTestLog>
