@@ -1,1 +1,0 @@
-{'level': 'SEVERE', 'message': "C:\\Program Files\\LGHUB\\resources\\app.asar\\node_modules\\@electron\\remote\\dist\\src\\renderer\\remote.js 249:13 Uncaught TypeError: Cannot read property 'type' of null", 'source': 'javascript', 'timestamp': 1636622798326}
