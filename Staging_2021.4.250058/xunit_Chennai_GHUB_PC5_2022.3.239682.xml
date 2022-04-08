@@ -1,0 +1,278 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Kragle Regression" tests="126" errors="0" failures="23" skipped="0" time="30176.140">
+<testcase classname="Kragle Regression" name="Test Application Specific Test Cases" time="2.076">
+</testcase>
+<testcase classname="Kragle Regression" name="Test Device Specific Test Cases" time="3.965">
+</testcase>
+<testcase classname="Kragle Regression" name="Connect Device: G502 LIGHTSPEED:wireless" time="1.009">
+</testcase>
+<testcase classname="Kragle Regression" name="Test: Global Settings - My Gear For Mouse: G502 LIGHTSPEED (Windows, Wireless)" time="21.235">
+</testcase>
+<testcase classname="Kragle Regression" name="Test: Global Settings - Verify Show Tutorial Enables Coach Marks For Mouse: G502 LIGHTSPEED (Windows, Wireless)" time="37.942">
+</testcase>
+<testcase classname="Kragle Regression" name="Test: Device Settings For Mouse - UI Verification: G502 LIGHTSPEED (Windows, Wireless)" time="245.879">
+</testcase>
+<testcase classname="Kragle Regression" name="Test: Lightsync Effect For Mouse - GUI Verification: G502 LIGHTSPEED (Windows, Wireless)" time="449.372">
+</testcase>
+<testcase classname="Kragle Regression" name="Test: Lightsync Effect With Restart G HUB For Mouse - GUI Verification: G502 LIGHTSPEED (Windows, Wireless)" time="148.718">
+</testcase>
+<testcase classname="Kragle Regression" name="Test: Lightsync Effect With Sleep System For Mouse - GUI Verification: G502 LIGHTSPEED (Windows, Wireless)" time="577.941">
+</testcase>
+<testcase classname="Kragle Regression" name="Test: Local And Cloud Profile For Mouse: G502 LIGHTSPEED (Windows, Wireless)" time="372.084">
+</testcase>
+<testcase classname="Kragle Regression" name="Test: OOB Software Support For Mouse: G502 LIGHTSPEED (Windows, Wireless)" time="302.661">
+</testcase>
+<testcase classname="Kragle Regression" name="Test: DPI With Onboard Profile For Mouse: G502 LIGHTSPEED (Windows, Wireless)" time="280.176">
+</testcase>
+<testcase classname="Kragle Regression" name="Test: DPI Sensitivity For Mouse: G502 LIGHTSPEED (Windows, Wireless)" time="248.013">
+</testcase>
+<testcase classname="Kragle Regression" name="Reset G HUB: 1" time="109.521">
+</testcase>
+<testcase classname="Kragle Regression" name="Test: DPI Sensitivity With Sleep System For Mouse: G502 LIGHTSPEED (Windows, Wireless)" time="187.126">
+</testcase>
+<testcase classname="Kragle Regression" name="Test: DPI Sensitivity With Restart G HUB For Mouse: G502 LIGHTSPEED (Windows, Wireless)" time="128.000">
+</testcase>
+<testcase classname="Kragle Regression" name="Test: Device Settings For Mouse - SYS Verification: G502 LIGHTSPEED (Windows, Wireless)" time="250.299">
+</testcase>
+<testcase classname="Kragle Regression" name="Disconnect: G502 LIGHTSPEED:wireless &amp; Connect: G604 LIGHTSPEED:wireless" time="2.172">
+</testcase>
+<testcase classname="Kragle Regression" name="Test: Global Settings - My Gear For Mouse: G604 LIGHTSPEED (Windows, Wireless)" time="21.389">
+</testcase>
+<testcase classname="Kragle Regression" name="Test: Global Settings - Verify Show Tutorial Enables Coach Marks For Mouse: G604 LIGHTSPEED (Windows, Wireless)" time="36.646">
+</testcase>
+<testcase classname="Kragle Regression" name="Test: Device Settings For Mouse - UI Verification: G604 LIGHTSPEED (Windows, Wireless)" time="193.009">
+</testcase>
+<testcase classname="Kragle Regression" name="Test: OOB Software Support For Mouse: G604 LIGHTSPEED (Windows, Wireless)" time="302.748">
+</testcase>
+<testcase classname="Kragle Regression" name="Test: DPI With Onboard Profile For Mouse: G604 LIGHTSPEED (Windows, Wireless)" time="228.517">
+</testcase>
+<testcase classname="Kragle Regression" name="Test: DPI Sensitivity For Mouse: G604 LIGHTSPEED (Windows, Wireless)" time="247.670">
+</testcase>
+<testcase classname="Kragle Regression" name="Test: DPI Sensitivity With Sleep System For Mouse: G604 LIGHTSPEED (Windows, Wireless)" time="199.192">
+<failure message="*HTML*The expected repo rate (125) and the actual value from backend repo rate (1000) does not match: 125 != 1000 &#10;&#10; &lt;a href=dmp_logs_2022_04_07_20_26_43.zip&gt;DEBUG_LOGS&lt;/a&gt; &#10;&#10; &lt;a href=end_test-screenshot-20220407-202643.png&gt;SCREENSHOT&lt;/a&gt; &#10;&#10; &lt;a href=C:\Jenkins\workspace\structuring_refactoring_features/report07042022_20_26_54_page_source.html&gt;PAGE_SOURCE&lt;/a&gt;" type="AssertionError"/>
+</testcase>
+<testcase classname="Kragle Regression" name="Reset G HUB: 2" time="109.681">
+</testcase>
+<testcase classname="Kragle Regression" name="Test: DPI Sensitivity With Restart G HUB For Mouse: G604 LIGHTSPEED (Windows, Wireless)" time="54.618">
+<failure message="*HTML*The expected repo rate (125) and the actual value from backend repo rate (1000) does not match: 125 != 1000 &#10;&#10; &lt;a href=dmp_logs_2022_04_07_20_30_11.zip&gt;DEBUG_LOGS&lt;/a&gt; &#10;&#10; &lt;a href=end_test-screenshot-20220407-203011.png&gt;SCREENSHOT&lt;/a&gt; &#10;&#10; &lt;a href=C:\Jenkins\workspace\structuring_refactoring_features/report07042022_20_30_22_page_source.html&gt;PAGE_SOURCE&lt;/a&gt;" type="AssertionError"/>
+</testcase>
+<testcase classname="Kragle Regression" name="Test: Device Settings For Mouse - SYS Verification: G604 LIGHTSPEED (Windows, Wireless)" time="233.872">
+</testcase>
+<testcase classname="Kragle Regression" name="Disconnect: G604 LIGHTSPEED:wireless &amp; Connect: G703 LIGHTSPEED:wireless" time="4.103">
+</testcase>
+<testcase classname="Kragle Regression" name="Test: Global Settings - My Gear For Mouse: G703 LIGHTSPEED (Windows, Wireless)" time="21.225">
+</testcase>
+<testcase classname="Kragle Regression" name="Test: Global Settings - Verify Show Tutorial Enables Coach Marks For Mouse: G703 LIGHTSPEED (Windows, Wireless)" time="37.787">
+</testcase>
+<testcase classname="Kragle Regression" name="Test: Device Settings For Mouse - UI Verification: G703 LIGHTSPEED (Windows, Wireless)" time="228.060">
+</testcase>
+<testcase classname="Kragle Regression" name="Test: Lightsync Effect For Mouse - GUI Verification: G703 LIGHTSPEED (Windows, Wireless)" time="450.837">
+</testcase>
+<testcase classname="Kragle Regression" name="Test: Lightsync Effect With Restart G HUB For Mouse - GUI Verification: G703 LIGHTSPEED (Windows, Wireless)" time="148.812">
+</testcase>
+<testcase classname="Kragle Regression" name="Test: Lightsync Effect With Sleep System For Mouse - GUI Verification: G703 LIGHTSPEED (Windows, Wireless)" time="625.608">
+</testcase>
+<testcase classname="Kragle Regression" name="Test: OOB Software Support For Mouse: G703 LIGHTSPEED (Windows, Wireless)" time="329.185">
+</testcase>
+<testcase classname="Kragle Regression" name="Test: DPI With Onboard Profile For Mouse: G703 LIGHTSPEED (Windows, Wireless)" time="289.422">
+</testcase>
+<testcase classname="Kragle Regression" name="Reset G HUB: 3" time="109.626">
+</testcase>
+<testcase classname="Kragle Regression" name="Test: DPI Sensitivity For Mouse: G703 LIGHTSPEED (Windows, Wireless)" time="234.033">
+</testcase>
+<testcase classname="Kragle Regression" name="Test: DPI Sensitivity With Sleep System For Mouse: G703 LIGHTSPEED (Windows, Wireless)" time="186.212">
+</testcase>
+<testcase classname="Kragle Regression" name="Test: DPI Sensitivity With Restart G HUB For Mouse: G703 LIGHTSPEED (Windows, Wireless)" time="127.277">
+</testcase>
+<testcase classname="Kragle Regression" name="Test: Device Settings For Mouse - SYS Verification: G703 LIGHTSPEED (Windows, Wireless)" time="260.668">
+</testcase>
+<testcase classname="Kragle Regression" name="Disconnect: G703 LIGHTSPEED:wireless &amp; Connect: G903 LIGHTSPEED:wireless" time="4.267">
+</testcase>
+<testcase classname="Kragle Regression" name="Test: Global Settings - My Gear For Mouse: G903 LIGHTSPEED (Windows, Wireless)" time="21.258">
+</testcase>
+<testcase classname="Kragle Regression" name="Test: Global Settings - Verify Show Tutorial Enables Coach Marks For Mouse: G903 LIGHTSPEED (Windows, Wireless)" time="37.780">
+</testcase>
+<testcase classname="Kragle Regression" name="Test: Device Settings For Mouse - UI Verification: G903 LIGHTSPEED (Windows, Wireless)" time="271.579">
+</testcase>
+<testcase classname="Kragle Regression" name="Test: Lightsync Effect For Mouse - GUI Verification: G903 LIGHTSPEED (Windows, Wireless)" time="450.090">
+</testcase>
+<testcase classname="Kragle Regression" name="Test: Lightsync Effect With Restart G HUB For Mouse - GUI Verification: G903 LIGHTSPEED (Windows, Wireless)" time="148.886">
+</testcase>
+<testcase classname="Kragle Regression" name="Test: Lightsync Effect With Sleep System For Mouse - GUI Verification: G903 LIGHTSPEED (Windows, Wireless)" time="624.905">
+</testcase>
+<testcase classname="Kragle Regression" name="Reset G HUB: 4" time="109.754">
+</testcase>
+<testcase classname="Kragle Regression" name="Test: OOB Software Support For Mouse: G903 LIGHTSPEED (Windows, Wireless)" time="274.052">
+</testcase>
+<testcase classname="Kragle Regression" name="Test: DPI With Onboard Profile For Mouse: G903 LIGHTSPEED (Windows, Wireless)" time="238.757">
+</testcase>
+<testcase classname="Kragle Regression" name="Test: DPI Sensitivity For Mouse: G903 LIGHTSPEED (Windows, Wireless)" time="249.865">
+</testcase>
+<testcase classname="Kragle Regression" name="Test: DPI Sensitivity With Sleep System For Mouse: G903 LIGHTSPEED (Windows, Wireless)" time="186.528">
+</testcase>
+<testcase classname="Kragle Regression" name="Test: DPI Sensitivity With Restart G HUB For Mouse: G903 LIGHTSPEED (Windows, Wireless)" time="128.534">
+</testcase>
+<testcase classname="Kragle Regression" name="Test: Device Settings For Mouse - SYS Verification: G903 LIGHTSPEED (Windows, Wireless)" time="263.708">
+</testcase>
+<testcase classname="Kragle Regression" name="Disconnect: G903 LIGHTSPEED:wireless &amp; Connect: G603:wireless" time="2.227">
+</testcase>
+<testcase classname="Kragle Regression" name="Test: Global Settings - My Gear For Mouse: G603 (Windows, Wireless)" time="431.204">
+<failure message="*HTML*Failure: Selector &quot;.device-container.active .device-container-model&quot; with attribute(s) &quot;{'text': 'G603'}&quot; is Not Loaded &#10;&#10; &lt;a href=dmp_logs_2022_04_07_22_23_05.zip&gt;DEBUG_LOGS&lt;/a&gt; &#10;&#10; &lt;a href=end_test-screenshot-20220407-222305.png&gt;SCREENSHOT&lt;/a&gt; &#10;&#10; &lt;a href=C:\Jenkins\workspace\structuring_refactoring_features/report07042022_22_23_17_page_source.html&gt;PAGE_SOURCE&lt;/a&gt;" type="AssertionError"/>
+</testcase>
+<testcase classname="Kragle Regression" name="Test: Global Settings - Verify Show Tutorial Enables Coach Marks For Mouse: G603 (Windows, Wireless)" time="430.466">
+<failure message="*HTML*Failure: Selector &quot;.device-container.active .device-container-model&quot; with attribute(s) &quot;{'text': 'G603'}&quot; is Not Loaded &#10;&#10; &lt;a href=dmp_logs_2022_04_07_22_31_00.zip&gt;DEBUG_LOGS&lt;/a&gt; &#10;&#10; &lt;a href=end_test-screenshot-20220407-223059.png&gt;SCREENSHOT&lt;/a&gt; &#10;&#10; &lt;a href=C:\Jenkins\workspace\structuring_refactoring_features/report07042022_22_31_11_page_source.html&gt;PAGE_SOURCE&lt;/a&gt;" type="AssertionError"/>
+</testcase>
+<testcase classname="Kragle Regression" name="Test: Device Settings For Mouse - UI Verification: G603 (Windows, Wireless)" time="439.952">
+<failure message="*HTML*AssertionError &#10;&#10; &lt;a href=dmp_logs_2022_04_07_22_39_04.zip&gt;DEBUG_LOGS&lt;/a&gt; &#10;&#10; &lt;a href=end_test-screenshot-20220407-223903.png&gt;SCREENSHOT&lt;/a&gt; &#10;&#10; &lt;a href=C:\Jenkins\workspace\structuring_refactoring_features/report07042022_22_39_15_page_source.html&gt;PAGE_SOURCE&lt;/a&gt;" type="AssertionError"/>
+</testcase>
+<testcase classname="Kragle Regression" name="Test: Local And Cloud Profile For Mouse: G603 (Windows, Wireless)" time="508.230">
+<failure message="*HTML*AssertionError &#10;&#10; &lt;a href=dmp_logs_2022_04_07_22_48_16.zip&gt;DEBUG_LOGS&lt;/a&gt; &#10;&#10; &lt;a href=end_test-screenshot-20220407-224816.png&gt;SCREENSHOT&lt;/a&gt; &#10;&#10; &lt;a href=C:\Jenkins\workspace\structuring_refactoring_features/report07042022_22_48_27_page_source.html&gt;PAGE_SOURCE&lt;/a&gt;" type="AssertionError"/>
+</testcase>
+<testcase classname="Kragle Regression" name="Reset G HUB: 5" time="109.608">
+</testcase>
+<testcase classname="Kragle Regression" name="Test: OOB Software Support For Mouse: G603 (Windows, Wireless)" time="440.358">
+<failure message="*HTML*AssertionError &#10;&#10; &lt;a href=dmp_logs_2022_04_07_22_58_10.zip&gt;DEBUG_LOGS&lt;/a&gt; &#10;&#10; &lt;a href=end_test-screenshot-20220407-225810.png&gt;SCREENSHOT&lt;/a&gt; &#10;&#10; &lt;a href=C:\Jenkins\workspace\structuring_refactoring_features/report07042022_22_58_21_page_source.html&gt;PAGE_SOURCE&lt;/a&gt;" type="AssertionError"/>
+</testcase>
+<testcase classname="Kragle Regression" name="Test: DPI With Onboard Profile For Mouse: G603 (Windows, Wireless)" time="880.226">
+<failure message="*HTML*AssertionError&#10;&#10;Also keyword teardown failed:&#10;Failure: Selector &quot;.device-container.active .device-container-model&quot; with attribute(s) &quot;{'text': 'G603'}&quot; is Not Loaded &#10;&#10; &lt;a href=dmp_logs_2022_04_07_23_06_36.zip&gt;DEBUG_LOGS&lt;/a&gt; &#10;&#10; &lt;a href=end_test-screenshot-20220407-230636.png&gt;SCREENSHOT&lt;/a&gt; &#10;&#10; &lt;a href=C:\Jenkins\workspace\structuring_refactoring_features/report07042022_23_06_48_page_source.html&gt;PAGE_SOURCE&lt;/a&gt;" type="AssertionError"/>
+</testcase>
+<testcase classname="Kragle Regression" name="Test: DPI Sensitivity For Mouse: G603 (Windows, Wireless)" time="439.456">
+<failure message="*HTML*AssertionError &#10;&#10; &lt;a href=dmp_logs_2022_04_07_23_21_36.zip&gt;DEBUG_LOGS&lt;/a&gt; &#10;&#10; &lt;a href=end_test-screenshot-20220407-232136.png&gt;SCREENSHOT&lt;/a&gt; &#10;&#10; &lt;a href=C:\Jenkins\workspace\structuring_refactoring_features/report07042022_23_21_48_page_source.html&gt;PAGE_SOURCE&lt;/a&gt;" type="AssertionError"/>
+</testcase>
+<testcase classname="Kragle Regression" name="Test: DPI Sensitivity With Sleep System For Mouse: G603 (Windows, Wireless)" time="439.794">
+<failure message="*HTML*AssertionError &#10;&#10; &lt;a href=dmp_logs_2022_04_07_23_29_40.zip&gt;DEBUG_LOGS&lt;/a&gt; &#10;&#10; &lt;a href=end_test-screenshot-20220407-232940.png&gt;SCREENSHOT&lt;/a&gt; &#10;&#10; &lt;a href=C:\Jenkins\workspace\structuring_refactoring_features/report07042022_23_29_51_page_source.html&gt;PAGE_SOURCE&lt;/a&gt;" type="AssertionError"/>
+</testcase>
+<testcase classname="Kragle Regression" name="Test: DPI Sensitivity With Restart G HUB For Mouse: G603 (Windows, Wireless)" time="439.886">
+<failure message="*HTML*AssertionError &#10;&#10; &lt;a href=dmp_logs_2022_04_07_23_37_44.zip&gt;DEBUG_LOGS&lt;/a&gt; &#10;&#10; &lt;a href=end_test-screenshot-20220407-233744.png&gt;SCREENSHOT&lt;/a&gt; &#10;&#10; &lt;a href=C:\Jenkins\workspace\structuring_refactoring_features/report07042022_23_37_55_page_source.html&gt;PAGE_SOURCE&lt;/a&gt;" type="AssertionError"/>
+</testcase>
+<testcase classname="Kragle Regression" name="Test: Device Settings For Mouse - SYS Verification: G603 (Windows, Wireless)" time="439.315">
+<failure message="*HTML*AssertionError &#10;&#10; &lt;a href=dmp_logs_2022_04_07_23_45_47.zip&gt;DEBUG_LOGS&lt;/a&gt; &#10;&#10; &lt;a href=end_test-screenshot-20220407-234547.png&gt;SCREENSHOT&lt;/a&gt; &#10;&#10; &lt;a href=C:\Jenkins\workspace\structuring_refactoring_features/report07042022_23_45_59_page_source.html&gt;PAGE_SOURCE&lt;/a&gt;" type="AssertionError"/>
+</testcase>
+<testcase classname="Kragle Regression" name="Disconnect: G603:wireless &amp; Connect: PRO X WIRELESS:wireless" time="2.108">
+</testcase>
+<testcase classname="Kragle Regression" name="Test: Blue Voice - Browse More Presets For Headset: PRO X WIRELESS (Windows, Wireless)" time="63.130">
+</testcase>
+<testcase classname="Kragle Regression" name="Test: Blue Voice Preset Selection For Headset: PRO X WIRELESS (Windows, Wireless)" time="55.015">
+</testcase>
+<testcase classname="Kragle Regression" name="Test: Blue Voice - Equalizer Settings For Headset: PRO X WIRELESS (Windows, Wireless)" time="250.894">
+</testcase>
+<testcase classname="Kragle Regression" name="Test: Blue Voice - Preset Settings For Headset: PRO X WIRELESS (Windows, Wireless)" time="544.573">
+</testcase>
+<testcase classname="Kragle Regression" name="Reset G HUB: 6" time="109.548">
+</testcase>
+<testcase classname="Kragle Regression" name="Test: Microphone - Default Values For Headset: PRO X WIRELESS (Windows, Wireless)" time="66.426">
+</testcase>
+<testcase classname="Kragle Regression" name="Test: Local And Cloud Profile For Headset: PRO X WIRELESS (Windows, Wireless)" time="478.379">
+</testcase>
+<testcase classname="Kragle Regression" name="Test: Device Settings For Headset - UI Verification: PRO X WIRELESS (Windows, Wireless)" time="49.274">
+</testcase>
+<testcase classname="Kragle Regression" name="Test: Global Settings - My Gear For Headset: PRO X WIRELESS (Windows, Wireless)" time="21.307">
+</testcase>
+<testcase classname="Kragle Regression" name="Test: Global Settings - Verify Show Tutorial Enables Coach Marks For Headset: PRO X WIRELESS (Windows, Wireless)" time="37.880">
+</testcase>
+<testcase classname="Kragle Regression" name="Test: Equalizer Presets - Community Card For Headset: PRO X WIRELESS (Windows, Wireless)" time="69.772">
+</testcase>
+<testcase classname="Kragle Regression" name="Test: Device Driver Support With Unplug/Replug Device For Headset: PRO X WIRELESS (Windows, Wireless)" time="131.957">
+</testcase>
+<testcase classname="Kragle Regression" name="Test: Device Driver Support With Sleep System For Headset: PRO X WIRELESS (Windows, Wireless)" time="101.183">
+</testcase>
+<testcase classname="Kragle Regression" name="Test: Device Driver Support With Restart System For Headset: PRO X WIRELESS (Windows, Wireless)" time="76.444">
+</testcase>
+<testcase classname="Kragle Regression" name="Test: G Driver Loudness Test For Headset: PRO X WIRELESS (Windows, Wireless)" time="55.881">
+<failure message="*HTML*Failure: Process vlc.exe is Not Running &#10;&#10; &lt;a href=dmp_logs_2022_04_08_00_21_40.zip&gt;DEBUG_LOGS&lt;/a&gt; &#10;&#10; &lt;a href=end_test-screenshot-20220408-002139.png&gt;SCREENSHOT&lt;/a&gt; &#10;&#10; &lt;a href=C:\Jenkins\workspace\structuring_refactoring_features/report08042022_00_21_51_page_source.html&gt;PAGE_SOURCE&lt;/a&gt;" type="AssertionError"/>
+</testcase>
+<testcase classname="Kragle Regression" name="Reset G HUB: 7" time="113.657">
+</testcase>
+<testcase classname="Kragle Regression" name="Test: Acoustics Feature For Headset: PRO X WIRELESS (Windows, Wireless)" time="636.456">
+<failure message="*HTML*Several failures occurred:&#10;&#10;1) Keyword 'headsets.User can change bass / treble' failed after retrying 2 times. The last error was: Several failures occurred:&#10;&#10;1) '0.23&gt;0.23' should be true.&#10;&#10;2) '0.23&gt;0.23' should be true.&#10;&#10;2) Keyword 'headsets.Config Certain Frequency' failed after retrying 2 times. The last error was: Failure: Process vlc.exe is Not Running&#10;&#10;3) Keyword 'headsets.Config Certain Frequency' failed after retrying 2 times. The last error was: Failure: Process vlc.exe is Not Running&#10;&#10;4) Keyword 'headsets.Config Certain Frequency' failed after retrying 2 times. The last error was: Failure: Process vlc.exe is Not Running&#10;&#10;5) Failure: Selector &quot;.save-button&quot; is Not Clickable &#10;&#10; &lt;a href=dmp_logs_2022_04_08_00_34_59.zip&gt;DEBUG_LOGS&lt;/a&gt; &#10;&#10; &lt;a href=end_test-screenshot-20220408-003459.png&gt;SCREENSHOT&lt;/a&gt; &#10;&#10; &lt;a href=C:\Jenkins\workspace\structuring_refactoring_features/report08042022_00_35_10_page_source.html&gt;PAGE_SOURCE&lt;/a&gt;" type="AssertionError"/>
+</testcase>
+<testcase classname="Kragle Regression" name="Test: Surround Sound Feature For Headset: PRO X WIRELESS (Windows, Wireless)" time="463.977">
+<failure message="*HTML*Several failures occurred:&#10;&#10;1) Keyword 'headsets.Test LFE channel' failed after retrying 2 times. The last error was: Failure: Process vlc.exe is Not Running&#10;&#10;2) Keyword 'headsets.Test Center Channel' failed after retrying 2 times. The last error was: Failure: Process vlc.exe is Not Running&#10;&#10;3) Keyword 'headsets.Test Left Rear Channel' failed after retrying 2 times. The last error was: Failure: Process vlc.exe is Not Running&#10;&#10;4) Keyword 'headsets.Test Left Channel' failed after retrying 2 times. The last error was: Failure: Process vlc.exe is Not Running&#10;&#10;5) Keyword 'headsets.Test Left Surround Channel' failed after retrying 2 times. The last error was: Failure: Process vlc.exe is Not Running&#10;&#10;6) Keyword 'headsets.Test Right Rear Channel' failed after retrying 2 times. The last error was: Failure: Process vlc.exe is Not Running&#10;&#10;7) Keyword 'headsets.Test Right Channel' failed after retrying 2 times. The last error was: Failure: Process vlc.exe is Not Running&#10;&#10;8) Keyword 'headsets.Test Right Surround Channel' failed after retrying 2 times. The last error was: Failure: Process vlc.exe is Not Running &#10;&#10; &lt;a href=dmp_logs_2022_04_08_00_43_27.zip&gt;DEBUG_LOGS&lt;/a&gt; &#10;&#10; &lt;a href=end_test-screenshot-20220408-004327.png&gt;SCREENSHOT&lt;/a&gt; &#10;&#10; &lt;a href=C:\Jenkins\workspace\structuring_refactoring_features/report08042022_00_43_38_page_source.html&gt;PAGE_SOURCE&lt;/a&gt;" type="AssertionError"/>
+</testcase>
+<testcase classname="Kragle Regression" name="Disconnect: PRO X WIRELESS:wireless &amp; Connect: G633s:wired" time="2.382">
+</testcase>
+<testcase classname="Kragle Regression" name="Test: Device Settings For Headset - UI Verification: G633s (Windows, Wired)" time="46.642">
+</testcase>
+<testcase classname="Kragle Regression" name="Test: Global Settings - My Gear For Headset: G633s (Windows, Wired)" time="15.292">
+</testcase>
+<testcase classname="Kragle Regression" name="Test: Global Settings - Verify Show Tutorial Enables Coach Marks For Headset: G633s (Windows, Wired)" time="31.782">
+</testcase>
+<testcase classname="Kragle Regression" name="Test: Equalizer Presets - Community Card For Headset: G633s (Windows, Wired)" time="63.761">
+</testcase>
+<testcase classname="Kragle Regression" name="Test: Profile Lighting For Headset - UI Verification: G633s (Windows, Wired)" time="152.899">
+</testcase>
+<testcase classname="Kragle Regression" name="Test: Lightsync View For Headset - UI Verification: G633s (Windows, Wired)" time="182.571">
+</testcase>
+<testcase classname="Kragle Regression" name="Test: Persistent Profile For Headset: G633s (Windows, Wired)" time="4519.528">
+<failure message="*HTML*Failure: Selector &quot;.device-container-model&quot; is Not Loaded &#10;&#10; &lt;a href=dmp_logs_2022_04_08_02_05_54.zip&gt;DEBUG_LOGS&lt;/a&gt; &#10;&#10; &lt;a href=end_test-screenshot-20220408-020554.png&gt;SCREENSHOT&lt;/a&gt; &#10;&#10; &lt;a href=C:\Jenkins\workspace\structuring_refactoring_features/report08042022_02_06_06_page_source.html&gt;PAGE_SOURCE&lt;/a&gt;" type="AssertionError"/>
+</testcase>
+<testcase classname="Kragle Regression" name="Test: Device Settings For Headset - SYS Verification: G633s (Windows, Wired)" time="50.017">
+</testcase>
+<testcase classname="Kragle Regression" name="Reset G HUB: 8" time="109.668">
+</testcase>
+<testcase classname="Kragle Regression" name="Test: Device Driver Support With Unplug/Replug Device For Headset: G633s (Windows, Wired)" time="27.725">
+</testcase>
+<testcase classname="Kragle Regression" name="Test: Device Driver Support With Sleep System For Headset: G633s (Windows, Wired)" time="95.447">
+</testcase>
+<testcase classname="Kragle Regression" name="Test: Device Driver Support With Restart System For Headset: G633s (Windows, Wired)" time="70.301">
+</testcase>
+<testcase classname="Kragle Regression" name="Test: G Driver Loudness Test For Headset: G633s (Windows, Wired)" time="48.400">
+<failure message="*HTML*Failure: Process vlc.exe is Not Running &#10;&#10; &lt;a href=dmp_logs_2022_04_08_02_15_07.zip&gt;DEBUG_LOGS&lt;/a&gt; &#10;&#10; &lt;a href=end_test-screenshot-20220408-021507.png&gt;SCREENSHOT&lt;/a&gt; &#10;&#10; &lt;a href=C:\Jenkins\workspace\structuring_refactoring_features/report08042022_02_15_19_page_source.html&gt;PAGE_SOURCE&lt;/a&gt;" type="AssertionError"/>
+</testcase>
+<testcase classname="Kragle Regression" name="Disconnect: G633s:wired &amp; Connect: G733:wireless" time="4.307">
+</testcase>
+<testcase classname="Kragle Regression" name="Test: Blue Voice - Browse More Presets For Headset: G733 (Windows, Wireless)" time="61.773">
+</testcase>
+<testcase classname="Kragle Regression" name="Test: Blue Voice Preset Selection For Headset: G733 (Windows, Wireless)" time="55.040">
+</testcase>
+<testcase classname="Kragle Regression" name="Test: Blue Voice - Equalizer Settings For Headset: G733 (Windows, Wireless)" time="251.115">
+</testcase>
+<testcase classname="Kragle Regression" name="Test: Blue Voice - Preset Settings For Headset: G733 (Windows, Wireless)" time="544.430">
+</testcase>
+<testcase classname="Kragle Regression" name="Test: Microphone - Default Values For Headset: G733 (Windows, Wireless)" time="61.144">
+</testcase>
+<testcase classname="Kragle Regression" name="Test: Device Settings For Headset - UI Verification: G733 (Windows, Wireless)" time="74.055">
+</testcase>
+<testcase classname="Kragle Regression" name="Reset G HUB: 9" time="109.470">
+</testcase>
+<testcase classname="Kragle Regression" name="Test: Global Settings - My Gear For Headset: G733 (Windows, Wireless)" time="21.220">
+</testcase>
+<testcase classname="Kragle Regression" name="Test: Global Settings - Verify Show Tutorial Enables Coach Marks For Headset: G733 (Windows, Wireless)" time="36.270">
+</testcase>
+<testcase classname="Kragle Regression" name="Test: Equalizer Presets - Community Card For Headset: G733 (Windows, Wireless)" time="69.869">
+</testcase>
+<testcase classname="Kragle Regression" name="Test: Profile Lighting For Headset - UI Verification: G733 (Windows, Wireless)" time="156.720">
+</testcase>
+<testcase classname="Kragle Regression" name="Test: Lightsync View For Headset - UI Verification: G733 (Windows, Wireless)" time="188.131">
+</testcase>
+<testcase classname="Kragle Regression" name="Test: Assignments View For Headset - UI Verification: G733 (Windows, Wireless)" time="593.593">
+</testcase>
+<testcase classname="Kragle Regression" name="Test: User Able To Delete The Actions For Headset: G733 (Windows, Wireless)" time="143.932">
+</testcase>
+<testcase classname="Kragle Regression" name="Test: Device Driver Support With Unplug/Replug Device For Headset: G733 (Windows, Wireless)" time="44.078">
+</testcase>
+<testcase classname="Kragle Regression" name="Test: Device Driver Support With Sleep System For Headset: G733 (Windows, Wireless)" time="101.260">
+</testcase>
+<testcase classname="Kragle Regression" name="Test: Device Driver Support With Restart System For Headset: G733 (Windows, Wireless)" time="76.408">
+</testcase>
+<testcase classname="Kragle Regression" name="Reset G HUB: 10" time="109.644">
+</testcase>
+<testcase classname="Kragle Regression" name="Test: G Driver Loudness Test For Headset: G733 (Windows, Wireless)" time="52.950">
+<failure message="*HTML*Failure: Process vlc.exe is Not Running &#10;&#10; &lt;a href=dmp_logs_2022_04_08_03_01_47.zip&gt;DEBUG_LOGS&lt;/a&gt; &#10;&#10; &lt;a href=end_test-screenshot-20220408-030147.png&gt;SCREENSHOT&lt;/a&gt; &#10;&#10; &lt;a href=C:\Jenkins\workspace\structuring_refactoring_features/report08042022_03_01_58_page_source.html&gt;PAGE_SOURCE&lt;/a&gt;" type="AssertionError"/>
+</testcase>
+<testcase classname="Kragle Regression" name="Test: Acoustics Feature For Headset: G733 (Windows, Wireless)" time="515.240">
+<failure message="*HTML*Several failures occurred:&#10;&#10;1) Keyword 'headsets.User can change bass / treble' failed after retrying 2 times. The last error was: Failure:  Microphone '7- USB' not found&#10;&#10;2) Keyword 'headsets.Config Certain Frequency' failed after retrying 2 times. The last error was: Failure: Process vlc.exe is Not Running&#10;&#10;3) Keyword 'headsets.Config Certain Frequency' failed after retrying 2 times. The last error was: Failure: Process vlc.exe is Not Running&#10;&#10;4) Keyword 'headsets.Config Certain Frequency' failed after retrying 2 times. The last error was: Failure: Process vlc.exe is Not Running&#10;&#10;5) Failure: Selector &quot;.save-button&quot; is Not Clickable &#10;&#10; &lt;a href=dmp_logs_2022_04_08_03_11_10.zip&gt;DEBUG_LOGS&lt;/a&gt; &#10;&#10; &lt;a href=end_test-screenshot-20220408-031110.png&gt;SCREENSHOT&lt;/a&gt; &#10;&#10; &lt;a href=C:\Jenkins\workspace\structuring_refactoring_features/report08042022_03_11_21_page_source.html&gt;PAGE_SOURCE&lt;/a&gt;" type="AssertionError"/>
+</testcase>
+<testcase classname="Kragle Regression" name="Test: Surround Sound Feature For Headset: G733 (Windows, Wireless)" time="463.943">
+<failure message="*HTML*Several failures occurred:&#10;&#10;1) Keyword 'headsets.Test LFE channel' failed after retrying 2 times. The last error was: Failure: Process vlc.exe is Not Running&#10;&#10;2) Keyword 'headsets.Test Center Channel' failed after retrying 2 times. The last error was: Failure: Process vlc.exe is Not Running&#10;&#10;3) Keyword 'headsets.Test Left Rear Channel' failed after retrying 2 times. The last error was: Failure: Process vlc.exe is Not Running&#10;&#10;4) Keyword 'headsets.Test Left Channel' failed after retrying 2 times. The last error was: Failure: Process vlc.exe is Not Running&#10;&#10;5) Keyword 'headsets.Test Left Surround Channel' failed after retrying 2 times. The last error was: Failure: Process vlc.exe is Not Running&#10;&#10;6) Keyword 'headsets.Test Right Rear Channel' failed after retrying 2 times. The last error was: Failure: Process vlc.exe is Not Running&#10;&#10;7) Keyword 'headsets.Test Right Channel' failed after retrying 2 times. The last error was: Failure: Process vlc.exe is Not Running&#10;&#10;8) Keyword 'headsets.Test Right Surround Channel' failed after retrying 2 times. The last error was: Failure: Process vlc.exe is Not Running &#10;&#10; &lt;a href=dmp_logs_2022_04_08_03_19_38.zip&gt;DEBUG_LOGS&lt;/a&gt; &#10;&#10; &lt;a href=end_test-screenshot-20220408-031938.png&gt;SCREENSHOT&lt;/a&gt; &#10;&#10; &lt;a href=C:\Jenkins\workspace\structuring_refactoring_features/report08042022_03_19_49_page_source.html&gt;PAGE_SOURCE&lt;/a&gt;" type="AssertionError"/>
+</testcase>
+<testcase classname="Kragle Regression" name="Test: Microphone Volume Support For Headset: G733 (Windows, Wireless)" time="95.128">
+<failure message="*HTML*&lt;b&gt;Known Issue:&lt;/b&gt;[&lt;a href=https://jira.logitech.io/browse/KRGL-9044&gt;KRGL-9044&lt;/a&gt;]&#10;Keyword 'headsets.Test Microphone Volume Support' failed after retrying 2 times. The last error was: Failure: Process vlc.exe is Not Running &#10;&#10; &lt;a href=dmp_logs_2022_04_08_03_21_57.zip&gt;DEBUG_LOGS&lt;/a&gt; &#10;&#10; &lt;a href=end_test-screenshot-20220408-032157.png&gt;SCREENSHOT&lt;/a&gt; &#10;&#10; &lt;a href=C:\Jenkins\workspace\structuring_refactoring_features/report08042022_03_22_08_page_source.html&gt;PAGE_SOURCE&lt;/a&gt;" type="AssertionError"/>
+</testcase>
+<testcase classname="Kragle Regression" name="Test: Mic Test For Headset: G733 (Windows, Wireless)" time="85.932">
+<failure message="*HTML*&lt;b&gt;Known Issue:&lt;/b&gt;[&lt;a href=https://jira.logitech.io/browse/KRGL-9044&gt;KRGL-9044&lt;/a&gt;]&#10;Keyword 'headsets.Test Microphone Recording Support' failed after retrying 2 times. The last error was: Failure: Process vlc.exe is Not Running &#10;&#10; &lt;a href=dmp_logs_2022_04_08_03_24_07.zip&gt;DEBUG_LOGS&lt;/a&gt; &#10;&#10; &lt;a href=end_test-screenshot-20220408-032407.png&gt;SCREENSHOT&lt;/a&gt; &#10;&#10; &lt;a href=C:\Jenkins\workspace\structuring_refactoring_features/report08042022_03_24_18_page_source.html&gt;PAGE_SOURCE&lt;/a&gt;" type="AssertionError"/>
+</testcase>
+<testcase classname="Kragle Regression" name="Test: Un/Mute Test For Headset: G733 (Windows, Wireless)" time="130.539">
+<failure message="*HTML*&lt;b&gt;Known Issue:&lt;/b&gt;[&lt;a href=https://jira.logitech.io/browse/KRGL-9044&gt;KRGL-9044&lt;/a&gt;]&#10;Keyword 'headsets.Test Microphone Mute/Unmute Support' failed after retrying 2 times. The last error was: Failure: Process vlc.exe is Not Running &#10;&#10; &lt;a href=dmp_logs_2022_04_08_03_27_02.zip&gt;DEBUG_LOGS&lt;/a&gt; &#10;&#10; &lt;a href=end_test-screenshot-20220408-032701.png&gt;SCREENSHOT&lt;/a&gt; &#10;&#10; &lt;a href=C:\Jenkins\workspace\structuring_refactoring_features/report08042022_03_27_13_page_source.html&gt;PAGE_SOURCE&lt;/a&gt;" type="AssertionError"/>
+</testcase>
+</testsuite>
