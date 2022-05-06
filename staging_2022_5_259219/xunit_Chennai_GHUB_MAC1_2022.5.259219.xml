@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Kragle Regression" tests="20" errors="0" failures="12" skipped="0" time="2386.286">
+<testcase classname="Kragle Regression" name="Test Application Specific Test Cases" time="0.108">
+</testcase>
+<testcase classname="Kragle Regression" name="Test Device Specific Test Cases" time="1.033">
+</testcase>
+<testcase classname="Kragle Regression" name="Connect Device: G502 HERO:wired" time="1.036">
+</testcase>
+<testcase classname="Kragle Regression" name="Test: DFU Verification Regression Receiver For Mouse: G502 HERO (Mac 12.1, Wired)" time="87.961">
+<failure message="*HTML*No keyword with name 'Hidppio Enter DFU Mode' found.&#10;&#10;Also keyword teardown failed:&#10;Several failures occurred:&#10;&#10;1) AttributeError: 'NoneType' object has no attribute 'save_screenshot'&#10;&#10;2) AttributeError: 'NoneType' object has no attribute 'get_log'&#10;&#10;3) UnboundLocalError: local variable 'file_name' referenced before assignment &#10;&#10; &lt;a href=dmp_logs_2022_05_02_15_08_07.zip&gt;DEBUG_LOGS&lt;/a&gt; &#10;&#10; &lt;a href=None&gt;SCREENSHOT&lt;/a&gt; &#10;&#10; &lt;a href=None&gt;PAGE_SOURCE&lt;/a&gt;" type="AssertionError"/>
+</testcase>
+<testcase classname="Kragle Regression" name="Test: DFU Verification Regression For Failure Path Receiver For Mouse: G502 HERO (Mac 12.1, Wired)" time="86.354">
+<failure message="*HTML*No keyword with name 'Hidppio Enter DFU Mode' found.&#10;&#10;Also keyword teardown failed:&#10;Several failures occurred:&#10;&#10;1) AttributeError: 'NoneType' object has no attribute 'save_screenshot'&#10;&#10;2) AttributeError: 'NoneType' object has no attribute 'get_log'&#10;&#10;3) UnboundLocalError: local variable 'file_name' referenced before assignment &#10;&#10; &lt;a href=dmp_logs_2022_05_02_15_10_16.zip&gt;DEBUG_LOGS&lt;/a&gt; &#10;&#10; &lt;a href=None&gt;SCREENSHOT&lt;/a&gt; &#10;&#10; &lt;a href=None&gt;PAGE_SOURCE&lt;/a&gt;" type="AssertionError"/>
+</testcase>
+<testcase classname="Kragle Regression" name="Disconnect: G502 HERO:wired &amp; Connect: PRO WIRELESS:wireless" time="2.151">
+</testcase>
+<testcase classname="Kragle Regression" name="Test: DFU Verification Regression Receiver For Mouse: PRO WIRELESS (Mac 12.1, Wireless)" time="98.350">
+<failure message="*HTML*No keyword with name 'Hidppio Enter DFU Mode' found.&#10;&#10;Also keyword teardown failed:&#10;Several failures occurred:&#10;&#10;1) AttributeError: 'NoneType' object has no attribute 'save_screenshot'&#10;&#10;2) AttributeError: 'NoneType' object has no attribute 'get_log'&#10;&#10;3) UnboundLocalError: local variable 'file_name' referenced before assignment &#10;&#10; &lt;a href=dmp_logs_2022_05_02_15_12_39.zip&gt;DEBUG_LOGS&lt;/a&gt; &#10;&#10; &lt;a href=None&gt;SCREENSHOT&lt;/a&gt; &#10;&#10; &lt;a href=None&gt;PAGE_SOURCE&lt;/a&gt;" type="AssertionError"/>
+</testcase>
+<testcase classname="Kragle Regression" name="Test: DFU Verification Regression For Failure Path Receiver For Mouse: PRO WIRELESS (Mac 12.1, Wireless)" time="98.338">
+<failure message="*HTML*No keyword with name 'Hidppio Enter DFU Mode' found.&#10;&#10;Also keyword teardown failed:&#10;Several failures occurred:&#10;&#10;1) AttributeError: 'NoneType' object has no attribute 'save_screenshot'&#10;&#10;2) AttributeError: 'NoneType' object has no attribute 'get_log'&#10;&#10;3) UnboundLocalError: local variable 'file_name' referenced before assignment &#10;&#10; &lt;a href=dmp_logs_2022_05_02_15_15_00.zip&gt;DEBUG_LOGS&lt;/a&gt; &#10;&#10; &lt;a href=None&gt;SCREENSHOT&lt;/a&gt; &#10;&#10; &lt;a href=None&gt;PAGE_SOURCE&lt;/a&gt;" type="AssertionError"/>
+</testcase>
+<testcase classname="Kragle Regression" name="Disconnect: PRO WIRELESS:wireless &amp; Connect: G913:wireless" time="2.169">
+</testcase>
+<testcase classname="Kragle Regression" name="Test: DFU Verification Regression Receiver For Keyboard: G913 (Mac 12.1, Wireless)" time="98.310">
+<failure message="*HTML*No keyword with name 'Hidppio Enter DFU Mode' found.&#10;&#10;Also keyword teardown failed:&#10;Several failures occurred:&#10;&#10;1) AttributeError: 'NoneType' object has no attribute 'save_screenshot'&#10;&#10;2) AttributeError: 'NoneType' object has no attribute 'get_log'&#10;&#10;3) UnboundLocalError: local variable 'file_name' referenced before assignment &#10;&#10; &lt;a href=dmp_logs_2022_05_02_15_17_22.zip&gt;DEBUG_LOGS&lt;/a&gt; &#10;&#10; &lt;a href=None&gt;SCREENSHOT&lt;/a&gt; &#10;&#10; &lt;a href=None&gt;PAGE_SOURCE&lt;/a&gt;" type="AssertionError"/>
+</testcase>
+<testcase classname="Kragle Regression" name="Test: DFU Verification Regression For Failure Path Receiver For Keyboard: G913 (Mac 12.1, Wireless)" time="98.349">
+<failure message="*HTML*No keyword with name 'Hidppio Enter DFU Mode' found.&#10;&#10;Also keyword teardown failed:&#10;Several failures occurred:&#10;&#10;1) AttributeError: 'NoneType' object has no attribute 'save_screenshot'&#10;&#10;2) AttributeError: 'NoneType' object has no attribute 'get_log'&#10;&#10;3) UnboundLocalError: local variable 'file_name' referenced before assignment &#10;&#10; &lt;a href=dmp_logs_2022_05_02_15_19_43.zip&gt;DEBUG_LOGS&lt;/a&gt; &#10;&#10; &lt;a href=None&gt;SCREENSHOT&lt;/a&gt; &#10;&#10; &lt;a href=None&gt;PAGE_SOURCE&lt;/a&gt;" type="AssertionError"/>
+</testcase>
+<testcase classname="Kragle Regression" name="Disconnect: G913:wireless &amp; Connect: PRO X SUPERLIGHT:wireless" time="2.103">
+</testcase>
+<testcase classname="Kragle Regression" name="Test: DFU Verification Regression Receiver For Mouse: PRO X SUPERLIGHT (Mac 12.1, Wireless)" time="178.302">
+<failure message="*HTML*Failure: No Fimware Version value in FW response.&#10;&#10;Also keyword teardown failed:&#10;Several failures occurred:&#10;&#10;1) AttributeError: 'NoneType' object has no attribute 'save_screenshot'&#10;&#10;2) AttributeError: 'NoneType' object has no attribute 'get_log'&#10;&#10;3) UnboundLocalError: local variable 'file_name' referenced before assignment &#10;&#10; &lt;a href=dmp_logs_2022_05_02_15_23_26.zip&gt;DEBUG_LOGS&lt;/a&gt; &#10;&#10; &lt;a href=None&gt;SCREENSHOT&lt;/a&gt; &#10;&#10; &lt;a href=None&gt;PAGE_SOURCE&lt;/a&gt;" type="AssertionError"/>
+</testcase>
+<testcase classname="Kragle Regression" name="Test: DFU Verification Regression For Failure Path Receiver For Mouse: PRO X SUPERLIGHT (Mac 12.1, Wireless)" time="178.302">
+<failure message="*HTML*&lt;b&gt;Known Issue:&lt;/b&gt;[&lt;a href=https://jira.logitech.io/browse/KRGL-9269&gt;KRGL-9269&lt;/a&gt;]&#10;Failure: No Fimware Version value in FW response.&#10;&#10;Also keyword teardown failed:&#10;Several failures occurred:&#10;&#10;1) AttributeError: 'NoneType' object has no attribute 'save_screenshot'&#10;&#10;2) AttributeError: 'NoneType' object has no attribute 'get_log'&#10;&#10;3) UnboundLocalError: local variable 'file_name' referenced before assignment &#10;&#10; &lt;a href=dmp_logs_2022_05_02_15_27_06.zip&gt;DEBUG_LOGS&lt;/a&gt; &#10;&#10; &lt;a href=None&gt;SCREENSHOT&lt;/a&gt; &#10;&#10; &lt;a href=None&gt;PAGE_SOURCE&lt;/a&gt;" type="AssertionError"/>
+</testcase>
+<testcase classname="Kragle Regression" name="Disconnect: PRO X SUPERLIGHT:wireless &amp; Connect: G903 LIGHTSPEED:wireless" time="2.109">
+</testcase>
+<testcase classname="Kragle Regression" name="Test: DFU Verification Regression Receiver For Mouse: G903 LIGHTSPEED (Mac 12.1, Wireless)" time="178.185">
+<failure message="*HTML*Failure: No Fimware Version value in FW response.&#10;&#10;Also keyword teardown failed:&#10;Several failures occurred:&#10;&#10;1) AttributeError: 'NoneType' object has no attribute 'save_screenshot'&#10;&#10;2) AttributeError: 'NoneType' object has no attribute 'get_log'&#10;&#10;3) UnboundLocalError: local variable 'file_name' referenced before assignment &#10;&#10; &lt;a href=dmp_logs_2022_05_02_15_30_49.zip&gt;DEBUG_LOGS&lt;/a&gt; &#10;&#10; &lt;a href=None&gt;SCREENSHOT&lt;/a&gt; &#10;&#10; &lt;a href=None&gt;PAGE_SOURCE&lt;/a&gt;" type="AssertionError"/>
+</testcase>
+<testcase classname="Kragle Regression" name="Test: DFU Verification Regression For Failure Path Receiver For Mouse: G903 LIGHTSPEED (Mac 12.1, Wireless)" time="178.197">
+<failure message="*HTML*Failure: No Fimware Version value in FW response.&#10;&#10;Also keyword teardown failed:&#10;Several failures occurred:&#10;&#10;1) AttributeError: 'NoneType' object has no attribute 'save_screenshot'&#10;&#10;2) AttributeError: 'NoneType' object has no attribute 'get_log'&#10;&#10;3) UnboundLocalError: local variable 'file_name' referenced before assignment &#10;&#10; &lt;a href=dmp_logs_2022_05_02_15_34_30.zip&gt;DEBUG_LOGS&lt;/a&gt; &#10;&#10; &lt;a href=None&gt;SCREENSHOT&lt;/a&gt; &#10;&#10; &lt;a href=None&gt;PAGE_SOURCE&lt;/a&gt;" type="AssertionError"/>
+</testcase>
+<testcase classname="Kragle Regression" name="Disconnect: G903 LIGHTSPEED:wireless &amp; Connect: G703 LIGHTSPEED:wireless" time="2.148">
+</testcase>
+<testcase classname="Kragle Regression" name="Test: DFU Verification Regression Receiver For Mouse: G703 LIGHTSPEED (Mac 12.1, Wireless)" time="98.296">
+<failure message="*HTML*No keyword with name 'Hidppio Enter DFU Mode' found.&#10;&#10;Also keyword teardown failed:&#10;Several failures occurred:&#10;&#10;1) AttributeError: 'NoneType' object has no attribute 'save_screenshot'&#10;&#10;2) AttributeError: 'NoneType' object has no attribute 'get_log'&#10;&#10;3) UnboundLocalError: local variable 'file_name' referenced before assignment &#10;&#10; &lt;a href=dmp_logs_2022_05_02_15_36_52.zip&gt;DEBUG_LOGS&lt;/a&gt; &#10;&#10; &lt;a href=None&gt;SCREENSHOT&lt;/a&gt; &#10;&#10; &lt;a href=None&gt;PAGE_SOURCE&lt;/a&gt;" type="AssertionError"/>
+</testcase>
+<testcase classname="Kragle Regression" name="Test: DFU Verification Regression For Failure Path Receiver For Mouse: G703 LIGHTSPEED (Mac 12.1, Wireless)" time="98.373">
+<failure message="*HTML*No keyword with name 'Hidppio Enter DFU Mode' found.&#10;&#10;Also keyword teardown failed:&#10;Several failures occurred:&#10;&#10;1) AttributeError: 'NoneType' object has no attribute 'save_screenshot'&#10;&#10;2) AttributeError: 'NoneType' object has no attribute 'get_log'&#10;&#10;3) UnboundLocalError: local variable 'file_name' referenced before assignment &#10;&#10; &lt;a href=dmp_logs_2022_05_02_15_39_13.zip&gt;DEBUG_LOGS&lt;/a&gt; &#10;&#10; &lt;a href=None&gt;SCREENSHOT&lt;/a&gt; &#10;&#10; &lt;a href=None&gt;PAGE_SOURCE&lt;/a&gt;" type="AssertionError"/>
+</testcase>
+</testsuite>
