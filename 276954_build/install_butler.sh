@@ -1,0 +1,1 @@
+pip3 install --upgrade --extra-index-url https://artifactory.logitech.com/artifactory/api/pypi/pypi/simple logi-butler
