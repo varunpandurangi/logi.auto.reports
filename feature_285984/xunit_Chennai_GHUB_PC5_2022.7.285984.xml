@@ -1,0 +1,375 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Kragle Regression" tests="160" errors="0" failures="52" skipped="0" time="40894.561">
+<testcase classname="Kragle Regression" name="Test Application Specific Test Cases" time="2.057">
+</testcase>
+<testcase classname="Kragle Regression" name="Test Device Specific Test Cases" time="3.829">
+</testcase>
+<testcase classname="Kragle Regression" name="Connect Device: G502 LIGHTSPEED:wireless" time="1.011">
+</testcase>
+<testcase classname="Kragle Regression" name="Test: Local And Cloud Profile For Mouse: G502 LIGHTSPEED (Windows_10, Wireless)" time="357.657">
+</testcase>
+<testcase classname="Kragle Regression" name="Test: OOB Software Support For Mouse: G502 LIGHTSPEED (Windows_10, Wireless)" time="53.817">
+<failure message="*HTML*Failure: Selector &quot;//h5[contains(text(), 'G502 LIGHTSPEED']&quot; is Not Loaded &#10;&#10; &lt;a href=dmp_logs_2022_07_14_13_28_54.zip&gt;DEBUG_LOGS&lt;/a&gt; &#10;&#10; &lt;a href=end_test-screenshot-20220714-132854.png&gt;SCREENSHOT&lt;/a&gt; &#10;&#10; &lt;a href=C:\Jenkins\workspace\sion_features_navigation_screens/report14072022_13_29_06_page_source.html&gt;PAGE_SOURCE&lt;/a&gt;" type="AssertionError"/>
+</testcase>
+<testcase classname="Kragle Regression" name="Test: Lightsync Effect For Mouse: G502 LIGHTSPEED (Windows_10, Wireless)" time="54.807">
+</testcase>
+<testcase classname="Kragle Regression" name="Test: Lightsync Effect With Restart G HUB For Mouse: G502 LIGHTSPEED (Windows_10, Wireless)" time="175.314">
+<failure message="*HTML*Failure: Selector &quot;.panel-wrapper.lighting .color-picker .color-value-container.value-r input&quot; with attribute(s) &quot;{'value': '59'}&quot; is Not Loaded &#10;&#10; &lt;a href=dmp_logs_2022_07_14_13_33_29.zip&gt;DEBUG_LOGS&lt;/a&gt; &#10;&#10; &lt;a href=end_test-screenshot-20220714-133329.png&gt;SCREENSHOT&lt;/a&gt; &#10;&#10; &lt;a href=C:\Jenkins\workspace\sion_features_navigation_screens/report14072022_13_33_40_page_source.html&gt;PAGE_SOURCE&lt;/a&gt;" type="AssertionError"/>
+</testcase>
+<testcase classname="Kragle Regression" name="Test: Lightsync Effect With Sleep System For Mouse: G502 LIGHTSPEED (Windows_10, Wireless)" time="749.937">
+<failure message="*HTML*Several failures occurred:&#10;&#10;1) cycle != fixed&#10;&#10;2) breathing != fixed&#10;&#10;3) {'B_value': 0, 'G_value': 0, 'R_value': 0} == {'B_value': 0, 'G_value': 0, 'R_value': 0}&#10;&#10;4) The expected zone lightning rate (10000) and actual lightning rate (8000) is different&#10;&#10;5) The brightness value expected (50) and backend brightness value (100) are different &#10;&#10; &lt;a href=dmp_logs_2022_07_14_13_46_44.zip&gt;DEBUG_LOGS&lt;/a&gt; &#10;&#10; &lt;a href=end_test-screenshot-20220714-134644.png&gt;SCREENSHOT&lt;/a&gt; &#10;&#10; &lt;a href=C:\Jenkins\workspace\sion_features_navigation_screens/report14072022_13_46_55_page_source.html&gt;PAGE_SOURCE&lt;/a&gt;" type="AssertionError"/>
+</testcase>
+<testcase classname="Kragle Regression" name="Test: Lightsync Effect With Onboard Profile For Mouse: G502 LIGHTSPEED (Windows_10, Wireless)" time="320.230">
+</testcase>
+<testcase classname="Kragle Regression" name="Test: Global Settings - My Gear For Mouse: G502 LIGHTSPEED (Windows_10, Wireless)" time="19.840">
+</testcase>
+<testcase classname="Kragle Regression" name="Test: Global Settings - Verify Show Tutorial Enables Coach Marks For Mouse: G502 LIGHTSPEED (Windows_10, Wireless)" time="32.061">
+</testcase>
+<testcase classname="Kragle Regression" name="Test: Device Settings For Mouse - UI Verification: G502 LIGHTSPEED (Windows_10, Wireless)" time="228.379">
+</testcase>
+<testcase classname="Kragle Regression" name="Test: Device Settings For Mouse - SYS Verification: G502 LIGHTSPEED (Windows_10, Wireless)" time="239.994">
+</testcase>
+<testcase classname="Kragle Regression" name="Test: Persistent Profile For Mouse: G502 LIGHTSPEED (Windows_10, Wireless)" time="2295.235">
+<failure message="*HTML*Several failures occurred:&#10;&#10;1) Failure: Selector &quot;.gdls-typo.gdls-color-high-xl.gdls-typo-heading.gdls-typo-h5.HeaderText&quot; is Not Loaded&#10;&#10;2) Failure: Selector &quot;.dropdown-toggle&quot; with attribute(s) &quot;{'text': 'BREATHING'}&quot; is Not Loaded &#10;&#10; &lt;a href=dmp_logs_2022_07_14_14_37_42.zip&gt;DEBUG_LOGS&lt;/a&gt; &#10;&#10; &lt;a href=end_test-screenshot-20220714-143742.png&gt;SCREENSHOT&lt;/a&gt; &#10;&#10; &lt;a href=C:\Jenkins\workspace\sion_features_navigation_screens/report14072022_14_37_53_page_source.html&gt;PAGE_SOURCE&lt;/a&gt;" type="AssertionError"/>
+</testcase>
+<testcase classname="Kragle Regression" name="Test: DPI Sensitivity For Mouse - UI Verification: G502 LIGHTSPEED (Windows_10, Wireless)" time="183.833">
+</testcase>
+<testcase classname="Kragle Regression" name="Test: DPI With Onboard Profile For Mouse: G502 LIGHTSPEED (Windows_10, Wireless)" time="278.599">
+</testcase>
+<testcase classname="Kragle Regression" name="Test: DPI Sensitivity For Mouse: G502 LIGHTSPEED (Windows_10, Wireless)" time="267.803">
+</testcase>
+<testcase classname="Kragle Regression" name="Test: DPI Sensitivity With Sleep System For Mouse: G502 LIGHTSPEED (Windows_10, Wireless)" time="166.127">
+</testcase>
+<testcase classname="Kragle Regression" name="Test: DPI Sensitivity With Restart G HUB For Mouse: G502 LIGHTSPEED (Windows_10, Wireless)" time="142.648">
+</testcase>
+<testcase classname="Kragle Regression" name="Disconnect: G502 LIGHTSPEED:wireless &amp; Connect: G604 LIGHTSPEED:wireless" time="4.334">
+</testcase>
+<testcase classname="Kragle Regression" name="Test: Local And Cloud Profile For Mouse: G604 LIGHTSPEED (Windows_10, Wireless)" time="375.516">
+</testcase>
+<testcase classname="Kragle Regression" name="Test: OOB Software Support For Mouse: G604 LIGHTSPEED (Windows_10, Wireless)" time="237.495">
+</testcase>
+<testcase classname="Kragle Regression" name="Test: Global Settings - My Gear For Mouse: G604 LIGHTSPEED (Windows_10, Wireless)" time="19.187">
+</testcase>
+<testcase classname="Kragle Regression" name="Test: Global Settings - Verify Show Tutorial Enables Coach Marks For Mouse: G604 LIGHTSPEED (Windows_10, Wireless)" time="32.063">
+</testcase>
+<testcase classname="Kragle Regression" name="Test: Device Settings For Mouse - UI Verification: G604 LIGHTSPEED (Windows_10, Wireless)" time="223.580">
+</testcase>
+<testcase classname="Kragle Regression" name="Test: Device Settings For Mouse - SYS Verification: G604 LIGHTSPEED (Windows_10, Wireless)" time="236.350">
+</testcase>
+<testcase classname="Kragle Regression" name="Test: User Able To Delete The Actions For Mouse: G604 LIGHTSPEED (Windows_10, Wireless)" time="190.817">
+</testcase>
+<testcase classname="Kragle Regression" name="Test: DPI With Onboard Profile For Mouse: G604 LIGHTSPEED (Windows_10, Wireless)" time="278.389">
+</testcase>
+<testcase classname="Kragle Regression" name="Test: DPI Sensitivity For Mouse: G604 LIGHTSPEED (Windows_10, Wireless)" time="268.614">
+</testcase>
+<testcase classname="Kragle Regression" name="Test: DPI Sensitivity With Sleep System For Mouse: G604 LIGHTSPEED (Windows_10, Wireless)" time="205.111">
+<failure message="*HTML*The expected repo rate (125) and the actual value from backend repo rate (1000) does not match: 125 != 1000 &#10;&#10; &lt;a href=dmp_logs_2022_07_14_15_32_28.zip&gt;DEBUG_LOGS&lt;/a&gt; &#10;&#10; &lt;a href=end_test-screenshot-20220714-153228.png&gt;SCREENSHOT&lt;/a&gt; &#10;&#10; &lt;a href=C:\Jenkins\workspace\sion_features_navigation_screens/report14072022_15_32_39_page_source.html&gt;PAGE_SOURCE&lt;/a&gt;" type="AssertionError"/>
+</testcase>
+<testcase classname="Kragle Regression" name="Test: DPI Sensitivity With Restart G HUB For Mouse: G604 LIGHTSPEED (Windows_10, Wireless)" time="59.932">
+<failure message="*HTML*The expected repo rate (125) and the actual value from backend repo rate (1000) does not match: 125 != 1000 &#10;&#10; &lt;a href=dmp_logs_2022_07_14_15_34_12.zip&gt;DEBUG_LOGS&lt;/a&gt; &#10;&#10; &lt;a href=end_test-screenshot-20220714-153412.png&gt;SCREENSHOT&lt;/a&gt; &#10;&#10; &lt;a href=C:\Jenkins\workspace\sion_features_navigation_screens/report14072022_15_34_23_page_source.html&gt;PAGE_SOURCE&lt;/a&gt;" type="AssertionError"/>
+</testcase>
+<testcase classname="Kragle Regression" name="Disconnect: G604 LIGHTSPEED:wireless &amp; Connect: G703 LIGHTSPEED:wireless" time="2.105">
+</testcase>
+<testcase classname="Kragle Regression" name="Test: Local And Cloud Profile For Mouse: G703 LIGHTSPEED (Windows_10, Wireless)" time="373.357">
+</testcase>
+<testcase classname="Kragle Regression" name="Test: OOB Software Support For Mouse: G703 LIGHTSPEED (Windows_10, Wireless)" time="53.673">
+<failure message="*HTML*Failure: Selector &quot;//h5[contains(text(), 'G703 LIGHTSPEED']&quot; is Not Loaded &#10;&#10; &lt;a href=dmp_logs_2022_07_14_15_42_05.zip&gt;DEBUG_LOGS&lt;/a&gt; &#10;&#10; &lt;a href=end_test-screenshot-20220714-154205.png&gt;SCREENSHOT&lt;/a&gt; &#10;&#10; &lt;a href=C:\Jenkins\workspace\sion_features_navigation_screens/report14072022_15_42_17_page_source.html&gt;PAGE_SOURCE&lt;/a&gt;" type="AssertionError"/>
+</testcase>
+<testcase classname="Kragle Regression" name="Test: Lightsync Effect For Mouse: G703 LIGHTSPEED (Windows_10, Wireless)" time="54.888">
+</testcase>
+<testcase classname="Kragle Regression" name="Test: Lightsync Effect With Restart G HUB For Mouse: G703 LIGHTSPEED (Windows_10, Wireless)" time="174.913">
+<failure message="*HTML*Failure: Selector &quot;.panel-wrapper.lighting .color-picker .color-value-container.value-r input&quot; with attribute(s) &quot;{'value': '59'}&quot; is Not Loaded &#10;&#10; &lt;a href=dmp_logs_2022_07_14_15_46_39.zip&gt;DEBUG_LOGS&lt;/a&gt; &#10;&#10; &lt;a href=end_test-screenshot-20220714-154639.png&gt;SCREENSHOT&lt;/a&gt; &#10;&#10; &lt;a href=C:\Jenkins\workspace\sion_features_navigation_screens/report14072022_15_46_50_page_source.html&gt;PAGE_SOURCE&lt;/a&gt;" type="AssertionError"/>
+</testcase>
+<testcase classname="Kragle Regression" name="Test: Lightsync Effect With Sleep System For Mouse: G703 LIGHTSPEED (Windows_10, Wireless)" time="902.963">
+<failure message="*HTML*Several failures occurred:&#10;&#10;1) cycle != fixed&#10;&#10;2) breathing != fixed&#10;&#10;3) 'audiovisualizerParams' not available in the {'id': 'FIXED', 'zoneType': 'ZONE_PRIMARY', 'persistent': False, 'fixedParams': {'color': {'tag': '', 'hex': '#6fde65'}}}&#10;&#10;4) The expected zone lightning rate (10000) and actual lightning rate (8000) is different&#10;&#10;5) The brightness value expected (50) and backend brightness value (100) are different &#10;&#10; &lt;a href=dmp_logs_2022_07_14_16_02_26.zip&gt;DEBUG_LOGS&lt;/a&gt; &#10;&#10; &lt;a href=end_test-screenshot-20220714-160226.png&gt;SCREENSHOT&lt;/a&gt; &#10;&#10; &lt;a href=C:\Jenkins\workspace\sion_features_navigation_screens/report14072022_16_02_37_page_source.html&gt;PAGE_SOURCE&lt;/a&gt;" type="AssertionError"/>
+</testcase>
+<testcase classname="Kragle Regression" name="Test: Lightsync Effect With Onboard Profile For Mouse: G703 LIGHTSPEED (Windows_10, Wireless)" time="250.506">
+</testcase>
+<testcase classname="Kragle Regression" name="Test: Global Settings - My Gear For Mouse: G703 LIGHTSPEED (Windows_10, Wireless)" time="19.840">
+</testcase>
+<testcase classname="Kragle Regression" name="Test: Global Settings - Verify Show Tutorial Enables Coach Marks For Mouse: G703 LIGHTSPEED (Windows_10, Wireless)" time="31.928">
+</testcase>
+<testcase classname="Kragle Regression" name="Test: Device Settings For Mouse - UI Verification: G703 LIGHTSPEED (Windows_10, Wireless)" time="245.028">
+</testcase>
+<testcase classname="Kragle Regression" name="Test: Device Settings For Mouse - SYS Verification: G703 LIGHTSPEED (Windows_10, Wireless)" time="301.224">
+</testcase>
+<testcase classname="Kragle Regression" name="Test: Persistent Profile For Mouse: G703 LIGHTSPEED (Windows_10, Wireless)" time="2319.061">
+<failure message="*HTML*Several failures occurred:&#10;&#10;1) Failure: Selector &quot;.gdls-typo.gdls-color-high-xl.gdls-typo-heading.gdls-typo-h5.HeaderText&quot; is Not Loaded&#10;&#10;2) Failure: Selector &quot;.dropdown-toggle&quot; with attribute(s) &quot;{'text': 'BREATHING'}&quot; is Not Loaded &#10;&#10; &lt;a href=dmp_logs_2022_07_14_16_53_54.zip&gt;DEBUG_LOGS&lt;/a&gt; &#10;&#10; &lt;a href=end_test-screenshot-20220714-165354.png&gt;SCREENSHOT&lt;/a&gt; &#10;&#10; &lt;a href=C:\Jenkins\workspace\sion_features_navigation_screens/report14072022_16_54_05_page_source.html&gt;PAGE_SOURCE&lt;/a&gt;" type="AssertionError"/>
+</testcase>
+<testcase classname="Kragle Regression" name="Test: DPI Sensitivity For Mouse - UI Verification: G703 LIGHTSPEED (Windows_10, Wireless)" time="152.564">
+</testcase>
+<testcase classname="Kragle Regression" name="Test: DPI With Onboard Profile For Mouse: G703 LIGHTSPEED (Windows_10, Wireless)" time="247.029">
+</testcase>
+<testcase classname="Kragle Regression" name="Test: DPI Sensitivity For Mouse: G703 LIGHTSPEED (Windows_10, Wireless)" time="260.811">
+</testcase>
+<testcase classname="Kragle Regression" name="Test: DPI Sensitivity With Sleep System For Mouse: G703 LIGHTSPEED (Windows_10, Wireless)" time="190.928">
+</testcase>
+<testcase classname="Kragle Regression" name="Test: DPI Sensitivity With Restart G HUB For Mouse: G703 LIGHTSPEED (Windows_10, Wireless)" time="141.799">
+</testcase>
+<testcase classname="Kragle Regression" name="Disconnect: G703 LIGHTSPEED:wireless &amp; Connect: G903 LIGHTSPEED:wireless" time="2.167">
+</testcase>
+<testcase classname="Kragle Regression" name="Test: Local And Cloud Profile For Mouse: G903 LIGHTSPEED (Windows_10, Wireless)" time="374.265">
+</testcase>
+<testcase classname="Kragle Regression" name="Test: OOB Software Support For Mouse: G903 LIGHTSPEED (Windows_10, Wireless)" time="53.759">
+<failure message="*HTML*Failure: Selector &quot;//h5[contains(text(), 'G903 LIGHTSPEED']&quot; is Not Loaded &#10;&#10; &lt;a href=dmp_logs_2022_07_14_17_20_25.zip&gt;DEBUG_LOGS&lt;/a&gt; &#10;&#10; &lt;a href=end_test-screenshot-20220714-172025.png&gt;SCREENSHOT&lt;/a&gt; &#10;&#10; &lt;a href=C:\Jenkins\workspace\sion_features_navigation_screens/report14072022_17_20_37_page_source.html&gt;PAGE_SOURCE&lt;/a&gt;" type="AssertionError"/>
+</testcase>
+<testcase classname="Kragle Regression" name="Test: Lightsync Effect For Mouse: G903 LIGHTSPEED (Windows_10, Wireless)" time="54.939">
+</testcase>
+<testcase classname="Kragle Regression" name="Test: Lightsync Effect With Restart G HUB For Mouse: G903 LIGHTSPEED (Windows_10, Wireless)" time="175.413">
+<failure message="*HTML*Failure: Selector &quot;.panel-wrapper.lighting .color-picker .color-value-container.value-r input&quot; with attribute(s) &quot;{'value': '59'}&quot; is Not Loaded &#10;&#10; &lt;a href=dmp_logs_2022_07_14_17_25_00.zip&gt;DEBUG_LOGS&lt;/a&gt; &#10;&#10; &lt;a href=end_test-screenshot-20220714-172459.png&gt;SCREENSHOT&lt;/a&gt; &#10;&#10; &lt;a href=C:\Jenkins\workspace\sion_features_navigation_screens/report14072022_17_25_11_page_source.html&gt;PAGE_SOURCE&lt;/a&gt;" type="AssertionError"/>
+</testcase>
+<testcase classname="Kragle Regression" name="Test: Lightsync Effect With Sleep System For Mouse: G903 LIGHTSPEED (Windows_10, Wireless)" time="830.436">
+<failure message="*HTML*Several failures occurred:&#10;&#10;1) cycle != fixed&#10;&#10;2) breathing != fixed&#10;&#10;3) 'audiovisualizerParams' not available in the {'id': 'FIXED', 'zoneType': 'ZONE_PRIMARY', 'persistent': False, 'fixedParams': {'color': {'tag': '', 'hex': '#6fde65'}}}&#10;&#10;4) The expected zone lightning rate (10000) and actual lightning rate (8000) is different&#10;&#10;5) The brightness value expected (50) and backend brightness value (100) are different &#10;&#10; &lt;a href=dmp_logs_2022_07_14_17_39_34.zip&gt;DEBUG_LOGS&lt;/a&gt; &#10;&#10; &lt;a href=end_test-screenshot-20220714-173934.png&gt;SCREENSHOT&lt;/a&gt; &#10;&#10; &lt;a href=C:\Jenkins\workspace\sion_features_navigation_screens/report14072022_17_39_45_page_source.html&gt;PAGE_SOURCE&lt;/a&gt;" type="AssertionError"/>
+</testcase>
+<testcase classname="Kragle Regression" name="Test: Lightsync Effect With Onboard Profile For Mouse: G903 LIGHTSPEED (Windows_10, Wireless)" time="321.505">
+</testcase>
+<testcase classname="Kragle Regression" name="Test: Global Settings - My Gear For Mouse: G903 LIGHTSPEED (Windows_10, Wireless)" time="19.750">
+</testcase>
+<testcase classname="Kragle Regression" name="Test: Global Settings - Verify Show Tutorial Enables Coach Marks For Mouse: G903 LIGHTSPEED (Windows_10, Wireless)" time="32.007">
+</testcase>
+<testcase classname="Kragle Regression" name="Test: Device Settings For Mouse - UI Verification: G903 LIGHTSPEED (Windows_10, Wireless)" time="273.345">
+<failure message="*HTML*Failure: Selector &quot;.icon-wrapper.assign&quot; is Not Clickable&#10;&#10;Also keyword teardown failed:&#10;Failure: Selector &quot;#setting-sprocket&quot; is Not Clickable &#10;&#10; &lt;a href=dmp_logs_2022_07_14_17_51_05.zip&gt;DEBUG_LOGS&lt;/a&gt; &#10;&#10; &lt;a href=end_test-screenshot-20220714-175105.png&gt;SCREENSHOT&lt;/a&gt; &#10;&#10; &lt;a href=C:\Jenkins\workspace\sion_features_navigation_screens/report14072022_17_51_16_page_source.html&gt;PAGE_SOURCE&lt;/a&gt;" type="AssertionError"/>
+</testcase>
+<testcase classname="Kragle Regression" name="Test: Device Settings For Mouse - SYS Verification: G903 LIGHTSPEED (Windows_10, Wireless)" time="317.387">
+</testcase>
+<testcase classname="Kragle Regression" name="Test: Persistent Profile For Mouse: G903 LIGHTSPEED (Windows_10, Wireless)" time="2323.384">
+<failure message="*HTML*Several failures occurred:&#10;&#10;1) Failure: Selector &quot;.gdls-typo.gdls-color-high-xl.gdls-typo-heading.gdls-typo-h5.HeaderText&quot; is Not Loaded&#10;&#10;2) Failure: Selector &quot;.dropdown-toggle&quot; with attribute(s) &quot;{'text': 'BREATHING'}&quot; is Not Loaded &#10;&#10; &lt;a href=dmp_logs_2022_07_14_18_33_45.zip&gt;DEBUG_LOGS&lt;/a&gt; &#10;&#10; &lt;a href=end_test-screenshot-20220714-183345.png&gt;SCREENSHOT&lt;/a&gt; &#10;&#10; &lt;a href=C:\Jenkins\workspace\sion_features_navigation_screens/report14072022_18_33_57_page_source.html&gt;PAGE_SOURCE&lt;/a&gt;" type="AssertionError"/>
+</testcase>
+<testcase classname="Kragle Regression" name="Test: DPI Sensitivity For Mouse - UI Verification: G903 LIGHTSPEED (Windows_10, Wireless)" time="189.871">
+</testcase>
+<testcase classname="Kragle Regression" name="Test: DPI With Onboard Profile For Mouse: G903 LIGHTSPEED (Windows_10, Wireless)" time="248.944">
+</testcase>
+<testcase classname="Kragle Regression" name="Test: DPI Sensitivity For Mouse: G903 LIGHTSPEED (Windows_10, Wireless)" time="269.247">
+</testcase>
+<testcase classname="Kragle Regression" name="Test: DPI Sensitivity With Sleep System For Mouse: G903 LIGHTSPEED (Windows_10, Wireless)" time="192.248">
+</testcase>
+<testcase classname="Kragle Regression" name="Test: DPI Sensitivity With Restart G HUB For Mouse: G903 LIGHTSPEED (Windows_10, Wireless)" time="143.390">
+</testcase>
+<testcase classname="Kragle Regression" name="Disconnect: G903 LIGHTSPEED:wireless &amp; Connect: G603:wireless" time="2.118">
+</testcase>
+<testcase classname="Kragle Regression" name="Test: Local And Cloud Profile For Mouse: G603 (Windows_10, Wireless)" time="380.146">
+</testcase>
+<testcase classname="Kragle Regression" name="Test: OOB Software Support For Mouse: G603 (Windows_10, Wireless)" time="263.509">
+</testcase>
+<testcase classname="Kragle Regression" name="Test: Global Settings - My Gear For Mouse: G603 (Windows_10, Wireless)" time="19.213">
+</testcase>
+<testcase classname="Kragle Regression" name="Test: Global Settings - Verify Show Tutorial Enables Coach Marks For Mouse: G603 (Windows_10, Wireless)" time="31.928">
+</testcase>
+<testcase classname="Kragle Regression" name="Test: Device Settings For Mouse - UI Verification: G603 (Windows_10, Wireless)" time="282.319">
+<failure message="*HTML*Failure: Selector &quot;//p[contains(text(),' 21.1.14')]&quot; is Not Loaded &#10;&#10; &lt;a href=dmp_logs_2022_07_14_19_10_17.zip&gt;DEBUG_LOGS&lt;/a&gt; &#10;&#10; &lt;a href=end_test-screenshot-20220714-191016.png&gt;SCREENSHOT&lt;/a&gt; &#10;&#10; &lt;a href=C:\Jenkins\workspace\sion_features_navigation_screens/report14072022_19_10_28_page_source.html&gt;PAGE_SOURCE&lt;/a&gt;" type="AssertionError"/>
+</testcase>
+<testcase classname="Kragle Regression" name="Test: DPI Sensitivity For Mouse - UI Verification: G603 (Windows_10, Wireless)" time="91.177">
+<failure message="*HTML*Failure: Selector &quot;//div[@class='dpi-levels']/div[text()='1200']&quot; is Not Loaded &#10;&#10; &lt;a href=dmp_logs_2022_07_14_19_12_32.zip&gt;DEBUG_LOGS&lt;/a&gt; &#10;&#10; &lt;a href=end_test-screenshot-20220714-191232.png&gt;SCREENSHOT&lt;/a&gt; &#10;&#10; &lt;a href=C:\Jenkins\workspace\sion_features_navigation_screens/report14072022_19_12_43_page_source.html&gt;PAGE_SOURCE&lt;/a&gt;" type="AssertionError"/>
+</testcase>
+<testcase classname="Kragle Regression" name="Test: DPI With Onboard Profile For Mouse: G603 (Windows_10, Wireless)" time="125.679">
+<failure message="*HTML*Failure: Selector &quot;//div[@class='dpi-levels']/div[text()='1200']&quot; is Not Loaded &#10;&#10; &lt;a href=dmp_logs_2022_07_14_19_14_48.zip&gt;DEBUG_LOGS&lt;/a&gt; &#10;&#10; &lt;a href=end_test-screenshot-20220714-191448.png&gt;SCREENSHOT&lt;/a&gt; &#10;&#10; &lt;a href=C:\Jenkins\workspace\sion_features_navigation_screens/report14072022_19_14_59_page_source.html&gt;PAGE_SOURCE&lt;/a&gt;" type="AssertionError"/>
+</testcase>
+<testcase classname="Kragle Regression" name="Test: DPI Sensitivity For Mouse: G603 (Windows_10, Wireless)" time="76.339">
+<failure message="*HTML*Failure: Selector &quot;//div[@class='dpi-levels']/div[text()='1200']&quot; is Not Loaded &#10;&#10; &lt;a href=dmp_logs_2022_07_14_19_17_22.zip&gt;DEBUG_LOGS&lt;/a&gt; &#10;&#10; &lt;a href=end_test-screenshot-20220714-191722.png&gt;SCREENSHOT&lt;/a&gt; &#10;&#10; &lt;a href=C:\Jenkins\workspace\sion_features_navigation_screens/report14072022_19_17_33_page_source.html&gt;PAGE_SOURCE&lt;/a&gt;" type="AssertionError"/>
+</testcase>
+<testcase classname="Kragle Regression" name="Test: DPI Sensitivity With Sleep System For Mouse: G603 (Windows_10, Wireless)" time="224.383">
+</testcase>
+<testcase classname="Kragle Regression" name="Test: DPI Sensitivity With Restart G HUB For Mouse: G603 (Windows_10, Wireless)" time="147.460">
+</testcase>
+<testcase classname="Kragle Regression" name="Disconnect: G603:wireless &amp; Connect: PRO X WIRELESS:wireless" time="2.344">
+</testcase>
+<testcase classname="Kragle Regression" name="Test: Local And Cloud Profile For Headset: PRO X WIRELESS (Windows_10, Wireless)" time="462.281">
+<failure message="*HTML*Hello 1 1 != Hello &#10;&#10; &lt;a href=dmp_logs_2022_07_14_19_32_02.zip&gt;DEBUG_LOGS&lt;/a&gt; &#10;&#10; &lt;a href=end_test-screenshot-20220714-193202.png&gt;SCREENSHOT&lt;/a&gt; &#10;&#10; &lt;a href=C:\Jenkins\workspace\sion_features_navigation_screens/report14072022_19_32_14_page_source.html&gt;PAGE_SOURCE&lt;/a&gt;" type="AssertionError"/>
+</testcase>
+<testcase classname="Kragle Regression" name="Test: Blue Voice - Browse More Presets For Headset: PRO X WIRELESS (Windows_10, Wireless)" time="91.793">
+<failure message="*HTML*Failure: Selector &quot;.blue-voice-checkbox-label&quot; is Not Loaded &#10;&#10; &lt;a href=dmp_logs_2022_07_14_19_34_18.zip&gt;DEBUG_LOGS&lt;/a&gt; &#10;&#10; &lt;a href=end_test-screenshot-20220714-193418.png&gt;SCREENSHOT&lt;/a&gt; &#10;&#10; &lt;a href=C:\Jenkins\workspace\sion_features_navigation_screens/report14072022_19_34_30_page_source.html&gt;PAGE_SOURCE&lt;/a&gt;" type="AssertionError"/>
+</testcase>
+<testcase classname="Kragle Regression" name="Test: Blue Voice Preset Selection For Headset: PRO X WIRELESS (Windows_10, Wireless)" time="55.728">
+</testcase>
+<testcase classname="Kragle Regression" name="Test: Blue Voice - Equalizer Settings For Headset: PRO X WIRELESS (Windows_10, Wireless)" time="271.400">
+</testcase>
+<testcase classname="Kragle Regression" name="Test: Blue Voice - Preset Settings For Headset: PRO X WIRELESS (Windows_10, Wireless)" time="554.664">
+</testcase>
+<testcase classname="Kragle Regression" name="Test: Microphone - Default Values For Headset: PRO X WIRELESS (Windows_10, Wireless)" time="72.820">
+</testcase>
+<testcase classname="Kragle Regression" name="Test: Equalizer Presets - Community Card For Headset: PRO X WIRELESS (Windows_10, Wireless)" time="96.579">
+</testcase>
+<testcase classname="Kragle Regression" name="Test: Acoustics Feature For Headset: PRO X WIRELESS (Windows_10, Wireless)" time="853.153">
+<failure message="*HTML*Several failures occurred:&#10;&#10;1) Keyword 'headsets.Config Certain Frequency' failed after retrying 2 times. The last error was: '9616.215 &lt; 8456.087' should be true.&#10;&#10;2) Failure: Selector &quot;.save-button&quot; is Not Clickable &#10;&#10; &lt;a href=dmp_logs_2022_07_14_20_06_47.zip&gt;DEBUG_LOGS&lt;/a&gt; &#10;&#10; &lt;a href=end_test-screenshot-20220714-200647.png&gt;SCREENSHOT&lt;/a&gt; &#10;&#10; &lt;a href=C:\Jenkins\workspace\sion_features_navigation_screens/report14072022_20_06_58_page_source.html&gt;PAGE_SOURCE&lt;/a&gt;" type="AssertionError"/>
+</testcase>
+<testcase classname="Kragle Regression" name="Test: Surround Sound Feature For Headset: PRO X WIRELESS (Windows_10, Wireless)" time="531.977">
+</testcase>
+<testcase classname="Kragle Regression" name="Test: Device Settings For Headset - UI Verification: PRO X WIRELESS (Windows_10, Wireless)" time="56.654">
+</testcase>
+<testcase classname="Kragle Regression" name="Test: Global Settings - My Gear For Headset: PRO X WIRELESS (Windows_10, Wireless)" time="19.206">
+</testcase>
+<testcase classname="Kragle Regression" name="Test: Global Settings - Verify Show Tutorial Enables Coach Marks For Headset: PRO X WIRELESS (Windows_10, Wireless)" time="32.025">
+</testcase>
+<testcase classname="Kragle Regression" name="Test: Device Driver Support With Unplug/Replug Device For Headset: PRO X WIRELESS (Windows_10, Wireless)" time="131.326">
+</testcase>
+<testcase classname="Kragle Regression" name="Test: Device Driver Support With Sleep System For Headset: PRO X WIRELESS (Windows_10, Wireless)" time="92.738">
+</testcase>
+<testcase classname="Kragle Regression" name="Test: Device Driver Support With Restart System For Headset: PRO X WIRELESS (Windows_10, Wireless)" time="68.212">
+</testcase>
+<testcase classname="Kragle Regression" name="Test: G Driver Loudness Test For Headset: PRO X WIRELESS (Windows_10, Wireless)" time="91.342">
+<failure message="*HTML*Initializing library 'tools.python.mindstorm.chrome.keywords.test_webpage.Chrome' with no arguments failed: ConnectionError: HTTPSConnectionPool(host='chromedriver.storage.googleapis.com', port=443): Max retries exceeded with url: /LATEST_RELEASE_103.0.5060 (Caused by NewConnectionError('&lt;urllib3.connection.VerifiedHTTPSConnection object at 0x000002A3749F1610&gt;: Failed to establish a new connection: [Errno 11001] getaddrinfo failed'))&#10;Traceback (most recent call last):&#10;  File &quot;C:\Jenkins\workspace\sion_features_navigation_screens\tools\python\mindstorm\chrome\keywords\test_webpage.py&quot;, line 32, in __init__&#10;    ChromeDriverManager().install(),&#10;  File &quot;C:\Python39\lib\site-packages\webdriver_manager\chrome.py&quot;, line 34, in install&#10;    driver_path = self._get_driver_path(self.driver)&#10;  File &quot;C:\Python39\lib\site-packages\webdriver_manager\manager.py&quot;, line 21, in _get_driver_path&#10;    driver_version = driver.get_version()&#10;  File &quot;C:\Python39\lib\site-packages\webdriver_manager\driver.py&quot;, line 40, in get_version&#10;    return self.get_latest_release_version()&#10;  File &quot;C:\Python39\lib\site-packages\webdriver_manager\driver.py&quot;, line 63, in get_latest_release_version&#10;    resp = requests.get(f&quot;{self._latest_release_url}_{self.browser_version}&quot;)&#10;  File &quot;C:\Python39\lib\site-packages\requests\api.py&quot;, line 76, in get&#10;    return request('get', url, params=params, **kwargs)&#10;  File &quot;C:\Python39\lib\site-packages\requests\api.py&quot;, line 61, in request&#10;    return session.request(method=method, url=url, **kwargs)&#10;  File &quot;C:\Python39\lib\site-packages\requests\sessions.py&quot;, line 542, in request&#10;    resp = self.send(prep, **send_kwargs)&#10;  File &quot;C:\Python39\lib\site-packages\requests\sessions.py&quot;, line 655, in send&#10;    r = adapter.send(request, **kwargs)&#10;  File &quot;C:\Python39\lib\site-packages\requests\adapters.py&quot;, line 516, in send&#10;    raise ConnectionError(e, request=request) &#10;&#10; &lt;a href=dmp_logs_2022_07_14_20_24_30.zip&gt;DEBUG_LOGS&lt;/a&gt; &#10;&#10; &lt;a href=end_test-screenshot-20220714-202430.png&gt;SCREENSHOT&lt;/a&gt; &#10;&#10; &lt;a href=C:\Jenkins\workspace\sion_features_navigation_screens/report14072022_20_24_42_page_source.html&gt;PAGE_SOURCE&lt;/a&gt;" type="AssertionError"/>
+</testcase>
+<testcase classname="Kragle Regression" name="Disconnect: PRO X WIRELESS:wireless &amp; Connect: G633s:wired" time="2.287">
+</testcase>
+<testcase classname="Kragle Regression" name="Test: Local And Cloud Profile For Headset: G633s (Windows_10, Wired)" time="430.463">
+<failure message="*HTML*Hello 3 1 != Hello &#10;&#10; &lt;a href=dmp_logs_2022_07_14_20_32_31.zip&gt;DEBUG_LOGS&lt;/a&gt; &#10;&#10; &lt;a href=end_test-screenshot-20220714-203231.png&gt;SCREENSHOT&lt;/a&gt; &#10;&#10; &lt;a href=C:\Jenkins\workspace\sion_features_navigation_screens/report14072022_20_32_42_page_source.html&gt;PAGE_SOURCE&lt;/a&gt;" type="AssertionError"/>
+</testcase>
+<testcase classname="Kragle Regression" name="Test: Equalizer Presets - Community Card For Headset: G633s (Windows_10, Wired)" time="59.991">
+</testcase>
+<testcase classname="Kragle Regression" name="Test: Profile Lighting For Headset - UI Verification: G633s (Windows_10, Wired)" time="166.966">
+<failure message="*HTML*Failure: Selector &quot;.panel-wrapper.lighting .color-picker .color-value-container.value-r input&quot; with attribute(s) &quot;{'value': '255'}&quot; is Not Loaded &#10;&#10; &lt;a href=dmp_logs_2022_07_14_20_36_29.zip&gt;DEBUG_LOGS&lt;/a&gt; &#10;&#10; &lt;a href=end_test-screenshot-20220714-203628.png&gt;SCREENSHOT&lt;/a&gt; &#10;&#10; &lt;a href=C:\Jenkins\workspace\sion_features_navigation_screens/report14072022_20_36_40_page_source.html&gt;PAGE_SOURCE&lt;/a&gt;" type="AssertionError"/>
+</testcase>
+<testcase classname="Kragle Regression" name="Test: Lightsync Effect For Headset - GUI Verification: G633s (Windows_10, Wired)" time="19.613">
+</testcase>
+<testcase classname="Kragle Regression" name="Test: Device Settings For Headset - UI Verification: G633s (Windows_10, Wired)" time="78.786">
+</testcase>
+<testcase classname="Kragle Regression" name="Test: Global Settings - My Gear For Headset: G633s (Windows_10, Wired)" time="13.169">
+</testcase>
+<testcase classname="Kragle Regression" name="Test: Global Settings - Verify Show Tutorial Enables Coach Marks For Headset: G633s (Windows_10, Wired)" time="25.932">
+</testcase>
+<testcase classname="Kragle Regression" name="Test: Device Settings For Headset - SYS Verification: G633s (Windows_10, Wired)" time="79.289">
+</testcase>
+<testcase classname="Kragle Regression" name="Test: Assignments View For Headset - UI Verification: G633s (Windows_10, Wired)" time="1052.448">
+<failure message="*HTML*Several failures occurred:&#10;&#10;1) Failure: Selector &quot;.command-text&quot; with attribute(s) &quot;{'innerText': 'Copy'}&quot; is Not Loaded&#10;&#10;2) Failure: Selector &quot;.command-text&quot; with attribute(s) &quot;{'innerText': 'Mute Self'}&quot; is Not Loaded &#10;&#10; &lt;a href=dmp_logs_2022_07_14_20_58_55.zip&gt;DEBUG_LOGS&lt;/a&gt; &#10;&#10; &lt;a href=end_test-screenshot-20220714-205855.png&gt;SCREENSHOT&lt;/a&gt; &#10;&#10; &lt;a href=C:\Jenkins\workspace\sion_features_navigation_screens/report14072022_20_59_07_page_source.html&gt;PAGE_SOURCE&lt;/a&gt;" type="AssertionError"/>
+</testcase>
+<testcase classname="Kragle Regression" name="Disconnect: G633s:wired &amp; Connect: G733:wireless" time="3.212">
+</testcase>
+<testcase classname="Kragle Regression" name="Test: Local And Cloud Profile For Headset: G733 (Windows_10, Wireless)" time="449.740">
+<failure message="*HTML*Hello 4 1 != Hello &#10;&#10; &lt;a href=dmp_logs_2022_07_14_21_07_12.zip&gt;DEBUG_LOGS&lt;/a&gt; &#10;&#10; &lt;a href=end_test-screenshot-20220714-210712.png&gt;SCREENSHOT&lt;/a&gt; &#10;&#10; &lt;a href=C:\Jenkins\workspace\sion_features_navigation_screens/report14072022_21_07_24_page_source.html&gt;PAGE_SOURCE&lt;/a&gt;" type="AssertionError"/>
+</testcase>
+<testcase classname="Kragle Regression" name="Test: Blue Voice - Browse More Presets For Headset: G733 (Windows_10, Wireless)" time="92.201">
+<failure message="*HTML*Failure: Selector &quot;.blue-voice-checkbox-label&quot; is Not Loaded &#10;&#10; &lt;a href=dmp_logs_2022_07_14_21_09_29.zip&gt;DEBUG_LOGS&lt;/a&gt; &#10;&#10; &lt;a href=end_test-screenshot-20220714-210928.png&gt;SCREENSHOT&lt;/a&gt; &#10;&#10; &lt;a href=C:\Jenkins\workspace\sion_features_navigation_screens/report14072022_21_09_40_page_source.html&gt;PAGE_SOURCE&lt;/a&gt;" type="AssertionError"/>
+</testcase>
+<testcase classname="Kragle Regression" name="Test: Blue Voice Preset Selection For Headset: G733 (Windows_10, Wireless)" time="55.749">
+</testcase>
+<testcase classname="Kragle Regression" name="Test: Blue Voice - Equalizer Settings For Headset: G733 (Windows_10, Wireless)" time="271.135">
+</testcase>
+<testcase classname="Kragle Regression" name="Test: Blue Voice - Preset Settings For Headset: G733 (Windows_10, Wireless)" time="554.133">
+</testcase>
+<testcase classname="Kragle Regression" name="Test: Microphone - Default Values For Headset: G733 (Windows_10, Wireless)" time="72.345">
+</testcase>
+<testcase classname="Kragle Regression" name="Test: Equalizer Presets - Community Card For Headset: G733 (Windows_10, Wireless)" time="96.499">
+</testcase>
+<testcase classname="Kragle Regression" name="Test: Acoustics Feature For Headset: G733 (Windows_10, Wireless)" time="840.914">
+<failure message="*HTML*Several failures occurred:&#10;&#10;1) Keyword 'headsets.Config Certain Frequency' failed after retrying 2 times. The last error was: '1810.209 &lt; 1803.226' should be true.&#10;&#10;2) Failure: Selector &quot;.save-button&quot; is Not Clickable &#10;&#10; &lt;a href=dmp_logs_2022_07_14_21_41_43.zip&gt;DEBUG_LOGS&lt;/a&gt; &#10;&#10; &lt;a href=end_test-screenshot-20220714-214143.png&gt;SCREENSHOT&lt;/a&gt; &#10;&#10; &lt;a href=C:\Jenkins\workspace\sion_features_navigation_screens/report14072022_21_41_55_page_source.html&gt;PAGE_SOURCE&lt;/a&gt;" type="AssertionError"/>
+</testcase>
+<testcase classname="Kragle Regression" name="Test: Surround Sound Feature For Headset: G733 (Windows_10, Wireless)" time="632.184">
+</testcase>
+<testcase classname="Kragle Regression" name="Test: Profile Lighting For Headset - UI Verification: G733 (Windows_10, Wireless)" time="135.000">
+<failure message="*HTML*Failure: Selector &quot;.dropdown-current&quot; with attribute(s) &quot;{'innerText': 'FIXED'}&quot; is Not Loaded &#10;&#10; &lt;a href=dmp_logs_2022_07_14_21_54_42.zip&gt;DEBUG_LOGS&lt;/a&gt; &#10;&#10; &lt;a href=end_test-screenshot-20220714-215441.png&gt;SCREENSHOT&lt;/a&gt; &#10;&#10; &lt;a href=C:\Jenkins\workspace\sion_features_navigation_screens/report14072022_21_54_53_page_source.html&gt;PAGE_SOURCE&lt;/a&gt;" type="AssertionError"/>
+</testcase>
+<testcase classname="Kragle Regression" name="Test: Lightsync Effect For Headset - GUI Verification: G733 (Windows_10, Wireless)" time="25.359">
+</testcase>
+<testcase classname="Kragle Regression" name="Test: Device Settings For Headset - UI Verification: G733 (Windows_10, Wireless)" time="95.082">
+</testcase>
+<testcase classname="Kragle Regression" name="Test: Global Settings - My Gear For Headset: G733 (Windows_10, Wireless)" time="19.180">
+</testcase>
+<testcase classname="Kragle Regression" name="Test: Global Settings - Verify Show Tutorial Enables Coach Marks For Headset: G733 (Windows_10, Wireless)" time="31.979">
+</testcase>
+<testcase classname="Kragle Regression" name="Test: Device Settings For Headset - SYS Verification: G733 (Windows_10, Wireless)" time="107.590">
+</testcase>
+<testcase classname="Kragle Regression" name="Test: Persistent Profile For Headset: G733 (Windows_10, Wireless)" time="4016.806">
+<failure message="*HTML*Several failures occurred:&#10;&#10;1) Failure: Selector &quot;.appbar-application-name&quot; is Not Loaded&#10;&#10;2) Failure: Selector &quot;.preset-name&quot; with attribute(s) &quot;{'innerText': 'New Equalizer'}&quot; is Not Loaded&#10;&#10;3) Failure: Selector &quot;.slot-text&quot; with attribute(s) &quot;{'innerText': 'B'}&quot; is Not Loaded&#10;&#10;4) Failure: Selector &quot;.slot-text&quot; with attribute(s) &quot;{'innerText': 'A'}&quot; is Not Loaded&#10;&#10;5) Failure: Selector &quot;.slot-text&quot; with attribute(s) &quot;{'innerText': 'F'}&quot; is Not Loaded&#10;&#10;6) AttributeError: 'NoneType' object has no attribute 'find_elements_by_css_selector'&#10;&#10;7) AttributeError: 'NoneType' object has no attribute 'find_elements_by_css_selector'&#10;&#10;8) Failure: Selector &quot;.menu-item&quot; with attribute(s) &quot;{'innerText': 'SURROUND SOUND'}&quot; is Not Loaded &#10;&#10; &lt;a href=dmp_logs_2022_07_14_23_05_31.zip&gt;DEBUG_LOGS&lt;/a&gt; &#10;&#10; &lt;a href=end_test-screenshot-20220714-230530.png&gt;SCREENSHOT&lt;/a&gt; &#10;&#10; &lt;a href=C:\Jenkins\workspace\sion_features_navigation_screens/report14072022_23_05_42_page_source.html&gt;PAGE_SOURCE&lt;/a&gt;" type="AssertionError"/>
+</testcase>
+<testcase classname="Kragle Regression" name="Test: Device Driver Support With Unplug/Replug Device For Headset: G733 (Windows_10, Wireless)" time="26.956">
+</testcase>
+<testcase classname="Kragle Regression" name="Test: Device Driver Support With Sleep System For Headset: G733 (Windows_10, Wireless)" time="94.560">
+</testcase>
+<testcase classname="Kragle Regression" name="Test: Device Driver Support With Restart System For Headset: G733 (Windows_10, Wireless)" time="69.485">
+</testcase>
+<testcase classname="Kragle Regression" name="Test: Microphone Volume Support For Headset: G733 (Windows_10, Wireless)" time="77.187">
+</testcase>
+<testcase classname="Kragle Regression" name="Test: Mic Test For Headset: G733 (Windows_10, Wireless)" time="157.776">
+<failure message="*HTML*&lt;b&gt;Known Issue:&lt;/b&gt;[&lt;a href=https://jira.logitech.io/browse/KRGL-9044&gt;KRGL-9044&lt;/a&gt;]&#10;Keyword 'headsets.Test Microphone Recording Support' failed after retrying 2 times. The last error was: '100 &lt; 0.23' should be true. &#10;&#10; &lt;a href=dmp_logs_2022_07_14_23_15_25.zip&gt;DEBUG_LOGS&lt;/a&gt; &#10;&#10; &lt;a href=end_test-screenshot-20220714-231525.png&gt;SCREENSHOT&lt;/a&gt; &#10;&#10; &lt;a href=C:\Jenkins\workspace\sion_features_navigation_screens/report14072022_23_15_36_page_source.html&gt;PAGE_SOURCE&lt;/a&gt;" type="AssertionError"/>
+</testcase>
+<testcase classname="Kragle Regression" name="Test: Un/Mute Test For Headset: G733 (Windows_10, Wireless)" time="110.339">
+</testcase>
+<testcase classname="Kragle Regression" name="Test: G Driver Loudness Test For Headset: G733 (Windows_10, Wireless)" time="216.011">
+<failure message="*HTML*Several failures occurred:&#10;&#10;1) Keyword 'headsets.Compare With Default Driver Volume' failed after retrying 2 times. The last error was: 'abs(6580.018 - 6930.584) &lt; 200' should be true.&#10;&#10;2) Keyword 'headsets.Compare With Default Driver Volume' failed after retrying 2 times. The last error was: 'abs(6580.018 - 2933.202) &lt; 200' should be true. &#10;&#10; &lt;a href=dmp_logs_2022_07_14_23_21_33.zip&gt;DEBUG_LOGS&lt;/a&gt; &#10;&#10; &lt;a href=end_test-screenshot-20220714-232033.png&gt;SCREENSHOT&lt;/a&gt; &#10;&#10; &lt;a href=C:\Jenkins\workspace\sion_features_navigation_screens/report14072022_23_21_44_page_source.html&gt;PAGE_SOURCE&lt;/a&gt;" type="AssertionError"/>
+</testcase>
+<testcase classname="Kragle Regression" name="Test: Validate PRIMARY FIXED Lightsync Presets: G502 LIGHTSPEED (Windows_10, Wireless)" time="376.689">
+<failure message="*HTML*Failure: Selector &quot;.menu-item&quot; is Not Clickable &#10;&#10; &lt;a href=dmp_logs_2022_07_14_23_28_36.zip&gt;DEBUG_LOGS&lt;/a&gt; &#10;&#10; &lt;a href=end_test-screenshot-20220714-232836.png&gt;SCREENSHOT&lt;/a&gt; &#10;&#10; &lt;a href=C:\Jenkins\workspace\sion_features_navigation_screens/report14072022_23_28_47_page_source.html&gt;PAGE_SOURCE&lt;/a&gt;" type="AssertionError"/>
+</testcase>
+<testcase classname="Kragle Regression" name="Test: Validate PRIMARY CYCLE Lightsync Presets: G502 LIGHTSPEED (Windows_10, Wireless)" time="42.182">
+<failure message="*HTML*Failure: Selector &quot;.menu-item&quot; is Not Clickable &#10;&#10; &lt;a href=dmp_logs_2022_07_14_23_30_02.zip&gt;DEBUG_LOGS&lt;/a&gt; &#10;&#10; &lt;a href=end_test-screenshot-20220714-233002.png&gt;SCREENSHOT&lt;/a&gt; &#10;&#10; &lt;a href=C:\Jenkins\workspace\sion_features_navigation_screens/report14072022_23_30_14_page_source.html&gt;PAGE_SOURCE&lt;/a&gt;" type="AssertionError"/>
+</testcase>
+<testcase classname="Kragle Regression" name="Test: Validate PRIMARY BREATHING Lightsync Presets: G502 LIGHTSPEED (Windows_10, Wireless)" time="42.270">
+<failure message="*HTML*Failure: Selector &quot;.menu-item&quot; is Not Clickable &#10;&#10; &lt;a href=dmp_logs_2022_07_14_23_31_29.zip&gt;DEBUG_LOGS&lt;/a&gt; &#10;&#10; &lt;a href=end_test-screenshot-20220714-233129.png&gt;SCREENSHOT&lt;/a&gt; &#10;&#10; &lt;a href=C:\Jenkins\workspace\sion_features_navigation_screens/report14072022_23_31_40_page_source.html&gt;PAGE_SOURCE&lt;/a&gt;" type="AssertionError"/>
+</testcase>
+<testcase classname="Kragle Regression" name="Test: Validate PRIMARY SCREEN SAMPLER Lightsync Presets: G502 LIGHTSPEED (Windows_10, Wireless)" time="76.813">
+<failure message="*HTML*Failure: Selector &quot;.menu-item&quot; is Not Clickable&#10;&#10;Also keyword teardown failed:&#10;Several failures occurred:&#10;&#10;1) Failure: Selector &quot;//h5[contains(text(),'EFFECT')]/ancestor::div[@class='panel-section']/child::div/descendant::span[@class='glyphicon glyphicon-chevron-down']&quot; is Not Clickable&#10;&#10;2) Failure: Selector &quot;.dropdown-item&quot; with attribute(s) &quot;{'innerText': 'FIXED'}&quot; is Not Loaded &#10;&#10; &lt;a href=dmp_logs_2022_07_14_23_32_55.zip&gt;DEBUG_LOGS&lt;/a&gt; &#10;&#10; &lt;a href=end_test-screenshot-20220714-233255.png&gt;SCREENSHOT&lt;/a&gt; &#10;&#10; &lt;a href=C:\Jenkins\workspace\sion_features_navigation_screens/report14072022_23_33_06_page_source.html&gt;PAGE_SOURCE&lt;/a&gt;" type="AssertionError"/>
+</testcase>
+<testcase classname="Kragle Regression" name="Test: Validate PRIMARY AUDIO VISUALIZER Lightsync Presets: G502 LIGHTSPEED (Windows_10, Wireless)" time="101.817">
+<failure message="*HTML*Failure: Selector &quot;.menu-item&quot; is Not Clickable&#10;&#10;Also keyword teardown failed:&#10;Several failures occurred:&#10;&#10;1) Failure: Selector &quot;//h5[contains(text(),'EFFECT')]/ancestor::div[@class='panel-section']/child::div/descendant::span[@class='glyphicon glyphicon-chevron-down']&quot; is Not Clickable&#10;&#10;2) Failure: Selector &quot;.dropdown-item&quot; with attribute(s) &quot;{'innerText': 'FIXED'}&quot; is Not Loaded &#10;&#10; &lt;a href=dmp_logs_2022_07_14_23_35_21.zip&gt;DEBUG_LOGS&lt;/a&gt; &#10;&#10; &lt;a href=end_test-screenshot-20220714-233521.png&gt;SCREENSHOT&lt;/a&gt; &#10;&#10; &lt;a href=C:\Jenkins\workspace\sion_features_navigation_screens/report14072022_23_35_32_page_source.html&gt;PAGE_SOURCE&lt;/a&gt;" type="AssertionError"/>
+</testcase>
+<testcase classname="Kragle Regression" name="Test: Validate LOGO FIXED Lightsync Presets: G502 LIGHTSPEED (Windows_10, Wireless)" time="67.200">
+<failure message="*HTML*Failure: Selector &quot;.menu-item&quot; is Not Clickable &#10;&#10; &lt;a href=dmp_logs_2022_07_14_23_37_47.zip&gt;DEBUG_LOGS&lt;/a&gt; &#10;&#10; &lt;a href=end_test-screenshot-20220714-233747.png&gt;SCREENSHOT&lt;/a&gt; &#10;&#10; &lt;a href=C:\Jenkins\workspace\sion_features_navigation_screens/report14072022_23_37_58_page_source.html&gt;PAGE_SOURCE&lt;/a&gt;" type="AssertionError"/>
+</testcase>
+<testcase classname="Kragle Regression" name="Test: Validate LOGO CYCLE Lightsync Presets: G502 LIGHTSPEED (Windows_10, Wireless)" time="42.306">
+<failure message="*HTML*Failure: Selector &quot;.menu-item&quot; is Not Clickable &#10;&#10; &lt;a href=dmp_logs_2022_07_14_23_39_13.zip&gt;DEBUG_LOGS&lt;/a&gt; &#10;&#10; &lt;a href=end_test-screenshot-20220714-233913.png&gt;SCREENSHOT&lt;/a&gt; &#10;&#10; &lt;a href=C:\Jenkins\workspace\sion_features_navigation_screens/report14072022_23_39_25_page_source.html&gt;PAGE_SOURCE&lt;/a&gt;" type="AssertionError"/>
+</testcase>
+<testcase classname="Kragle Regression" name="Test: Validate LOGO BREATHING Lightsync Presets: G502 LIGHTSPEED (Windows_10, Wireless)" time="42.440">
+<failure message="*HTML*Failure: Selector &quot;.menu-item&quot; is Not Clickable &#10;&#10; &lt;a href=dmp_logs_2022_07_14_23_40_40.zip&gt;DEBUG_LOGS&lt;/a&gt; &#10;&#10; &lt;a href=end_test-screenshot-20220714-234040.png&gt;SCREENSHOT&lt;/a&gt; &#10;&#10; &lt;a href=C:\Jenkins\workspace\sion_features_navigation_screens/report14072022_23_40_51_page_source.html&gt;PAGE_SOURCE&lt;/a&gt;" type="AssertionError"/>
+</testcase>
+<testcase classname="Kragle Regression" name="Test: Validate LOGO SCREEN SAMPLER Lightsync Presets: G502 LIGHTSPEED (Windows_10, Wireless)" time="76.927">
+<failure message="*HTML*Failure: Selector &quot;.menu-item&quot; is Not Clickable&#10;&#10;Also keyword teardown failed:&#10;Several failures occurred:&#10;&#10;1) Failure: Selector &quot;//h5[contains(text(),'EFFECT')]/ancestor::div[@class='panel-section']/child::div/descendant::span[@class='glyphicon glyphicon-chevron-down']&quot; is Not Clickable&#10;&#10;2) Failure: Selector &quot;.dropdown-item&quot; with attribute(s) &quot;{'innerText': 'FIXED'}&quot; is Not Loaded &#10;&#10; &lt;a href=dmp_logs_2022_07_14_23_42_06.zip&gt;DEBUG_LOGS&lt;/a&gt; &#10;&#10; &lt;a href=end_test-screenshot-20220714-234206.png&gt;SCREENSHOT&lt;/a&gt; &#10;&#10; &lt;a href=C:\Jenkins\workspace\sion_features_navigation_screens/report14072022_23_42_18_page_source.html&gt;PAGE_SOURCE&lt;/a&gt;" type="AssertionError"/>
+</testcase>
+<testcase classname="Kragle Regression" name="Test: Validate LOGO AUDIO VISUALIZER Lightsync Presets: G502 LIGHTSPEED (Windows_10, Wireless)" time="101.924">
+<failure message="*HTML*Failure: Selector &quot;.menu-item&quot; is Not Clickable&#10;&#10;Also keyword teardown failed:&#10;Several failures occurred:&#10;&#10;1) Failure: Selector &quot;//h5[contains(text(),'EFFECT')]/ancestor::div[@class='panel-section']/child::div/descendant::span[@class='glyphicon glyphicon-chevron-down']&quot; is Not Clickable&#10;&#10;2) Failure: Selector &quot;.dropdown-item&quot; with attribute(s) &quot;{'innerText': 'FIXED'}&quot; is Not Loaded &#10;&#10; &lt;a href=dmp_logs_2022_07_14_23_44_32.zip&gt;DEBUG_LOGS&lt;/a&gt; &#10;&#10; &lt;a href=end_test-screenshot-20220714-234432.png&gt;SCREENSHOT&lt;/a&gt; &#10;&#10; &lt;a href=C:\Jenkins\workspace\sion_features_navigation_screens/report14072022_23_44_44_page_source.html&gt;PAGE_SOURCE&lt;/a&gt;" type="AssertionError"/>
+</testcase>
+<testcase classname="Kragle Regression" name="Test: Validate PRIMARY FIXED Lightsync Presets: G703 LIGHTSPEED (Windows_10, Wireless)" time="356.605">
+</testcase>
+<testcase classname="Kragle Regression" name="Test: Validate PRIMARY CYCLE Lightsync Presets: G703 LIGHTSPEED (Windows_10, Wireless)" time="92.624">
+</testcase>
+<testcase classname="Kragle Regression" name="Test: Validate PRIMARY BREATHING Lightsync Presets: G703 LIGHTSPEED (Windows_10, Wireless)" time="94.752">
+</testcase>
+<testcase classname="Kragle Regression" name="Test: Validate PRIMARY SCREEN SAMPLER Lightsync Presets: G703 LIGHTSPEED (Windows_10, Wireless)" time="132.574">
+<failure message="*HTML*ScreenSampler Effect Failed [Expected:'yellow', Actual:'red']: red != yellow &#10;&#10; &lt;a href=dmp_logs_2022_07_14_23_57_06.zip&gt;DEBUG_LOGS&lt;/a&gt; &#10;&#10; &lt;a href=end_test-screenshot-20220714-235706.png&gt;SCREENSHOT&lt;/a&gt; &#10;&#10; &lt;a href=C:\Jenkins\workspace\sion_features_navigation_screens/report14072022_23_57_18_page_source.html&gt;PAGE_SOURCE&lt;/a&gt;" type="AssertionError"/>
+</testcase>
+<testcase classname="Kragle Regression" name="Test: Validate PRIMARY AUDIO VISUALIZER Lightsync Presets: G703 LIGHTSPEED (Windows_10, Wireless)" time="136.679">
+<failure message="*HTML*'audiovisualizerParams' not available in the {'id': 'BREATHING', 'zoneType': 'ZONE_PRIMARY', 'persistent': False, 'breathingParams': {'color': {'tag': '', 'hex': '#00ff00'}, 'periodInMs': 7200, 'intensity': 0.75}} &#10;&#10; &lt;a href=dmp_logs_2022_07_15_00_00_07.zip&gt;DEBUG_LOGS&lt;/a&gt; &#10;&#10; &lt;a href=end_test-screenshot-20220715-000007.png&gt;SCREENSHOT&lt;/a&gt; &#10;&#10; &lt;a href=C:\Jenkins\workspace\sion_features_navigation_screens/report15072022_00_00_19_page_source.html&gt;PAGE_SOURCE&lt;/a&gt;" type="AssertionError"/>
+</testcase>
+<testcase classname="Kragle Regression" name="Test: Validate LOGO FIXED Lightsync Presets: G703 LIGHTSPEED (Windows_10, Wireless)" time="43.954">
+</testcase>
+<testcase classname="Kragle Regression" name="Test: Validate LOGO CYCLE Lightsync Presets: G703 LIGHTSPEED (Windows_10, Wireless)" time="92.768">
+</testcase>
+<testcase classname="Kragle Regression" name="Test: Validate LOGO BREATHING Lightsync Presets: G703 LIGHTSPEED (Windows_10, Wireless)" time="94.582">
+<failure message="*HTML*Failure: Selector &quot;button.panel-button&quot; is Not Clickable &#10;&#10; &lt;a href=dmp_logs_2022_07_15_00_04_44.zip&gt;DEBUG_LOGS&lt;/a&gt; &#10;&#10; &lt;a href=end_test-screenshot-20220715-000444.png&gt;SCREENSHOT&lt;/a&gt; &#10;&#10; &lt;a href=C:\Jenkins\workspace\sion_features_navigation_screens/report15072022_00_04_55_page_source.html&gt;PAGE_SOURCE&lt;/a&gt;" type="AssertionError"/>
+</testcase>
+<testcase classname="Kragle Regression" name="Test: Validate LOGO SCREEN SAMPLER Lightsync Presets: G703 LIGHTSPEED (Windows_10, Wireless)" time="112.076">
+<failure message="*HTML*ScreenSampler Effect Failed [Expected:'yellow', Actual:'red']: red != yellow &#10;&#10; &lt;a href=dmp_logs_2022_07_15_00_07_19.zip&gt;DEBUG_LOGS&lt;/a&gt; &#10;&#10; &lt;a href=end_test-screenshot-20220715-000719.png&gt;SCREENSHOT&lt;/a&gt; &#10;&#10; &lt;a href=C:\Jenkins\workspace\sion_features_navigation_screens/report15072022_00_07_30_page_source.html&gt;PAGE_SOURCE&lt;/a&gt;" type="AssertionError"/>
+</testcase>
+<testcase classname="Kragle Regression" name="Test: Validate LOGO AUDIO VISUALIZER Lightsync Presets: G703 LIGHTSPEED (Windows_10, Wireless)" time="136.613">
+<failure message="*HTML*'audiovisualizerParams' not available in the {'id': 'BREATHING', 'zoneType': 'ZONE_PRIMARY', 'persistent': False, 'breathingParams': {'color': {'tag': '', 'hex': '#00ff00'}, 'periodInMs': 7200, 'intensity': 0.75}} &#10;&#10; &lt;a href=dmp_logs_2022_07_15_00_10_20.zip&gt;DEBUG_LOGS&lt;/a&gt; &#10;&#10; &lt;a href=end_test-screenshot-20220715-001019.png&gt;SCREENSHOT&lt;/a&gt; &#10;&#10; &lt;a href=C:\Jenkins\workspace\sion_features_navigation_screens/report15072022_00_10_31_page_source.html&gt;PAGE_SOURCE&lt;/a&gt;" type="AssertionError"/>
+</testcase>
+<testcase classname="Kragle Regression" name="Test: Validate PRIMARY FIXED Lightsync Presets: G903 LIGHTSPEED (Windows_10, Wireless)" time="335.724">
+</testcase>
+<testcase classname="Kragle Regression" name="Test: Validate PRIMARY CYCLE Lightsync Presets: G903 LIGHTSPEED (Windows_10, Wireless)" time="98.631">
+</testcase>
+<testcase classname="Kragle Regression" name="Test: Validate PRIMARY BREATHING Lightsync Presets: G903 LIGHTSPEED (Windows_10, Wireless)" time="102.477">
+</testcase>
+<testcase classname="Kragle Regression" name="Test: Validate PRIMARY SCREEN SAMPLER Lightsync Presets: G903 LIGHTSPEED (Windows_10, Wireless)" time="134.441">
+<failure message="*HTML*ScreenSampler Effect Failed [Expected:'yellow', Actual:'red']: red != yellow &#10;&#10; &lt;a href=dmp_logs_2022_07_15_00_22_15.zip&gt;DEBUG_LOGS&lt;/a&gt; &#10;&#10; &lt;a href=end_test-screenshot-20220715-002215.png&gt;SCREENSHOT&lt;/a&gt; &#10;&#10; &lt;a href=C:\Jenkins\workspace\sion_features_navigation_screens/report15072022_00_22_26_page_source.html&gt;PAGE_SOURCE&lt;/a&gt;" type="AssertionError"/>
+</testcase>
+<testcase classname="Kragle Regression" name="Test: Validate PRIMARY AUDIO VISUALIZER Lightsync Presets: G903 LIGHTSPEED (Windows_10, Wireless)" time="58.977">
+<failure message="*HTML*'audiovisualizerParams' not available in the {'id': 'BREATHING', 'zoneType': 'ZONE_PRIMARY', 'persistent': False, 'breathingParams': {'color': {'tag': '', 'hex': '#00ff00'}, 'periodInMs': 7200, 'intensity': 0.75}} &#10;&#10; &lt;a href=dmp_logs_2022_07_15_00_23_58.zip&gt;DEBUG_LOGS&lt;/a&gt; &#10;&#10; &lt;a href=end_test-screenshot-20220715-002358.png&gt;SCREENSHOT&lt;/a&gt; &#10;&#10; &lt;a href=C:\Jenkins\workspace\sion_features_navigation_screens/report15072022_00_24_09_page_source.html&gt;PAGE_SOURCE&lt;/a&gt;" type="AssertionError"/>
+</testcase>
+<testcase classname="Kragle Regression" name="Test: Validate LOGO FIXED Lightsync Presets: G903 LIGHTSPEED (Windows_10, Wireless)" time="47.514">
+</testcase>
+<testcase classname="Kragle Regression" name="Test: Validate LOGO CYCLE Lightsync Presets: G903 LIGHTSPEED (Windows_10, Wireless)" time="98.823">
+</testcase>
+<testcase classname="Kragle Regression" name="Test: Validate LOGO BREATHING Lightsync Presets: G903 LIGHTSPEED (Windows_10, Wireless)" time="102.836">
+</testcase>
+<testcase classname="Kragle Regression" name="Test: Validate LOGO SCREEN SAMPLER Lightsync Presets: G903 LIGHTSPEED (Windows_10, Wireless)" time="134.543">
+<failure message="*HTML*ScreenSampler Effect Failed [Expected:'yellow', Actual:'red']: red != yellow &#10;&#10; &lt;a href=dmp_logs_2022_07_15_00_31_06.zip&gt;DEBUG_LOGS&lt;/a&gt; &#10;&#10; &lt;a href=end_test-screenshot-20220715-003106.png&gt;SCREENSHOT&lt;/a&gt; &#10;&#10; &lt;a href=C:\Jenkins\workspace\sion_features_navigation_screens/report15072022_00_31_17_page_source.html&gt;PAGE_SOURCE&lt;/a&gt;" type="AssertionError"/>
+</testcase>
+<testcase classname="Kragle Regression" name="Test: Validate LOGO AUDIO VISUALIZER Lightsync Presets: G903 LIGHTSPEED (Windows_10, Wireless)" time="58.957">
+<failure message="*HTML*'audiovisualizerParams' not available in the {'id': 'BREATHING', 'zoneType': 'ZONE_PRIMARY', 'persistent': False, 'breathingParams': {'color': {'tag': '', 'hex': '#00ff00'}, 'periodInMs': 7200, 'intensity': 0.75}} &#10;&#10; &lt;a href=dmp_logs_2022_07_15_00_32_49.zip&gt;DEBUG_LOGS&lt;/a&gt; &#10;&#10; &lt;a href=end_test-screenshot-20220715-003249.png&gt;SCREENSHOT&lt;/a&gt; &#10;&#10; &lt;a href=C:\Jenkins\workspace\sion_features_navigation_screens/report15072022_00_33_00_page_source.html&gt;PAGE_SOURCE&lt;/a&gt;" type="AssertionError"/>
+</testcase>
+<testcase classname="Kragle Regression" name="Disconnect: G733:wireless &amp; Connect: G502 LIGHTSPEED" time="4.378">
+</testcase>
+<testcase classname="Kragle Regression" name="Disconnect: G502 LIGHTSPEED &amp; Connect: G703 LIGHTSPEED" time="3.298">
+</testcase>
+<testcase classname="Kragle Regression" name="Disconnect: G703 LIGHTSPEED &amp; Connect: G903 LIGHTSPEED" time="2.369">
+</testcase>
+</testsuite>

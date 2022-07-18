@@ -1,0 +1,5277 @@
+{
+  "connection_type": "Acroname",
+  "devices": [
+    {
+      "name": "APPLICATION SPECIFIC",
+      "features": {
+        "global_settings": [
+        ]
+      }
+    },
+    {
+      "name": "G502 LIGHTSPEED",
+      "hub": 3925446550,
+      "portNumber": 0,
+      "connection_type": "wireless",
+      "features": {
+        "cloud_profile": {
+          "ui": [
+            "Test: Local And Cloud Profile For Mouse"
+          ]
+        },
+        "oob": {
+          "ui": [
+            "Test: OOB Software Support For Mouse"
+          ]
+        },
+        "lightsync": {
+          "ui": [
+            "Test: Lightsync Effect For Mouse",
+            "Test: Lightsync Effect With Restart G HUB For Mouse"
+          ],
+          "sys": [
+            "Test: Lightsync Effect With Sleep System For Mouse",
+            "Test: Lightsync Effect With Onboard Profile For Mouse"
+          ]
+        },
+        "device_settings": {
+          "ui": [
+            "Test: Global Settings - My Gear For Mouse",
+            "Test: Global Settings - Verify Show Tutorial Enables Coach Marks For Mouse",
+            "Test: Device Settings For Mouse - UI Verification"
+          ],
+          "sys": [
+            "Test: Device Settings For Mouse - SYS Verification"
+          ]
+        },
+        "persistent_profile": {
+          "ui": [
+            "Test: Persistent Profile For Mouse"
+          ]
+        },
+        "dpi": {
+          "ui": [
+            "Test: DPI Sensitivity For Mouse - UI Verification"
+          ],
+          "sys": [
+            "Test: DPI With Onboard Profile For Mouse",
+            "Test: DPI Sensitivity For Mouse",
+            "Test: DPI Sensitivity With Sleep System For Mouse",
+            "Test: DPI Sensitivity With Restart G HUB For Mouse"
+          ]
+        }
+      }
+    },
+    {
+      "name": "G604 LIGHTSPEED",
+      "hub": 3925446550,
+      "portNumber": 3,
+      "connection_type": "wireless",
+      "features": {
+        "cloud_profile": {
+          "ui": [
+            "Test: Local And Cloud Profile For Mouse"
+          ]
+        },
+        "oob": {
+          "ui": [
+            "Test: OOB Software Support For Mouse"
+          ]
+        },
+        "device_settings": {
+          "ui": [
+            "Test: Global Settings - My Gear For Mouse",
+            "Test: Global Settings - Verify Show Tutorial Enables Coach Marks For Mouse",
+            "Test: Device Settings For Mouse - UI Verification"
+          ],
+          "sys": [
+            "Test: Device Settings For Mouse - SYS Verification"
+          ]
+        },
+        "assignments": {
+          "ui": [
+            "Test: User Able To Delete The Actions For Mouse"
+          ]
+        },
+        "dpi": {
+          "sys": [
+            "Test: DPI With Onboard Profile For Mouse",
+            "Test: DPI Sensitivity For Mouse",
+            "Test: DPI Sensitivity With Sleep System For Mouse",
+            "Test: DPI Sensitivity With Restart G HUB For Mouse"
+          ]
+        }
+      }
+    },
+    {
+      "name": "G703 LIGHTSPEED",
+      "hub": 3925446550,
+      "portNumber": 4,
+      "connection_type": "wireless",
+      "features": {
+        "cloud_profile": {
+          "ui": [
+            "Test: Local And Cloud Profile For Mouse"
+          ]
+        },
+        "oob": {
+          "ui": [
+            "Test: OOB Software Support For Mouse"
+          ]
+        },
+        "lightsync": {
+          "ui": [
+            "Test: Lightsync Effect For Mouse",
+            "Test: Lightsync Effect With Restart G HUB For Mouse"
+          ],
+          "sys": [
+            "Test: Lightsync Effect With Sleep System For Mouse",
+            "Test: Lightsync Effect With Onboard Profile For Mouse"
+          ]
+        },
+        "device_settings": {
+          "ui": [
+            "Test: Global Settings - My Gear For Mouse",
+            "Test: Global Settings - Verify Show Tutorial Enables Coach Marks For Mouse",
+            "Test: Device Settings For Mouse - UI Verification"
+          ],
+          "sys": [
+            "Test: Device Settings For Mouse - SYS Verification"
+          ]
+        },
+        "persistent_profile": {
+          "ui": [
+            "Test: Persistent Profile For Mouse"
+          ]
+        },
+        "dpi": {
+          "ui": [
+            "Test: DPI Sensitivity For Mouse - UI Verification"
+          ],
+          "sys": [
+            "Test: DPI With Onboard Profile For Mouse",
+            "Test: DPI Sensitivity For Mouse",
+            "Test: DPI Sensitivity With Sleep System For Mouse",
+            "Test: DPI Sensitivity With Restart G HUB For Mouse"
+          ]
+        }
+      }
+    },
+    {
+      "name": "G903 LIGHTSPEED",
+      "hub": 3925446550,
+      "portNumber": 1,
+      "connection_type": "wireless",
+      "features": {
+        "cloud_profile": {
+          "ui": [
+            "Test: Local And Cloud Profile For Mouse"
+          ]
+        },
+        "oob": {
+          "ui": [
+            "Test: OOB Software Support For Mouse"
+          ]
+        },
+        "lightsync": {
+          "ui": [
+            "Test: Lightsync Effect For Mouse",
+            "Test: Lightsync Effect With Restart G HUB For Mouse"
+          ],
+          "sys": [
+            "Test: Lightsync Effect With Sleep System For Mouse",
+            "Test: Lightsync Effect With Onboard Profile For Mouse"
+          ]
+        },
+        "device_settings": {
+          "ui": [
+            "Test: Global Settings - My Gear For Mouse",
+            "Test: Global Settings - Verify Show Tutorial Enables Coach Marks For Mouse",
+            "Test: Device Settings For Mouse - UI Verification"
+          ],
+          "sys": [
+            "Test: Device Settings For Mouse - SYS Verification"
+          ]
+        },
+        "persistent_profile": {
+          "ui": [
+            "Test: Persistent Profile For Mouse"
+          ]
+        },
+        "dpi": {
+          "ui": [
+            "Test: DPI Sensitivity For Mouse - UI Verification"
+          ],
+          "sys": [
+            "Test: DPI With Onboard Profile For Mouse",
+            "Test: DPI Sensitivity For Mouse",
+            "Test: DPI Sensitivity With Sleep System For Mouse",
+            "Test: DPI Sensitivity With Restart G HUB For Mouse"
+          ]
+        }
+      }
+    },
+    {
+      "name": "G603",
+      "hub": 3925446550,
+      "portNumber": 2,
+      "connection_type": "wireless",
+      "features": {
+        "cloud_profile": {
+          "ui": [
+            "Test: Local And Cloud Profile For Mouse"
+          ]
+        },
+        "oob": {
+          "ui": [
+            "Test: OOB Software Support For Mouse"
+          ]
+        },
+        "device_settings": {
+          "ui": [
+            "Test: Global Settings - My Gear For Mouse",
+            "Test: Global Settings - Verify Show Tutorial Enables Coach Marks For Mouse",
+            "Test: Device Settings For Mouse - UI Verification"
+          ]
+        },
+        "dpi": {
+          "ui": [
+            "Test: DPI Sensitivity For Mouse - UI Verification"
+          ],
+          "sys": [
+            "Test: DPI With Onboard Profile For Mouse",
+            "Test: DPI Sensitivity For Mouse",
+            "Test: DPI Sensitivity With Sleep System For Mouse",
+            "Test: DPI Sensitivity With Restart G HUB For Mouse"
+          ]
+        }
+      }
+    },
+    {
+      "name": "PRO X WIRELESS",
+      "hub": 3925446550,
+      "portNumber": 5,
+      "connection_type": "wireless",
+      "features": {
+        "cloud_profile": {
+          "ui": [
+            "Test: Local And Cloud Profile For Headset"
+          ]
+        },
+        "blue_voice": {
+          "ui": [
+            "Test: Blue Voice - Browse More Presets For Headset",
+            "Test: Blue Voice Preset Selection For Headset",
+            "Test: Blue Voice - Equalizer Settings For Headset",
+            "Test: Blue Voice - Preset Settings For Headset",
+            "Test: Microphone - Default Values For Headset"
+          ]
+        },
+        "headphones": {
+          "ui": [
+            "Test: Equalizer Presets - Community Card For Headset"
+          ],
+          "sys": [
+            "Test: Acoustics Feature For Headset",
+            "Test: Surround Sound Feature For Headset"
+          ]
+        },
+        "device_settings": {
+          "ui": [
+            "Test: Device Settings For Headset - UI Verification",
+            "Test: Global Settings - My Gear For Headset",
+            "Test: Global Settings - Verify Show Tutorial Enables Coach Marks For Headset"
+          ]
+        },
+        "driver_support": {
+          "sys": [
+            "Test: Device Driver Support With Unplug/Replug Device For Headset",
+            "Test: Device Driver Support With Sleep System For Headset",
+            "Test: Device Driver Support With Restart System For Headset"
+          ]
+        },
+        "g_driver": {
+          "sys": [
+            "Test: G Driver Loudness Test For Headset"
+          ]
+        }
+      },
+      "external_devices": {
+        "microphone": "6- USB"
+      }
+    },
+    {
+      "name": "G633s",
+      "hub": 3925446550,
+      "portNumber": 6,
+      "connection_type": "wired",
+      "features": {
+        "cloud_profile": {
+          "ui": [
+            "Test: Local And Cloud Profile For Headset"
+          ]
+        },
+        "headphones": {
+          "ui": [
+            "Test: Equalizer Presets - Community Card For Headset"
+          ]
+        },
+        "lightsync": {
+          "ui": [
+            "Test: Profile Lighting For Headset - UI Verification",
+            "Test: Lightsync Effect For Headset - GUI Verification"
+          ]
+        },
+        "device_settings": {
+          "ui": [
+            "Test: Device Settings For Headset - UI Verification",
+            "Test: Global Settings - My Gear For Headset",
+            "Test: Global Settings - Verify Show Tutorial Enables Coach Marks For Headset"
+          ],
+          "sys": [
+            "Test: Device Settings For Headset - SYS Verification"
+          ]
+        },
+        "assignments": {
+          "ui": [
+            "Test: Assignments View For Headset - UI Verification"
+          ]
+        }
+      }
+    },
+    {
+      "name": "G733",
+      "hub": 3925446550,
+      "portNumber": 7,
+      "connection_type": "wireless",
+      "features": {
+        "cloud_profile": {
+          "ui": [
+            "Test: Local And Cloud Profile For Headset"
+          ]
+        },
+        "blue_voice": {
+          "ui": [
+            "Test: Blue Voice - Browse More Presets For Headset",
+            "Test: Blue Voice Preset Selection For Headset",
+            "Test: Blue Voice - Equalizer Settings For Headset",
+            "Test: Blue Voice - Preset Settings For Headset",
+            "Test: Microphone - Default Values For Headset"
+          ]
+        },
+        "headphones": {
+          "ui": [
+            "Test: Equalizer Presets - Community Card For Headset"
+          ],
+          "sys": [
+            "Test: Acoustics Feature For Headset",
+            "Test: Surround Sound Feature For Headset"
+          ]
+        },
+        "lightsync": {
+          "ui": [
+            "Test: Profile Lighting For Headset - UI Verification",
+            "Test: Lightsync Effect For Headset - GUI Verification"
+          ]
+        },
+        "device_settings": {
+          "ui": [
+            "Test: Device Settings For Headset - UI Verification",
+            "Test: Global Settings - My Gear For Headset",
+            "Test: Global Settings - Verify Show Tutorial Enables Coach Marks For Headset"
+          ],
+          "sys": [
+            "Test: Device Settings For Headset - SYS Verification"
+          ]
+        },
+        "persistent_profile": {
+          "ui": [
+            "Test: Persistent Profile For Headset"
+          ]
+        },
+        "driver_support": {
+          "sys": [
+            "Test: Device Driver Support With Unplug/Replug Device For Headset",
+            "Test: Device Driver Support With Sleep System For Headset",
+            "Test: Device Driver Support With Restart System For Headset"
+          ]
+        },
+        "microphone": {
+          "sys": [
+            "Test: Microphone Volume Support For Headset",
+            "Test: Mic Test For Headset",
+            "Test: Un/Mute Test For Headset"
+          ]
+        },
+        "g_driver": {
+          "sys": [
+            "Test: G Driver Loudness Test For Headset"
+          ]
+        }
+      },
+      "external_devices": {
+        "microphone": "7- USB"
+      }
+    }
+  ],
+  "reference": {
+    "all_devices": {
+      "mouse": {
+        "G705": {
+          "displayName": "G705",
+          "firmware": "28.0.12",
+          "modelId": "eb02e",
+          "type": "MOUSE",
+          "connection_interfaces": {
+            "wired": {
+              "pid": "",
+              "productId": ""
+            },
+            "wireless": {
+              "pid": "c096",
+              "productId": "0xc096"
+            }
+          },
+          "device_specific_features": {
+            "lightsync": {
+              "deviceCategory": "MOUSE_RGB_PER_KEY",
+              "zones": [
+                "presets",
+                "freestyle",
+                "animations"
+              ],
+              "presets": [
+                "off",
+                "fixed",
+                "breathing",
+                "color wave",
+                "color cycle"
+              ],
+              "freestyle": [
+                "LEFT RING",
+                "RIGHT RING",
+                "BOTTOM RING"
+              ],
+              "animations": [
+                "ocean wave",
+                "red white and blue",
+                "verticool"
+              ]
+            },
+            "device_settings": {
+              "Battery Level": null,
+              "Inactivity Lighting": [
+                "Dim Active Effect",
+                "Breathing"
+              ],
+              "Firmware Version": null,
+              "Effects On Device": [
+                "Verticool",
+                "Red White and Blue",
+                "Ocean Wave"
+              ],
+              "On Board Memory Mode": [
+                "SLOT 1"
+              ]
+            },
+            "dpi": {
+              "dpi_speeds": [
+                800,
+                1600,
+                3200
+              ],
+              "report_rate": [
+                1000,
+                500,
+                250,
+                125
+              ]
+            }
+          }
+        },
+        "G203": {
+          "displayName": "G203",
+          "firmware": "107.3.15",
+          "modelId": "8c084",
+          "type": "MOUSE",
+          "connection_interfaces": {
+            "wired": {
+              "pid": "c084",
+              "productId": "0xc084"
+            }
+          },
+          "device_specific_features": {
+            "lightsync": {
+              "deviceCategory": "MOUSE_RGB_ZONAL",
+              "zones": [
+                "effects"
+              ],
+              "effects": [
+                "fixed",
+                "cycle",
+                "breathing",
+                "screen sampler",
+                "audio visualizer"
+              ]
+            },
+            "device_settings": {
+              "Device Startup Effect": null,
+              "Firmware Version": null,
+              "On Board Memory Mode": [
+                "SLOT 1"
+              ]
+            },
+            "dpi": {
+              "dpi_speeds": [
+                400,
+                800,
+                1600,
+                3200
+              ],
+              "report_rate": [
+                1000,
+                500,
+                250,
+                125
+              ]
+            }
+          }
+        },
+        "G402": {
+          "displayName": "G402",
+          "firmware": "107.3.15",
+          "modelId": "8c084",
+          "type": "MOUSE",
+          "connection_interfaces": {
+            "wired": {
+              "pid": "c07e",
+              "productId": "0xc07e"
+            }
+          },
+          "device_specific_features": {
+            "lightsync": {
+              "deviceCategory": "MOUSE_MONO_ZONAL",
+              "zones": [
+                "effects"
+              ],
+              "effects": [
+                "fixed color",
+                "breathing color"
+              ]
+            },
+            "device_settings": {
+              "DPI Lighting": null,
+              "Fusion Engine": null,
+              "Device Startup Effect": null,
+              "Firmware Version": null,
+              "On Board Memory Mode": [
+                "SLOT 1"
+              ]
+            },
+            "dpi": {
+              "dpi_speeds": [
+                400,
+                800,
+                1600,
+                3200
+              ],
+              "report_rate": [
+                1000,
+                500,
+                250,
+                125
+              ]
+            }
+          }
+        },
+        "G203 LIGHTSYNC": {
+          "displayName": "G203 LIGHTSYNC",
+          "firmware": "152.0.10",
+          "modelId": "g203",
+          "type": "MOUSE",
+          "connection_interfaces": {
+            "wired": {
+              "pid": "0xc092",
+              "productId": "0xc092"
+            }
+          },
+          "device_specific_features": {
+            "lightsync": {
+              "deviceCategory": "MOUSE_RGB_PER_KEY",
+              "zones": [
+                "presets",
+                "freestyle",
+                "animations"
+              ],
+              "presets": [
+                "fixed",
+                "cycle",
+                "breathing",
+                "color wave",
+                "color blend",
+                "screen sampler",
+                "audio visualizer"
+              ],
+              "freestyle": [],
+              "animations": []
+            },
+            "device_settings": {
+              "Device Startup Effect": null,
+              "Firmware Version": null,
+              "On Board Memory Mode": [
+                "SLOT 1"
+              ]
+            },
+            "dpi": {
+              "dpi_speeds": [
+                400,
+                800,
+                1600,
+                3200
+              ],
+              "report_rate": [
+                1000,
+                500,
+                250,
+                125
+              ]
+            }
+          }
+        },
+        "G305": {
+          "displayName": "G305",
+          "firmware": "68.1.14",
+          "modelId": "44074",
+          "type": "MOUSE",
+          "connection_interfaces": {
+            "wireless": {
+              "pid": "4074",
+              "productId": "0x4074"
+            }
+          },
+          "device_specific_features": {
+            "device_settings": {
+              "Firmware Version": null,
+              "On Board Memory Mode": [
+                "SLOT 1"
+              ]
+            },
+            "dpi": {
+              "dpi_speeds": [
+                400,
+                800,
+                1600,
+                3200
+              ],
+              "report_rate": [
+                1000,
+                500,
+                250,
+                125
+              ]
+            }
+          }
+        },
+        "G303": {
+          "displayName": "G303",
+          "firmware": "95.2.26",
+          "modelId": "44074",
+          "type": "MOUSE",
+          "connection_interfaces": {
+            "wireless": {
+              "pid": "4074",
+              "productId": "0x4074"
+            }
+          },
+          "device_specific_features": {
+            "lightsync": {
+              "deviceCategory": "MOUSE_RGB_ZONAL",
+              "zones": [
+                "primary",
+                "logo"
+              ],
+              "primary": [
+                "fixed",
+                "cycle",
+                "breathing"
+              ],
+              "logo": [
+                "fixed",
+                "cycle",
+                "breathing"
+              ]
+            },
+            "device_settings": {
+              "Angle Snapping": null,
+              "Device Startup Effect": null,
+              "Firmware Version": null,
+              "On Board Memory Mode": [
+                "SLOT 1",
+                "SLOT 2",
+                "SLOT 3"
+              ]
+            },
+            "dpi": {
+              "dpi_speeds": [
+                400,
+                800,
+                1600,
+                3200
+              ],
+              "report_rate": [
+                1000,
+                500,
+                250,
+                125
+              ]
+            }
+          }
+        },
+        "G603": {
+          "displayName": "G603",
+          "firmware": "21.1.14",
+          "modelId": "406c",
+          "type": "MOUSE",
+          "connection_interfaces": {
+            "wired": {
+              "pid": "406c",
+              "productId": "0x406c"
+            },
+            "wireless": {
+              "pid": "0x406c",
+              "productId": "0x406c"
+            }
+          },
+          "device_specific_features": {
+            "device_settings": {
+              "Firmware Version": null,
+              "On Board Memory Mode": [
+                "SLOT 1"
+              ]
+            },
+            "dpi": {
+              "dpi_speeds": [
+                800,
+                1200,
+                1600,
+                3200
+              ],
+              "report_rate": [
+                1000,
+                500,
+                250,
+                125
+              ]
+            }
+          }
+        },
+        "G403 HERO": {
+          "displayName": "G403 HERO",
+          "firmware": "145.1.7",
+          "modelId": "8c08f",
+          "type": "MOUSE",
+          "connection_interfaces": {
+            "wired": {
+              "pid": "c08f",
+              "productId": "0xc08f"
+            }
+          },
+          "device_specific_features": {
+            "lightsync": {
+              "deviceCategory": "MOUSE_RGB_ZONAL",
+              "zones": [
+                "primary",
+                "logo"
+              ],
+              "primary": [
+                "fixed",
+                "cycle",
+                "breathing",
+                "screen sampler",
+                "audio visualizer"
+              ],
+              "logo": [
+                "fixed",
+                "cycle",
+                "breathing",
+                "screen sampler",
+                "audio visualizer"
+              ]
+            },
+            "device_settings": {
+              "Device Startup Effect": null,
+              "Firmware Version": null,
+              "On Board Memory Mode": [
+                "SLOT 1"
+              ]
+            },
+            "dpi": {
+              "dpi_speeds": [
+                400,
+                800,
+                1600,
+                3200
+              ],
+              "report_rate": [
+                1000,
+                500,
+                250,
+                125
+              ]
+            }
+          }
+        },
+        "G403": {
+          "displayName": "G403",
+          "firmware": "108.1.12",
+          "modelId": "8c083",
+          "type": "MOUSE",
+          "connection_interfaces": {
+            "wired": {
+              "pid": "c083",
+              "productId": "0xc083"
+            }
+          },
+          "device_specific_features": {
+            "lightsync": {
+              "deviceCategory": "MOUSE_RGB_ZONAL",
+              "zones": [
+                "primary",
+                "logo"
+              ],
+              "primary": [
+                "fixed",
+                "cycle",
+                "breathing",
+                "screen sampler"
+              ],
+              "logo": [
+                "fixed",
+                "cycle",
+                "breathing",
+                "screen sampler"
+              ]
+            },
+            "device_settings": {
+              "Angle Snapping": null,
+              "Device Startup Effect": null,
+              "Firmware Version": null,
+              "On Board Memory Mode": [
+                "SLOT 1"
+              ]
+            },
+            "dpi": {
+              "dpi_speeds": [
+                400,
+                800,
+                1600,
+                3200
+              ],
+              "report_rate": [
+                1000,
+                500,
+                250,
+                125
+              ]
+            }
+          }
+        },
+        "G502": {
+          "displayName": "G502",
+          "firmware": "103.0.9",
+          "modelId": "8c332",
+          "type": "MOUSE",
+          "connection_interfaces": {
+            "wired": {
+              "pid": "c332",
+              "productId": "0xc332"
+            }
+          },
+          "device_specific_features": {
+            "lightsync": {
+              "deviceCategory": "MOUSE_RGB_ZONAL",
+              "zones": [
+                "primary",
+                "logo"
+              ],
+              "primary": [
+                "fixed",
+                "cycle",
+                "breathing",
+                "screen sampler",
+                "audio visualizer"
+              ],
+              "logo": [
+                "fixed",
+                "cycle",
+                "breathing",
+                "screen sampler",
+                "audio visualizer"
+              ]
+            },
+            "device_settings": {
+              "Firmware Version": null,
+              "On Board Memory Mode": [
+                "SLOT 1"
+              ]
+            },
+            "dpi": {
+              "dpi_speeds": [
+                1200,
+                2400,
+                3200,
+                6400
+              ],
+              "report_rate": [
+                1000,
+                500,
+                250,
+                125
+              ]
+            }
+          }
+        },
+        "G502 HERO": {
+          "displayName": "G502 HERO",
+          "firmware": "127.3.10",
+          "modelId": "8c08b",
+          "type": "MOUSE",
+          "connection_interfaces": {
+            "wired": {
+              "pid": "c08b",
+              "productId": "0xc08b"
+            }
+          },
+          "device_specific_features": {
+            "lightsync": {
+              "deviceCategory": "MOUSE_RGB_ZONAL",
+              "zones": [
+                "primary",
+                "logo"
+              ],
+              "primary": [
+                "fixed",
+                "cycle",
+                "breathing",
+                "screen sampler",
+                "audio visualizer"
+              ],
+              "logo": [
+                "fixed",
+                "cycle",
+                "breathing",
+                "screen sampler",
+                "audio visualizer"
+              ]
+            },
+            "device_settings": {
+              "DPI Lighting": null,
+              "Device Startup Effect": null,
+              "Firmware Version": null,
+              "On Board Memory Mode": [
+                "SLOT 1",
+                "SLOT 2",
+                "SLOT 3",
+                "SLOT 4",
+                "SLOT 5"
+              ]
+            },
+            "dpi": {
+              "dpi_speeds": [
+                1200,
+                2400,
+                3200,
+                6400
+              ],
+              "report_rate": [
+                1000,
+                500,
+                250,
+                125
+              ]
+            }
+          }
+        },
+        "G502 LIGHTSPEED": {
+          "displayName": "G502 LIGHTSPEED",
+          "firmware": "17.0.8",
+          "modelId": "c407f",
+          "type": "MOUSE",
+          "connection_interfaces": {
+            "wired": {
+              "pid": "c08d",
+              "productId": "0xc08d"
+            },
+            "wireless": {
+              "pid": "407f",
+              "productId": "0x407f"
+            }
+          },
+          "device_specific_features": {
+            "lightsync": {
+              "deviceCategory": "MOUSE_RGB_ZONAL",
+              "zones": [
+                "primary",
+                "logo"
+              ],
+              "primary": [
+                "fixed",
+                "cycle",
+                "breathing",
+                "screen sampler",
+                "audio visualizer"
+              ],
+              "logo": [
+                "fixed",
+                "cycle",
+                "breathing",
+                "screen sampler",
+                "audio visualizer"
+              ]
+            },
+            "device_settings": {
+              "Battery Level": null,
+              "Low Battery Mode": [
+                "BREATHING RED",
+                "BREATHING RED (PRIMARY ONLY)",
+                "FIXED RED"
+              ],
+              "DPI Lighting": null,
+              "Device Startup Effect": null,
+              "Firmware Version": null,
+              "On Board Memory Mode": [
+                "SLOT 1",
+                "SLOT 2",
+                "SLOT 3",
+                "SLOT 4",
+                "SLOT 5"
+              ]
+            },
+            "dpi": {
+              "dpi_speeds": [
+                400,
+                800,
+                1600,
+                3200,
+                6400
+              ],
+              "report_rate": [
+                1000,
+                500,
+                250,
+                125
+              ]
+            }
+          }
+        },
+        "G600": {
+          "displayName": "G600",
+          "firmware": "77.02",
+          "modelId": "g600",
+          "type": "MOUSE",
+          "connection_interfaces": {
+            "wired": {
+              "pid": "TBD",
+              "productId": "TBD"
+            },
+            "wireless": {
+              "pid": "TBD",
+              "productId": "TBD"
+            }
+          },
+          "device_specific_features": {
+            "lightsync": {
+              "deviceCategory": "MOUSE_RGB_ZONAL",
+              "zones": [
+                "effects"
+              ],
+              "effects": [
+                "fixed",
+                "cycle",
+                "breathing",
+                "screen sampler",
+                "audio visualizer"
+              ]
+            },
+            "device_settings": {
+              "Device Startup Effect": null,
+              "Firmware Version": null,
+              "On Board Memory Mode": [
+                "SLOT 1",
+                "SLOT 2",
+                "SLOT 3"
+              ]
+            },
+            "dpi": {
+              "dpi_speeds": [
+                800,
+                1200,
+                1600,
+                3200
+              ],
+              "report_rate": [
+                1000,
+                500,
+                250,
+                125
+              ]
+            }
+          }
+        },
+        "G604 LIGHTSPEED": {
+          "displayName": "G604 LIGHTSPEED",
+          "firmware": "21.1.14",
+          "modelId": "6b024",
+          "type": "MOUSE",
+          "connection_interfaces": {
+            "wired": {
+              "pid": "4085",
+              "productId": "0x4085"
+            },
+            "wireless": {
+              "pid": "0x4085",
+              "productId": "0x4085"
+            }
+          },
+          "device_specific_features": {
+            "device_settings": {
+              "Firmware Version": null,
+              "On Board Memory Mode": [
+                "SLOT 1",
+                "SLOT 2",
+                "SLOT 3",
+                "SLOT 4",
+                "SLOT 5"
+              ]
+            },
+            "dpi": {
+              "dpi_speeds": [
+                400,
+                800,
+                1600,
+                3200
+              ],
+              "report_rate": [
+                1000,
+                500,
+                250,
+                125
+              ]
+            }
+          }
+        },
+        "G903 LIGHTSPEED": {
+          "displayName": "G903 LIGHTSPEED",
+          "firmware": "23.1.13",
+          "modelId": "c4087",
+          "type": "MOUSE",
+          "connection_interfaces": {
+            "wired": {
+              "pid": "c091",
+              "productId": "0xc091"
+            },
+            "wireless": {
+              "pid": "0x4087",
+              "productId": "0x4087"
+            }
+          },
+          "device_specific_features": {
+            "lightsync": {
+              "deviceCategory": "MOUSE_RGB_ZONAL",
+              "zones": [
+                "primary",
+                "logo"
+              ],
+              "primary": [
+                "fixed",
+                "cycle",
+                "breathing",
+                "screen sampler",
+                "audio visualizer"
+              ],
+              "logo": [
+                "fixed",
+                "cycle",
+                "breathing",
+                "screen sampler",
+                "audio visualizer"
+              ]
+            },
+            "device_settings": {
+              "Battery Level": null,
+              "Low Battery Mode": [
+                "BREATHING RED",
+                "BREATHING RED (PRIMARY ONLY)",
+                "FIXED RED"
+              ],
+              "DPI Lighting": null,
+              "Device Startup Effect": null,
+              "Button Layout": null,
+              "Inactivity Lighting": [
+                "Dim Active Effect",
+                "Breathing"
+              ],
+              "Firmware Version": null,
+              "On Board Memory Mode": [
+                "SLOT 1",
+                "SLOT 2",
+                "SLOT 3",
+                "SLOT 4",
+                "SLOT 5"
+              ]
+            },
+            "dpi": {
+              "dpi_speeds": [
+                400,
+                800,
+                1600,
+                3200,
+                6400
+              ],
+              "report_rate": [
+                1000,
+                500,
+                250,
+                125
+              ]
+            }
+          }
+        },
+        "G703 LIGHTSPEED": {
+          "displayName": "G703 LIGHTSPEED",
+          "firmware": "22.2.15",
+          "modelId": "c4086",
+          "type": "MOUSE",
+          "connection_interfaces": {
+            "wired": {
+              "pid": "c090",
+              "productId": "0xc090"
+            },
+            "wireless": {
+              "pid": "",
+              "productId": ""
+            }
+          },
+          "device_specific_features": {
+            "lightsync": {
+              "deviceCategory": "MOUSE_RGB_ZONAL",
+              "zones": [
+                "primary",
+                "logo"
+              ],
+              "primary": [
+                "fixed",
+                "cycle",
+                "breathing",
+                "screen sampler",
+                "audio visualizer"
+              ],
+              "logo": [
+                "fixed",
+                "cycle",
+                "breathing",
+                "screen sampler",
+                "audio visualizer"
+              ]
+            },
+            "device_settings": {
+              "Battery Level": null,
+              "Low Battery Mode": [
+                "BREATHING RED",
+                "BREATHING RED (PRIMARY ONLY)",
+                "FIXED RED"
+              ],
+              "Device Startup Effect": null,
+              "Inactivity Lighting": [
+                "Dim Active Effect",
+                "Breathing"
+              ],
+              "Firmware Version": null,
+              "On Board Memory Mode": [
+                "SLOT 1",
+                "SLOT 2",
+                "SLOT 3",
+                "SLOT 4",
+                "SLOT 5"
+              ]
+            },
+            "dpi": {
+              "dpi_speeds": [
+                400,
+                800,
+                1600,
+                3200
+              ],
+              "report_rate": [
+                1000,
+                500,
+                250,
+                125
+              ]
+            }
+          }
+        },
+        "PRO HERO": {
+          "displayName": "PRO HERO",
+          "firmware": "128.2.7",
+          "modelId": "8c08c",
+          "type": "MOUSE",
+          "connection_interfaces": {
+            "wired": {
+              "pid": "0xc08c",
+              "productId": "0xc08c"
+            }
+          },
+          "device_specific_features": {
+            "lightsync": {
+              "deviceCategory": "MOUSE_RGB_ZONAL",
+              "zones": [
+                "effects"
+              ],
+              "effects": [
+                "fixed",
+                "cycle",
+                "breathing",
+                "screen sampler",
+                "audio visualizer"
+              ]
+            },
+            "device_settings": {
+              "Device Startup Effect": null,
+              "Firmware Version": null,
+              "On Board Memory Mode": [
+                "SLOT 1",
+                "SLOT 2",
+                "SLOT 3",
+                "SLOT 4",
+                "SLOT 5"
+              ]
+            },
+            "dpi": {
+              "dpi_speeds": [
+                400,
+                800,
+                1600,
+                3200
+              ],
+              "report_rate": [
+                1000,
+                500,
+                250,
+                125
+              ]
+            }
+          }
+        },
+        "PRO WIRELESS": {
+          "displayName": "PRO WIRELESS",
+          "firmware": "15.2.26",
+          "modelId": "",
+          "type": "MOUSE",
+          "connection_interfaces": {
+            "wired": {
+              "pid": "0xc088",
+              "productId": "0xc088"
+            }
+          },
+          "device_specific_features": {
+            "lightsync": {
+              "deviceCategory": "MOUSE_RGB_ZONAL",
+              "zones": [
+                "primary",
+                "logo"
+              ],
+              "primary": [
+                "fixed",
+                "cycle",
+                "breathing",
+                "screen sampler",
+                "audio visualizer"
+              ],
+              "logo": [
+                "fixed",
+                "cycle",
+                "breathing",
+                "screen sampler",
+                "audio visualizer"
+              ]
+            },
+            "device_settings": {
+              "Battery Level": null,
+              "DPI Lighting": null,
+              "Device Startup Effect": null,
+              "Low Battery Mode": [
+                "BREATHING RED",
+                "BREATHING RED (PRIMARY ONLY)",
+                "FIXED RED"
+              ],
+              "Firmware Version": null,
+              "Button Layout": null,
+              "On Board Memory Mode": [
+                "SLOT 1",
+                "SLOT 2",
+                "SLOT 3",
+                "SLOT 4",
+                "SLOT 5"
+              ]
+            },
+            "dpi": {
+              "dpi_speeds": [
+                400,
+                800,
+                1600,
+                3200,
+                6400
+              ],
+              "report_rate": [
+                1000,
+                500,
+                250,
+                125
+              ]
+            }
+          }
+        },
+        "PRO WIRELESS LOL": {
+          "displayName": "PRO WIRELESS LOL",
+          "firmware": "15.2.26",
+          "modelId": "c4079",
+          "type": "MOUSE",
+          "connection_interfaces": {
+            "wired": {
+              "pid": "0xc088",
+              "productId": "0xc088"
+            }
+          },
+          "device_specific_features": {
+            "lightsync": {
+              "deviceCategory": "MOUSE_RGB_ZONAL",
+              "zones": [
+                "primary",
+                "logo"
+              ],
+              "primary": [
+                "fixed",
+                "cycle",
+                "breathing",
+                "screen sampler",
+                "audio visualizer"
+              ],
+              "logo": [
+                "fixed",
+                "cycle",
+                "breathing",
+                "screen sampler",
+                "audio visualizer"
+              ]
+            },
+            "device_settings": {
+              "Battery Level": null,
+              "DPI Lighting": null,
+              "Device Startup Effect": null,
+              "Low Battery Mode": [
+                "BREATHING RED",
+                "BREATHING RED (PRIMARY ONLY)",
+                "FIXED RED"
+              ],
+              "Firmware Version": null,
+              "Button Layout": null,
+              "On Board Memory Mode": [
+                "SLOT 1",
+                "SLOT 2",
+                "SLOT 3",
+                "SLOT 4",
+                "SLOT 5"
+              ]
+            },
+            "dpi": {
+              "dpi_speeds": [
+                400,
+                800,
+                1600,
+                3200,
+                6400
+              ],
+              "report_rate": [
+                1000,
+                500,
+                250,
+                125
+              ]
+            }
+          }
+        },
+        "PRO X SUPERLIGHT": {
+          "displayName": "PRO X SUPERLIGHT",
+          "firmware": "25.1.18",
+          "modelId": "c4093",
+          "type": "MOUSE",
+          "connection_interfaces": {
+            "wired": {
+              "pid": "c094",
+              "productId": "0xc094"
+            },
+            "wireless": {
+              "pid": "4093",
+              "productId": "0x4093"
+            }
+          },
+          "device_specific_features": {
+            "device_settings": {
+              "Battery Level": null,
+              "Firmware Version": null,
+              "On Board Memory Mode": [
+                "SLOT 1",
+                "SLOT 2",
+                "SLOT 3",
+                "SLOT 4",
+                "SLOT 5"
+              ]
+            },
+            "dpi": {
+              "dpi_speeds": [
+                400,
+                800,
+                1600,
+                3200,
+                6400
+              ],
+              "report_rate": [
+                1000,
+                500,
+                250,
+                125
+              ]
+            }
+          }
+        }
+      },
+      "keyboard": {
+        "G213": {
+          "displayName": "G213",
+          "firmware": "109.0.6",
+          "modelId": "8c336",
+          "type": "KEYBOARD",
+          "keyboard_type": "long",
+          "pid": "c336",
+          "connection_interfaces": {
+            "wired": {
+              "pid": "c336",
+              "productId": "0xc336"
+            }
+          },
+          "device_specific_features": {
+            "lightsync": {
+              "deviceCategory": "KEYBOARD_RGB_ZONAL",
+              "zones": [
+                "presets",
+                "freestyle"
+              ],
+              "presets": [
+                "fixed",
+                "cycle",
+                "breathing",
+                "color wave",
+                "screen sampler",
+                "audio visualizer"
+              ],
+              "freestyle": []
+            },
+            "device_settings": {
+              "Device Startup Effect": null,
+              "Firmware Version": null
+            }
+          }
+        },
+        "G610": {
+          "displayName": "G610",
+          "firmware": "109.0.6",
+          "modelId": "8c338",
+          "type": "KEYBOARD",
+          "keyboard_type": "long",
+          "pid": "c338",
+          "connection_interfaces": {
+            "wired": {
+              "pid": "c338",
+              "productId": "0xc338"
+            }
+          },
+          "device_specific_features": {
+            "lightsync": {
+              "deviceCategory": "KEYBOARD_MONO_PER_KEY",
+              "zones": [
+                "presets",
+                "freestyle",
+                "animations"
+              ],
+              "presets": [
+                "fixed",
+                "color wave",
+                "breathing",
+                "starlight",
+                "echo press"
+              ],
+              "freestyle": [
+                "WASD",
+                "NUMBERS",
+                "F KEYS",
+                "MODIFIER",
+                "ARROW KEYS",
+                "LOGO"
+              ],
+              "animations": [
+                "contrastic",
+                "verticool"
+              ]
+            },
+            "device_settings": {
+              "Device Startup Effect": null,
+              "Firmware Version": null
+            }
+          }
+        },
+        "G413": {
+          "displayName": "G413",
+          "firmware": "114.0.8",
+          "modelId": "8c33a",
+          "type": "KEYBOARD",
+          "keyboard_type": "long",
+          "connection_interfaces": {
+            "wired": {
+              "pid": "c33a",
+              "productId": "0xc33a"
+            }
+          },
+          "device_specific_features": {
+            "lightsync": {
+              "deviceCategory": "KEYBOARD_MONO_ZONAL",
+              "zones": [
+                "effects"
+              ],
+              "effects": [
+                "fixed",
+                "breathing",
+                "audio visualizer"
+              ]
+            },
+            "device_settings": {
+              "Fn Key Inversion": null,
+              "Firmware Version": null
+            }
+          }
+        },
+        "G512": {
+          "displayName": "G512",
+          "firmware": "119.1.14",
+          "modelId": "8c33c",
+          "type": "KEYBOARD",
+          "keyboard_type": "long",
+          "connection_interfaces": {
+            "wired": {
+              "pid": "c33c",
+              "productId": "0xc33c"
+            }
+          },
+          "device_specific_features": {
+            "lightsync": {
+              "deviceCategory": "KEYBOARD_RGB_PER_KEY",
+              "zones": [
+                "presets",
+                "freestyle",
+                "animations"
+              ],
+              "presets": [
+                "fixed",
+                "cycle",
+                "color wave",
+                "breathing",
+                "ripple",
+                "starlight",
+                "echo press",
+                "screen sampler",
+                "audio visualizer"
+              ],
+              "freestyle": [
+                "WASD",
+                "NUMBERS",
+                "F KEYS",
+                "MODIFIER",
+                "ARROW KEYS"
+              ],
+              "animations": [
+                "contrastic",
+                "lightning",
+                "ocean wave",
+                "red white and blue",
+                "verticool"
+              ]
+            },
+            "device_settings": {
+              "Fn Key Inversion": null,
+              "Firmware Version": null,
+              "Onboard Lighting": null
+            }
+          }
+        },
+        "G513": {
+          "displayName": "G513",
+          "firmware": "119.0.3",
+          "modelId": "8c33c",
+          "type": "KEYBOARD",
+          "keyboard_type": "long",
+          "connection_interfaces": {
+            "wired": {
+              "pid": "c33c",
+              "productId": "0xc33c"
+            }
+          },
+          "device_specific_features": {
+            "lightsync": {
+              "deviceCategory": "KEYBOARD_RGB_PER_KEY",
+              "zones": [
+                "presets",
+                "freestyle",
+                "animations"
+              ],
+              "presets": [
+                "fixed",
+                "cycle",
+                "color wave",
+                "breathing",
+                "ripple",
+                "starlight",
+                "echo press",
+                "screen sampler",
+                "audio visualizer"
+              ],
+              "freestyle": [
+                "WASD",
+                "NUMBERS",
+                "F KEYS",
+                "MODIFIER",
+                "ARROW KEYS"
+              ],
+              "animations": [
+                "contrastic",
+                "lightning",
+                "ocean wave",
+                "red white and blue",
+                "verticool"
+              ]
+            },
+            "device_settings": {
+              "Fn Key Inversion": null,
+              "Firmware Version": null,
+              "Onboard Lighting": null
+            }
+          }
+        },
+        "G815": {
+          "displayName": "G815",
+          "firmware": "131.2.18",
+          "modelId": "8c33c",
+          "type": "KEYBOARD",
+          "keyboard_type": "long",
+          "connection_interfaces": {
+            "wired": {
+              "pid": "c33f",
+              "productId": "0xc33f"
+            }
+          },
+          "device_specific_features": {
+            "lightsync": {
+              "deviceCategory": "KEYBOARD_RGB_PER_KEY",
+              "zones": [
+                "presets",
+                "freestyle",
+                "animations"
+              ],
+              "presets": [
+                "fixed",
+                "cycle",
+                "color wave",
+                "breathing",
+                "ripple",
+                "starlight",
+                "echo press",
+                "screen sampler",
+                "audio visualizer"
+              ],
+              "freestyle": [
+                "WASD",
+                "NUMBERS",
+                "F KEYS",
+                "G KEYS",
+                "MODIFIER",
+                "ARROW KEYS",
+                "LOGO"
+              ],
+              "animations": [
+                "contrastic",
+                "lightning",
+                "ocean wave",
+                "red white and blue",
+                "verticool"
+              ]
+            },
+            "device_settings": {
+              "Effects On Device": [
+                "Lighting",
+                "Red White and Blue"
+              ],
+              "On Board Memory Mode": [
+                "M1 SLOT",
+                "M2 SLOT",
+                "M3 SLOT"
+              ],
+              "Firmware Version": null
+            },
+            "G Keys": [
+              "G1",
+              "G2",
+              "G3",
+              "G4",
+              "G5"
+            ]
+          }
+        },
+        "G915": {
+          "displayName": "G915",
+          "firmware": "9.3.41",
+          "modelId": "eb354",
+          "type": "KEYBOARD",
+          "keyboard_type": "long",
+          "pid": "c33e",
+          "productId": "0xc33e",
+          "connection_interfaces": {
+            "wired": {
+              "pid": "TBD",
+              "productId": "TBD"
+            },
+            "wireless": {
+              "pid": "c33e",
+              "productId": "0xc33e"
+            }
+          },
+          "device_specific_features": {
+            "lightsync": {
+              "deviceCategory": "KEYBOARD_RGB_PER_KEY",
+              "zones": [
+                "presets",
+                "freestyle",
+                "animations"
+              ],
+              "presets": [
+                "fixed",
+                "cycle",
+                "color wave",
+                "breathing",
+                "ripple",
+                "starlight",
+                "echo press",
+                "screen sampler",
+                "audio visualizer"
+              ],
+              "freestyle": [
+                "WASD",
+                "NUMBERS",
+                "F KEYS",
+                "G KEYS",
+                "MODIFIER",
+                "ARROW KEYS",
+                "LOGO"
+              ],
+              "animations": [
+                "contrastic",
+                "lightning",
+                "ocean wave",
+                "red white and blue",
+                "verticool"
+              ]
+            },
+            "device_settings": {
+              "On Board Memory Mode": [
+                "M1 SLOT",
+                "M2 SLOT",
+                "M3 SLOT"
+              ],
+              "Effects On Device": null,
+              "Inactivity Lighting": [
+                "Breathing",
+                "Dim Active Effect"
+              ],
+              "Battery Level": null,
+              "Low Battery Mode": [
+                "BREATHING RED",
+                "BREATHING RED (LOGO ONLY)",
+                "FIXED RED"
+              ],
+              "Firware Version": null
+            },
+            "G Keys": [
+              "G1",
+              "G2",
+              "G3",
+              "G4",
+              "G5"
+            ]
+          }
+        },
+        "PRO": {
+          "displayName": "PRO",
+          "firmware": "113.1.13",
+          "modelId": "8c339",
+          "type": "KEYBOARD",
+          "keyboard_type": "short",
+          "connection_interfaces": {
+            "wired": {
+              "pid": "c339",
+              "productId": "0xc339"
+            },
+            "wireless": {
+              "pid": "TBD",
+              "productId": "TBD"
+            }
+          },
+          "device_specific_features": {
+            "lightsync": {
+              "deviceCategory": "KEYBOARD_RGB_PER_KEY",
+              "zones": [
+                "presets",
+                "freestyle",
+                "animations"
+              ],
+              "presets": [
+                "off",
+                "fixed",
+                "cycle",
+                "breathing",
+                "color wave",
+                "starlight",
+                "echo press",
+                "screen sampler",
+                "audio visualizer"
+              ],
+              "freestyle": [
+                "wasd",
+                "numbers",
+                "f keys",
+                "modifier",
+                "arrow keys",
+                "logo"
+              ],
+              "animations": [
+                "CONTRASTIC",
+                "LIGHTNING",
+                "OCEAN WAVE",
+                "RED WHITE AND BLUE",
+                "VERTICOOL"
+              ]
+            },
+            "device_settings": {
+              "Onboard Lighting": null,
+              "Fn Key Inversion": null,
+              "Firmware Version": null
+            }
+          }
+        },
+        "G910": {
+          "displayName": "G910",
+          "firmware": "92.4.26",
+          "modelId": "8c32b",
+          "type": "KEYBOARD",
+          "keyboard_type": "long",
+          "connection_interfaces": {
+            "wired": {
+              "pid": "c32b",
+              "productId": "0xc32b"
+            },
+            "wireless": {
+              "pid": "TBD",
+              "productId": "TBD"
+            }
+          },
+          "device_specific_features": {
+            "lightsync": {
+              "deviceCategory": "KEYBOARD_RGB_PER_KEY",
+              "zones": [
+                "presets",
+                "freestyle",
+                "animations"
+              ],
+              "presets": [
+                "fixed",
+                "cycle",
+                "breathing",
+                "color wave",
+                "color blend",
+                "screen sampler",
+                "audio visualizer"
+              ],
+              "freestyle": [
+                "WASD",
+                "NUMBERS",
+                "F KEYS",
+                "G KEYS",
+                "MODIFIER",
+                "ARROW KEYS",
+                "LOGO"
+              ],
+              "animations": [
+                "CONTRASTIC",
+                "LIGHTNING",
+                "OCEAN WAVE",
+                "RED WHITE AND BLUE",
+                "VERTICOOL"
+              ]
+            },
+            "device_settings": {
+              "Device Startup Effect": null,
+              "Firmware Version": null
+            },
+            "G Keys": [
+              "G1",
+              "G2",
+              "G3",
+              "G4",
+              "G5"
+            ]
+          }
+        },
+        "G915 TKL": {
+          "displayName": "G915 TKL",
+          "firmware": "14.1.21",
+          "modelId": "eb35f",
+          "type": "KEYBOARD",
+          "keyboard_type": "short",
+          "connection_interfaces": {
+            "wired": {
+              "pid": "c343",
+              "productId": "0xc343"
+            },
+            "wireless": {
+              "pid": "408e",
+              "productId": "0x408e"
+            }
+          },
+          "device_specific_features": {
+            "lightsync": {
+              "deviceCategory": "KEYBOARD_RGB_PER_KEY",
+              "zones": [
+                "presets",
+                "freestyle",
+                "animations"
+              ],
+              "presets": [
+                "fixed",
+                "cycle",
+                "color wave",
+                "breathing",
+                "ripple",
+                "starlight",
+                "echo press",
+                "screen sampler",
+                "audio visualizer"
+              ],
+              "freestyle": [
+                "WASD",
+                "NUMBERS",
+                "F KEYS",
+                "MODIFIER",
+                "ARROW KEYS",
+                "LOGO"
+              ],
+              "animations": [
+                "contrastic",
+                "lightning",
+                "ocean wave",
+                "red white and blue",
+                "verticool"
+              ]
+            },
+            "device_settings": {
+              "Battery Level": null,
+              "Low Battery Mode": [
+                "BREATHING RED",
+                "BREATHING RED (LOGO ONLY)",
+                "FIXED RED"
+              ],
+              "Inactivity Lighting": [
+                "Dim Active Effect",
+                "Breathing"
+              ],
+              "Firmware Version": null,
+              "Effects On Device": [
+                "Verticool",
+                "Red White and Blue",
+                "Contrastic",
+                "Ocean Wave",
+                "Lightning"
+              ],
+              "On Board Memory Mode": [
+                "M1 SLOT",
+                "M2 SLOT",
+                "M3 SLOT"
+              ]
+            }
+          }
+        },
+        "G913": {
+          "displayName": "G913",
+          "firmware": "9.3.41",
+          "modelId": "eb354",
+          "type": "KEYBOARD",
+          "keyboard_type": "long",
+          "connection_interfaces": {
+            "wired": {
+              "pid": "c33e",
+              "productId": "0xc33e"
+            },
+            "wireless": {
+              "pid": "407c",
+              "productId": "0x407c"
+            }
+          },
+          "device_specific_features": {
+            "lightsync": {
+              "deviceCategory": "KEYBOARD_RGB_PER_KEY",
+              "zones": [
+                "presets",
+                "freestyle",
+                "animations"
+              ],
+              "presets": [
+                "fixed",
+                "cycle",
+                "color wave",
+                "breathing",
+                "ripple",
+                "starlight",
+                "echo press",
+                "screen sampler",
+                "audio visualizer"
+              ],
+              "freestyle": [
+                "WASD",
+                "NUMBERS",
+                "F KEYS",
+                "MODIFIER",
+                "ARROW KEYS",
+                "LOGO"
+              ],
+              "animations": [
+                "contrastic",
+                "lightning",
+                "ocean wave",
+                "red white and blue",
+                "verticool"
+              ]
+            },
+            "device_settings": {
+              "Battery Level": null,
+              "Low Battery Mode": [
+                "BREATHING RED",
+                "BREATHING RED (LOGO ONLY)",
+                "FIXED RED"
+              ],
+              "Inactivity Lighting": [
+                "Dim Active Effect",
+                "Breathing"
+              ],
+              "Firmware Version": null,
+              "Effects On Device": [
+                "Verticool",
+                "Red White and Blue",
+                "Contrastic",
+                "Ocean Wave",
+                "Lightning"
+              ],
+              "On Board Memory Mode": [
+                "M1 SLOT",
+                "M2 SLOT",
+                "M3 SLOT"
+              ]
+            }
+          }
+        },
+        "PRO LOL": {
+          "displayName": "PRO LOL",
+          "firmware": "113.4.19",
+          "modelId": "8c339_ext8",
+          "type": "KEYBOARD",
+          "keyboard_type": "short",
+          "connection_interfaces": {
+            "wired": {
+              "pid": "c339",
+              "productId": "0xc339"
+            },
+            "wireless": {
+              "pid": "TBD",
+              "productId": "TBD"
+            }
+          },
+          "device_specific_features": {
+            "lightsync": {
+              "deviceCategory": "KEYBOARD_RGB_PER_KEY",
+              "zones": [
+                "presets",
+                "freestyle",
+                "animations"
+              ],
+              "presets": [
+                "fixed",
+                "cycle",
+                "breathing",
+                "color wave",
+                "screen sampler",
+                "audio visualizer"
+              ],
+              "freestyle": [
+                "wasd",
+                "numbers",
+                "f keys",
+                "modifier",
+                "arrow keys",
+                "LOGO"
+              ],
+              "animations": [
+                "CONTRASTIC",
+                "LIGHTNING",
+                "OCEAN WAVE"
+              ]
+            },
+            "device_settings": {
+              "Onboard Lighting": null,
+              "Fn Key Inversion": null,
+              "Firmware Version": null
+            }
+          }
+        },
+        "G713": {
+          "displayName": "G713",
+          "firmware": "158.0.13",
+          "modelId": "8c348",
+          "type": "KEYBOARD",
+          "keyboard_type": "short",
+          "connection_interfaces": {
+            "wired": {
+              "pid": "c348",
+              "productId": "0xc348"
+            },
+            "wireless": {
+              "pid": "408e",
+              "productId": "0x408e"
+            }
+          },
+          "device_specific_features": {
+            "lightsync": {
+              "deviceCategory": "KEYBOARD_RGB_PER_KEY",
+              "zones": [
+                "presets",
+                "freestyle",
+                "animations"
+              ],
+              "presets": [
+                "OFF",
+                "FIXED",
+                "BREATHING",
+                "COLOR CYCLE",
+                "COLOR WAVE",
+                "RIPPLE",
+                "STARLIGHT",
+                "ECHO PRESS"
+              ],
+              "freestyle": [
+                "WASD",
+                "NUMBERS",
+                "F KEYS",
+                "MODIFIER",
+                "ARROW KEYS",
+                "ALL KEYS",
+                "LEFT RING",
+                "RIGHT RING",
+                "BOTTOM RING",
+                "TOP RING",
+                "RING"
+              ],
+              "animations": [
+                "contrastic",
+                "lightning",
+                "ocean wave",
+                "red white and blue",
+                "verticool"
+              ]
+            },
+            "device_settings": {
+              "Firmware Version": null,
+              "Device Startup Effect": null,
+              "Effects On Device": [
+                "Verticool",
+                "Red White and Blue",
+                "Contrastic",
+                "Ocean Wave",
+                "Lightning"
+              ],
+              "On Board Memory Mode": [
+                "M1 SLOT"
+              ]
+            }
+          }
+        }
+      },
+      "headset": {
+        "PRO": {
+          "displayName": "PRO",
+          "firmware": "171.0.1",
+          "modelId": "30000",
+          "type": "HEADSET",
+          "connection_interfaces": {
+            "wired": {
+              "pid": "aa7",
+              "productId": "0xaa7"
+            }
+          },
+          "device_specific_features": {
+            "device_settings": {
+              "Firmware Version": null,
+              "DTS Copyright": null
+            },
+            "headphones": {
+              "acoustics": [
+                "NOISE REMOVAL"
+              ]
+            }
+          }
+        },
+        "G432": {
+          "displayName": "G432",
+          "firmware": "142.0.1",
+          "modelId": "30000",
+          "type": "HEADSET",
+          "connection_interfaces": {
+            "wired": {
+              "pid": "a9c",
+              "productId": "0xa9c"
+            }
+          },
+          "device_specific_features": {
+            "device_settings": {
+              "DTS Copyright": null,
+              "Firmware Version": null
+            },
+            "headphones": {
+              "acoustics": [
+                "Enable Advanced EQ"
+              ],
+              "surround_sound": [
+                "dts",
+                "entertainment",
+                "gaming",
+                "sports",
+                "off",
+                "front",
+                "wide",
+                "traditional"
+              ]
+            }
+          }
+        },
+        "G635": {
+          "displayName": "G635",
+          "firmware": "130.0.7",
+          "modelId": "g635",
+          "type": "HEADSET",
+          "connection_interfaces": {
+            "wired": {
+              "pid": "a89",
+              "productId": "0xa89"
+            }
+          },
+          "device_specific_features": {
+            "lightsync": {
+              "deviceCategory": "HEADSET_RGB_ZONAL",
+              "zones": [
+                "primary",
+                "logo"
+              ],
+              "primary": [
+                "fixed",
+                "cycle",
+                "breathing",
+                "screen sampler",
+                "audio visualizer"
+              ],
+              "logo": [
+                "fixed",
+                "cycle",
+                "breathing",
+                "screen sampler",
+                "audio visualizer"
+              ]
+            },
+            "device_settings": {
+              "DTS Copyright": null,
+              "Firmware Version": null,
+              "Device Startup Effect": null
+            },
+            "headphones": {
+              "acoustics": [
+                "Enable Advanced EQ",
+                "NOISE REMOVAL"
+              ],
+              "surround_sound": [
+                "dts",
+                "entertainment",
+                "gaming",
+                "sports",
+                "off",
+                "front",
+                "wide",
+                "traditional"
+              ]
+            }
+          }
+        },
+        "G935": {
+          "displayName": "G935",
+          "firmware": "129.0.12",
+          "modelId": "30000",
+          "type": "HEADSET",
+          "connection_interfaces": {
+            "wireless": {
+              "pid": "a87",
+              "productId": "0xa87"
+            }
+          },
+          "device_specific_features": {
+            "Lightsync": {
+              "deviceCategory": "HEADSET_RGB_ZONAL",
+              "zones": [
+                "primary",
+                "logo"
+              ],
+              "primary": [
+                "fixed",
+                "cycle",
+                "breathing",
+                "screen sampler",
+                "audio visualizer"
+              ],
+              "logo": [
+                "fixed",
+                "cycle",
+                "breathing",
+                "screen sampler",
+                "audio visualizer"
+              ]
+            },
+            "device_settings": {
+              "Battery Level": null,
+              "Device Startup Effect": null,
+              "Onboard Equalizer": null,
+              "Power Management": null,
+              "DTS copyright": null,
+              "Firmware Version": null
+            },
+            "headphones": {
+              "acoustics": [
+                "Enable Advanced EQ",
+                "NOISE REMOVAL"
+              ],
+              "surround_sound": [
+                "dts",
+                "entertainment",
+                "gaming",
+                "sports",
+                "off",
+                "front",
+                "wide",
+                "traditional"
+              ]
+            }
+          },
+          "external_devices": {
+            "microphone": "4- USB",
+            "speaker": "G560"
+          }
+        },
+        "G733": {
+          "displayName": "G733",
+          "firmware": "137.0.131",
+          "modelId": "80ab5",
+          "type": "HEADSET",
+          "connection_interfaces": {
+            "wireless": {
+              "pid": "ab5",
+              "productId": "0xab5"
+            }
+          },
+          "device_specific_features": {
+            "Lightsync": {
+              "deviceCategory": "HEADSET_RGB_ZONAL",
+              "zones": [
+                "top",
+                "bottom"
+              ],
+              "top": [
+                "fixed",
+                "cycle",
+                "breathing",
+                "screen sampler",
+                "audio visualizer"
+              ],
+              "bottom": [
+                "fixed",
+                "cycle",
+                "breathing",
+                "screen sampler",
+                "audio visualizer"
+              ]
+            },
+            "device_settings": {
+              "Battery Level": null,
+              "Device Startup Effect": null,
+              "Low Battery Mode": [
+                "BREATHING RED",
+                "FIXED RED"
+              ],
+              "Notifications": null,
+              "Power Management": null,
+              "Firmware Version": null,
+              "DTS Copyright": null
+            },
+            "headphones": {
+              "acoustics": [
+                "Enable Advanced EQ"
+              ],
+              "surround_sound": [
+                "dts",
+                "entertainment",
+                "gaming",
+                "sports",
+                "off",
+                "front",
+                "wide",
+                "traditional"
+              ]
+            }
+          },
+          "external_devices": {
+            "microphone": "3- USB",
+            "speaker": "G560"
+          }
+        },
+        "PRO X WIRELESS": {
+          "displayName": "PRO X WIRELESS",
+          "firmware": "112.1.203",
+          "modelId": "30000",
+          "type": "HEADSET",
+          "connection_interfaces": {
+            "wireless": {
+              "pid": "aba",
+              "productId": "0xaba"
+            }
+          },
+          "device_specific_features": {
+            "device_settings": {
+              "Battery Level": null,
+              "Power Management": null,
+              "DTS Copyright": null,
+              "Firmware Version": null
+            },
+            "headphones": {
+              "acoustics": [
+                "Enable Advanced EQ"
+              ],
+              "surround_sound": [
+                "dts",
+                "entertainment",
+                "gaming",
+                "sports",
+                "off",
+                "front",
+                "wide",
+                "traditional"
+              ]
+            }
+          }
+        },
+        "PRO X": {
+          "displayName": "PRO X",
+          "firmware": "171.0.1",
+          "modelId": "30000",
+          "type": "HEADSET",
+          "connection_interfaces": {
+            "wired": {
+              "pid": "aaa",
+              "productId": "0xaaa"
+            }
+          },
+          "device_specific_features": {
+            "device_settings": {
+              "DTS Copyright": null,
+              "Firmware Version": null
+            },
+            "headphones": {
+              "acoustics": [],
+              "surround_sound": [
+                "dts",
+                "entertainment",
+                "gaming",
+                "sports",
+                "off",
+                "front",
+                "wide",
+                "traditional"
+              ]
+            }
+          }
+        },
+        "G633s": {
+          "displayName": "G633s",
+          "firmware": "130.0.7",
+          "modelId": "30000",
+          "type": "HEADSET",
+          "connection_interfaces": {
+            "wired": {
+              "pid": "a89",
+              "productId": "0xa89"
+            }
+          },
+          "device_specific_features": {
+            "Lightsync": {
+              "deviceCategory": "HEADSET_RGB_ZONAL",
+              "zones": [
+                "primary",
+                "logo"
+              ],
+              "primary": [
+                "fixed",
+                "cycle",
+                "breathing",
+                "screen sampler",
+                "audio visualizer"
+              ],
+              "logo": [
+                "fixed",
+                "cycle",
+                "breathing",
+                "screen sampler",
+                "audio visualizer"
+              ]
+            },
+            "device_settings": {
+              "Device Startup Effect": null,
+              "DTS Copyright": null,
+              "Firmware Version": null
+            },
+            "headphones": {
+              "acoustics": [
+                "Enable Advanced EQ",
+                "NOISE REMOVAL"
+              ],
+              "surround_sound": [
+                "dts",
+                "entertainment",
+                "gaming",
+                "sports",
+                "off",
+                "front",
+                "wide",
+                "traditional"
+              ]
+            }
+          }
+        },
+        "G933s": {
+          "displayName": "G933s",
+          "firmware": "129.0.12",
+          "modelId": "30000",
+          "type": "HEADSET",
+          "connection_interfaces": {
+            "wireless": {
+              "pid": "a87",
+              "productId": "0xa87"
+            }
+          },
+          "device_specific_features": {
+            "Lightsync": {
+              "deviceCategory": "HEADSET_RGB_ZONAL",
+              "zones": [
+                "primary",
+                "logo"
+              ],
+              "primary": [
+                "fixed",
+                "cycle",
+                "breathing",
+                "screen sampler",
+                "audio visualizer"
+              ],
+              "logo": [
+                "fixed",
+                "cycle",
+                "breathing",
+                "screen sampler",
+                "audio visualizer"
+              ]
+            },
+            "device_settings": {
+              "Battery Level": null,
+              "Device Startup Effect": null,
+              "Power Management": null,
+              "Onboard Equalizer": null,
+              "DTS Copyright": null,
+              "Firmware Version": null
+            },
+            "headphones": {
+              "acoustics": [
+                "Enable Advanced EQ",
+                "NOISE REMOVAL"
+              ],
+              "surround_sound": [
+                "dts",
+                "entertainment",
+                "gaming",
+                "sports",
+                "off",
+                "front",
+                "wide",
+                "traditional"
+              ]
+            }
+          }
+        },
+        "G433": {
+          "displayName": "G433",
+          "firmware": "116.1.5",
+          "modelId": "30000",
+          "type": "HEADSET",
+          "connection_interfaces": {
+            "wired": {
+              "pid": "a6d",
+              "productId": "0xa6d"
+            }
+          },
+          "device_specific_features": {
+            "device_settings": {
+              "DTS Copyright": null,
+              "Firmware Version": null
+            },
+            "headphones": {
+              "acoustics": [
+                "Enable Advanced EQ",
+                "NOISE REMOVAL"
+              ],
+              "surround_sound": [
+                "dts",
+                "dts standard",
+                "fps",
+                "signature studio",
+                "front",
+                "wide"
+              ]
+            }
+          }
+        }
+      },
+      "microphone": {
+        "Yeti X": {
+          "displayName": "Yeti X",
+          "firmware": "12.16.1216",
+          "modelId": "80ad1",
+          "type": "MICROPHONE",
+          "connection_interfaces": {
+            "wired": {
+              "pid": "ad1",
+              "productId": "0xad1"
+            }
+          },
+          "device_specific_features": {
+            "device_settings": {
+              "Firmware Version": null
+            },
+            "lighting": {
+              "effects": [
+                "fixed",
+                "breathing"
+              ]
+            },
+            "microphone": {
+              "blue_voice": [
+                "signal cleanup",
+                "equalizer"
+              ],
+              "effects": []
+            },
+            "sampler": [],
+            "headphone_output": []
+          }
+        },
+        "Yeti X WoW® Edition": {
+          "displayName": "Yeti X WoW® Edition",
+          "firmware": "11.5.1105",
+          "modelId": "80ac6",
+          "type": "MICROPHONE",
+          "connection_interfaces": {
+            "wired": {
+              "pid": "ac6",
+              "productId": "0xac6"
+            }
+          },
+          "device_specific_features": {
+            "device_settings": {
+              "Firmware Version": null
+            },
+            "lighting": {
+              "effects": [
+                "fixed",
+                "breathing"
+              ]
+            },
+            "microphone": {
+              "blue_voice": [
+                "signal cleanup",
+                "equalizer"
+              ],
+              "effects": []
+            },
+            "sampler": [],
+            "headphone_output": []
+          }
+        },
+        "Yeti": {
+          "displayName": "Yeti",
+          "firmware": "01.00",
+          "modelId": "80aaf",
+          "type": "MICROPHONE",
+          "connection_interfaces": {
+            "wired": {
+              "pid": "",
+              "productId": "0x98e4"
+            }
+          },
+          "device_specific_features": {
+            "device_settings": {
+              "Firmware Version": null
+            },
+            "microphone": {
+              "blue_voice": [
+                "signal cleanup",
+                "equalizer"
+              ],
+              "effects": []
+            },
+            "sampler": [],
+            "headphone_output": []
+          }
+        },
+        "Yeti Nano": {
+          "displayName": "Yeti Nano",
+          "firmware": "4.10.410",
+          "modelId": "80ab1",
+          "type": "MICROPHONE",
+          "connection_interfaces": {
+            "wired": {
+              "pid": "ab1",
+              "productId": "ab1"
+            }
+          },
+          "device_specific_features": {
+            "device_settings": [
+              "Firmware Version"
+            ],
+            "microphone": {
+              "blue_voice": [
+                "signal cleanup",
+                "equalizer"
+              ],
+              "effects": []
+            },
+            "sampler": [],
+            "headphone_output": []
+          }
+        }
+      },
+      "charging_pad": {
+        "POWERPLAY": {
+          "displayName": "POWERPLAY",
+          "firmware": {
+            "device": "7.1.11",
+            "receiver": "40.3.14"
+          },
+          "modelId": "4405f",
+          "type": "POWERPLAY",
+          "connection_interfaces": {
+            "wired": {
+              "pid": "405f",
+              "productId": "405f"
+            }
+          },
+          "device_specific_features": {
+            "lightsync": {
+              "deviceCategory": "MOUSEPAD_RGB_ZONAL",
+              "zones": [
+                "effects"
+              ],
+              "effects": [
+                "fixed",
+                "cycle",
+                "breathing",
+                "screen sampler",
+                "audio visualizer"
+              ]
+            },
+            "device_settings": {
+              "Firmware Version": null
+            }
+          }
+        }
+      },
+      "camera": {
+        "StreamCam": {
+          "displayName": "StreamCam",
+          "firmware": "1.0.211",
+          "modelId": "8c893",
+          "type": "CAMERA",
+          "connection_interfaces": {
+            "wired": {
+              "pid": "893",
+              "productId": "0X893"
+            }
+          },
+          "device_specific_features": {
+            "webcam": {
+              "camera": [
+                "DEFAULT",
+                "STREAMING",
+                "VIDEO CALL"
+              ],
+              "video": [
+                "BLACK & WHITE",
+                "CARTOON",
+                "NONE",
+                "SICKNESS",
+                "ZOMBIE"
+              ]
+            },
+            "device_settings": {
+              "Configuration": true,
+              "Firmware Version": true
+            }
+          }
+        },
+        "BRIO 4K STREAM": {
+          "displayName": "BRIO 4K STREAM",
+          "firmware": "1.0.40",
+          "modelId": "8c86B",
+          "type": "CAMERA",
+          "connection_interfaces": {
+            "wired": {
+              "pid": "86B",
+              "productId": "0X86B"
+            }
+          },
+          "device_specific_features": {
+            "webcam": {
+              "camera": [
+                "DEFAULT",
+                "STREAMING",
+                "VIDEO CALL"
+              ],
+              "video": [
+                "BLACK & WHITE",
+                "CARTOON",
+                "NONE",
+                "SICKNESS",
+                "ZOMBIE"
+              ],
+              "fov": 78
+            },
+            "device_settings": {
+              "Configuration": true,
+              "Firmware Version": true
+            }
+          }
+        },
+        "C922": {
+          "displayName": "C922",
+          "firmware": "7.55.1085",
+          "modelId": "8c85C",
+          "type": "CAMERA",
+          "connection_interfaces": {
+            "wired": {
+              "pid": "86B",
+              "productId": "0X85C"
+            }
+          },
+          "device_specific_features": {
+            "webcam": {
+              "camera": [
+                "DEFAULT",
+                "STREAMING",
+                "VIDEO CALL"
+              ],
+              "video": [
+                "BLACK & WHITE",
+                "CARTOON",
+                "NONE",
+                "SICKNESS",
+                "ZOMBIE"
+              ]
+            },
+            "device_settings": {
+              "Configuration": true,
+              "Firmware Version": true
+            }
+          }
+        },
+        "C920": {
+          "displayName": "C920",
+          "firmware": "7.59.1035",
+          "modelId": "8c892",
+          "type": "CAMERA",
+          "connection_interfaces": {
+            "wired": {
+              "pid": "892",
+              "productId": "0X892"
+            }
+          },
+          "device_specific_features": {
+            "webcam": {
+              "camera": [
+                "DEFAULT",
+                "STREAMING",
+                "VIDEO CALL"
+              ],
+              "video": [
+                "BLACK & WHITE",
+                "CARTOON",
+                "NONE",
+                "SICKNESS",
+                "ZOMBIE"
+              ]
+            },
+            "device_settings": {
+              "Configuration": true,
+              "Firmware Version": true
+            }
+          }
+        },
+        "BRIO": {
+          "displayName": "BRIO",
+          "firmware": "1.0.379",
+          "modelId": "8c85E",
+          "type": "CAMERA",
+          "connection_interfaces": {
+            "wired": {
+              "pid": "85E",
+              "productId": "0X85E"
+            }
+          },
+          "device_specific_features": {
+            "webcam": {
+              "camera": [
+                "DEFAULT",
+                "STREAMING",
+                "VIDEO CALL"
+              ],
+              "video": [
+                "BLACK & WHITE",
+                "CARTOON",
+                "NONE",
+                "SICKNESS",
+                "ZOMBIE"
+              ],
+              "fov": 90
+            },
+            "device_settings": {
+              "Configuration": true,
+              "Firmware Version": true
+            }
+          }
+        },
+        "1080P PRO": {
+          "displayName": "1080p PRO",
+          "firmware": "7.59.1035",
+          "modelId": "",
+          "type": "CAMERA",
+          "connection_interfaces": {
+            "wired": {
+              "pid": "",
+              "productId": ""
+            }
+          },
+          "device_specific_features": {
+            "webcam": {
+              "camera": [
+                "DEFAULT",
+                "STREAMING",
+                "VIDEO CALL"
+              ],
+              "video": [
+                "BLACK & WHITE",
+                "CARTOON",
+                "NONE",
+                "SICKNESS",
+                "ZOMBIE"
+              ]
+            },
+            "device_settings": {
+              "Configuration": true,
+              "Firmware Version": true
+            }
+          }
+        }
+      },
+      "steeringwheel": {
+        "G923": {
+          "displayName": "G923",
+          "firmware": "139.1.49",
+          "modelId": "8c266",
+          "type": "STEERINGWHEEL",
+          "connection_interfaces": {
+            "wired": {
+              "pid": "c266",
+              "productId": "0xc266"
+            }
+          },
+          "device_specific_features": {
+            "steering wheel": {},
+            "pedal sensitivity": {},
+            "device_settings": {
+              "Firmware Version": true
+            }
+          }
+        }
+      },
+      "speakers": {
+        "G560": {
+          "displayName": "G560",
+          "firmware": "122.3.23",
+          "modelId": "30000",
+          "type": "SPEAKER",
+          "connection_interfaces": {
+            "wired": {
+              "pid": "a78",
+              "productId": "0xa78"
+            }
+          },
+          "device_specific_features": {
+            "lightsync": {
+              "deviceCategory": "SPEAKER_RGB_ZONAL",
+              "zones": [
+                "front",
+                "back"
+              ],
+              "front": [
+                "fixed",
+                "cycle",
+                "breathing",
+                "screen sampler",
+                "audio visualizer"
+              ],
+              "back": [
+                "fixed",
+                "cycle",
+                "breathing",
+                "screen sampler",
+                "audio visualizer"
+              ]
+            },
+            "device_settings": {
+              "Device Startup Effect": null,
+              "DTS Copyright": null,
+              "Firmware Version": null
+            }
+          }
+        }
+      }
+    },
+    "all_features": {
+      "cloud_profile": {
+        "wired": [
+          "PRO X SUPERLIGHT",
+          "G203",
+          "G213",
+          "G915 TKL",
+          "G600",
+          "G403 HERO",
+          "G403",
+          "G613",
+          "G502 HERO",
+          "G502",
+          "G502 LIGHTSPEED",
+          "G903 LIGHTSPEED",
+          "G203 LIGHTSYNC",
+          "G502 LIGHTSPEED",
+          "G512",
+          "PRO HERO",
+          "G703 LIGHTSPEED",
+          "G413",
+          "G513",
+          "G910",
+          "PRO",
+          "PRO WIRELESS",
+          "G815",
+          "G610",
+          "G402",
+          "G915",
+          "G705"
+        ],
+        "wireless": [
+          "PRO X SUPERLIGHT",
+          "G203",
+          "G213",
+          "G915 TKL",
+          "G604",
+          "PRO",
+          "G305",
+          "G903 LIGHTSPEED",
+          "G502 LIGHTSPEED",
+          "G703 LIGHTSPEED",
+          "G733",
+          "G705"
+        ]
+      },
+      "lightsync_profile": {
+        "wired": [],
+        "wireless": []
+      },
+      "wheel": {
+        "wired": [
+          "G923"
+        ],
+        "wireless": []
+      },
+      "audio": {
+        "wired": [
+          "StresmCam"
+        ],
+        "wireless": []
+      },
+      "stabilization": {
+        "wired": [
+          "StresmCam"
+        ],
+        "wireless": []
+      },
+      "filters": {
+        "wired": [
+          "StresmCam",
+          "BRIO 4K STREAM",
+          "BRIO",
+          "C922",
+          "C920"
+        ],
+        "wireless": []
+      },
+      "command_lighting": {
+        "wired": [],
+        "wireless": []
+      },
+      "speakers": {
+        "wired": [
+          "G560"
+        ],
+        "wireless": []
+      },
+      "battery_mode": {
+        "wired": [],
+        "wireless": []
+      },
+      "dfu": {
+        "wired": [],
+        "wireless": []
+      },
+      "lightsync_colorpicker": {
+        "wired": [
+          "G815",
+          "G915",
+          "G915 TKL",
+          "G910",
+          "PRO",
+          "G513",
+          "G512",
+          "G610",
+          "G213"
+        ],
+        "wireless": [
+          "G915 TKL"
+        ]
+      },
+      "assignments_profile_lock": {
+        "wired": [],
+        "wireless": []
+      },
+      "assignments_onboard": {
+        "wired": [],
+        "wireless": []
+      },
+      "assignment": {
+        "wired": [
+          "G923"
+        ],
+        "wireless": []
+      },
+      "fov": {
+        "wired": [
+          "BRIO 4K STREAM",
+          "BRIO"
+        ],
+        "wireless": []
+      },
+      "hdr": {
+        "wired": [
+          "BRIO 4K STREAM",
+          "BRIO"
+        ],
+        "wireless": []
+      },
+      "lightsync_options": {
+        "wired": [],
+        "wireless": []
+      },
+      "onboard_memory_mode": {
+        "wired": [],
+        "wireless": []
+      },
+      "colorsensor": {
+        "wired": [
+          "G502 HERO",
+          "G502 LIGHTSPEED"
+        ],
+        "wireless": [
+          "G502 HERO",
+          "G502 LIGHTSPEED"
+        ]
+      },
+      "persistent_profile": {
+        "wired": [
+          "PRO X SUPERLIGHT",
+          "G203",
+          "G213",
+          "G915 TKL",
+          "G600",
+          "G403 HERO",
+          "G403",
+          "G613",
+          "G502 HERO",
+          "G502",
+          "G502 LIGHTSPEED",
+          "G903 LIGHTSPEED",
+          "G203 LIGHTSYNC",
+          "G502 LIGHTSPEED",
+          "G512",
+          "PRO HERO",
+          "G703 LIGHTSPEED",
+          "G413",
+          "G513",
+          "G910",
+          "PRO",
+          "G815",
+          "G705"
+        ],
+        "wireless": [
+          "PRO X SUPERLIGHT",
+          "G203",
+          "G213",
+          "G915 TKL",
+          "G604",
+          "PRO",
+          "G305",
+          "G903 LIGHTSPEED",
+          "G502 LIGHTSPEED",
+          "G703 LIGHTSPEED",
+          "G733",
+          "G705"
+        ]
+      },
+      "onboard_lighting": {
+        "wired": [
+          "G203",
+          "G915 TKL",
+          "G512",
+          "G513",
+          "PRO",
+          "PRO WIRELESS",
+          "G915"
+        ],
+        "wireless": [
+          "G915 TKL"
+        ]
+      },
+      "game_mode": {
+        "wired": [
+          "G213",
+          "G915 TKL",
+          "G512",
+          "G413",
+          "G513",
+          "G910",
+          "PRO",
+          "G815",
+          "G610",
+          "G915"
+        ],
+        "wireless": [
+          "G915 TKL"
+        ]
+      },
+      "lightsync": {
+        "wired": [
+          "G203",
+          "G213",
+          "G915 TKL",
+          "G403 HERO",
+          "G403",
+          "G502 HERO",
+          "G502",
+          "G502 LIGHTSPEED",
+          "G903 LIGHTSPEED",
+          "G203 LIGHTSYNC",
+          "G512",
+          "PRO HERO",
+          "G703 LIGHTSPEED",
+          "G413",
+          "G513",
+          "G910",
+          "PRO",
+          "PRO WIRELESS",
+          "G815",
+          "G915",
+          "G402",
+          "G705",
+          "POWERPLAY"
+        ],
+        "wireless": [
+          "G915 TKL",
+          "PRO",
+          "G903 LIGHTSPEED",
+          "G502 LIGHTSPEED",
+          "G915",
+          "G703 LIGHTSPEED",
+          "G733",
+          "G705"
+        ]
+      },
+      "lighting": {
+        "wired": [
+          "Yeti X",
+          "Yeti X WoW® Edition"
+        ],
+        "wireless": []
+      },
+      "dpi": {
+        "wired": [
+          "PRO X SUPERLIGHT",
+          "G203",
+          "G403 HERO",
+          "G403",
+          "G502 HERO",
+          "G502",
+          "G502 LIGHTSPEED",
+          "G903 LIGHTSPEED",
+          "G203 LIGHTSYNC",
+          "PRO HERO",
+          "PRO WIRELESS",
+          "G703 LIGHTSPEED",
+          "G402",
+          "G705"
+        ],
+        "wireless": [
+          "PRO X SUPERLIGHT",
+          "G305",
+          "G613",
+          "G604",
+          "G502 LIGHTSPEED",
+          "G903 LIGHTSPEED",
+          "G703 LIGHTSPEED",
+          "G705"
+        ]
+      },
+      "oob": {
+        "wired": [
+          "PRO X SUPERLIGHT",
+          "G203",
+          "G600",
+          "G403 HERO",
+          "G403",
+          "G502 HERO",
+          "G502",
+          "G502 LIGHTSPEED",
+          "G903 LIGHTSPEED",
+          "G203 LIGHTSYNC",
+          "PRO HERO",
+          "PRO WIRELESS",
+          "G703 LIGHTSPEED",
+          "G402",
+          "Yeti X",
+          "G705"
+        ],
+        "wireless": [
+          "PRO X SUPERLIGHT",
+          "G613",
+          "G305",
+          "PRO",
+          "G915",
+          "G604",
+          "G903 LIGHTSPEED",
+          "G502 LIGHTSPEED",
+          "G703 LIGHTSPEED",
+          "G705"
+        ]
+      },
+      "device_settings": {
+        "wired": [
+          "PRO X SUPERLIGHT",
+          "G203",
+          "G213",
+          "G915 TKL",
+          "G403 HERO",
+          "G403",
+          "G502 HERO",
+          "G502",
+          "G502 LIGHTSPEED",
+          "G512",
+          "G604",
+          "G903 LIGHTSPEED",
+          "G203 LIGHTSYNC",
+          "PRO HERO",
+          "G703 LIGHTSPEED",
+          "G413",
+          "G513",
+          "G910",
+          "PRO",
+          "PRO WIRELESS",
+          "G815",
+          "G915",
+          "G610",
+          "Yeti X",
+          "G705",
+          "POWERPLAY",
+          "StreamCam",
+          "BRIO 4K STREAM",
+          "BRIO",
+          "C922",
+          "C920",
+          "G923"
+        ],
+        "wireless": [
+          "PRO X SUPERLIGHT",
+          "G915 TKL",
+          "G305",
+          "G613",
+          "PRO",
+          "G915",
+          "G604",
+          "G903 LIGHTSPEED",
+          "G502 LIGHTSPEED",
+          "G203 LIGHTSYNC",
+          "G703 LIGHTSPEED",
+          "G733",
+          "G705"
+        ]
+      },
+      "windows": {
+        "wired": [
+          "PRO X SUPERLIGHT",
+          "G203",
+          "G213",
+          "G915 TKL",
+          "G403 HERO",
+          "G403",
+          "G502 HERO",
+          "G502",
+          "G502 LIGHTSPEED",
+          "G512",
+          "G903 LIGHTSPEED",
+          "G203 LIGHTSYNC",
+          "PRO HERO",
+          "G703 LIGHTSPEED",
+          "G413",
+          "G513",
+          "G910",
+          "PRO",
+          "PRO WIRELESS",
+          "G815"
+        ],
+        "wireless": [
+          "PRO X SUPERLIGHT",
+          "G915 TKL",
+          "G305",
+          "G613",
+          "PRO",
+          "G915",
+          "G604",
+          "G903 LIGHTSPEED",
+          "G502 LIGHTSPEED",
+          "G703 LIGHTSPEED"
+        ]
+      },
+      "assignments": {
+        "wired": [
+          "G502 HERO",
+          "G705"
+        ],
+        "wireless": [
+          "G705"
+        ]
+      },
+      "blue_voice": {
+        "wired": [
+          "Yeti X",
+          "Yeti",
+          "Yeti X WoW® Edition"
+        ],
+        "wireless": [
+          "G733"
+        ]
+      },
+      "driver_support": {
+        "wired": [],
+        "wireless": [
+          "G733"
+        ]
+      },
+      "equalizer": {
+        "wired": [],
+        "wireless": []
+      },
+      "g_driver": {
+        "wired": [],
+        "wireless": [
+          "G733"
+        ]
+      },
+      "headphones": {
+        "wired": [],
+        "wireless": [
+          "G733"
+        ]
+      },
+      "microphone": {
+        "wired": [
+          "Yeti X",
+          "Yeti",
+          "Yeti X WoW® Edition",
+          "Yeti Nano"
+        ],
+        "wireless": [
+          "G733"
+        ]
+      }
+    },
+    "all_tests": {
+      "G705": {
+        "features": {
+          "cloud_profile": {
+            "ui": [
+              "Test: Local And Cloud Profile For Mouse"
+            ]
+          },
+          "oob": {
+            "ui": [
+              "Test: OOB Software Support For Mouse"
+            ]
+          },
+          "lightsync": {
+            "ui": [
+              "Test: Lightsync Effect For Mouse",
+              "Test: Lightsync Effect With Restart G HUB For Mouse"
+            ],
+            "sys": [
+              "Test: Lightsync Effect With Sleep System For Mouse",
+              "Test: Lightsync Effect With Onboard Profile For Mouse"
+            ]
+          },
+          "device_settings": {
+            "ui": [
+              "Test: Global Settings - My Gear For Mouse",
+              "Test: Global Settings - Verify Show Tutorial Enables Coach Marks For Mouse",
+              "Test: Device Settings For Mouse - UI Verification"
+            ],
+            "sys": [
+              "Test: Device Settings For Mouse - SYS Verification"
+            ]
+          },
+          "assignments": {
+            "ui": [
+              "Test: Assignments View For Mouse - UI Verification",
+              "Test: User Able To Delete The Actions For Mouse"
+            ],
+            "robot": [
+              "Test: Command Assignments For Mouse",
+              "Test: System Command Assignments For Mouse",
+              "Test: Macro Command Assignments For Mouse",
+              "Test: System Command Assignment After System Sleep/Resume For Mouse",
+              "Test: Keys Assignment After System Sleep/Resume For Mouse",
+              "Test: Macro Launch Application Assignment For Mouse",
+              "Test: Macro System Volume Up Assignment For Mouse"
+            ]
+          },
+          "persistent_profile": {
+            "ui": [
+              "Test: Persistent Profile For Mouse"
+            ]
+          },
+          "dpi": {
+            "ui": [
+              "Test: DPI Sensitivity For Mouse - UI Verification"
+            ],
+            "sys": [
+              "Test: DPI With Onboard Profile For Mouse",
+              "Test: DPI Sensitivity For Mouse",
+              "Test: DPI Sensitivity With Sleep System For Mouse",
+              "Test: DPI Sensitivity With Restart G HUB For Mouse"
+            ]
+          }
+        }
+      },
+      "G203": {
+        "features": {
+          "cloud_profile": {
+            "ui": [
+              "Test: Local And Cloud Profile For Mouse"
+            ]
+          },
+          "oob": {
+            "ui": [
+              "Test: OOB Software Support For Mouse"
+            ]
+          },
+          "lightsync": {
+            "ui": [
+              "Test: Lightsync Effect For Mouse",
+              "Test: Lightsync Effect With Restart G HUB For Mouse"
+            ],
+            "sys": [
+              "Test: Lightsync Effect With Sleep System For Mouse",
+              "Test: Lightsync Effect With Onboard Profile For Mouse"
+            ]
+          },
+          "device_settings": {
+            "ui": [
+              "Test: Global Settings - My Gear For Mouse",
+              "Test: Global Settings - Verify Show Tutorial Enables Coach Marks For Mouse",
+              "Test: Device Settings For Mouse - UI Verification"
+            ],
+            "sys": [
+              "Test: Device Settings For Mouse - SYS Verification"
+            ]
+          },
+          "persistent_profile": {
+            "ui": [
+              "Test: Persistent Profile For Mouse"
+            ]
+          },
+          "dpi": {
+            "ui": [
+              "Test: DPI Sensitivity For Mouse - UI Verification"
+            ],
+            "sys": [
+              "Test: DPI With Onboard Profile For Mouse",
+              "Test: DPI Sensitivity For Mouse",
+              "Test: DPI Sensitivity With Sleep System For Mouse",
+              "Test: DPI Sensitivity With Restart G HUB For Mouse"
+            ]
+          },
+          "windows": {
+            "robot": [
+              "Test: Color Sensor",
+              "Test: Lightsync For G102 Device"
+            ]
+          }
+        }
+      },
+      "G402": {
+        "features": {
+          "cloud_profile": {
+            "ui": [
+              "Test: Local And Cloud Profile For Mouse"
+            ]
+          },
+          "oob": {
+            "ui": [
+              "Test: OOB Software Support For Mouse"
+            ]
+          },
+          "lightsync": {
+            "ui": [
+              "Test: Lightsync Effect For Mouse",
+              "Test: Lightsync Effect With Restart G HUB For Mouse"
+            ],
+            "sys": [
+              "Test: Lightsync Effect With Sleep System For Mouse",
+              "Test: Lightsync Effect With Onboard Profile For Mouse"
+            ]
+          },
+          "dpi": {
+            "ui": [
+              "Test: DPI Sensitivity For Mouse - UI Verification"
+            ],
+            "sys": [
+              "Test: DPI With Onboard Profile For Mouse",
+              "Test: DPI Sensitivity For Mouse",
+              "Test: DPI Sensitivity With Sleep System For Mouse",
+              "Test: DPI Sensitivity With Restart G HUB For Mouse"
+            ]
+          }
+        }
+      },
+      "G203 LIGHTSYNC": {
+        "features": {
+          "cloud_profile": {
+            "ui": [
+              "Test: Local And Cloud Profile For Mouse"
+            ]
+          },
+          "oob": {
+            "ui": [
+              "Test: OOB Software Support For Mouse"
+            ]
+          },
+          "lightsync": {
+            "ui": [
+              "Test: Lightsync Effect For Mouse",
+              "Test: Lightsync Effect With Restart G HUB For Mouse"
+            ],
+            "sys": [
+              "Test: Lightsync Effect With Sleep System For Mouse",
+              "Test: Lightsync Effect With Onboard Profile For Mouse"
+            ]
+          },
+          "device_settings": {
+            "ui": [
+              "Test: Global Settings - My Gear For Mouse",
+              "Test: Global Settings - Verify Show Tutorial Enables Coach Marks For Mouse",
+              "Test: Device Settings For Mouse - UI Verification"
+            ],
+            "sys": [
+              "Test: Device Settings For Mouse - SYS Verification"
+            ]
+          },
+          "persistent_profile": {
+            "ui": [
+              "Test: Persistent Profile For Mouse"
+            ]
+          },
+          "dpi": {
+            "ui": [
+              "Test: DPI Sensitivity For Mouse - UI Verification"
+            ],
+            "sys": [
+              "Test: DPI With Onboard Profile For Mouse",
+              "Test: DPI Sensitivity For Mouse",
+              "Test: DPI Sensitivity With Sleep System For Mouse",
+              "Test: DPI Sensitivity With Restart G HUB For Mouse"
+            ]
+          },
+          "windows": {
+            "robot": [
+              "Test: Color Sensor",
+              "Test: Lightsync For G102 Device"
+            ]
+          }
+        }
+      },
+      "G305": {
+        "features": {
+          "cloud_profile": {
+            "ui": [
+              "Test: Local And Cloud Profile For Mouse"
+            ]
+          },
+          "oob": {
+            "ui": [
+              "Test: OOB Software Support For Mouse"
+            ]
+          },
+          "device_settings": {
+            "ui": [
+              "Test: Global Settings - My Gear For Mouse",
+              "Test: Global Settings - Verify Show Tutorial Enables Coach Marks For Mouse",
+              "Test: Device Settings For Mouse - UI Verification"
+            ],
+            "sys": [
+              "Test: Device Settings For Mouse - SYS Verification"
+            ]
+          },
+          "persistent_profile": {
+            "ui": [
+              "Test: Persistent Profile For Mouse"
+            ]
+          },
+          "dpi": {
+            "ui": [
+              "Test: DPI Sensitivity For Mouse - UI Verification"
+            ],
+            "sys": [
+              "Test: DPI With Onboard Profile For Mouse",
+              "Test: DPI Sensitivity For Mouse",
+              "Test: DPI Sensitivity With Sleep System For Mouse",
+              "Test: DPI Sensitivity With Restart G HUB For Mouse"
+            ]
+          },
+          "windows": {
+            "robot": [
+              "Test: Color Sensor",
+              "Test: Lightsync For G102 Device"
+            ]
+          }
+        }
+      },
+      "G403 HERO": {
+        "features": {
+          "cloud_profile": {
+            "ui": [
+              "Test: Local And Cloud Profile For Mouse"
+            ]
+          },
+          "oob": {
+            "ui": [
+              "Test: OOB Software Support For Mouse"
+            ]
+          },
+          "lightsync": {
+            "ui": [
+              "Test: Lightsync Effect For Mouse",
+              "Test: Lightsync Effect With Restart G HUB For Mouse"
+            ],
+            "sys": [
+              "Test: Lightsync Effect With Sleep System For Mouse",
+              "Test: Lightsync Effect With Onboard Profile For Mouse"
+            ]
+          },
+          "device_settings": {
+            "ui": [
+              "Test: Global Settings - My Gear For Mouse",
+              "Test: Global Settings - Verify Show Tutorial Enables Coach Marks For Mouse",
+              "Test: Device Settings For Mouse - UI Verification"
+            ],
+            "sys": [
+              "Test: Device Settings For Mouse - SYS Verification"
+            ]
+          },
+          "persistent_profile": {
+            "ui": [
+              "Test: Persistent Profile For Mouse"
+            ]
+          },
+          "dpi": {
+            "ui": [
+              "Test: DPI Sensitivity For Mouse - UI Verification"
+            ],
+            "sys": [
+              "Test: DPI With Onboard Profile For Mouse",
+              "Test: DPI Sensitivity For Mouse",
+              "Test: DPI Sensitivity With Sleep System For Mouse",
+              "Test: DPI Sensitivity With Restart G HUB For Mouse"
+            ]
+          },
+          "windows": {
+            "robot": [
+              "Test: Color Sensor",
+              "Test: Lightsync For G102 Device"
+            ]
+          }
+        }
+      },
+      "G403": {
+        "features": {
+          "cloud_profile": {
+            "ui": [
+              "Test: Local And Cloud Profile For Mouse"
+            ]
+          },
+          "oob": {
+            "ui": [
+              "Test: OOB Software Support For Mouse"
+            ]
+          },
+          "lightsync": {
+            "ui": [
+              "Test: Lightsync Effect For Mouse",
+              "Test: Lightsync Effect With Restart G HUB For Mouse"
+            ],
+            "sys": [
+              "Test: Lightsync Effect With Sleep System For Mouse",
+              "Test: Lightsync Effect With Onboard Profile For Mouse"
+            ]
+          },
+          "device_settings": {
+            "ui": [
+              "Test: Global Settings - My Gear For Mouse",
+              "Test: Global Settings - Verify Show Tutorial Enables Coach Marks For Mouse",
+              "Test: Device Settings For Mouse - UI Verification"
+            ],
+            "sys": [
+              "Test: Device Settings For Mouse - SYS Verification"
+            ]
+          },
+          "persistent_profile": {
+            "ui": [
+              "Test: Persistent Profile For Mouse"
+            ]
+          },
+          "dpi": {
+            "ui": [
+              "Test: DPI Sensitivity For Mouse - UI Verification"
+            ],
+            "sys": [
+              "Test: DPI With Onboard Profile For Mouse",
+              "Test: DPI Sensitivity For Mouse",
+              "Test: DPI Sensitivity With Sleep System For Mouse",
+              "Test: DPI Sensitivity With Restart G HUB For Mouse"
+            ]
+          },
+          "windows": {
+            "robot": [
+              "Test: Color Sensor",
+              "Test: Lightsync For G102 Device"
+            ]
+          }
+        }
+      },
+      "G502": {
+        "features": {
+          "cloud_profile": {
+            "ui": [
+              "Test: Local And Cloud Profile For Mouse"
+            ]
+          },
+          "oob": {
+            "ui": [
+              "Test: OOB Software Support For Mouse"
+            ]
+          },
+          "lightsync": {
+            "ui": [
+              "Test: Lightsync Effect For Mouse",
+              "Test: Lightsync Effect With Restart G HUB For Mouse"
+            ],
+            "sys": [
+              "Test: Lightsync Effect With Sleep System For Mouse",
+              "Test: Lightsync Effect With Onboard Profile For Mouse"
+            ]
+          },
+          "device_settings": {
+            "ui": [
+              "Test: Global Settings - My Gear For Mouse",
+              "Test: Global Settings - Verify Show Tutorial Enables Coach Marks For Mouse",
+              "Test: Device Settings For Mouse - UI Verification"
+            ],
+            "sys": [
+              "Test: Device Settings For Mouse - SYS Verification"
+            ]
+          },
+          "persistent_profile": {
+            "ui": [
+              "Test: Persistent Profile For Mouse"
+            ]
+          },
+          "dpi": {
+            "ui": [
+              "Test: DPI Sensitivity For Mouse - UI Verification"
+            ],
+            "sys": [
+              "Test: DPI With Onboard Profile For Mouse",
+              "Test: DPI Sensitivity For Mouse",
+              "Test: DPI Sensitivity With Sleep System For Mouse",
+              "Test: DPI Sensitivity With Restart G HUB For Mouse"
+            ]
+          },
+          "windows": {
+            "robot": [
+              "Test: Color Sensor",
+              "Test: Lightsync For G102 Device"
+            ]
+          }
+        }
+      },
+      "G502 HERO": {
+        "features": {
+          "cloud_profile": {
+            "ui": [
+              "Test: Local And Cloud Profile For Mouse"
+            ]
+          },
+          "oob": {
+            "ui": [
+              "Test: OOB Software Support For Mouse"
+            ]
+          },
+          "lightsync": {
+            "ui": [
+              "Test: Lightsync Effect For Mouse",
+              "Test: Lightsync Effect With Restart G HUB For Mouse"
+            ],
+            "sys": [
+              "Test: Lightsync Effect With Sleep System For Mouse",
+              "Test: Lightsync Effect With Onboard Profile For Mouse"
+            ]
+          },
+          "device_settings": {
+            "ui": [
+              "Test: Global Settings - My Gear For Mouse",
+              "Test: Global Settings - Verify Show Tutorial Enables Coach Marks For Mouse",
+              "Test: Device Settings For Mouse - UI Verification"
+            ],
+            "sys": [
+              "Test: Device Settings For Mouse - SYS Verification"
+            ]
+          },
+          "assignments": {
+            "ui": [
+              "Test: Assignments View For Mouse - UI Verification",
+              "Test: User Able To Delete The Actions For Mouse"
+            ],
+            "robot": [
+              "Test: Command Assignments For Mouse",
+              "Test: System Command Assignments For Mouse",
+              "Test: Macro Command Assignments For Mouse",
+              "Test: System Command Assignment After System Sleep/Resume For Mouse",
+              "Test: Keys Assignment After System Sleep/Resume For Mouse",
+              "Test: Macro Launch Application Assignment For Mouse",
+              "Test: Macro System Volume Up Assignment For Mouse"
+            ]
+          },
+          "persistent_profile": {
+            "ui": [
+              "Test: Persistent Profile For Mouse"
+            ]
+          },
+          "dpi": {
+            "ui": [
+              "Test: DPI Sensitivity For Mouse - UI Verification"
+            ],
+            "sys": [
+              "Test: DPI With Onboard Profile For Mouse",
+              "Test: DPI Sensitivity For Mouse",
+              "Test: DPI Sensitivity With Sleep System For Mouse",
+              "Test: DPI Sensitivity With Restart G HUB For Mouse"
+            ]
+          },
+          "colorsensor": {
+            "robot": [
+              "Test: Lightsync Effects For Mouse With Robotic - Color Sensor"
+            ]
+          },
+          "windows": {
+            "robot": [
+              "Test: Color Sensor",
+              "Test: Lightsync For G102 Device"
+            ]
+          }
+        }
+      },
+      "G502 LIGHTSPEED": {
+        "features": {
+          "cloud_profile": {
+            "ui": [
+              "Test: Local And Cloud Profile For Mouse"
+            ]
+          },
+          "oob": {
+            "ui": [
+              "Test: OOB Software Support For Mouse"
+            ]
+          },
+          "lightsync": {
+            "ui": [
+              "Test: Lightsync Effect For Mouse",
+              "Test: Lightsync Effect With Restart G HUB For Mouse"
+            ],
+            "sys": [
+              "Test: Lightsync Effect With Sleep System For Mouse",
+              "Test: Lightsync Effect With Onboard Profile For Mouse"
+            ]
+          },
+          "device_settings": {
+            "ui": [
+              "Test: Global Settings - My Gear For Mouse",
+              "Test: Global Settings - Verify Show Tutorial Enables Coach Marks For Mouse",
+              "Test: Device Settings For Mouse - UI Verification"
+            ],
+            "sys": [
+              "Test: Device Settings For Mouse - SYS Verification"
+            ]
+          },
+          "persistent_profile": {
+            "ui": [
+              "Test: Persistent Profile For Mouse"
+            ]
+          },
+          "dpi": {
+            "ui": [
+              "Test: DPI Sensitivity For Mouse - UI Verification"
+            ],
+            "sys": [
+              "Test: DPI With Onboard Profile For Mouse",
+              "Test: DPI Sensitivity For Mouse",
+              "Test: DPI Sensitivity With Sleep System For Mouse",
+              "Test: DPI Sensitivity With Restart G HUB For Mouse"
+            ]
+          },
+          "colorsensor": {
+            "robot": [
+              "Test: Lightsync Effects For Mouse With Robotic - Color Sensor"
+            ]
+          },
+          "windows": {
+            "robot": [
+              "Test: Color Sensor",
+              "Test: Lightsync For G102 Device"
+            ]
+          }
+        }
+      },
+      "G600": {
+        "features": {
+          "cloud_profile": {
+            "ui": [
+              "Test: Local And Cloud Profile For Mouse"
+            ]
+          },
+          "oob": {
+            "ui": [
+              "Test: OOB Software Support For Mouse"
+            ]
+          },
+          "persistent_profile": {
+            "ui": [
+              "Test: Persistent Profile For Mouse"
+            ]
+          }
+        }
+      },
+      "G903 LIGHTSPEED": {
+        "features": {
+          "cloud_profile": {
+            "ui": [
+              "Test: Local And Cloud Profile For Mouse"
+            ]
+          },
+          "oob": {
+            "ui": [
+              "Test: OOB Software Support For Mouse"
+            ]
+          },
+          "lightsync": {
+            "ui": [
+              "Test: Lightsync Effect For Mouse",
+              "Test: Lightsync Effect With Restart G HUB For Mouse"
+            ],
+            "sys": [
+              "Test: Lightsync Effect With Sleep System For Mouse",
+              "Test: Lightsync Effect With Onboard Profile For Mouse"
+            ]
+          },
+          "device_settings": {
+            "ui": [
+              "Test: Global Settings - My Gear For Mouse",
+              "Test: Global Settings - Verify Show Tutorial Enables Coach Marks For Mouse",
+              "Test: Device Settings For Mouse - UI Verification"
+            ],
+            "sys": [
+              "Test: Device Settings For Mouse - SYS Verification"
+            ]
+          },
+          "persistent_profile": {
+            "ui": [
+              "Test: Persistent Profile For Mouse"
+            ]
+          },
+          "dpi": {
+            "ui": [
+              "Test: DPI Sensitivity For Mouse - UI Verification"
+            ],
+            "sys": [
+              "Test: DPI With Onboard Profile For Mouse",
+              "Test: DPI Sensitivity For Mouse",
+              "Test: DPI Sensitivity With Sleep System For Mouse",
+              "Test: DPI Sensitivity With Restart G HUB For Mouse"
+            ]
+          },
+          "windows": {
+            "robot": [
+              "Test: Color Sensor",
+              "Test: Lightsync For G102 Device"
+            ]
+          }
+        }
+      },
+      "G703 LIGHTSPEED": {
+        "features": {
+          "cloud_profile": {
+            "ui": [
+              "Test: Local And Cloud Profile For Mouse"
+            ]
+          },
+          "oob": {
+            "ui": [
+              "Test: OOB Software Support For Mouse"
+            ]
+          },
+          "lightsync": {
+            "ui": [
+              "Test: Lightsync Effect For Mouse",
+              "Test: Lightsync Effect With Restart G HUB For Mouse"
+            ],
+            "sys": [
+              "Test: Lightsync Effect With Sleep System For Mouse",
+              "Test: Lightsync Effect With Onboard Profile For Mouse"
+            ]
+          },
+          "device_settings": {
+            "ui": [
+              "Test: Global Settings - My Gear For Mouse",
+              "Test: Global Settings - Verify Show Tutorial Enables Coach Marks For Mouse",
+              "Test: Device Settings For Mouse - UI Verification"
+            ],
+            "sys": [
+              "Test: Device Settings For Mouse - SYS Verification"
+            ]
+          },
+          "persistent_profile": {
+            "ui": [
+              "Test: Persistent Profile For Mouse"
+            ]
+          },
+          "dpi": {
+            "ui": [
+              "Test: DPI Sensitivity For Mouse - UI Verification"
+            ],
+            "sys": [
+              "Test: DPI With Onboard Profile For Mouse",
+              "Test: DPI Sensitivity For Mouse",
+              "Test: DPI Sensitivity With Sleep System For Mouse",
+              "Test: DPI Sensitivity With Restart G HUB For Mouse"
+            ]
+          },
+          "windows": {
+            "robot": [
+              "Test: Color Sensor",
+              "Test: Lightsync For G102 Device"
+            ]
+          }
+        }
+      },
+      "PRO HERO": {
+        "features": {
+          "cloud_profile": {
+            "ui": [
+              "Test: Local And Cloud Profile For Mouse"
+            ]
+          },
+          "oob": {
+            "ui": [
+              "Test: OOB Software Support For Mouse"
+            ]
+          },
+          "lightsync": {
+            "ui": [
+              "Test: Lightsync Effect For Mouse",
+              "Test: Lightsync Effect With Restart G HUB For Mouse"
+            ],
+            "sys": [
+              "Test: Lightsync Effect With Sleep System For Mouse",
+              "Test: Lightsync Effect With Onboard Profile For Mouse"
+            ]
+          },
+          "device_settings": {
+            "ui": [
+              "Test: Global Settings - My Gear For Mouse",
+              "Test: Global Settings - Verify Show Tutorial Enables Coach Marks For Mouse",
+              "Test: Device Settings For Mouse - UI Verification"
+            ],
+            "sys": [
+              "Test: Device Settings For Mouse - SYS Verification"
+            ]
+          },
+          "persistent_profile": {
+            "ui": [
+              "Test: Persistent Profile For Mouse"
+            ]
+          },
+          "dpi": {
+            "ui": [
+              "Test: DPI Sensitivity For Mouse - UI Verification"
+            ],
+            "sys": [
+              "Test: DPI With Onboard Profile For Mouse",
+              "Test: DPI Sensitivity For Mouse",
+              "Test: DPI Sensitivity With Sleep System For Mouse",
+              "Test: DPI Sensitivity With Restart G HUB For Mouse"
+            ]
+          },
+          "windows": {
+            "robot": [
+              "Test: Color Sensor",
+              "Test: Lightsync For G102 Device"
+            ]
+          }
+        }
+      },
+      "PRO WIRELESS": {
+        "features": {
+          "cloud_profile": {
+            "ui": [
+              "Test: Local And Cloud Profile For Mouse"
+            ]
+          },
+          "oob": {
+            "ui": [
+              "Test: OOB Software Support For Mouse"
+            ]
+          },
+          "lightsync": {
+            "ui": [
+              "Test: Lightsync Effect For Mouse",
+              "Test: Lightsync Effect With Restart G HUB For Mouse"
+            ],
+            "sys": [
+              "Test: Lightsync Effect With Sleep System For Mouse",
+              "Test: Lightsync Effect With Onboard Profile For Mouse"
+            ]
+          },
+          "device_settings": {
+            "ui": [
+              "Test: Global Settings - My Gear For Mouse",
+              "Test: Global Settings - Verify Show Tutorial Enables Coach Marks For Mouse",
+              "Test: Device Settings For Mouse - UI Verification"
+            ],
+            "sys": [
+              "Test: Device Settings For Mouse - SYS Verification"
+            ]
+          },
+          "dpi": {
+            "ui": [
+              "Test: DPI Sensitivity For Mouse - UI Verification"
+            ],
+            "sys": [
+              "Test: DPI With Onboard Profile For Mouse",
+              "Test: DPI Sensitivity For Mouse",
+              "Test: DPI Sensitivity With Sleep System For Mouse",
+              "Test: DPI Sensitivity With Restart G HUB For Mouse"
+            ]
+          },
+          "windows": {
+            "robot": [
+              "Test: Color Sensor",
+              "Test: Lightsync For G102 Device"
+            ]
+          }
+        }
+      },
+      "PRO X SUPERLIGHT": {
+        "features": {
+          "cloud_profile": {
+            "ui": [
+              "Test: Local And Cloud Profile For Mouse"
+            ]
+          },
+          "oob": {
+            "ui": [
+              "Test: OOB Software Support For Mouse"
+            ]
+          },
+          "device_settings": {
+            "ui": [
+              "Test: Global Settings - My Gear For Mouse",
+              "Test: Global Settings - Verify Show Tutorial Enables Coach Marks For Mouse",
+              "Test: Device Settings For Mouse - UI Verification"
+            ],
+            "sys": [
+              "Test: Device Settings For Mouse - SYS Verification"
+            ]
+          },
+          "persistent_profile": {
+            "ui": [
+              "Test: Persistent Profile For Mouse"
+            ]
+          },
+          "dpi": {
+            "ui": [
+              "Test: DPI Sensitivity For Mouse - UI Verification"
+            ],
+            "sys": [
+              "Test: DPI With Onboard Profile For Mouse",
+              "Test: DPI Sensitivity For Mouse",
+              "Test: DPI Sensitivity With Sleep System For Mouse",
+              "Test: DPI Sensitivity With Restart G HUB For Mouse"
+            ]
+          },
+          "windows": {
+            "robot": [
+              "Test: Color Sensor",
+              "Test: Lightsync For G102 Device"
+            ]
+          }
+        }
+      },
+      "G213": {
+        "features": {
+          "cloud_profile": {
+            "ui": [
+              "Test: Local And Cloud Profile For Keyboard"
+            ]
+          },
+          "device_settings": {
+            "ui": [
+              "Test: Global Settings - My Gear For Keyboard",
+              "Test: Global Settings - Verify Show Tutorial Enables Coach Marks For Keyboard",
+              "Test: Device Settings For Keyboard - UI Verification"
+            ],
+            "sys": [
+              "Test: Device Settings For Keyboard - SYS Verification"
+            ]
+          },
+          "persistent_profile": {
+            "ui": [
+              "Test: Persistent Profile For Keyboard"
+            ]
+          },
+          "lightsync": {
+            "ui": [
+              "Test: Lightsync Effect For Keyboard"
+            ]
+          },
+          "game_mode": {
+            "sys": [
+              "Test: Game Mode For Keyboard",
+              "Test: Game Mode Restore Default Settings For Keyboard",
+              "Test: All Profiles Should Be Same Disabled Keys In Game Mode When Profile Is Locked For Keyboard",
+              "Test: All Profiles Should Be Same Disabled Keys Which Are Disabled While Profile Is Locked In Game Mode"
+            ]
+          },
+          "windows": {
+            "robot": [
+              "Test: G913 Test With Color Sensor Robotic"
+            ]
+          }
+        }
+      },
+      "G610": {
+        "features": {
+          "cloud_profile": {
+            "ui": [
+              "Test: Local And Cloud Profile For Keyboard"
+            ]
+          },
+          "device_settings": {
+            "ui": [
+              "Test: Global Settings - My Gear For Keyboard",
+              "Test: Global Settings - Verify Show Tutorial Enables Coach Marks For Keyboard",
+              "Test: Device Settings For Keyboard - UI Verification"
+            ],
+            "sys": [
+              "Test: Device Settings For Keyboard - SYS Verification"
+            ]
+          },
+          "game_mode": {
+            "sys": [
+              "Test: Game Mode For Keyboard",
+              "Test: Game Mode Restore Default Settings For Keyboard",
+              "Test: All Profiles Should Be Same Disabled Keys In Game Mode When Profile Is Locked For Keyboard",
+              "Test: All Profiles Should Be Same Disabled Keys Which Are Disabled While Profile Is Locked In Game Mode"
+            ]
+          }
+        }
+      },
+      "G413": {
+        "features": {
+          "cloud_profile": {
+            "ui": [
+              "Test: Local And Cloud Profile For Keyboard"
+            ]
+          },
+          "device_settings": {
+            "ui": [
+              "Test: Global Settings - My Gear For Keyboard",
+              "Test: Global Settings - Verify Show Tutorial Enables Coach Marks For Keyboard",
+              "Test: Device Settings For Keyboard - UI Verification"
+            ],
+            "sys": [
+              "Test: Device Settings For Keyboard - SYS Verification"
+            ]
+          },
+          "persistent_profile": {
+            "ui": [
+              "Test: Persistent Profile For Keyboard"
+            ]
+          },
+          "lightsync": {
+            "ui": [
+              "Test: Lightsync Effect For Keyboard"
+            ]
+          },
+          "game_mode": {
+            "sys": [
+              "Test: Game Mode For Keyboard",
+              "Test: Game Mode Restore Default Settings For Keyboard",
+              "Test: All Profiles Should Be Same Disabled Keys In Game Mode When Profile Is Locked For Keyboard",
+              "Test: All Profiles Should Be Same Disabled Keys Which Are Disabled While Profile Is Locked In Game Mode"
+            ]
+          },
+          "windows": {
+            "robot": [
+              "Test: G913 Test With Color Sensor Robotic"
+            ]
+          }
+        }
+      },
+      "G512": {
+        "features": {
+          "cloud_profile": {
+            "ui": [
+              "Test: Local And Cloud Profile For Keyboard"
+            ]
+          },
+          "onboard_lighting": {
+            "ui": [
+              "Test: Onboard Lighting Effect For Keyboard"
+            ]
+          },
+          "device_settings": {
+            "ui": [
+              "Test: Global Settings - My Gear For Keyboard",
+              "Test: Global Settings - Verify Show Tutorial Enables Coach Marks For Keyboard",
+              "Test: Device Settings For Keyboard - UI Verification"
+            ],
+            "sys": [
+              "Test: Device Settings For Keyboard - SYS Verification"
+            ]
+          },
+          "persistent_profile": {
+            "ui": [
+              "Test: Persistent Profile For Keyboard"
+            ]
+          },
+          "lightsync": {
+            "ui": [
+              "Test: Lightsync Effect For Keyboard"
+            ]
+          },
+          "game_mode": {
+            "sys": [
+              "Test: Game Mode For Keyboard",
+              "Test: Game Mode Restore Default Settings For Keyboard",
+              "Test: All Profiles Should Be Same Disabled Keys In Game Mode When Profile Is Locked For Keyboard",
+              "Test: All Profiles Should Be Same Disabled Keys Which Are Disabled While Profile Is Locked In Game Mode"
+            ]
+          },
+          "windows": {
+            "robot": [
+              "Test: G913 Test With Color Sensor Robotic"
+            ]
+          }
+        }
+      },
+      "G513": {
+        "features": {
+          "cloud_profile": {
+            "ui": [
+              "Test: Local And Cloud Profile For Keyboard"
+            ]
+          },
+          "onboard_lighting": {
+            "ui": [
+              "Test: Onboard Lighting Effect For Keyboard"
+            ]
+          },
+          "device_settings": {
+            "ui": [
+              "Test: Global Settings - My Gear For Keyboard",
+              "Test: Global Settings - Verify Show Tutorial Enables Coach Marks For Keyboard",
+              "Test: Device Settings For Keyboard - UI Verification"
+            ],
+            "sys": [
+              "Test: Device Settings For Keyboard - SYS Verification"
+            ]
+          },
+          "persistent_profile": {
+            "ui": [
+              "Test: Persistent Profile For Keyboard"
+            ]
+          },
+          "lightsync": {
+            "ui": [
+              "Test: Lightsync Effect For Keyboard"
+            ]
+          },
+          "game_mode": {
+            "sys": [
+              "Test: Game Mode For Keyboard",
+              "Test: Game Mode Restore Default Settings For Keyboard",
+              "Test: All Profiles Should Be Same Disabled Keys In Game Mode When Profile Is Locked For Keyboard",
+              "Test: All Profiles Should Be Same Disabled Keys Which Are Disabled While Profile Is Locked In Game Mode"
+            ]
+          },
+          "windows": {
+            "robot": [
+              "Test: G913 Test With Color Sensor Robotic"
+            ]
+          }
+        }
+      },
+      "G613": {
+        "features": {
+          "cloud_profile": {
+            "ui": [
+              "Test: Local And Cloud Profile For Keyboard"
+            ]
+          },
+          "device_settings": {
+            "ui": [
+              "Test: Global Settings - My Gear For Keyboard",
+              "Test: Global Settings - Verify Show Tutorial Enables Coach Marks For Keyboard",
+              "Test: Device Settings For Keyboard - UI Verification"
+            ],
+            "sys": [
+              "Test: Device Settings For Keyboard - SYS Verification"
+            ]
+          },
+          "persistent_profile": {
+            "ui": [
+              "Test: Persistent Profile For Keyboard"
+            ]
+          },
+          "windows": {
+            "robot": [
+              "Test: G913 Test With Color Sensor Robotic"
+            ]
+          }
+        }
+      },
+      "G815": {
+        "features": {
+          "cloud_profile": {
+            "ui": [
+              "Test: Local And Cloud Profile For Keyboard"
+            ]
+          },
+          "device_settings": {
+            "ui": [
+              "Test: Global Settings - My Gear For Keyboard",
+              "Test: Global Settings - Verify Show Tutorial Enables Coach Marks For Keyboard",
+              "Test: Device Settings For Keyboard - UI Verification"
+            ],
+            "sys": [
+              "Test: Device Settings For Keyboard - SYS Verification"
+            ]
+          },
+          "persistent_profile": {
+            "ui": [
+              "Test: Persistent Profile For Keyboard"
+            ]
+          },
+          "lightsync": {
+            "ui": [
+              "Test: Lightsync Effect For Keyboard"
+            ]
+          },
+          "game_mode": {
+            "sys": [
+              "Test: Game Mode For Keyboard",
+              "Test: Game Mode Restore Default Settings For Keyboard",
+              "Test: All Profiles Should Be Same Disabled Keys In Game Mode When Profile Is Locked For Keyboard",
+              "Test: All Profiles Should Be Same Disabled Keys Which Are Disabled While Profile Is Locked In Game Mode"
+            ]
+          },
+          "windows": {
+            "robot": [
+              "Test: G913 Test With Color Sensor Robotic"
+            ]
+          }
+        }
+      },
+      "G910": {
+        "features": {
+          "cloud_profile": {
+            "ui": [
+              "Test: Local And Cloud Profile For Keyboard"
+            ]
+          },
+          "device_settings": {
+            "ui": [
+              "Test: Global Settings - My Gear For Keyboard",
+              "Test: Global Settings - Verify Show Tutorial Enables Coach Marks For Keyboard",
+              "Test: Device Settings For Keyboard - UI Verification"
+            ],
+            "sys": [
+              "Test: Device Settings For Keyboard - SYS Verification"
+            ]
+          },
+          "persistent_profile": {
+            "ui": [
+              "Test: Persistent Profile For Keyboard"
+            ]
+          },
+          "lightsync": {
+            "ui": [
+              "Test: Lightsync Effect For Keyboard"
+            ]
+          },
+          "game_mode": {
+            "sys": [
+              "Test: Game Mode For Keyboard",
+              "Test: Game Mode Restore Default Settings For Keyboard",
+              "Test: All Profiles Should Be Same Disabled Keys In Game Mode When Profile Is Locked For Keyboard",
+              "Test: All Profiles Should Be Same Disabled Keys Which Are Disabled While Profile Is Locked In Game Mode"
+            ]
+          },
+          "windows": {
+            "robot": [
+              "Test: G913 Test With Color Sensor Robotic"
+            ]
+          }
+        }
+      },
+      "G915": {
+        "features": {
+          "cloud_profile": {
+            "ui": [
+              "Test: Local And Cloud Profile For Keyboard"
+            ]
+          },
+          "onboard_lighting": {
+            "ui": [
+              "Test: Onboard Lighting Effect For Keyboard"
+            ]
+          },
+          "device_settings": {
+            "ui": [
+              "Test: Global Settings - My Gear For Keyboard",
+              "Test: Global Settings - Verify Show Tutorial Enables Coach Marks For Keyboard",
+              "Test: Device Settings For Keyboard - UI Verification"
+            ],
+            "sys": [
+              "Test: Device Settings For Keyboard - SYS Verification"
+            ]
+          },
+          "lightsync": {
+            "ui": [
+              "Test: Lightsync Effect For Keyboard"
+            ]
+          },
+          "game_mode": {
+            "sys": [
+              "Test: Game Mode For Keyboard",
+              "Test: Game Mode Restore Default Settings For Keyboard",
+              "Test: All Profiles Should Be Same Disabled Keys In Game Mode When Profile Is Locked For Keyboard",
+              "Test: All Profiles Should Be Same Disabled Keys Which Are Disabled While Profile Is Locked In Game Mode"
+            ]
+          },
+          "windows": {
+            "robot": [
+              "Test: G913 Test With Color Sensor Robotic"
+            ]
+          }
+        }
+      },
+      "G915 TKL": {
+        "features": {
+          "cloud_profile": {
+            "ui": [
+              "Test: Local And Cloud Profile For Keyboard"
+            ]
+          },
+          "onboard_lighting": {
+            "ui": [
+              "Test: Onboard Lighting Effect For Keyboard"
+            ]
+          },
+          "device_settings": {
+            "ui": [
+              "Test: Global Settings - My Gear For Keyboard",
+              "Test: Global Settings - Verify Show Tutorial Enables Coach Marks For Keyboard",
+              "Test: Device Settings For Keyboard - UI Verification"
+            ],
+            "sys": [
+              "Test: Device Settings For Keyboard - SYS Verification"
+            ]
+          },
+          "persistent_profile": {
+            "ui": [
+              "Test: Persistent Profile For Keyboard"
+            ]
+          },
+          "lightsync": {
+            "ui": [
+              "Test: Lightsync Effect For Keyboard"
+            ]
+          },
+          "game_mode": {
+            "sys": [
+              "Test: Game Mode For Keyboard",
+              "Test: Game Mode Restore Default Settings For Keyboard",
+              "Test: All Profiles Should Be Same Disabled Keys In Game Mode When Profile Is Locked For Keyboard",
+              "Test: All Profiles Should Be Same Disabled Keys Which Are Disabled While Profile Is Locked In Game Mode"
+            ]
+          },
+          "windows": {
+            "robot": [
+              "Test: G913 Test With Color Sensor Robotic"
+            ]
+          }
+        }
+      },
+      "PRO": {
+        "features": {
+          "cloud_profile": {
+            "ui": [
+              "Test: Local And Cloud Profile For Keyboard",
+              "Test: Local And Cloud Profile For Headset"
+            ]
+          },
+          "onboard_lighting": {
+            "ui": [
+              "Test: Onboard Lighting Effect For Keyboard"
+            ]
+          },
+          "device_settings": {
+            "ui": [
+              "Test: Global Settings - My Gear For Keyboard",
+              "Test: Global Settings - Verify Show Tutorial Enables Coach Marks For Keyboard",
+              "Test: Device Settings For Keyboard - UI Verification",
+              "Test: Device Settings For Headset - UI Verification",
+              "Test: Global Settings - My Gear For Headset",
+              "Test: Global Settings - Verify Show Tutorial Enables Coach Marks For Headset"
+            ],
+            "sys": [
+              "Test: Device Settings For Keyboard - SYS Verification",
+              "Test: Device Settings For Headset - SYS Verification"
+            ]
+          },
+          "persistent_profile": {
+            "ui": [
+              "Test: Persistent Profile For Keyboard",
+              "Test: Persistent Profile For Headset"
+            ]
+          },
+          "lightsync": {
+            "ui": [
+              "Test: Lightsync Effect For Keyboard",
+              "Test: Profile Lighting For Headset - UI Verification",
+              "Test: Lightsync Effect For Headset - GUI Verification"
+            ]
+          },
+          "game_mode": {
+            "sys": [
+              "Test: Game Mode For Keyboard",
+              "Test: Game Mode Restore Default Settings For Keyboard",
+              "Test: All Profiles Should Be Same Disabled Keys In Game Mode When Profile Is Locked For Keyboard",
+              "Test: All Profiles Should Be Same Disabled Keys Which Are Disabled While Profile Is Locked In Game Mode"
+            ]
+          },
+          "windows": {
+            "robot": [
+              "Test: G913 Test With Color Sensor Robotic"
+            ]
+          }
+        }
+      },
+      "G733": {
+        "features": {
+          "cloud_profile": {
+            "ui": [
+              "Test: Local And Cloud Profile For Headset"
+            ]
+          },
+          "blue_voice": {
+            "ui": [
+              "Test: Blue Voice - Browse More Presets For Headset",
+              "Test: Blue Voice Preset Selection For Headset",
+              "Test: Blue Voice - Equalizer Settings For Headset",
+              "Test: Blue Voice - Preset Settings For Headset",
+              "Test: Microphone - Default Values For Headset"
+            ]
+          },
+          "headphones": {
+            "ui": [
+              "Test: Equalizer Presets - Community Card For Headset"
+            ],
+            "sys": [
+              "Test: Acoustics Feature For Headset",
+              "Test: Surround Sound Feature For Headset"
+            ]
+          },
+          "lightsync": {
+            "ui": [
+              "Test: Profile Lighting For Headset - UI Verification",
+              "Test: Lightsync Effect For Headset - GUI Verification"
+            ]
+          },
+          "device_settings": {
+            "ui": [
+              "Test: Device Settings For Headset - UI Verification",
+              "Test: Global Settings - My Gear For Headset",
+              "Test: Global Settings - Verify Show Tutorial Enables Coach Marks For Headset"
+            ],
+            "sys": [
+              "Test: Device Settings For Headset - SYS Verification"
+            ]
+          },
+          "persistent_profile": {
+            "ui": [
+              "Test: Persistent Profile For Headset"
+            ]
+          },
+          "driver_support": {
+            "sys": [
+              "Test: Device Driver Support With Unplug/Replug Device For Headset",
+              "Test: Device Driver Support With Sleep System For Headset",
+              "Test: Device Driver Support With Restart System For Headset"
+            ]
+          },
+          "microphone": {
+            "sys": [
+              "Test: Microphone Volume Support For Headset",
+              "Test: Mic Test For Headset",
+              "Test: Un/Mute Test For Headset"
+            ]
+          },
+          "g_driver": {
+            "sys": [
+              "Test: G Driver Loudness Test For Headset"
+            ]
+          }
+        }
+      },
+      "POWERPLAY": {
+        "features": {
+          "lightsync": {
+            "ui": [
+              "Test: Verify available lighting effects for Powerplay in GHub",
+              "Test: Lightsync Effect For Powerplay - GUI Verification"
+            ],
+            "sys": [
+              "Test: Verify available lighting effects for Powerplay in GHub using firmware",
+              "Test: Verify If POWERPLAY Can Sync Other Device using backend"
+            ]
+          },
+          "device_settings": {
+            "ui": [
+              "Test: Verify If Device Startup Effect Is Checked By Default / Uncheck Device Startup Effect",
+              "Test: Device Settings For Powerplay - UI Verification",
+              "Test: Powerplay Charging Is On By Default, Connected Device Is Charging / Verify That When Powerplay Charging Is Off, Connected Device Is Not Charging"
+            ],
+            "sys": [
+              "Test: Device Settings For Powerplay - SYS Verification"
+            ]
+          }
+        }
+      },
+      "G560": {
+        "features": {
+          "speakers": {
+            "ui": [
+              "Test: Speaker Feature Tabs Load",
+              "Test: Speaker Page Loads correct options",
+              "Test: Speaker Volume & Sub Woofer level can be changed",
+              "Test: Acoustic settings can be changed using advanced equalizer",
+              "Test: Surround Sound modes can be changed"
+            ]
+          }
+        }
+      },
+      "Yeti X": {
+        "features": {
+          "blue_voice": {
+            "ui": [
+              "Test: Download Preset For Microphone",
+              "Test: Advance EQ Setting Button And Expander Gate Checkbox Present For Microphone",
+              "Test: All By Default Blue Voice Presets For Microphone",
+              "Test: Browse More Presets For Microphone"
+            ],
+            "sys": [
+              "Test: Enable Blue Voice And Check MIC Test Record For Microphone",
+              "Test: Run High Pass Filter Tests For Microphone",
+              "Test: Blue Voice Signal Cleanup Settings For Microphone"
+            ]
+          },
+          "oob": {
+            "ui": [
+              "Test: Check Device Arrival After Sleep For Microphone"
+            ]
+          },
+          "microphone": {
+            "ui": [
+              "Test: Set System Volume And Input Gain For Microphone"
+            ]
+          },
+          "device_settings": {
+            "ui": [
+              "Test: Device Settings For Microphone - UI Verification"
+            ],
+            "sys": [
+              "Test: Device Settings For Microphone - SYS Verification"
+            ]
+          },
+          "lighting": {
+            "ui": [
+              "Test: RGB and Lighting Speed For Breathing Effect For Microphone"
+            ]
+          }
+        }
+      },
+      "BRIO 4K STREAM": {
+        "features": {
+          "filters": {
+            "ui": [
+              "Test: Verify Camera Filters For Camera Mode",
+              "Test: Create New Camera Mode Filter For Camera Mode",
+              "Test: Test Priority Settings For Camera Mode",
+              "Test: Test Zoom For Camera Mode",
+              "Test: Test Tilt And Pan For Camera Mode",
+              "Test: Delete New Camera Mode For Camera Mode",
+              "Test: Verify Video Filters For Video Mode",
+              "Test: Create New Video Mode For Video Mode",
+              "Test: Delete New Video Mode For Video Mode"
+            ],
+            "sys": [
+              "Test: Verify Zoom, Focus And Exposure Settings For Camera Mode",
+              "Test: Test Restore Defaults For Camera Mode",
+              "Test: Test Camera Presets For Camera Mode",
+              "Test: Test Video Mode Features For Video Mode",
+              "Test: Test Antiflicker For Video Mode",
+              "Test: Restore Defaults For Video Mode",
+              "Test: Test Video Presets For Video Mode"
+            ]
+          },
+          "fov": {
+            "ui": [
+              "Test: Test Field Of View For Camera Mode"
+            ]
+          },
+          "hdr": {
+            "ui": [
+              "Test: Test HDR For Camera Mode"
+            ]
+          },
+          "device_settings": {
+            "ui": [
+              "Test: Device Settings For Camera - UI Verification"
+            ],
+            "sys": [
+              "Test: Device Settings For Camera - SYS Verification"
+            ]
+          }
+        }
+      },
+      "C922": {
+        "features": {
+          "filters": {
+            "ui": [
+              "Test: Verify Camera Filters For Camera Mode",
+              "Test: Create New Camera Mode Filter For Camera Mode",
+              "Test: Test Priority Settings For Camera Mode",
+              "Test: Test Zoom For Camera Mode",
+              "Test: Test Tilt And Pan For Camera Mode",
+              "Test: Delete New Camera Mode For Camera Mode",
+              "Test: Verify Video Filters For Video Mode",
+              "Test: Create New Video Mode For Video Mode",
+              "Test: Delete New Video Mode For Video Mode"
+            ],
+            "sys": [
+              "Test: Verify Zoom, Focus And Exposure Settings For Camera Mode",
+              "Test: Test Restore Defaults For Camera Mode",
+              "Test: Test Camera Presets For Camera Mode",
+              "Test: Test Video Mode Features For Video Mode",
+              "Test: Test Antiflicker For Video Mode",
+              "Test: Restore Defaults For Video Mode",
+              "Test: Test Video Presets For Video Mode"
+            ]
+          },
+          "device_settings": {
+            "ui": [
+              "Test: Device Settings For Camera - UI Verification"
+            ],
+            "sys": [
+              "Test: Device Settings For Camera - SYS Verification"
+            ]
+          }
+        }
+      },
+      "C920": {
+        "features": {
+          "filters": {
+            "ui": [
+              "Test: Verify Camera Filters For Camera Mode",
+              "Test: Create New Camera Mode Filter For Camera Mode",
+              "Test: Test Priority Settings For Camera Mode",
+              "Test: Test Zoom For Camera Mode",
+              "Test: Test Tilt And Pan For Camera Mode",
+              "Test: Delete New Camera Mode For Camera Mode",
+              "Test: Verify Video Filters For Video Mode",
+              "Test: Create New Video Mode For Video Mode",
+              "Test: Delete New Video Mode For Video Mode"
+            ],
+            "sys": [
+              "Test: Verify Zoom, Focus And Exposure Settings For Camera Mode",
+              "Test: Test Restore Defaults For Camera Mode",
+              "Test: Test Camera Presets For Camera Mode",
+              "Test: Test Video Mode Features For Video Mode",
+              "Test: Test Antiflicker For Video Mode",
+              "Test: Restore Defaults For Video Mode",
+              "Test: Test Video Presets For Video Mode"
+            ]
+          },
+          "device_settings": {
+            "ui": [
+              "Test: Device Settings For Camera - UI Verification"
+            ],
+            "sys": [
+              "Test: Device Settings For Camera - SYS Verification"
+            ]
+          }
+        }
+      },
+      "BRIO": {
+        "features": {
+          "filters": {
+            "ui": [
+              "Test: Verify Camera Filters For Camera Mode",
+              "Test: Create New Camera Mode Filter For Camera Mode",
+              "Test: Test Priority Settings For Camera Mode",
+              "Test: Test Zoom For Camera Mode",
+              "Test: Test Tilt And Pan For Camera Mode",
+              "Test: Delete New Camera Mode For Camera Mode",
+              "Test: Verify Video Filters For Video Mode",
+              "Test: Create New Video Mode For Video Mode",
+              "Test: Delete New Video Mode For Video Mode"
+            ],
+            "sys": [
+              "Test: Verify Zoom, Focus And Exposure Settings For Camera Mode",
+              "Test: Test Restore Defaults For Camera Mode",
+              "Test: Test Camera Presets For Camera Mode",
+              "Test: Test Video Mode Features For Video Mode",
+              "Test: Test Antiflicker For Video Mode",
+              "Test: Restore Defaults For Video Mode",
+              "Test: Test Video Presets For Video Mode"
+            ]
+          },
+          "fov": {
+            "ui": [
+              "Test: Test Field Of View For Camera Mode"
+            ]
+          },
+          "hdr": {
+            "ui": [
+              "Test: Test HDR For Camera Mode"
+            ]
+          },
+          "device_settings": {
+            "ui": [
+              "Test: Device Settings For Camera - UI Verification"
+            ],
+            "sys": [
+              "Test: Device Settings For Camera - SYS Verification"
+            ]
+          }
+        }
+      }
+    }
+  }
+}
