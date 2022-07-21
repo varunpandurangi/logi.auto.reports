@@ -1,0 +1,419 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Kragle Regression" tests="192" errors="0" failures="25" skipped="7" time="30132.137">
+<testcase classname="Kragle Regression" name="Test Application Specific Test Cases" time="0.133">
+</testcase>
+<testcase classname="Kragle Regression" name="Test Device Specific Test Cases" time="4.950">
+</testcase>
+<testcase classname="Kragle Regression" name="Test: Global Settings - Send Error Logs Process (macOS-10.16-x86_64-i386-64bit)" time="56.254">
+<failure message="*HTML*&lt;b&gt;Known Issue:&lt;/b&gt;[&lt;a href=https://jira.logitech.io/browse/KRGL-8949&gt;KRGL-8949&lt;/a&gt;]&#10;Verify 'LGHUB Crashpad Handler' process is not running: 'COMMAND&#10;launchd&#10;syslogd&#10;UserEventAgent&#10;uninstalld&#10;fseventsd&#10;systemstats&#10;configd&#10;dsAccessService&#10;powerd&#10;remoted&#10;logd&#10;watchdogd&#10;warmd&#10;mds&#10;kernelmanagerd&#10;diskarbitrationd&#10;thermalmonitord&#10;contextstored&#10;opendirectoryd&#10;    [ Message content over the limit has been removed. ]&#10;logi_crashpad_handler&#10;mdworker_shared&#10;login&#10;-zsh&#10;sh&#10;java&#10;sh&#10;sh&#10;sh&#10;Python&#10;Python&#10;Python&#10;lghub&#10;lghub Helper (GPU)&#10;lghub Helper&#10;lghub Helper (Renderer)&#10;chromedriver_2_44&#10;sleep&#10;ps&#10;' contains 'logi_crashpad_handler' &#10;&#10; &lt;a href=dmp_logs_2022_07_19_12_36_59.zip&gt;DEBUG_LOGS&lt;/a&gt; &#10;&#10; &lt;a href=end_test-screenshot-20220719-123659.png&gt;SCREENSHOT&lt;/a&gt; &#10;&#10; &lt;a href=/private/var/jenkins/workspace/sion_features_navigation_screens/report19072022_12_37_25_page_source.html&gt;PAGE_SOURCE&lt;/a&gt;" type="AssertionError"/>
+</testcase>
+<testcase classname="Kragle Regression" name="Test: Global Settings - Desktop Notifications (macOS-10.16-x86_64-i386-64bit)" time="25.862">
+</testcase>
+<testcase classname="Kragle Regression" name="Test: Global Settings - GHUB Manual Link Should Open In Default Browser (macOS-10.16-x86_64-i386-64bit)" time="72.350">
+<failure message="*HTML*&lt;b&gt;Known Issue:&lt;/b&gt;[&lt;a href=https://jira.logitech.io/browse/KRGL-10364&gt;KRGL-10364&lt;/a&gt;]&#10;Failure: Selector &quot;.app-settings-link.manual&quot; with attribute(s) &quot;{'innerText': 'G HUB Manual'}&quot; is Not Loaded &#10;&#10; &lt;a href=dmp_logs_2022_07_19_12_39_23.zip&gt;DEBUG_LOGS&lt;/a&gt; &#10;&#10; &lt;a href=end_test-screenshot-20220719-123922.png&gt;SCREENSHOT&lt;/a&gt; &#10;&#10; &lt;a href=/private/var/jenkins/workspace/sion_features_navigation_screens/report19072022_12_39_46_page_source.html&gt;PAGE_SOURCE&lt;/a&gt;" type="AssertionError"/>
+</testcase>
+<testcase classname="Kragle Regression" name="Test: Global Settings - Send Feedback Link Should Open In Default Browser (macOS-10.16-x86_64-i386-64bit)" time="30.265">
+</testcase>
+<testcase classname="Kragle Regression" name="Test: Global Settings - Send Error Report (macOS-10.16-x86_64-i386-64bit)" time="53.599">
+</testcase>
+<testcase classname="Kragle Regression" name="Test: Global Settings - Persistent Profile For Application (macOS-10.16-x86_64-i386-64bit)" time="106.021">
+<failure message="*HTML*&lt;b&gt;Known Issue:&lt;/b&gt;[&lt;a href=https://jira.logitech.io/browse/KRGL-9079&gt;KRGL-9079&lt;/a&gt;]&#10;Failure: Selector &quot;.dls-select__anchor&quot; with attribute(s) &quot;{'text': 'TEXTEDIT'}&quot; is Not Loaded &#10;&#10; &lt;a href=dmp_logs_2022_07_19_12_43_13.zip&gt;DEBUG_LOGS&lt;/a&gt; &#10;&#10; &lt;a href=end_test-screenshot-20220719-124313.png&gt;SCREENSHOT&lt;/a&gt; &#10;&#10; &lt;a href=/private/var/jenkins/workspace/sion_features_navigation_screens/report19072022_12_43_38_page_source.html&gt;PAGE_SOURCE&lt;/a&gt;" type="AssertionError"/>
+</testcase>
+<testcase classname="Kragle Regression" name="Test: Global Settings - Analytics Json Files Dynamically Get Created When Share My Usage Data Option Is Checked (macOS-10.16-x86_64-i386-64bit)" time="88.400">
+</testcase>
+<testcase classname="Kragle Regression" name="Test: Global Settings - User Can Change Language (macOS-10.16-x86_64-i386-64bit)" time="57.097">
+</testcase>
+<testcase classname="Kragle Regression" name="Test: Global Settings - Global Persistent Profile Behavior (macOS-10.16-x86_64-i386-64bit)" time="202.339">
+</testcase>
+<testcase classname="Kragle Regression" name="Test: Global Settings - Turn On/Off Lighting After User Inactivity (macOS-10.16-x86_64-i386-64bit)" time="33.761">
+</testcase>
+<testcase classname="Kragle Regression" name="Connect Device: G203:wired" time="1.025">
+</testcase>
+<testcase classname="Kragle Regression" name="Test: Local And Cloud Profile For Mouse: G203 (Mac 11.5, Wired)" time="386.702">
+</testcase>
+<testcase classname="Kragle Regression" name="Test: OOB Software Support For Mouse: G203 (Mac 11.5, Wired)" time="205.104">
+</testcase>
+<testcase classname="Kragle Regression" name="Test: Lightsync Effect For Mouse: G203 (Mac 11.5, Wired)" time="26.104">
+</testcase>
+<testcase classname="Kragle Regression" name="Test: Lightsync Effect With Restart G HUB For Mouse: G203 (Mac 11.5, Wired)" time="2.163">
+</testcase>
+<testcase classname="Kragle Regression" name="Test: Lightsync Effect With Sleep System For Mouse: G203 (Mac 11.5, Wired)" time="91.882">
+</testcase>
+<testcase classname="Kragle Regression" name="Test: Lightsync Effect With Onboard Profile For Mouse: G203 (Mac 11.5, Wired)" time="36.074">
+</testcase>
+<testcase classname="Kragle Regression" name="Test: Global Settings - My Gear For Mouse: G203 (Mac 11.5, Wired)" time="43.284">
+<failure message="*HTML*Failure: Selector &quot;.back-button&quot; is Not Clickable &#10;&#10; &lt;a href=dmp_logs_2022_07_19_13_03_29.zip&gt;DEBUG_LOGS&lt;/a&gt; &#10;&#10; &lt;a href=end_test-screenshot-20220719-130328.png&gt;SCREENSHOT&lt;/a&gt; &#10;&#10; &lt;a href=/private/var/jenkins/workspace/sion_features_navigation_screens/report19072022_13_03_54_page_source.html&gt;PAGE_SOURCE&lt;/a&gt;" type="AssertionError"/>
+</testcase>
+<testcase classname="Kragle Regression" name="Test: Global Settings - Verify Show Tutorial Enables Coach Marks For Mouse: G203 (Mac 11.5, Wired)" time="28.265">
+</testcase>
+<testcase classname="Kragle Regression" name="Test: Device Settings For Mouse - UI Verification: G203 (Mac 11.5, Wired)" time="345.261">
+</testcase>
+<testcase classname="Kragle Regression" name="Test: Device Settings For Mouse - SYS Verification: G203 (Mac 11.5, Wired)" time="317.519">
+</testcase>
+<testcase classname="Kragle Regression" name="Test: DPI With Onboard Profile For Mouse: G203 (Mac 11.5, Wired)" time="275.993">
+</testcase>
+<testcase classname="Kragle Regression" name="Test: DPI Sensitivity For Mouse: G203 (Mac 11.5, Wired)" time="503.752">
+<failure message="*HTML*Failure: Sending Message Timed Out &#10;&#10; &lt;a href=dmp_logs_2022_07_19_13_28_43.zip&gt;DEBUG_LOGS&lt;/a&gt; &#10;&#10; &lt;a href=end_test-screenshot-20220719-132842.png&gt;SCREENSHOT&lt;/a&gt; &#10;&#10; &lt;a href=/private/var/jenkins/workspace/sion_features_navigation_screens/report19072022_13_29_08_page_source.html&gt;PAGE_SOURCE&lt;/a&gt;" type="AssertionError"/>
+</testcase>
+<testcase classname="Kragle Regression" name="Test: DPI Sensitivity With Sleep System For Mouse: G203 (Mac 11.5, Wired)" time="163.560">
+</testcase>
+<testcase classname="Kragle Regression" name="Test: DPI Sensitivity With Restart G HUB For Mouse: G203 (Mac 11.5, Wired)" time="137.688">
+</testcase>
+<testcase classname="Kragle Regression" name="Disconnect: G203:wired &amp; Connect: G903 LIGHTSPEED:wired" time="2.198">
+</testcase>
+<testcase classname="Kragle Regression" name="Test: Local And Cloud Profile For Mouse: G903 LIGHTSPEED (Mac 11.5, Wired)" time="371.503">
+</testcase>
+<testcase classname="Kragle Regression" name="Test: OOB Software Support For Mouse: G903 LIGHTSPEED (Mac 11.5, Wired)" time="204.199">
+</testcase>
+<testcase classname="Kragle Regression" name="Test: Lightsync Effect For Mouse: G903 LIGHTSPEED (Mac 11.5, Wired)" time="26.305">
+</testcase>
+<testcase classname="Kragle Regression" name="Test: Lightsync Effect With Restart G HUB For Mouse: G903 LIGHTSPEED (Mac 11.5, Wired)" time="2.152">
+</testcase>
+<testcase classname="Kragle Regression" name="Test: Lightsync Effect With Sleep System For Mouse: G903 LIGHTSPEED (Mac 11.5, Wired)" time="608.600">
+</testcase>
+<testcase classname="Kragle Regression" name="Test: Lightsync Effect With Onboard Profile For Mouse: G903 LIGHTSPEED (Mac 11.5, Wired)" time="387.903">
+</testcase>
+<testcase classname="Kragle Regression" name="Test: Global Settings - My Gear For Mouse: G903 LIGHTSPEED (Mac 11.5, Wired)" time="43.981">
+<failure message="*HTML*Failure: Selector &quot;.back-button&quot; is Not Clickable &#10;&#10; &lt;a href=dmp_logs_2022_07_19_14_01_53.zip&gt;DEBUG_LOGS&lt;/a&gt; &#10;&#10; &lt;a href=end_test-screenshot-20220719-140152.png&gt;SCREENSHOT&lt;/a&gt; &#10;&#10; &lt;a href=/private/var/jenkins/workspace/sion_features_navigation_screens/report19072022_14_02_18_page_source.html&gt;PAGE_SOURCE&lt;/a&gt;" type="AssertionError"/>
+</testcase>
+<testcase classname="Kragle Regression" name="Test: Global Settings - Verify Show Tutorial Enables Coach Marks For Mouse: G903 LIGHTSPEED (Mac 11.5, Wired)" time="28.310">
+</testcase>
+<testcase classname="Kragle Regression" name="Test: Device Settings For Mouse - UI Verification: G903 LIGHTSPEED (Mac 11.5, Wired)" time="394.733">
+<failure message="*HTML*Several failures occurred:&#10;&#10;1) Failure: Selector &quot;.icon-wrapper.assign&quot; is Not Clickable&#10;&#10;Also keyword teardown failed:&#10;Failure: Selector &quot;#setting-sprocket&quot; is Not Clickable&#10;&#10;2) Failure: Selector &quot;.preset-circle.preview.bordered&quot; is Not Clickable &#10;&#10; &lt;a href=dmp_logs_2022_07_19_14_09_40.zip&gt;DEBUG_LOGS&lt;/a&gt; &#10;&#10; &lt;a href=end_test-screenshot-20220719-140939.png&gt;SCREENSHOT&lt;/a&gt; &#10;&#10; &lt;a href=/private/var/jenkins/workspace/sion_features_navigation_screens/report19072022_14_10_04_page_source.html&gt;PAGE_SOURCE&lt;/a&gt;" type="AssertionError"/>
+</testcase>
+<testcase classname="Kragle Regression" name="Test: Device Settings For Mouse - SYS Verification: G903 LIGHTSPEED (Mac 11.5, Wired)" time="407.998">
+<failure message="*HTML*Failure: Selector &quot;.preset-circle.preview.bordered&quot; is Not Clickable &#10;&#10; &lt;a href=dmp_logs_2022_07_19_14_17_11.zip&gt;DEBUG_LOGS&lt;/a&gt; &#10;&#10; &lt;a href=end_test-screenshot-20220719-141710.png&gt;SCREENSHOT&lt;/a&gt; &#10;&#10; &lt;a href=/private/var/jenkins/workspace/sion_features_navigation_screens/report19072022_14_17_34_page_source.html&gt;PAGE_SOURCE&lt;/a&gt;" type="AssertionError"/>
+</testcase>
+<testcase classname="Kragle Regression" name="Test: DPI With Onboard Profile For Mouse: G903 LIGHTSPEED (Mac 11.5, Wired)" time="291.035">
+</testcase>
+<testcase classname="Kragle Regression" name="Test: DPI Sensitivity For Mouse: G903 LIGHTSPEED (Mac 11.5, Wired)" time="307.916">
+</testcase>
+<testcase classname="Kragle Regression" name="Test: DPI Sensitivity With Sleep System For Mouse: G903 LIGHTSPEED (Mac 11.5, Wired)" time="164.217">
+</testcase>
+<testcase classname="Kragle Regression" name="Test: DPI Sensitivity With Restart G HUB For Mouse: G903 LIGHTSPEED (Mac 11.5, Wired)" time="139.923">
+</testcase>
+<testcase classname="Kragle Regression" name="Test: Lightsync Effects For Mouse With Robotic - Color Sensor: G903 LIGHTSPEED (Mac 11.5, Wired)" time="30.729">
+<failure message="*HTML*No keyword with name 'lightsync.Test Lightsync Color Sensor - Primary Effect For Mouse' found. &#10;&#10; &lt;a href=dmp_logs_2022_07_19_14_33_24.zip&gt;DEBUG_LOGS&lt;/a&gt; &#10;&#10; &lt;a href=end_test-screenshot-20220719-143323.png&gt;SCREENSHOT&lt;/a&gt; &#10;&#10; &lt;a href=/private/var/jenkins/workspace/sion_features_navigation_screens/report19072022_14_33_50_page_source.html&gt;PAGE_SOURCE&lt;/a&gt;" type="AssertionError"/>
+</testcase>
+<testcase classname="Kragle Regression" name="Disconnect: G903 LIGHTSPEED:wired &amp; Connect: G610:wired" time="2.186">
+</testcase>
+<testcase classname="Kragle Regression" name="Test: Local And Cloud Profile For Keyboard: G610 (Mac 11.5, Wired)" time="363.043">
+</testcase>
+<testcase classname="Kragle Regression" name="Test: Global Settings - My Gear For Keyboard: G610 (Mac 11.5, Wired)" time="41.045">
+<failure message="*HTML*Failure: Selector &quot;.back-button&quot; is Not Clickable &#10;&#10; &lt;a href=dmp_logs_2022_07_19_14_40_56.zip&gt;DEBUG_LOGS&lt;/a&gt; &#10;&#10; &lt;a href=end_test-screenshot-20220719-144055.png&gt;SCREENSHOT&lt;/a&gt; &#10;&#10; &lt;a href=/private/var/jenkins/workspace/sion_features_navigation_screens/report19072022_14_41_19_page_source.html&gt;PAGE_SOURCE&lt;/a&gt;" type="AssertionError"/>
+</testcase>
+<testcase classname="Kragle Regression" name="Test: Global Settings - Verify Show Tutorial Enables Coach Marks For Keyboard: G610 (Mac 11.5, Wired)" time="57.188">
+</testcase>
+<testcase classname="Kragle Regression" name="Test: Device Settings For Keyboard - UI Verification: G610 (Mac 11.5, Wired)" time="118.493">
+</testcase>
+<testcase classname="Kragle Regression" name="Test: Device Settings For Keyboard - SYS Verification: G610 (Mac 11.5, Wired)" time="123.141">
+</testcase>
+<testcase classname="Kragle Regression" name="Test: Game Mode Restore Default Settings For Keyboard: G610 (Mac 11.5, Wired)" time="37.582">
+</testcase>
+<testcase classname="Kragle Regression" name="Test: All Profiles Should Be Same Disabled Keys In Game Mode When Profile Is Locked For Keyboard: G610 (Mac 11.5, Wired)" time="420.909">
+</testcase>
+<testcase classname="Kragle Regression" name="Test: All Profiles Should Be Same Disabled Keys Which Are Disabled While Profile Is Locked In Game Mode: G610 (Mac 11.5, Wired)" time="413.487">
+</testcase>
+<testcase classname="Kragle Regression" name="Disconnect: G610:wired &amp; Connect: G512:wired" time="2.170">
+</testcase>
+<testcase classname="Kragle Regression" name="Test: Local And Cloud Profile For Keyboard: G512 (Mac 11.5, Wired)" time="375.604">
+</testcase>
+<testcase classname="Kragle Regression" name="Test: Global Settings - My Gear For Keyboard: G512 (Mac 11.5, Wired)" time="41.657">
+<failure message="*HTML*Failure: Selector &quot;.back-button&quot; is Not Clickable &#10;&#10; &lt;a href=dmp_logs_2022_07_19_15_08_08.zip&gt;DEBUG_LOGS&lt;/a&gt; &#10;&#10; &lt;a href=end_test-screenshot-20220719-150808.png&gt;SCREENSHOT&lt;/a&gt; &#10;&#10; &lt;a href=/private/var/jenkins/workspace/sion_features_navigation_screens/report19072022_15_08_32_page_source.html&gt;PAGE_SOURCE&lt;/a&gt;" type="AssertionError"/>
+</testcase>
+<testcase classname="Kragle Regression" name="Test: Global Settings - Verify Show Tutorial Enables Coach Marks For Keyboard: G512 (Mac 11.5, Wired)" time="57.204">
+</testcase>
+<testcase classname="Kragle Regression" name="Test: Device Settings For Keyboard - UI Verification: G512 (Mac 11.5, Wired)" time="122.605">
+</testcase>
+<testcase classname="Kragle Regression" name="Test: Device Settings For Keyboard - SYS Verification: G512 (Mac 11.5, Wired)" time="136.208">
+</testcase>
+<testcase classname="Kragle Regression" name="Test: Verify Presets Default Colors For Keyboard: G512 (Mac 11.5, Wired)" time="190.736">
+</testcase>
+<testcase classname="Kragle Regression" name="Test: User Can Change Presets Fixed HEX Color For Keyboard: G512 (Mac 11.5, Wired)" time="71.662">
+</testcase>
+<testcase classname="Kragle Regression" name="Test: User Can Change Presets Fixed RGB Color For Keyboard: G512 (Mac 11.5, Wired)" time="79.018">
+</testcase>
+<testcase classname="Kragle Regression" name="Test: User Can Add And Remove Preset Colors For Keyboard: G512 (Mac 11.5, Wired)" time="345.976">
+<failure message="*HTML*Keyword 'light_sync.Remove Custome Preset Color' failed after retrying for 2 minutes. The last error was: AttributeError: module 'pyautogui' has no attribute 'LEFT' &#10;&#10; &lt;a href=dmp_logs_2022_07_19_15_25_35.zip&gt;DEBUG_LOGS&lt;/a&gt; &#10;&#10; &lt;a href=end_test-screenshot-20220719-152534.png&gt;SCREENSHOT&lt;/a&gt; &#10;&#10; &lt;a href=/private/var/jenkins/workspace/sion_features_navigation_screens/report19072022_15_25_58_page_source.html&gt;PAGE_SOURCE&lt;/a&gt;" type="AssertionError"/>
+</testcase>
+<testcase classname="Kragle Regression" name="Test: User Can Change Freestyle HEX Color For Keyboard Arrow Keys: G512 (Mac 11.5, Wired)" time="39.900">
+</testcase>
+<testcase classname="Kragle Regression" name="Test: User Can Change Freestyle RGB Color For Keyboard Arrow Keys: G512 (Mac 11.5, Wired)" time="68.133">
+</testcase>
+<testcase classname="Kragle Regression" name="Test: User Can Add And Remove Freestyle Preset Colors For Keyboard: G512 (Mac 11.5, Wired)" time="341.797">
+<failure message="*HTML*Keyword 'light_sync.Remove Custome Preset Color' failed after retrying for 2 minutes. The last error was: AttributeError: module 'pyautogui' has no attribute 'LEFT' &#10;&#10; &lt;a href=dmp_logs_2022_07_19_15_33_45.zip&gt;DEBUG_LOGS&lt;/a&gt; &#10;&#10; &lt;a href=end_test-screenshot-20220719-153344.png&gt;SCREENSHOT&lt;/a&gt; &#10;&#10; &lt;a href=/private/var/jenkins/workspace/sion_features_navigation_screens/report19072022_15_34_11_page_source.html&gt;PAGE_SOURCE&lt;/a&gt;" type="AssertionError"/>
+</testcase>
+<testcase classname="Kragle Regression" name="Test: Game Mode For Keyboard: G512 (Mac 11.5, Wired)" time="80.773">
+</testcase>
+<testcase classname="Kragle Regression" name="Test: Game Mode Restore Default Settings For Keyboard: G512 (Mac 11.5, Wired)" time="40.971">
+</testcase>
+<testcase classname="Kragle Regression" name="Test: All Profiles Should Be Same Disabled Keys In Game Mode When Profile Is Locked For Keyboard: G512 (Mac 11.5, Wired)" time="419.870">
+</testcase>
+<testcase classname="Kragle Regression" name="Test: All Profiles Should Be Same Disabled Keys Which Are Disabled While Profile Is Locked In Game Mode: G512 (Mac 11.5, Wired)" time="411.931">
+</testcase>
+<testcase classname="Kragle Regression" name="Test: Lightsync Effect For Keyboard: G512 (Mac 11.5, Wired)" time="45.237">
+</testcase>
+<testcase classname="Kragle Regression" name="Test: Onboard Lighting Effect For Keyboard: G512 (Mac 11.5, Wired)" time="81.991">
+<failure message="*HTML*Failure: Selector &quot;.back-button&quot; is Not Clickable &#10;&#10; &lt;a href=dmp_logs_2022_07_19_15_52_29.zip&gt;DEBUG_LOGS&lt;/a&gt; &#10;&#10; &lt;a href=end_test-screenshot-20220719-155229.png&gt;SCREENSHOT&lt;/a&gt; &#10;&#10; &lt;a href=/private/var/jenkins/workspace/sion_features_navigation_screens/report19072022_15_52_54_page_source.html&gt;PAGE_SOURCE&lt;/a&gt;" type="AssertionError"/>
+</testcase>
+<testcase classname="Kragle Regression" name="Disconnect: G512:wired &amp; Connect: G403:wired" time="2.191">
+</testcase>
+<testcase classname="Kragle Regression" name="Test: Local And Cloud Profile For Mouse: G403 (Mac 11.5, Wired)" time="384.634">
+</testcase>
+<testcase classname="Kragle Regression" name="Test: OOB Software Support For Mouse: G403 (Mac 11.5, Wired)" time="208.221">
+</testcase>
+<testcase classname="Kragle Regression" name="Test: Global Settings - My Gear For Mouse: G403 (Mac 11.5, Wired)" time="43.588">
+<failure message="*HTML*Failure: Selector &quot;.back-button&quot; is Not Clickable &#10;&#10; &lt;a href=dmp_logs_2022_07_19_16_03_49.zip&gt;DEBUG_LOGS&lt;/a&gt; &#10;&#10; &lt;a href=end_test-screenshot-20220719-160349.png&gt;SCREENSHOT&lt;/a&gt; &#10;&#10; &lt;a href=/private/var/jenkins/workspace/sion_features_navigation_screens/report19072022_16_04_15_page_source.html&gt;PAGE_SOURCE&lt;/a&gt;" type="AssertionError"/>
+</testcase>
+<testcase classname="Kragle Regression" name="Test: Global Settings - Verify Show Tutorial Enables Coach Marks For Mouse: G403 (Mac 11.5, Wired)" time="28.264">
+</testcase>
+<testcase classname="Kragle Regression" name="Test: Device Settings For Mouse - UI Verification: G403 (Mac 11.5, Wired)" time="349.504">
+</testcase>
+<testcase classname="Kragle Regression" name="Test: Device Settings For Mouse - SYS Verification: G403 (Mac 11.5, Wired)" time="325.292">
+</testcase>
+<testcase classname="Kragle Regression" name="Test: DPI With Onboard Profile For Mouse: G403 (Mac 11.5, Wired)" time="275.314">
+</testcase>
+<testcase classname="Kragle Regression" name="Test: DPI Sensitivity For Mouse: G403 (Mac 11.5, Wired)" time="299.278">
+</testcase>
+<testcase classname="Kragle Regression" name="Test: DPI Sensitivity With Sleep System For Mouse: G403 (Mac 11.5, Wired)" time="156.216">
+</testcase>
+<testcase classname="Kragle Regression" name="Test: DPI Sensitivity With Restart G HUB For Mouse: G403 (Mac 11.5, Wired)" time="138.008">
+</testcase>
+<testcase classname="Kragle Regression" name="Test: Lightsync Effect For Mouse: G403 (Mac 11.5, Wired)" time="26.120">
+</testcase>
+<testcase classname="Kragle Regression" name="Test: Lightsync Effect With Restart G HUB For Mouse: G403 (Mac 11.5, Wired)" time="2.150">
+</testcase>
+<testcase classname="Kragle Regression" name="Test: Lightsync Effect With Sleep System For Mouse: G403 (Mac 11.5, Wired)" time="607.093">
+</testcase>
+<testcase classname="Kragle Regression" name="Test: Lightsync Effect With Onboard Profile For Mouse: G403 (Mac 11.5, Wired)" time="275.914">
+</testcase>
+<testcase classname="Kragle Regression" name="Disconnect: G403:wired &amp; Connect: G703 LIGHTSPEED:wired" time="2.209">
+</testcase>
+<testcase classname="Kragle Regression" name="Test: Local And Cloud Profile For Mouse: G703 LIGHTSPEED (Mac 11.5, Wired)" time="371.187">
+</testcase>
+<testcase classname="Kragle Regression" name="Test: OOB Software Support For Mouse: G703 LIGHTSPEED (Mac 11.5, Wired)" time="214.576">
+</testcase>
+<testcase classname="Kragle Regression" name="Test: Lightsync Effect For Mouse: G703 LIGHTSPEED (Mac 11.5, Wired)" time="26.216">
+</testcase>
+<testcase classname="Kragle Regression" name="Test: Lightsync Effect With Restart G HUB For Mouse: G703 LIGHTSPEED (Mac 11.5, Wired)" time="2.151">
+</testcase>
+<testcase classname="Kragle Regression" name="Test: Lightsync Effect With Sleep System For Mouse: G703 LIGHTSPEED (Mac 11.5, Wired)" time="608.646">
+</testcase>
+<testcase classname="Kragle Regression" name="Test: Lightsync Effect With Onboard Profile For Mouse: G703 LIGHTSPEED (Mac 11.5, Wired)" time="307.842">
+</testcase>
+<testcase classname="Kragle Regression" name="Test: Global Settings - My Gear For Mouse: G703 LIGHTSPEED (Mac 11.5, Wired)" time="44.548">
+<failure message="*HTML*Failure: Selector &quot;.back-button&quot; is Not Clickable &#10;&#10; &lt;a href=dmp_logs_2022_07_19_17_12_12.zip&gt;DEBUG_LOGS&lt;/a&gt; &#10;&#10; &lt;a href=end_test-screenshot-20220719-171211.png&gt;SCREENSHOT&lt;/a&gt; &#10;&#10; &lt;a href=/private/var/jenkins/workspace/sion_features_navigation_screens/report19072022_17_12_38_page_source.html&gt;PAGE_SOURCE&lt;/a&gt;" type="AssertionError"/>
+</testcase>
+<testcase classname="Kragle Regression" name="Test: Global Settings - Verify Show Tutorial Enables Coach Marks For Mouse: G703 LIGHTSPEED (Mac 11.5, Wired)" time="28.264">
+</testcase>
+<testcase classname="Kragle Regression" name="Test: Device Settings For Mouse - UI Verification: G703 LIGHTSPEED (Mac 11.5, Wired)" time="378.184">
+<failure message="*HTML*Failure: Selector &quot;.preset-circle.preview.bordered&quot; is Not Clickable &#10;&#10; &lt;a href=dmp_logs_2022_07_19_17_19_44.zip&gt;DEBUG_LOGS&lt;/a&gt; &#10;&#10; &lt;a href=end_test-screenshot-20220719-171944.png&gt;SCREENSHOT&lt;/a&gt; &#10;&#10; &lt;a href=/private/var/jenkins/workspace/sion_features_navigation_screens/report19072022_17_20_07_page_source.html&gt;PAGE_SOURCE&lt;/a&gt;" type="AssertionError"/>
+</testcase>
+<testcase classname="Kragle Regression" name="Test: Device Settings For Mouse - SYS Verification: G703 LIGHTSPEED (Mac 11.5, Wired)" time="381.820">
+<failure message="*HTML*Failure: Selector &quot;.preset-circle.preview.bordered&quot; is Not Clickable &#10;&#10; &lt;a href=dmp_logs_2022_07_19_17_26_48.zip&gt;DEBUG_LOGS&lt;/a&gt; &#10;&#10; &lt;a href=end_test-screenshot-20220719-172647.png&gt;SCREENSHOT&lt;/a&gt; &#10;&#10; &lt;a href=/private/var/jenkins/workspace/sion_features_navigation_screens/report19072022_17_27_12_page_source.html&gt;PAGE_SOURCE&lt;/a&gt;" type="AssertionError"/>
+</testcase>
+<testcase classname="Kragle Regression" name="Test: DPI With Onboard Profile For Mouse: G703 LIGHTSPEED (Mac 11.5, Wired)" time="289.373">
+</testcase>
+<testcase classname="Kragle Regression" name="Test: DPI Sensitivity For Mouse: G703 LIGHTSPEED (Mac 11.5, Wired)" time="290.278">
+</testcase>
+<testcase classname="Kragle Regression" name="Test: DPI Sensitivity With Sleep System For Mouse: G703 LIGHTSPEED (Mac 11.5, Wired)" time="161.181">
+</testcase>
+<testcase classname="Kragle Regression" name="Test: DPI Sensitivity With Restart G HUB For Mouse: G703 LIGHTSPEED (Mac 11.5, Wired)" time="138.284">
+</testcase>
+<testcase classname="Kragle Regression" name="Disconnect: G703 LIGHTSPEED:wired &amp; Connect: G915:wired" time="2.104">
+</testcase>
+<testcase classname="Kragle Regression" name="Test: Local And Cloud Profile For Keyboard: G915 (Mac 11.5, Wired)" time="361.284">
+</testcase>
+<testcase classname="Kragle Regression" name="Test: Lightsync Effect For Keyboard: G915 (Mac 11.5, Wired)" time="22.798">
+</testcase>
+<testcase classname="Kragle Regression" name="Test: Global Settings - My Gear For Keyboard: G915 (Mac 11.5, Wired)" time="64.320">
+<failure message="*HTML*Failure: Selector &quot;.back-button&quot; is Not Clickable &#10;&#10; &lt;a href=dmp_logs_2022_07_19_17_49_38.zip&gt;DEBUG_LOGS&lt;/a&gt; &#10;&#10; &lt;a href=end_test-screenshot-20220719-174937.png&gt;SCREENSHOT&lt;/a&gt; &#10;&#10; &lt;a href=/private/var/jenkins/workspace/sion_features_navigation_screens/report19072022_17_50_04_page_source.html&gt;PAGE_SOURCE&lt;/a&gt;" type="AssertionError"/>
+</testcase>
+<testcase classname="Kragle Regression" name="Test: Global Settings - Verify Show Tutorial Enables Coach Marks For Keyboard: G915 (Mac 11.5, Wired)" time="57.425">
+</testcase>
+<testcase classname="Kragle Regression" name="Test: Device Settings For Keyboard - UI Verification: G915 (Mac 11.5, Wired)" time="397.447">
+<failure message="*HTML*Several failures occurred:&#10;&#10;1) Failure: Selector &quot;div.overlay div.overlay-container p.category-label.right-just&quot; with attribute(s) &quot;{'text': 'FIRMWARE VERSION'}&quot; is Not Loaded&#10;&#10;2) Failure: Selector &quot;div.overlay div.overlay-container p.category-label.right-just&quot; with attribute(s) &quot;{'text': 'FIRMWARE VERSION'}&quot; is Not Loaded&#10;&#10;3) Failure: Selector &quot;.category-label&quot; with attribute(s) &quot;{'innerText': 'BATTERY LEVEL'}&quot; is Not Loaded&#10;&#10;4) Failure: Selector &quot;div.overlay div.overlay-container p.category-label.right-just&quot; with attribute(s) &quot;{'text': 'FIRMWARE VERSION'}&quot; is Not Loaded&#10;&#10;5) No keyword with name 'device_settings.Test Device Settings - firware version UI Validation' found. Did you mean:&#10;    device_settings.Device Settings.Test Device Settings - Firmware Version UI Validation &#10;&#10; &lt;a href=dmp_logs_2022_07_19_17_57_58.zip&gt;DEBUG_LOGS&lt;/a&gt; &#10;&#10; &lt;a href=end_test-screenshot-20220719-175757.png&gt;SCREENSHOT&lt;/a&gt; &#10;&#10; &lt;a href=/private/var/jenkins/workspace/sion_features_navigation_screens/report19072022_17_58_21_page_source.html&gt;PAGE_SOURCE&lt;/a&gt;" type="AssertionError"/>
+</testcase>
+<testcase classname="Kragle Regression" name="Test: Device Settings For Keyboard - SYS Verification: G915 (Mac 11.5, Wired)" time="404.305">
+</testcase>
+<testcase classname="Kragle Regression" name="Test: Verify Presets Default Colors For Keyboard: G915 (Mac 11.5, Wired)" time="384.463">
+<failure message="*HTML*&lt;b&gt;Known Issue:&lt;/b&gt;[&lt;a href=https://jira.logitech.io/browse/KRGL-9265&gt;KRGL-9265&lt;/a&gt;]&#10;Keyword 'Backend.Verify Fixed Colors Keyboard' failed after retrying for 3 minutes. The last error was: The expected color value of green (255) and actual value from backend (0) is different: 255 != 0 &#10;&#10; &lt;a href=dmp_logs_2022_07_19_18_11_47.zip&gt;DEBUG_LOGS&lt;/a&gt; &#10;&#10; &lt;a href=end_test-screenshot-20220719-181146.png&gt;SCREENSHOT&lt;/a&gt; &#10;&#10; &lt;a href=/private/var/jenkins/workspace/sion_features_navigation_screens/report19072022_18_12_13_page_source.html&gt;PAGE_SOURCE&lt;/a&gt;" type="AssertionError"/>
+</testcase>
+<testcase classname="Kragle Regression" name="Test: User Can Change Presets Fixed HEX Color For Keyboard: G915 (Mac 11.5, Wired)" time="263.080">
+<failure message="*HTML*&lt;b&gt;Known Issue:&lt;/b&gt;[&lt;a href=https://jira.logitech.io/browse/KRGL-9265&gt;KRGL-9265&lt;/a&gt;]&#10;Keyword 'Backend.Verify Fixed Colors Keyboard' failed after retrying for 3 minutes. The last error was: The expected color value of red (148) and actual value from backend (0) is different: 148 != 0 &#10;&#10; &lt;a href=dmp_logs_2022_07_19_18_16_55.zip&gt;DEBUG_LOGS&lt;/a&gt; &#10;&#10; &lt;a href=end_test-screenshot-20220719-181654.png&gt;SCREENSHOT&lt;/a&gt; &#10;&#10; &lt;a href=/private/var/jenkins/workspace/sion_features_navigation_screens/report19072022_18_17_19_page_source.html&gt;PAGE_SOURCE&lt;/a&gt;" type="AssertionError"/>
+</testcase>
+<testcase classname="Kragle Regression" name="Test: User Can Change Presets Fixed RGB Color For Keyboard: G915 (Mac 11.5, Wired)" time="250.414">
+<failure message="*HTML*&lt;b&gt;Known Issue:&lt;/b&gt;[&lt;a href=https://jira.logitech.io/browse/KRGL-9265&gt;KRGL-9265&lt;/a&gt;]&#10;Keyword 'Backend.Verify Fixed Colors Keyboard' failed after retrying for 3 minutes. The last error was: The expected color value of green (255) and actual value from backend (0) is different: 255 != 0 &#10;&#10; &lt;a href=dmp_logs_2022_07_19_18_21_48.zip&gt;DEBUG_LOGS&lt;/a&gt; &#10;&#10; &lt;a href=end_test-screenshot-20220719-182147.png&gt;SCREENSHOT&lt;/a&gt; &#10;&#10; &lt;a href=/private/var/jenkins/workspace/sion_features_navigation_screens/report19072022_18_22_11_page_source.html&gt;PAGE_SOURCE&lt;/a&gt;" type="AssertionError"/>
+</testcase>
+<testcase classname="Kragle Regression" name="Test: User Can Add And Remove Preset Colors For Keyboard: G915 (Mac 11.5, Wired)" time="528.382">
+<failure message="*HTML*&lt;b&gt;Known Issue:&lt;/b&gt;[&lt;a href=https://jira.logitech.io/browse/KRGL-9265&gt;KRGL-9265&lt;/a&gt;]&#10;Several failures occurred:&#10;&#10;1) Keyword 'Backend.Verify Fixed Colors Keyboard' failed after retrying for 3 minutes. The last error was: The expected color value of red (110) and actual value from backend (0) is different: 110 != 0&#10;&#10;2) Keyword 'light_sync.Remove Custome Preset Color' failed after retrying for 2 minutes. The last error was: AttributeError: module 'pyautogui' has no attribute 'LEFT' &#10;&#10; &lt;a href=dmp_logs_2022_07_19_18_31_21.zip&gt;DEBUG_LOGS&lt;/a&gt; &#10;&#10; &lt;a href=end_test-screenshot-20220719-183120.png&gt;SCREENSHOT&lt;/a&gt; &#10;&#10; &lt;a href=/private/var/jenkins/workspace/sion_features_navigation_screens/report19072022_18_31_44_page_source.html&gt;PAGE_SOURCE&lt;/a&gt;" type="AssertionError"/>
+</testcase>
+<testcase classname="Kragle Regression" name="Test: User Can Change Freestyle HEX Color For Keyboard Arrow Keys: G915 (Mac 11.5, Wired)" time="40.608">
+</testcase>
+<testcase classname="Kragle Regression" name="Test: User Can Change Freestyle RGB Color For Keyboard Arrow Keys: G915 (Mac 11.5, Wired)" time="68.601">
+</testcase>
+<testcase classname="Kragle Regression" name="Test: User Can Add And Remove Freestyle Preset Colors For Keyboard: G915 (Mac 11.5, Wired)" time="339.346">
+<failure message="*HTML*Keyword 'light_sync.Remove Custome Preset Color' failed after retrying for 2 minutes. The last error was: AttributeError: module 'pyautogui' has no attribute 'LEFT' &#10;&#10; &lt;a href=dmp_logs_2022_07_19_18_39_31.zip&gt;DEBUG_LOGS&lt;/a&gt; &#10;&#10; &lt;a href=end_test-screenshot-20220719-183930.png&gt;SCREENSHOT&lt;/a&gt; &#10;&#10; &lt;a href=/private/var/jenkins/workspace/sion_features_navigation_screens/report19072022_18_39_54_page_source.html&gt;PAGE_SOURCE&lt;/a&gt;" type="AssertionError"/>
+</testcase>
+<testcase classname="Kragle Regression" name="Test: Game Mode For Keyboard: G915 (Mac 11.5, Wired)" time="80.554">
+</testcase>
+<testcase classname="Kragle Regression" name="Test: Game Mode Restore Default Settings For Keyboard: G915 (Mac 11.5, Wired)" time="41.697">
+</testcase>
+<testcase classname="Kragle Regression" name="Test: All Profiles Should Be Same Disabled Keys In Game Mode When Profile Is Locked For Keyboard: G915 (Mac 11.5, Wired)" time="417.752">
+</testcase>
+<testcase classname="Kragle Regression" name="Test: All Profiles Should Be Same Disabled Keys Which Are Disabled While Profile Is Locked In Game Mode: G915 (Mac 11.5, Wired)" time="410.700">
+</testcase>
+<testcase classname="Kragle Regression" name="Test: Validate EFFECTS FIXED Lightsync Presets: G203 (Mac 11.5, Wired)" time="64.001">
+</testcase>
+<testcase classname="Kragle Regression" name="Test: Validate EFFECTS CYCLE Lightsync Presets: G203 (Mac 11.5, Wired)" time="122.891">
+</testcase>
+<testcase classname="Kragle Regression" name="Test: Validate EFFECTS BREATHING Lightsync Presets: G203 (Mac 11.5, Wired)" time="124.493">
+</testcase>
+<testcase classname="Kragle Regression" name="Test: Validate EFFECTS SCREEN SAMPLER Lightsync Presets: G203 (Mac 11.5, Wired)" time="88.592">
+</testcase>
+<testcase classname="Kragle Regression" name="Test: Validate EFFECTS AUDIO VISUALIZER Lightsync Presets: G203 (Mac 11.5, Wired)" time="29.283">
+<skipped message="Audio Visualizer effect is not supported in MAC system" type="SkipExecution"/>
+</testcase>
+<testcase classname="Kragle Regression" name="Test: Validate PRIMARY FIXED Lightsync Presets: G903 LIGHTSPEED (Mac 11.5, Wired)" time="71.106">
+</testcase>
+<testcase classname="Kragle Regression" name="Test: Validate PRIMARY CYCLE Lightsync Presets: G903 LIGHTSPEED (Mac 11.5, Wired)" time="99.491">
+</testcase>
+<testcase classname="Kragle Regression" name="Test: Validate PRIMARY BREATHING Lightsync Presets: G903 LIGHTSPEED (Mac 11.5, Wired)" time="103.570">
+</testcase>
+<testcase classname="Kragle Regression" name="Test: Validate PRIMARY SCREEN SAMPLER Lightsync Presets: G903 LIGHTSPEED (Mac 11.5, Wired)" time="76.190">
+</testcase>
+<testcase classname="Kragle Regression" name="Test: Validate PRIMARY AUDIO VISUALIZER Lightsync Presets: G903 LIGHTSPEED (Mac 11.5, Wired)" time="29.544">
+<skipped message="Audio Visualizer effect is not supported in MAC system" type="SkipExecution"/>
+</testcase>
+<testcase classname="Kragle Regression" name="Test: Validate LOGO FIXED Lightsync Presets: G903 LIGHTSPEED (Mac 11.5, Wired)" time="71.730">
+</testcase>
+<testcase classname="Kragle Regression" name="Test: Validate LOGO CYCLE Lightsync Presets: G903 LIGHTSPEED (Mac 11.5, Wired)" time="99.731">
+</testcase>
+<testcase classname="Kragle Regression" name="Test: Validate LOGO BREATHING Lightsync Presets: G903 LIGHTSPEED (Mac 11.5, Wired)" time="103.694">
+</testcase>
+<testcase classname="Kragle Regression" name="Test: Validate LOGO SCREEN SAMPLER Lightsync Presets: G903 LIGHTSPEED (Mac 11.5, Wired)" time="76.311">
+</testcase>
+<testcase classname="Kragle Regression" name="Test: Validate LOGO AUDIO VISUALIZER Lightsync Presets: G903 LIGHTSPEED (Mac 11.5, Wired)" time="32.555">
+<skipped message="Audio Visualizer effect is not supported in MAC system" type="SkipExecution"/>
+</testcase>
+<testcase classname="Kragle Regression" name="Test: Validate PRESETS FIXED Lightsync Presets: G512 (Mac 11.5, Wired)" time="89.911">
+</testcase>
+<testcase classname="Kragle Regression" name="Test: Validate PRESETS CYCLE Lightsync Presets: G512 (Mac 11.5, Wired)" time="122.968">
+</testcase>
+<testcase classname="Kragle Regression" name="Test: Validate PRESETS COLOR WAVE Lightsync Presets: G512 (Mac 11.5, Wired)" time="152.027">
+</testcase>
+<testcase classname="Kragle Regression" name="Test: Validate PRESETS BREATHING Lightsync Presets: G512 (Mac 11.5, Wired)" time="129.864">
+</testcase>
+<testcase classname="Kragle Regression" name="Test: Validate PRESETS RIPPLE Lightsync Presets: G512 (Mac 11.5, Wired)" time="140.820">
+</testcase>
+<testcase classname="Kragle Regression" name="Test: Validate PRESETS STARLIGHT Lightsync Presets: G512 (Mac 11.5, Wired)" time="131.507">
+</testcase>
+<testcase classname="Kragle Regression" name="Test: Validate PRESETS ECHO PRESS Lightsync Presets: G512 (Mac 11.5, Wired)" time="122.169">
+</testcase>
+<testcase classname="Kragle Regression" name="Test: Validate PRESETS SCREEN SAMPLER Lightsync Presets: G512 (Mac 11.5, Wired)" time="111.775">
+</testcase>
+<testcase classname="Kragle Regression" name="Test: Validate PRESETS AUDIO VISUALIZER Lightsync Presets: G512 (Mac 11.5, Wired)" time="31.573">
+<skipped message="Audio Visualizer effect is not supported in MAC system" type="SkipExecution"/>
+</testcase>
+<testcase classname="Kragle Regression" name="Test: Validate WASD quick color Freestyle effect: G512 (Mac 11.5, Wired)" time="91.431">
+</testcase>
+<testcase classname="Kragle Regression" name="Test: Validate NUMBERS quick color Freestyle effect: G512 (Mac 11.5, Wired)" time="91.350">
+</testcase>
+<testcase classname="Kragle Regression" name="Test: Validate F KEYS quick color Freestyle effect: G512 (Mac 11.5, Wired)" time="91.516">
+</testcase>
+<testcase classname="Kragle Regression" name="Test: Validate MODIFIER quick color Freestyle effect: G512 (Mac 11.5, Wired)" time="77.970">
+</testcase>
+<testcase classname="Kragle Regression" name="Test: Validate ARROW KEYS quick color Freestyle effect: G512 (Mac 11.5, Wired)" time="91.211">
+</testcase>
+<testcase classname="Kragle Regression" name="Test: Validate contrastic Animations effect: G512 (Mac 11.5, Wired)" time="79.594">
+</testcase>
+<testcase classname="Kragle Regression" name="Test: Validate lightning Animations effect: G512 (Mac 11.5, Wired)" time="61.824">
+</testcase>
+<testcase classname="Kragle Regression" name="Test: Validate ocean wave Animations effect: G512 (Mac 11.5, Wired)" time="62.253">
+</testcase>
+<testcase classname="Kragle Regression" name="Test: Validate red white and blue Animations effect: G512 (Mac 11.5, Wired)" time="63.820">
+</testcase>
+<testcase classname="Kragle Regression" name="Test: Validate verticool Animations effect: G512 (Mac 11.5, Wired)" time="70.177">
+</testcase>
+<testcase classname="Kragle Regression" name="Test: Validate PRIMARY FIXED Lightsync Presets: G403 (Mac 11.5, Wired)" time="80.698">
+</testcase>
+<testcase classname="Kragle Regression" name="Test: Validate PRIMARY CYCLE Lightsync Presets: G403 (Mac 11.5, Wired)" time="113.460">
+</testcase>
+<testcase classname="Kragle Regression" name="Test: Validate PRIMARY BREATHING Lightsync Presets: G403 (Mac 11.5, Wired)" time="121.230">
+</testcase>
+<testcase classname="Kragle Regression" name="Test: Validate PRIMARY SCREEN SAMPLER Lightsync Presets: G403 (Mac 11.5, Wired)" time="80.467">
+</testcase>
+<testcase classname="Kragle Regression" name="Test: Validate LOGO FIXED Lightsync Presets: G403 (Mac 11.5, Wired)" time="80.339">
+</testcase>
+<testcase classname="Kragle Regression" name="Test: Validate LOGO CYCLE Lightsync Presets: G403 (Mac 11.5, Wired)" time="112.861">
+</testcase>
+<testcase classname="Kragle Regression" name="Test: Validate LOGO BREATHING Lightsync Presets: G403 (Mac 11.5, Wired)" time="121.198">
+</testcase>
+<testcase classname="Kragle Regression" name="Test: Validate LOGO SCREEN SAMPLER Lightsync Presets: G403 (Mac 11.5, Wired)" time="80.403">
+</testcase>
+<testcase classname="Kragle Regression" name="Test: Validate PRIMARY FIXED Lightsync Presets: G703 LIGHTSPEED (Mac 11.5, Wired)" time="84.379">
+</testcase>
+<testcase classname="Kragle Regression" name="Test: Validate PRIMARY CYCLE Lightsync Presets: G703 LIGHTSPEED (Mac 11.5, Wired)" time="120.479">
+</testcase>
+<testcase classname="Kragle Regression" name="Test: Validate PRIMARY BREATHING Lightsync Presets: G703 LIGHTSPEED (Mac 11.5, Wired)" time="130.804">
+</testcase>
+<testcase classname="Kragle Regression" name="Test: Validate PRIMARY SCREEN SAMPLER Lightsync Presets: G703 LIGHTSPEED (Mac 11.5, Wired)" time="83.709">
+</testcase>
+<testcase classname="Kragle Regression" name="Test: Validate PRIMARY AUDIO VISUALIZER Lightsync Presets: G703 LIGHTSPEED (Mac 11.5, Wired)" time="33.686">
+<skipped message="Audio Visualizer effect is not supported in MAC system" type="SkipExecution"/>
+</testcase>
+<testcase classname="Kragle Regression" name="Test: Validate LOGO FIXED Lightsync Presets: G703 LIGHTSPEED (Mac 11.5, Wired)" time="84.485">
+</testcase>
+<testcase classname="Kragle Regression" name="Test: Validate LOGO CYCLE Lightsync Presets: G703 LIGHTSPEED (Mac 11.5, Wired)" time="120.231">
+</testcase>
+<testcase classname="Kragle Regression" name="Test: Validate LOGO BREATHING Lightsync Presets: G703 LIGHTSPEED (Mac 11.5, Wired)" time="131.723">
+</testcase>
+<testcase classname="Kragle Regression" name="Test: Validate LOGO SCREEN SAMPLER Lightsync Presets: G703 LIGHTSPEED (Mac 11.5, Wired)" time="83.708">
+</testcase>
+<testcase classname="Kragle Regression" name="Test: Validate LOGO AUDIO VISUALIZER Lightsync Presets: G703 LIGHTSPEED (Mac 11.5, Wired)" time="28.859">
+<skipped message="Audio Visualizer effect is not supported in MAC system" type="SkipExecution"/>
+</testcase>
+<testcase classname="Kragle Regression" name="Test: Validate PRESETS FIXED Lightsync Presets: G915 (Mac 11.5, Wired)" time="103.938">
+</testcase>
+<testcase classname="Kragle Regression" name="Test: Validate PRESETS CYCLE Lightsync Presets: G915 (Mac 11.5, Wired)" time="136.590">
+</testcase>
+<testcase classname="Kragle Regression" name="Test: Validate PRESETS COLOR WAVE Lightsync Presets: G915 (Mac 11.5, Wired)" time="185.238">
+</testcase>
+<testcase classname="Kragle Regression" name="Test: Validate PRESETS BREATHING Lightsync Presets: G915 (Mac 11.5, Wired)" time="152.997">
+</testcase>
+<testcase classname="Kragle Regression" name="Test: Validate PRESETS RIPPLE Lightsync Presets: G915 (Mac 11.5, Wired)" time="151.275">
+</testcase>
+<testcase classname="Kragle Regression" name="Test: Validate PRESETS STARLIGHT Lightsync Presets: G915 (Mac 11.5, Wired)" time="112.189">
+</testcase>
+<testcase classname="Kragle Regression" name="Test: Validate PRESETS ECHO PRESS Lightsync Presets: G915 (Mac 11.5, Wired)" time="102.938">
+</testcase>
+<testcase classname="Kragle Regression" name="Test: Validate PRESETS SCREEN SAMPLER Lightsync Presets: G915 (Mac 11.5, Wired)" time="125.994">
+</testcase>
+<testcase classname="Kragle Regression" name="Test: Validate PRESETS AUDIO VISUALIZER Lightsync Presets: G915 (Mac 11.5, Wired)" time="35.365">
+<skipped message="Audio Visualizer effect is not supported in MAC system" type="SkipExecution"/>
+</testcase>
+<testcase classname="Kragle Regression" name="Test: Validate WASD quick color Freestyle effect: G915 (Mac 11.5, Wired)" time="87.492">
+</testcase>
+<testcase classname="Kragle Regression" name="Test: Validate NUMBERS quick color Freestyle effect: G915 (Mac 11.5, Wired)" time="87.039">
+</testcase>
+<testcase classname="Kragle Regression" name="Test: Validate F KEYS quick color Freestyle effect: G915 (Mac 11.5, Wired)" time="87.283">
+</testcase>
+<testcase classname="Kragle Regression" name="Test: Validate G KEYS quick color Freestyle effect: G915 (Mac 11.5, Wired)" time="57.648">
+</testcase>
+<testcase classname="Kragle Regression" name="Test: Validate MODIFIER quick color Freestyle effect: G915 (Mac 11.5, Wired)" time="59.209">
+</testcase>
+<testcase classname="Kragle Regression" name="Test: Validate ARROW KEYS quick color Freestyle effect: G915 (Mac 11.5, Wired)" time="88.000">
+</testcase>
+<testcase classname="Kragle Regression" name="Test: Validate LOGO quick color Freestyle effect: G915 (Mac 11.5, Wired)" time="97.487">
+</testcase>
+<testcase classname="Kragle Regression" name="Test: Validate contrastic Animations effect: G915 (Mac 11.5, Wired)" time="77.892">
+</testcase>
+<testcase classname="Kragle Regression" name="Test: Validate lightning Animations effect: G915 (Mac 11.5, Wired)" time="42.851">
+</testcase>
+<testcase classname="Kragle Regression" name="Test: Validate ocean wave Animations effect: G915 (Mac 11.5, Wired)" time="42.739">
+</testcase>
+<testcase classname="Kragle Regression" name="Test: Validate red white and blue Animations effect: G915 (Mac 11.5, Wired)" time="45.132">
+</testcase>
+<testcase classname="Kragle Regression" name="Test: Validate verticool Animations effect: G915 (Mac 11.5, Wired)" time="57.845">
+</testcase>
+</testsuite>

@@ -1,0 +1,43 @@
+<PwrTestLog date="07/20/2022" time="03:09:33" filename="C:/Jenkins/workspace/sion_features_navigation_screens/report\pwrtestlog.xml">
+  <SystemInformation>
+    <ComputerName>LAPTOP-24EPVQGG</ComputerName>
+    <OSBuildNumber>22621</OSBuildNumber>
+    <SystemManufacturer>HP</SystemManufacturer>
+    <SystemProductName>OMEN Laptop 15-ek0xxx</SystemProductName>
+    <BIOSVersion>F.11</BIOSVersion>
+    <BIOSReleaseDate>04/18/2022</BIOSReleaseDate>
+    <ProcessorCount>12</ProcessorCount>
+    <ProcessorPackageCount>1</ProcessorPackageCount>
+  </SystemInformation>
+  <SYSTEM_POWER_CAPABILITIES>
+    <SystemS1StateSupported>0</SystemS1StateSupported>
+    <SystemS2StateSupported>0</SystemS2StateSupported>
+    <SystemS3StateSupported>1</SystemS3StateSupported>
+    <SystemS4StateSupported>1</SystemS4StateSupported>
+    <SystemS5StateSupported>1</SystemS5StateSupported>
+    <WakeAlarmPresent>1</WakeAlarmPresent>
+    <AcOnLineWakeSupported>0</AcOnLineWakeSupported>
+    <RtcWakeSupported>4</RtcWakeSupported>
+    <FastSystemS4>1</FastSystemS4>
+    <VideoDimPresent>1</VideoDimPresent>
+    <HiberFilePresent>1</HiberFilePresent>
+    <AoAc>0</AoAc>
+  </SYSTEM_POWER_CAPABILITIES>
+  <SleepScenario>
+    <SleepTransitions hybrid="0" delay="20" sleeptime="40" IgnoreUsbHub="0" EndTransitionEventTimeout="120">
+      <SleepTransition number="0" status="0">
+        <StartT>07/20/2022 03:09:34</StartT>
+        <EndT>07/20/2022 03:10:14</EndT>
+        <Duration>00:00:40</Duration>
+        <TargetState>3</TargetState>
+        <EffectiveState>3</EffectiveState>
+        <Suspend>742</Suspend>
+        <BIOSInit>712</BIOSInit>
+        <DriverInit>920</DriverInit>
+        <HiberPagesWritten>0</HiberPagesWritten>
+        <HiberRead>0</HiberRead>
+        <HiberWrite>0</HiberWrite>
+      </SleepTransition>
+    </SleepTransitions>
+  </SleepScenario>
+</PwrTestLog>

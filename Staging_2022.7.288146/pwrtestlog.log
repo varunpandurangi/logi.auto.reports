@@ -1,0 +1,28 @@
+Start: PwrTest
+SYSTEM_POWER_CAPABILITIES 
+    SystemS1StateSupported = 0 
+    SystemS2StateSupported = 0 
+    SystemS3StateSupported = 1 
+    SystemS4StateSupported = 1 
+    SystemS5StateSupported = 1 
+    WakeAlarmPresent       = 1 
+    AcOnLineWakeSupported  = 0 
+    RtcWakeSupported       = S4 
+    FastSystemS4           = 1 
+    VideoDimPresent        = 1 
+    HiberFilePresent       = 1 
+    AoAc                   = 0 
+
+No.0 Transition -- TargetState: S3
+  TargetState:       S3
+  EffectiveState:    S3
+  SleepTimeMs:       742     
+  HiberPagesWritten: 0       
+  HiberWriteTimeMs:  0       
+  HiberReadTimeMs:   0       
+  BiosInitTimeMs:    712     
+  DriverWakeTimeMs:  920     
+  Transition StartTime: 07/20/2022 03:09:34::076
+  Transition EndTime:   07/20/2022 03:10:14::450
+No.0 Transition -- Complete
+End: Pass, PwrTest, (null)

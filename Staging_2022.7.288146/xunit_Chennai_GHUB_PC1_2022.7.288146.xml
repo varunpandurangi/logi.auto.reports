@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Kragle Regression" tests="23" errors="0" failures="3" skipped="0" time="9771.597">
+<testcase classname="Kragle Regression" name="Test Application Specific Test Cases" time="0.084">
+</testcase>
+<testcase classname="Kragle Regression" name="Test Device Specific Test Cases" time="0.656">
+</testcase>
+<testcase classname="Kragle Regression" name="Connect Device: G502 HERO:wired" time="1.010">
+</testcase>
+<testcase classname="Kragle Regression" name="Test: DFU Verification Regression Receiver For Mouse: G502 HERO (Windows_10, Wired)" time="387.922">
+<failure message="*HTML*Failure: Selector &quot;.gdls-typo.gdls-color-high-xl.gdls-typo-heading.gdls-typo-h5.HeaderText&quot; is Not Clickable &#10;&#10; &lt;a href=dmp_logs_2022_07_19_12_39_34.zip&gt;DEBUG_LOGS&lt;/a&gt; &#10;&#10; &lt;a href=end_test-screenshot-20220719-123934.png&gt;SCREENSHOT&lt;/a&gt; &#10;&#10; &lt;a href=C:\Jenkins\workspace\sion_features_navigation_screens/report19072022_12_39_51_page_source.html&gt;PAGE_SOURCE&lt;/a&gt;" type="AssertionError"/>
+</testcase>
+<testcase classname="Kragle Regression" name="Test: DFU Verification Regression For Failure Path Receiver For Mouse: G502 HERO (Windows_10, Wired)" time="553.455">
+</testcase>
+<testcase classname="Kragle Regression" name="Disconnect: G502 HERO:wired &amp; Connect: G403 HERO:wired" time="4.174">
+</testcase>
+<testcase classname="Kragle Regression" name="Test: DFU Verification Regression Receiver For Mouse: G403 HERO (Windows_10, Wired)" time="591.074">
+</testcase>
+<testcase classname="Kragle Regression" name="Test: DFU Verification Regression For Failure Path Receiver For Mouse: G403 HERO (Windows_10, Wired)" time="546.526">
+</testcase>
+<testcase classname="Kragle Regression" name="Disconnect: G403 HERO:wired &amp; Connect: G703 LIGHTSPEED:wireless" time="2.261">
+</testcase>
+<testcase classname="Kragle Regression" name="Test: DFU Verification Regression Receiver For Mouse: G703 LIGHTSPEED (Windows_10, Wireless)" time="984.733">
+</testcase>
+<testcase classname="Kragle Regression" name="Test: DFU Verification Regression For Failure Path Receiver For Mouse: G703 LIGHTSPEED (Windows_10, Wireless)" time="1019.455">
+</testcase>
+<testcase classname="Kragle Regression" name="Disconnect: G703 LIGHTSPEED:wireless &amp; Connect: PRO HERO:wired" time="4.175">
+</testcase>
+<testcase classname="Kragle Regression" name="Test: DFU Verification Regression Receiver For Mouse: PRO HERO (Windows_10, Wired)" time="591.615">
+</testcase>
+<testcase classname="Kragle Regression" name="Test: DFU Verification Regression For Failure Path Receiver For Mouse: PRO HERO (Windows_10, Wired)" time="547.708">
+</testcase>
+<testcase classname="Kragle Regression" name="Disconnect: PRO HERO:wired &amp; Connect: G913:wireless" time="2.361">
+</testcase>
+<testcase classname="Kragle Regression" name="Test: DFU Verification Regression Receiver For Keyboard: G913 (Windows_10, Wireless)" time="874.006">
+</testcase>
+<testcase classname="Kragle Regression" name="Test: DFU Verification Regression For Failure Path Receiver For Keyboard: G913 (Windows_10, Wireless)" time="865.070">
+</testcase>
+<testcase classname="Kragle Regression" name="Disconnect: G913:wireless &amp; Connect: PRO X SUPERLIGHT:wireless" time="2.233">
+</testcase>
+<testcase classname="Kragle Regression" name="Test: DFU Verification Regression Receiver For Mouse: PRO X SUPERLIGHT (Windows_10, Wireless)" time="880.702">
+</testcase>
+<testcase classname="Kragle Regression" name="Test: DFU Verification Regression For Failure Path Receiver For Mouse: PRO X SUPERLIGHT (Windows_10, Wireless)" time="934.515">
+</testcase>
+<testcase classname="Kragle Regression" name="Disconnect: PRO X SUPERLIGHT:wireless &amp; Connect: Yeti X:wired" time="1.120">
+</testcase>
+<testcase classname="Kragle Regression" name="Test: DFU Verification Regression For Microphone: Yeti X (Windows_10, Wired)" time="86.301">
+<failure message="*HTML*FileNotFoundError: C:\ProgramData\LGHUB\depots\125551/yetix_dfu/dfu.json&#10;&#10;Also keyword teardown failed:&#10;Several failures occurred:&#10;&#10;1) AttributeError: 'NoneType' object has no attribute 'save_screenshot'&#10;&#10;2) AttributeError: 'NoneType' object has no attribute 'get_log'&#10;&#10;3) UnboundLocalError: local variable 'file_name' referenced before assignment &#10;&#10; &lt;a href=dmp_logs_2022_07_19_15_01_58.zip&gt;DEBUG_LOGS&lt;/a&gt; &#10;&#10; &lt;a href=None&gt;SCREENSHOT&lt;/a&gt; &#10;&#10; &lt;a href=None&gt;PAGE_SOURCE&lt;/a&gt;" type="AssertionError"/>
+</testcase>
+<testcase classname="Kragle Regression" name="Test: DFU Verification Regression For Failure Path For Microphone: Yeti X (Windows_10, Wired)" time="85.946">
+<failure message="*HTML*FileNotFoundError: C:\ProgramData\LGHUB\depots\125551/yetix_dfu/dfu.json&#10;&#10;Also keyword teardown failed:&#10;Several failures occurred:&#10;&#10;1) AttributeError: 'NoneType' object has no attribute 'save_screenshot'&#10;&#10;2) AttributeError: 'NoneType' object has no attribute 'get_log'&#10;&#10;3) UnboundLocalError: local variable 'file_name' referenced before assignment &#10;&#10; &lt;a href=dmp_logs_2022_07_19_15_04_11.zip&gt;DEBUG_LOGS&lt;/a&gt; &#10;&#10; &lt;a href=None&gt;SCREENSHOT&lt;/a&gt; &#10;&#10; &lt;a href=None&gt;PAGE_SOURCE&lt;/a&gt;" type="AssertionError"/>
+</testcase>
+</testsuite>
