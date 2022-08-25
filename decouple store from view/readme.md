@@ -1,3 +1,0 @@
-...
-Demo Python unittest for BRIO camera using RobotRun library (not related to Robot Framework). 
-Only for Windows (no Mac support for RobotRun yet).
