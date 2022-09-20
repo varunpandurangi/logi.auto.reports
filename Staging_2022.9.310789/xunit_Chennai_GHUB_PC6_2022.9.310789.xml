@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Kragle Regression" tests="2" errors="0" failures="2" skipped="0" time="651.609">
+<testcase classname="Kragle Regression" name="Test Application Specific Test Cases" time="0.016">
+<failure message="*HTML*Parent suite setup failed:&#10;Failure: Selector &quot;.dls-navigation__list-item:nth-child(5)&quot; is Not Loaded &#10;&#10; &lt;a href=NA&gt;DEBUG_LOGS&lt;/a&gt; &#10;&#10; &lt;a href=NA&gt;SCREENSHOT&lt;/a&gt; &#10;&#10; &lt;a href=NA&gt;PAGE_SOURCE&lt;/a&gt;" type="AssertionError"/>
+</testcase>
+<testcase classname="Kragle Regression" name="Test Device Specific Test Cases" time="0.001">
+<failure message="*HTML*Parent suite setup failed:&#10;Failure: Selector &quot;.dls-navigation__list-item:nth-child(5)&quot; is Not Loaded &#10;&#10; &lt;a href=NA&gt;DEBUG_LOGS&lt;/a&gt; &#10;&#10; &lt;a href=NA&gt;SCREENSHOT&lt;/a&gt; &#10;&#10; &lt;a href=NA&gt;PAGE_SOURCE&lt;/a&gt;" type="AssertionError"/>
+</testcase>
+</testsuite>

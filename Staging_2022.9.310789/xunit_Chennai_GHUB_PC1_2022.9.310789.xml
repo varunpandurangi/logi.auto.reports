@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Kragle Regression" tests="23" errors="0" failures="10" skipped="0" time="5503.964">
+<testcase classname="Kragle Regression" name="Test Application Specific Test Cases" time="0.099">
+</testcase>
+<testcase classname="Kragle Regression" name="Test Device Specific Test Cases" time="0.618">
+</testcase>
+<testcase classname="Kragle Regression" name="Connect Device: G502 HERO:wired" time="1.011">
+</testcase>
+<testcase classname="Kragle Regression" name="Test: DFU Verification Regression Receiver For Mouse: G502 HERO (Windows_10, Wired)" time="127.810">
+<failure message="*HTML*The latest firmware version and firmware version ui does not match: 127.3.10 != 127.2.8 &#10;&#10; &lt;a href=dmp_logs_2022_09_16_12_26_23.zip&gt;DEBUG_LOGS&lt;/a&gt; &#10;&#10; &lt;a href=end_test-screenshot-20220916-122623.png&gt;SCREENSHOT&lt;/a&gt; &#10;&#10; &lt;a href=C:\Jenkins\workspace\sion_features_navigation_screens/report16092022_12_26_41_page_source.html&gt;PAGE_SOURCE&lt;/a&gt;" type="AssertionError"/>
+</testcase>
+<testcase classname="Kragle Regression" name="Test: DFU Verification Regression For Failure Path Receiver For Mouse: G502 HERO (Windows_10, Wired)" time="144.534">
+<failure message="*HTML*The latest firmware version and firmware version ui does not match: 127.3.10 != 127.2.8 &#10;&#10; &lt;a href=dmp_logs_2022_09_16_12_29_34.zip&gt;DEBUG_LOGS&lt;/a&gt; &#10;&#10; &lt;a href=end_test-screenshot-20220916-122934.png&gt;SCREENSHOT&lt;/a&gt; &#10;&#10; &lt;a href=C:\Jenkins\workspace\sion_features_navigation_screens/report16092022_12_29_49_page_source.html&gt;PAGE_SOURCE&lt;/a&gt;" type="AssertionError"/>
+</testcase>
+<testcase classname="Kragle Regression" name="Disconnect: G502 HERO:wired &amp; Connect: G403 HERO:wired" time="2.263">
+</testcase>
+<testcase classname="Kragle Regression" name="Test: DFU Verification Regression Receiver For Mouse: G403 HERO (Windows_10, Wired)" time="629.073">
+</testcase>
+<testcase classname="Kragle Regression" name="Test: DFU Verification Regression For Failure Path Receiver For Mouse: G403 HERO (Windows_10, Wired)" time="585.059">
+</testcase>
+<testcase classname="Kragle Regression" name="Disconnect: G403 HERO:wired &amp; Connect: G703 LIGHTSPEED:wireless" time="2.384">
+</testcase>
+<testcase classname="Kragle Regression" name="Test: DFU Verification Regression Receiver For Mouse: G703 LIGHTSPEED (Windows_10, Wireless)" time="178.374">
+<failure message="*HTML*Failure: No Fimware Version value in FW response.&#10;&#10;Also keyword teardown failed:&#10;Several failures occurred:&#10;&#10;1) AttributeError: 'NoneType' object has no attribute 'save_screenshot'&#10;&#10;2) AttributeError: 'NoneType' object has no attribute 'get_log'&#10;&#10;3) UnboundLocalError: local variable 'file_name' referenced before assignment &#10;&#10; &lt;a href=dmp_logs_2022_09_16_12_53_41.zip&gt;DEBUG_LOGS&lt;/a&gt; &#10;&#10; &lt;a href=None&gt;SCREENSHOT&lt;/a&gt; &#10;&#10; &lt;a href=None&gt;PAGE_SOURCE&lt;/a&gt;" type="AssertionError"/>
+</testcase>
+<testcase classname="Kragle Regression" name="Test: DFU Verification Regression For Failure Path Receiver For Mouse: G703 LIGHTSPEED (Windows_10, Wireless)" time="177.957">
+<failure message="*HTML*Failure: No Fimware Version value in FW response.&#10;&#10;Also keyword teardown failed:&#10;Several failures occurred:&#10;&#10;1) AttributeError: 'NoneType' object has no attribute 'save_screenshot'&#10;&#10;2) AttributeError: 'NoneType' object has no attribute 'get_log'&#10;&#10;3) UnboundLocalError: local variable 'file_name' referenced before assignment &#10;&#10; &lt;a href=dmp_logs_2022_09_16_12_57_25.zip&gt;DEBUG_LOGS&lt;/a&gt; &#10;&#10; &lt;a href=None&gt;SCREENSHOT&lt;/a&gt; &#10;&#10; &lt;a href=None&gt;PAGE_SOURCE&lt;/a&gt;" type="AssertionError"/>
+</testcase>
+<testcase classname="Kragle Regression" name="Disconnect: G703 LIGHTSPEED:wireless &amp; Connect: PRO HERO:wired" time="3.684">
+</testcase>
+<testcase classname="Kragle Regression" name="Test: DFU Verification Regression Receiver For Mouse: PRO HERO (Windows_10, Wired)" time="123.187">
+<failure message="*HTML*The latest firmware version and firmware version ui does not match: 128.2.7 != 128.1.5 &#10;&#10; &lt;a href=dmp_logs_2022_09_16_13_00_08.zip&gt;DEBUG_LOGS&lt;/a&gt; &#10;&#10; &lt;a href=end_test-screenshot-20220916-130008.png&gt;SCREENSHOT&lt;/a&gt; &#10;&#10; &lt;a href=C:\Jenkins\workspace\sion_features_navigation_screens/report16092022_13_00_24_page_source.html&gt;PAGE_SOURCE&lt;/a&gt;" type="AssertionError"/>
+</testcase>
+<testcase classname="Kragle Regression" name="Test: DFU Verification Regression For Failure Path Receiver For Mouse: PRO HERO (Windows_10, Wired)" time="144.794">
+<failure message="*HTML*The latest firmware version and firmware version ui does not match: 128.2.7 != 128.1.5 &#10;&#10; &lt;a href=dmp_logs_2022_09_16_13_03_17.zip&gt;DEBUG_LOGS&lt;/a&gt; &#10;&#10; &lt;a href=end_test-screenshot-20220916-130317.png&gt;SCREENSHOT&lt;/a&gt; &#10;&#10; &lt;a href=C:\Jenkins\workspace\sion_features_navigation_screens/report16092022_13_03_33_page_source.html&gt;PAGE_SOURCE&lt;/a&gt;" type="AssertionError"/>
+</testcase>
+<testcase classname="Kragle Regression" name="Disconnect: PRO HERO:wired &amp; Connect: G913:wireless" time="3.280">
+</testcase>
+<testcase classname="Kragle Regression" name="Test: DFU Verification Regression Receiver For Keyboard: G913 (Windows_10, Wireless)" time="901.800">
+</testcase>
+<testcase classname="Kragle Regression" name="Test: DFU Verification Regression For Failure Path Receiver For Keyboard: G913 (Windows_10, Wireless)" time="833.487">
+</testcase>
+<testcase classname="Kragle Regression" name="Disconnect: G913:wireless &amp; Connect: PRO X SUPERLIGHT:wireless" time="2.551">
+</testcase>
+<testcase classname="Kragle Regression" name="Test: DFU Verification Regression Receiver For Mouse: PRO X SUPERLIGHT (Windows_10, Wireless)" time="178.300">
+<failure message="*HTML*Failure: No Fimware Version value in FW response.&#10;&#10;Also keyword teardown failed:&#10;Several failures occurred:&#10;&#10;1) AttributeError: 'NoneType' object has no attribute 'save_screenshot'&#10;&#10;2) AttributeError: 'NoneType' object has no attribute 'get_log'&#10;&#10;3) UnboundLocalError: local variable 'file_name' referenced before assignment &#10;&#10; &lt;a href=dmp_logs_2022_09_16_13_36_07.zip&gt;DEBUG_LOGS&lt;/a&gt; &#10;&#10; &lt;a href=None&gt;SCREENSHOT&lt;/a&gt; &#10;&#10; &lt;a href=None&gt;PAGE_SOURCE&lt;/a&gt;" type="AssertionError"/>
+</testcase>
+<testcase classname="Kragle Regression" name="Test: DFU Verification Regression For Failure Path Receiver For Mouse: PRO X SUPERLIGHT (Windows_10, Wireless)" time="177.971">
+<failure message="*HTML*&lt;b&gt;Known Issue:&lt;/b&gt;[&lt;a href=https://jira.logitech.io/browse/KRGL-9269&gt;KRGL-9269&lt;/a&gt;]&#10;Failure: No Fimware Version value in FW response.&#10;&#10;Also keyword teardown failed:&#10;Several failures occurred:&#10;&#10;1) AttributeError: 'NoneType' object has no attribute 'save_screenshot'&#10;&#10;2) AttributeError: 'NoneType' object has no attribute 'get_log'&#10;&#10;3) UnboundLocalError: local variable 'file_name' referenced before assignment &#10;&#10; &lt;a href=dmp_logs_2022_09_16_13_39_51.zip&gt;DEBUG_LOGS&lt;/a&gt; &#10;&#10; &lt;a href=None&gt;SCREENSHOT&lt;/a&gt; &#10;&#10; &lt;a href=None&gt;PAGE_SOURCE&lt;/a&gt;" type="AssertionError"/>
+</testcase>
+<testcase classname="Kragle Regression" name="Disconnect: PRO X SUPERLIGHT:wireless &amp; Connect: Yeti X:wired" time="1.577">
+</testcase>
+<testcase classname="Kragle Regression" name="Test: DFU Verification Regression For Microphone: Yeti X (Windows_10, Wired)" time="85.837">
+<failure message="*HTML*FileNotFoundError: C:\ProgramData\LGHUB\depots\125551/yetix_dfu/dfu.json&#10;&#10;Also keyword teardown failed:&#10;Several failures occurred:&#10;&#10;1) AttributeError: 'NoneType' object has no attribute 'save_screenshot'&#10;&#10;2) AttributeError: 'NoneType' object has no attribute 'get_log'&#10;&#10;3) UnboundLocalError: local variable 'file_name' referenced before assignment &#10;&#10; &lt;a href=dmp_logs_2022_09_16_13_42_01.zip&gt;DEBUG_LOGS&lt;/a&gt; &#10;&#10; &lt;a href=None&gt;SCREENSHOT&lt;/a&gt; &#10;&#10; &lt;a href=None&gt;PAGE_SOURCE&lt;/a&gt;" type="AssertionError"/>
+</testcase>
+<testcase classname="Kragle Regression" name="Test: DFU Verification Regression For Failure Path For Microphone: Yeti X (Windows_10, Wired)" time="85.820">
+<failure message="*HTML*FileNotFoundError: C:\ProgramData\LGHUB\depots\125551/yetix_dfu/dfu.json&#10;&#10;Also keyword teardown failed:&#10;Several failures occurred:&#10;&#10;1) AttributeError: 'NoneType' object has no attribute 'save_screenshot'&#10;&#10;2) AttributeError: 'NoneType' object has no attribute 'get_log'&#10;&#10;3) UnboundLocalError: local variable 'file_name' referenced before assignment &#10;&#10; &lt;a href=dmp_logs_2022_09_16_13_44_09.zip&gt;DEBUG_LOGS&lt;/a&gt; &#10;&#10; &lt;a href=None&gt;SCREENSHOT&lt;/a&gt; &#10;&#10; &lt;a href=None&gt;PAGE_SOURCE&lt;/a&gt;" type="AssertionError"/>
+</testcase>
+</testsuite>
