@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="Kragle Regression" tests="2" errors="0" failures="2" skipped="0" time="692.919">
-<testcase classname="Kragle Regression" name="Test Application Specific Test Cases" time="0.014">
-<failure message="*HTML*Parent suite setup failed:&#10;MaxRetryError: HTTPConnectionPool(host='127.0.0.1', port=54282): Max retries exceeded with url: /session/a9aac1315aa3daf774a18d185be6e77a/timeouts/implicit_wait (Caused by NewConnectionError('&lt;urllib3.connection.HTTPConnection object at 0x00000228243D97F0&gt;: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')) &#10;&#10; &lt;a href=NA&gt;DEBUG_LOGS&lt;/a&gt; &#10;&#10; &lt;a href=NA&gt;SCREENSHOT&lt;/a&gt; &#10;&#10; &lt;a href=NA&gt;PAGE_SOURCE&lt;/a&gt;" type="AssertionError"/>
-</testcase>
-<testcase classname="Kragle Regression" name="Test Device Specific Test Cases" time="0.001">
-<failure message="*HTML*Parent suite setup failed:&#10;MaxRetryError: HTTPConnectionPool(host='127.0.0.1', port=54282): Max retries exceeded with url: /session/a9aac1315aa3daf774a18d185be6e77a/timeouts/implicit_wait (Caused by NewConnectionError('&lt;urllib3.connection.HTTPConnection object at 0x00000228243D97F0&gt;: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')) &#10;&#10; &lt;a href=NA&gt;DEBUG_LOGS&lt;/a&gt; &#10;&#10; &lt;a href=NA&gt;SCREENSHOT&lt;/a&gt; &#10;&#10; &lt;a href=NA&gt;PAGE_SOURCE&lt;/a&gt;" type="AssertionError"/>
-</testcase>
-</testsuite>
