@@ -1,1 +1,0 @@
-{'level': 'SEVERE', 'message': 'file:///Applications/lghub.app/Contents/Resources/app.asar/app.min.js 1:3545959 Uncaught DOMException: The play() request was interrupted by a new load request. https://goo.gl/LdLk22', 'source': 'javascript', 'timestamp': 1658226216024}

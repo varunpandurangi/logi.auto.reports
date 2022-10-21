@@ -1,2 +1,0 @@
-{'level': 'WARNING', 'message': "file:///C:/Program%20Files/LGHUB/resources/app.asar/app.min.js 1 WebSocket connection to 'ws://localhost:9010/' failed: WebSocket is closed before the connection is established.", 'source': 'network', 'timestamp': 1658214482730}
-{'level': 'WARNING', 'message': "file:///C:/Program%20Files/LGHUB/resources/app.asar/app.min.js 1 WebSocket connection to 'ws://localhost:9010/' failed: WebSocket is closed before the connection is established.", 'source': 'network', 'timestamp': 1658214510600}
